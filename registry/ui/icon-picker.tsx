@@ -6,7 +6,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-import { LucideProps, LucideIcon } from 'lucide-react';
+import { LucideProps, LucideIcon, X } from 'lucide-react';
 import { DynamicIcon, IconName } from 'lucide-react/dynamic';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { iconsData } from "./icons-data";
@@ -396,11 +396,28 @@ const IconPicker = React.forwardRef<
       </PopoverTrigger>
       <PopoverContent className="w-64 p-2">
         {searchable && (
-          <Input
-            placeholder={searchPlaceholder}
-            onChange={handleSearchChange}
+          <div className="flex items-center gap-2 mb-2">
+            <Input
+              placeholder={searchPlaceholder}
+              onChange={handleSearchChange}
             className="mb-2"
-          />
+            />
+            {(value || selectedIcon) && (
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                className="h-8 w-8"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleValueChange("" as IconName);
+                  setSelectedIcon(undefined);
+                }}
+              >
+                <X className="h-4 w-4" />
+              </Button>
+            )}
+          </div>
         )}
         {categorized && search.trim() === "" && (
           <div className="flex flex-row gap-1 mt-2 overflow-x-auto pb-2">
