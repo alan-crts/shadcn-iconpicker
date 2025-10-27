@@ -2,6 +2,7 @@
   "name": "icons-picker",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
@@ -27,6 +28,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "shadcn": "^2.4.0-canary.6",
+    "simple-git": "^3.28.0",
     "tailwind-merge": "^3.0.1",
     "usehooks-ts": "^3.1.1"
   },
