@@ -2,12 +2,14 @@
   "name": "icons-picker",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "registry:build": "shadcn build"
+    "registry:build": "shadcn build",
+    "generate:icons": "node script/generate.js"
   },
   "dependencies": {
     "@radix-ui/react-popover": "^1.1.6",
@@ -20,13 +22,14 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "fuse.js": "^7.1.0",
-    "lucide-react": "^0.475.0",
-    "next": "15.1.7",
+    "lucide-react": "^0.548.0",
+    "next": "^15.5.6",
     "next-themes": "^0.4.4",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "shadcn": "^2.4.0-canary.6",
+    "simple-git": "^3.28.0",
     "tailwind-merge": "^3.0.1",
     "usehooks-ts": "^3.1.1"
   },

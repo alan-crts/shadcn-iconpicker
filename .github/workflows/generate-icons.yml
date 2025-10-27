@@ -1,0 +1,60 @@
+name: Generate Icons Data
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-icons:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Generate icons data
+        run: npm run generate:icons
+      
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet registry/ui/icons-data.ts; then
+            echo "No changes detected"
+            echo "has-changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in icons-data.ts"
+            echo "has-changes=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.has-changes == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions"
+          git add registry/ui/icons-data.ts
+          git commit -m "chore: update icons data [skip ci]"
+          git push
+      
+      - name: Summary
+        run: |
+          if [ "${{ steps.check-changes.outputs.has-changes }}" == "true" ]; then
+            echo "✅ Icons data updated and pushed successfully"
+          else
+            echo "ℹ️ No changes detected, nothing to commit"
+          fi

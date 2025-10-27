@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { LucideProps, LucideIcon } from 'lucide-react';
-import { DynamicIcon, IconName } from 'lucide-react/dynamic';
+import { DynamicIcon, dynamicIconImports, IconName } from 'lucide-react/dynamic';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { iconsData } from "./icons-data";
 import { useVirtualizer, VirtualItem } from '@tanstack/react-virtual';
@@ -64,7 +64,9 @@ const useIconsData = () => {
 
       const { iconsData } = await import('./icons-data');
       if (isMounted) {
-        setIcons(iconsData);
+        setIcons(iconsData.filter((icon: IconData) => {
+          return icon.name in dynamicIconImports;
+        }));
         setIsLoading(false);
       }
     };
