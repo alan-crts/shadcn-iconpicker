@@ -81,6 +81,49 @@ npm install
 npm run dev
 ```
 
+### Updating Icons Data
+
+The project includes an automated script to update the icons data from the latest Lucide Icons repository. This ensures that the icon picker always has access to the most recent icons and their metadata.
+
+#### Manual Update
+
+To manually update the icons data, run the generation script:
+
+```shell
+node script/generate.js
+```
+
+This script will:
+1. Clone the latest Lucide Icons repository
+2. Extract icon names, categories, and tags from the JSON metadata files
+3. Generate a new `icons-data.ts` file with the updated information
+4. Clean up temporary files
+
+#### Automated Workflow
+
+The icons data is automatically updated through GitHub Actions or similar CI/CD workflows. This ensures that:
+
+- **The repository stays up-to-date** with the latest Lucide Icons
+- **Installation commands always work** with the most recent icon set
+- **Users get the latest icons** without manual intervention
+
+The script is designed to be run in automated environments and will:
+
+- Fetch the latest Lucide Icons repository
+- Parse all icon metadata files
+- Update the TypeScript data file
+- Commit changes if run in a CI environment
+- **Keep the registry files synchronized** with the latest icon data
+
+#### What Gets Updated
+
+The script updates the following data for each icon:
+- **Name**: The icon identifier
+- **Categories**: Icon categorization (e.g., "interface", "media", "communication")
+- **Tags**: Searchable tags for better discoverability
+
+This ensures that the icon picker's search functionality and categorization remain accurate and up-to-date with the Lucide Icons library.
+
 ## License
 
 MIT © [Alan Courtois](https://github.com/alan-crts)
