@@ -2069,6 +2069,11 @@ export const iconsData: Array<{
     "tags": ["time","watch","alarm","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
   },
   {
+    "name": "clock-check",
+    "categories": ["time"],
+    "tags": ["time","watch","alarm"]
+  },
+  {
     "name": "clock-fading",
     "categories": ["time"],
     "tags": ["time","watch","alarm"]
@@ -2854,24 +2859,9 @@ export const iconsData: Array<{
     "tags": ["zip","package","archive"]
   },
   {
-    "name": "file-audio-2",
-    "categories": ["files"],
-    "tags": ["music","audio","sound","headphones"]
-  },
-  {
-    "name": "file-audio",
-    "categories": ["files"],
-    "tags": ["music","audio","sound","headphones"]
-  },
-  {
     "name": "file-axis-3d",
     "categories": ["design","files"],
     "tags": ["model","3d","axis","coordinates"]
-  },
-  {
-    "name": "file-badge-2",
-    "categories": ["files"],
-    "tags": ["award","achievement","badge","rosette","prize","winner"]
   },
   {
     "name": "file-badge",
@@ -2882,6 +2872,16 @@ export const iconsData: Array<{
     "name": "file-box",
     "categories": ["files"],
     "tags": ["box","package","model"]
+  },
+  {
+    "name": "file-braces-corner",
+    "categories": ["files","development"],
+    "tags": ["code","json","curly braces","curly brackets"]
+  },
+  {
+    "name": "file-braces",
+    "categories": ["files","development"],
+    "tags": ["code","json","curly braces","curly brackets"]
   },
   {
     "name": "file-chart-column-increasing",
@@ -2904,7 +2904,7 @@ export const iconsData: Array<{
     "tags": ["statistics","analytics","diagram","graph","presentation"]
   },
   {
-    "name": "file-check-2",
+    "name": "file-check-corner",
     "categories": ["files"],
     "tags": ["done","document","todo","tick","complete","task"]
   },
@@ -2919,7 +2919,7 @@ export const iconsData: Array<{
     "tags": ["history","log","clock"]
   },
   {
-    "name": "file-code-2",
+    "name": "file-code-corner",
     "categories": ["files","development"],
     "tags": ["script","document","html","xml","property list","plist"]
   },
@@ -2949,6 +2949,16 @@ export const iconsData: Array<{
     "tags": ["download","import","export"]
   },
   {
+    "name": "file-exclamation-point",
+    "categories": ["files","notifications"],
+    "tags": ["hidden","warning","alert","danger","protected","exclamation mark"]
+  },
+  {
+    "name": "file-headphone",
+    "categories": ["files"],
+    "tags": ["music","audio","sound","headphones"]
+  },
+  {
     "name": "file-heart",
     "categories": ["files"],
     "tags": ["heart","favourite","bookmark","quick link"]
@@ -2964,29 +2974,9 @@ export const iconsData: Array<{
     "tags": ["document"]
   },
   {
-    "name": "file-json-2",
-    "categories": ["files","development"],
-    "tags": ["code","json","curly braces","curly brackets"]
-  },
-  {
-    "name": "file-json",
-    "categories": ["files","development"],
-    "tags": ["code","json","curly braces","curly brackets"]
-  },
-  {
-    "name": "file-key-2",
-    "categories": ["files","security"],
-    "tags": ["key","private","public","security"]
-  },
-  {
     "name": "file-key",
     "categories": ["files","security"],
     "tags": ["key","private","public","security"]
-  },
-  {
-    "name": "file-lock-2",
-    "categories": ["files","security"],
-    "tags": ["lock","password","security"]
   },
   {
     "name": "file-lock",
@@ -2994,7 +2984,7 @@ export const iconsData: Array<{
     "tags": ["lock","password","security"]
   },
   {
-    "name": "file-minus-2",
+    "name": "file-minus-corner",
     "categories": ["files"],
     "tags": ["document"]
   },
@@ -3029,7 +3019,7 @@ export const iconsData: Array<{
     "tags": ["movie","video","film"]
   },
   {
-    "name": "file-plus-2",
+    "name": "file-plus-corner",
     "categories": ["files"],
     "tags": ["add","create","new","document"]
   },
@@ -3049,7 +3039,7 @@ export const iconsData: Array<{
     "tags": ["scan","code","qr-code"]
   },
   {
-    "name": "file-search-2",
+    "name": "file-search-corner",
     "categories": ["files"],
     "tags": ["lost","document","find","browser","lens"]
   },
@@ -3057,6 +3047,11 @@ export const iconsData: Array<{
     "name": "file-search",
     "categories": ["files"],
     "tags": ["lost","document","find","browser","lens"]
+  },
+  {
+    "name": "file-signal",
+    "categories": ["files"],
+    "tags": ["audio","music","volume"]
   },
   {
     "name": "file-sliders",
@@ -3089,7 +3084,7 @@ export const iconsData: Array<{
     "tags": ["data","txt","pdf","document"]
   },
   {
-    "name": "file-type-2",
+    "name": "file-type-corner",
     "categories": ["files","text"],
     "tags": ["font","text","typography","type"]
   },
@@ -3114,22 +3109,12 @@ export const iconsData: Array<{
     "tags": ["movie","video","film"]
   },
   {
-    "name": "file-volume-2",
-    "categories": ["files"],
-    "tags": ["audio","music","volume"]
-  },
-  {
     "name": "file-volume",
     "categories": ["files"],
     "tags": ["audio","music","volume"]
   },
   {
-    "name": "file-warning",
-    "categories": ["files","notifications"],
-    "tags": ["hidden","warning","alert","danger","protected","exclamation mark"]
-  },
-  {
-    "name": "file-x-2",
+    "name": "file-x-corner",
     "categories": ["files"],
     "tags": ["lost","delete","remove","document"]
   },
@@ -3559,14 +3544,19 @@ export const iconsData: Array<{
     "tags": ["present","box","birthday","party"]
   },
   {
+    "name": "git-branch-minus",
+    "categories": ["development"],
+    "tags": ["code","version control","vcs","repository","delete","remove","-"]
+  },
+  {
     "name": "git-branch-plus",
     "categories": ["development"],
-    "tags": ["add","create","+"]
+    "tags": ["code","version control","vcs","repository","add","create","+"]
   },
   {
     "name": "git-branch",
     "categories": ["development"],
-    "tags": ["code","version control"]
+    "tags": ["code","version control","vcs","repository"]
   },
   {
     "name": "git-commit-horizontal",
@@ -3932,6 +3922,11 @@ export const iconsData: Array<{
     "name": "heater",
     "categories": ["home","devices","travel"],
     "tags": ["heating","warmth","comfort","fire","stove","electric","electronics","amenities"]
+  },
+  {
+    "name": "helicopter",
+    "categories": ["transportation","travel"],
+    "tags": ["transport","flying","rotor","aviation","helipad","gear","flyer","technology","helicopter","aircraft","vehicle"]
   },
   {
     "name": "hexagon",
@@ -5027,6 +5022,11 @@ export const iconsData: Array<{
     "name": "mouse-off",
     "categories": ["devices"],
     "tags": ["device","scroll","click","disabled"]
+  },
+  {
+    "name": "mouse-pointer-2-off",
+    "categories": ["arrows","cursors"],
+    "tags": ["pointer","mouse","cursor","off","disable","arrow","navigation","selection","select","click","no-click","interaction"]
   },
   {
     "name": "mouse-pointer-2",
@@ -6627,6 +6627,11 @@ export const iconsData: Array<{
     "name": "sofa",
     "categories": ["home"],
     "tags": ["armchair","furniture","leisure","lounge","loveseat","couch"]
+  },
+  {
+    "name": "solar-panel",
+    "categories": ["home","science","sustainability","weather"],
+    "tags": ["solar panel","solar","panel","sun","energy","electricity","light"]
   },
   {
     "name": "soup",
