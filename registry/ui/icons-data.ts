@@ -1599,6 +1599,36 @@ export const iconsData: Array<{
     "tags": ["fruit","food"]
   },
   {
+    "name": "chess-bishop",
+    "categories": ["gaming","emoji"],
+    "tags": ["mitre","miter","piece","board game","religion"]
+  },
+  {
+    "name": "chess-king",
+    "categories": ["gaming","emoji"],
+    "tags": ["ruler","crown","piece","board game","stalemate"]
+  },
+  {
+    "name": "chess-knight",
+    "categories": ["gaming","emoji"],
+    "tags": ["piece","horse","board game"]
+  },
+  {
+    "name": "chess-pawn",
+    "categories": ["gaming","emoji"],
+    "tags": ["piece","board game"]
+  },
+  {
+    "name": "chess-queen",
+    "categories": ["gaming","emoji"],
+    "tags": ["ruler","crown","piece","board game","stalemate"]
+  },
+  {
+    "name": "chess-rook",
+    "categories": ["gaming","emoji"],
+    "tags": ["castle","piece","board game"]
+  },
+  {
     "name": "chevron-down",
     "categories": ["arrows","navigation","gaming"],
     "tags": ["backwards","reverse","slow","dropdown"]
