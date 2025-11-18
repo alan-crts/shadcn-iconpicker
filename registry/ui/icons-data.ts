@@ -1349,6 +1349,11 @@ export const iconsData: Array<{
     "tags": ["date","month","year","event","birthday","birthdate"]
   },
   {
+    "name": "calendars",
+    "categories": ["time"],
+    "tags": ["date","month","year","event","dates","months","years","events"]
+  },
+  {
     "name": "camera-off",
     "categories": ["photography","devices","communication"],
     "tags": ["photo","webcam","video"]
@@ -3169,7 +3174,7 @@ export const iconsData: Array<{
     "tags": ["movie","video","reel","camera","cinema","entertainment"]
   },
   {
-    "name": "fingerprint",
+    "name": "fingerprint-pattern",
     "categories": ["account","security","medical","devices"],
     "tags": ["2fa","authentication","biometric","identity","security"]
   },
