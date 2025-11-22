@@ -270,42 +270,42 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-big-down-dash",
-    "categories": ["arrows","navigation","gaming","files"],
+    "categories": ["arrows","gaming","files"],
     "tags": ["backwards","reverse","slow","direction","south","download"]
   },
   {
     "name": "arrow-big-down",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["backwards","reverse","direction","south"]
   },
   {
     "name": "arrow-big-left-dash",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["previous","back","direction","west","turn","corner"]
   },
   {
     "name": "arrow-big-left",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["previous","back","direction","west","indicate turn"]
   },
   {
     "name": "arrow-big-right-dash",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["next","forward","direction","east","turn","corner"]
   },
   {
     "name": "arrow-big-right",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["next","forward","direction","east","indicate turn"]
   },
   {
     "name": "arrow-big-up-dash",
-    "categories": ["arrows","navigation","text","development","gaming"],
+    "categories": ["arrows","text","development","gaming"],
     "tags": ["caps lock","capitals","keyboard","button","mac","forward","direction","north","faster","speed","boost"]
   },
   {
     "name": "arrow-big-up",
-    "categories": ["arrows","navigation","text","development","gaming"],
+    "categories": ["arrows","text","development","gaming"],
     "tags": ["shift","keyboard","button","mac","capitalize","capitalise","forward","direction","north"]
   },
   {
@@ -325,12 +325,12 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-down-from-line",
-    "categories": ["arrows","navigation","files"],
+    "categories": ["arrows","files"],
     "tags": ["backwards","reverse","direction","south","download","expand","fold","vertical"]
   },
   {
     "name": "arrow-down-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["direction","south-west","diagonal"]
   },
   {
@@ -340,22 +340,22 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-down-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["direction","south-east","diagonal"]
   },
   {
     "name": "arrow-down-to-dot",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["direction","south","waypoint","location","step","into"]
   },
   {
     "name": "arrow-down-to-line",
-    "categories": ["arrows","navigation","files","development"],
+    "categories": ["arrows","files","development"],
     "tags": ["behind","direction","south","download","save","git","version control","pull","collapse","fold","vertical"]
   },
   {
     "name": "arrow-down-up",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["bidirectional","two-way","2-way","swap","switch","network","traffic","flow","mobile data","internet","sort","reorder","move"]
   },
   {
@@ -370,47 +370,47 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-down",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["backwards","reverse","direction","south"]
   },
   {
     "name": "arrow-left-from-line",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["previous","back","direction","west","expand","fold","horizontal","<-|"]
   },
   {
     "name": "arrow-left-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["bidirectional","two-way","2-way","swap","switch","transaction","reorder","move","<-","->"]
   },
   {
     "name": "arrow-left-to-line",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["previous","back","direction","west","collapse","fold","horizontal","|<-"]
   },
   {
     "name": "arrow-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["previous","back","direction","west","<-"]
   },
   {
     "name": "arrow-right-from-line",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["next","forward","direction","east","export","expand","fold","horizontal","|->"]
   },
   {
     "name": "arrow-right-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["bidirectional","two-way","2-way","swap","switch","transaction","reorder","move","<-","->"]
   },
   {
     "name": "arrow-right-to-line",
-    "categories": ["arrows","navigation","development"],
+    "categories": ["arrows","development"],
     "tags": ["next","forward","direction","east","tab","keyboard","mac","indent","collapse","fold","horizontal","->|"]
   },
   {
     "name": "arrow-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["forward","next","direction","east","->"]
   },
   {
@@ -430,22 +430,22 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-up-down",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["bidirectional","two-way","2-way","swap","switch","network","mobile data","internet","sort","reorder","move"]
   },
   {
     "name": "arrow-up-from-dot",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["direction","north","step","out"]
   },
   {
     "name": "arrow-up-from-line",
-    "categories": ["arrows","navigation","files","development"],
+    "categories": ["arrows","files","development"],
     "tags": ["forward","direction","north","upload","git","version control","push","expand","fold","vertical"]
   },
   {
     "name": "arrow-up-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["direction","north-west","diagonal"]
   },
   {
@@ -455,12 +455,12 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-up-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["direction","north-east","diagonal"]
   },
   {
     "name": "arrow-up-to-line",
-    "categories": ["arrows","navigation","files"],
+    "categories": ["arrows","files"],
     "tags": ["forward","direction","north","upload","collapse","fold","vertical"]
   },
   {
@@ -475,7 +475,7 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-up",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["forward","direction","north"]
   },
   {
@@ -1450,7 +1450,7 @@ export const iconsData: Array<{
   },
   {
     "name": "castle",
-    "categories": ["buildings","gaming"],
+    "categories": ["buildings","gaming","navigation"],
     "tags": ["fortress","stronghold","palace","chateau","building"]
   },
   {
@@ -1635,7 +1635,7 @@ export const iconsData: Array<{
   },
   {
     "name": "chevron-down",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["backwards","reverse","slow","dropdown"]
   },
   {
@@ -1650,17 +1650,17 @@ export const iconsData: Array<{
   },
   {
     "name": "chevron-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["back","previous","less than","fewer","menu","<"]
   },
   {
     "name": "chevron-right",
-    "categories": ["arrows","navigation","math","development"],
+    "categories": ["arrows","math","development"],
     "tags": ["forward","next","more than","greater","menu","code","coding","command line","terminal","prompt","shell",">"]
   },
   {
     "name": "chevron-up",
-    "categories": ["arrows","navigation","math","gaming"],
+    "categories": ["arrows","math","gaming"],
     "tags": ["caret","keyboard","mac","control","ctrl","superscript","exponential","power","ahead","fast","^","dropdown"]
   },
   {
@@ -1670,7 +1670,7 @@ export const iconsData: Array<{
   },
   {
     "name": "chevrons-down",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["backwards","reverse","slower"]
   },
   {
@@ -1685,7 +1685,7 @@ export const iconsData: Array<{
   },
   {
     "name": "chevrons-left",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["turn","corner"]
   },
   {
@@ -1695,7 +1695,7 @@ export const iconsData: Array<{
   },
   {
     "name": "chevrons-right",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["turn","corner"]
   },
   {
@@ -1705,7 +1705,7 @@ export const iconsData: Array<{
   },
   {
     "name": "chevrons-up",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["forward","ahead","faster","speed","boost"]
   },
   {
@@ -1735,42 +1735,42 @@ export const iconsData: Array<{
   },
   {
     "name": "circle-arrow-down",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["backwards","reverse","direction","south","sign","button"]
   },
   {
     "name": "circle-arrow-left",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["previous","back","direction","west","sign","turn","button","<-"]
   },
   {
     "name": "circle-arrow-out-down-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["outwards","direction","south-west","diagonal"]
   },
   {
     "name": "circle-arrow-out-down-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["outwards","direction","south-east","diagonal"]
   },
   {
     "name": "circle-arrow-out-up-left",
-    "categories": ["arrows","navigation","development"],
+    "categories": ["arrows","development"],
     "tags": ["outwards","direction","north-west","diagonal","keyboard","button","escape"]
   },
   {
     "name": "circle-arrow-out-up-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["outwards","direction","north-east","diagonal"]
   },
   {
     "name": "circle-arrow-right",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["next","forward","direction","east","sign","turn","button","->"]
   },
   {
     "name": "circle-arrow-up",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["forward","direction","north","sign","button"]
   },
   {
@@ -1785,22 +1785,22 @@ export const iconsData: Array<{
   },
   {
     "name": "circle-chevron-down",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["back","menu"]
   },
   {
     "name": "circle-chevron-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["back","previous","less than","fewer","menu","<"]
   },
   {
     "name": "circle-chevron-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["back","more than","greater","menu",">"]
   },
   {
     "name": "circle-chevron-up",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["caret","ahead","menu","^"]
   },
   {
@@ -2500,7 +2500,7 @@ export const iconsData: Array<{
   },
   {
     "name": "dam",
-    "categories": ["buildings","sustainability"],
+    "categories": ["buildings","sustainability","navigation"],
     "tags": ["electricity","energy","water"]
   },
   {
@@ -2855,7 +2855,7 @@ export const iconsData: Array<{
   },
   {
     "name": "factory",
-    "categories": ["buildings"],
+    "categories": ["buildings","navigation"],
     "tags": ["building","business","energy","industry","manufacture","sector"]
   },
   {
@@ -4025,7 +4025,7 @@ export const iconsData: Array<{
   },
   {
     "name": "house",
-    "categories": ["buildings","home"],
+    "categories": ["buildings","home","navigation"],
     "tags": ["home","living","building","residence","architecture"]
   },
   {
@@ -5695,7 +5695,7 @@ export const iconsData: Array<{
   },
   {
     "name": "plane",
-    "categories": ["transportation","travel"],
+    "categories": ["transportation","travel","navigation"],
     "tags": ["plane","trip","airplane"]
   },
   {
@@ -6755,62 +6755,62 @@ export const iconsData: Array<{
   },
   {
     "name": "square-arrow-down-left",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["direction","south-west","diagonal","sign","turn","keyboard","button"]
   },
   {
     "name": "square-arrow-down-right",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["direction","south-east","diagonal","sign","turn","keyboard","button"]
   },
   {
     "name": "square-arrow-down",
-    "categories": ["arrows","navigation","gaming"],
+    "categories": ["arrows","gaming"],
     "tags": ["backwards","reverse","direction","south","sign","keyboard","button"]
   },
   {
     "name": "square-arrow-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["previous","back","direction","west","sign","keyboard","button","<-"]
   },
   {
     "name": "square-arrow-out-down-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["outwards","direction","south-west","diagonal"]
   },
   {
     "name": "square-arrow-out-down-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["outwards","direction","south-east","diagonal"]
   },
   {
     "name": "square-arrow-out-up-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["outwards","direction","north-west","diagonal"]
   },
   {
     "name": "square-arrow-out-up-right",
-    "categories": ["arrows","navigation","social"],
+    "categories": ["arrows","social"],
     "tags": ["outwards","direction","north-east","diagonal","share","open","external","link"]
   },
   {
     "name": "square-arrow-right",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["next","forward","direction","west","sign","keyboard","button","->"]
   },
   {
     "name": "square-arrow-up-left",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["direction","north-west","diagonal","sign","keyboard","button"]
   },
   {
     "name": "square-arrow-up-right",
-    "categories": ["arrows","navigation","social"],
+    "categories": ["arrows","social"],
     "tags": ["direction","north-east","diagonal","sign","keyboard","button","share"]
   },
   {
     "name": "square-arrow-up",
-    "categories": ["arrows","navigation"],
+    "categories": ["arrows"],
     "tags": ["forward","direction","north","sign","keyboard","button"]
   },
   {
