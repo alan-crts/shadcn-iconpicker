@@ -8089,6 +8089,16 @@ export const iconsData: Array<{
     "tags": ["clock","time"]
   },
   {
+    "name": "waves-arrow-down",
+    "categories": ["weather","sustainability"],
+    "tags": ["water","sea","level","sound","hertz","wavelength","vibrate","low","tide","ocean","rising","down","falling"]
+  },
+  {
+    "name": "waves-arrow-up",
+    "categories": ["weather","sustainability"],
+    "tags": ["water","sea","level","sound","hertz","wavelength","vibrate","high","tide","ocean","rising"]
+  },
+  {
     "name": "waves-ladder",
     "categories": ["sports","home"],
     "tags": ["swimming","water","pool","lifeguard","ocean","🌊","🏊‍♂️","🏊‍♀️","🏊","🥽"]
