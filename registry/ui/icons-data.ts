@@ -1004,6 +1004,11 @@ export const iconsData: Array<{
     "tags": ["code","coding","version control","git","repository","remove","delete","read","write","author","publish","inform","graduate","re-educate","study","learn","research","knowledge","improve","upgrade","level up"]
   },
   {
+    "name": "book-search",
+    "categories": ["text","development","gaming"],
+    "tags": ["reading","library","study","education","research","knowledge","discover","browsing","lookup","finding","scanning"]
+  },
+  {
     "name": "book-text",
     "categories": ["text","gaming"],
     "tags": ["reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation"]
@@ -3462,6 +3467,11 @@ export const iconsData: Array<{
     "name": "forklift",
     "categories": ["transportation"],
     "tags": ["vehicle","transport","logistics"]
+  },
+  {
+    "name": "form",
+    "categories": ["development"],
+    "tags": ["document","page","file","layout","paper","stub","formality","structure","template","inputs","design","components"]
   },
   {
     "name": "forward",
@@ -6205,8 +6215,8 @@ export const iconsData: Array<{
   },
   {
     "name": "scale",
-    "categories": ["navigation"],
-    "tags": ["balance","legal","license","right","rule","law"]
+    "categories": ["navigation","science","finance"],
+    "tags": ["balance","legal","license","right","rule","law","justice","weight","measure","compare","judge","fair","ethics","decision"]
   },
   {
     "name": "scaling",
