@@ -6284,6 +6284,11 @@ export const iconsData: Array<{
     "tags": ["cut","snip","chop","stationery","crafts"]
   },
   {
+    "name": "scooter",
+    "categories": ["transportation"],
+    "tags": ["vehicle","drive","trip","journey","transport","electric","ride","urban","commute","speed"]
+  },
+  {
     "name": "screen-share-off",
     "categories": ["connectivity","devices","communication"],
     "tags": ["desktop","disconnect","monitor"]
