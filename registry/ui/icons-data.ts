@@ -5726,7 +5726,7 @@ export const iconsData: Array<{
   {
     "name": "plug",
     "categories": ["devices","development"],
-    "tags": ["electricity","energy","electronics","socket","outlet"]
+    "tags": ["electricity","energy","electronics","socket","outlet","power","voltage","current","charger"]
   },
   {
     "name": "plus",
