@@ -3236,12 +3236,12 @@ export const iconsData: Array<{
   {
     "name": "flashlight-off",
     "categories": ["photography","devices"],
-    "tags": ["torch"]
+    "tags": ["torch","light","beam","emergency","safety","tool","bright"]
   },
   {
     "name": "flashlight",
     "categories": ["photography","devices"],
-    "tags": ["torch"]
+    "tags": ["torch","light","beam","emergency","safety","tool","bright"]
   },
   {
     "name": "flask-conical-off",
@@ -7954,6 +7954,11 @@ export const iconsData: Array<{
     "tags": ["electricity","energy","transmission line","telegraph pole","power lines","phone"]
   },
   {
+    "name": "van",
+    "categories": ["transportation"],
+    "tags": ["minivan","cart","wagon","truck","lorry","trailer","camper","vehicle","drive","trip","journey","van","transport","carriage","delivery","travel"]
+  },
+  {
     "name": "variable",
     "categories": ["development","math"],
     "tags": ["code","coding","programming","symbol","calculate","algebra","x","parentheses","parenthesis","brackets","parameter","(",")"]
@@ -8142,6 +8147,11 @@ export const iconsData: Array<{
     "name": "webhook",
     "categories": ["development","social","account"],
     "tags": ["push api","interface","callback"]
+  },
+  {
+    "name": "weight-tilde",
+    "categories": ["math"],
+    "tags": ["measure","scale","estimate","load","balance","size","measurement","quantity","mass"]
   },
   {
     "name": "weight",
