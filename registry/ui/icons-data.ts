@@ -629,6 +629,11 @@ export const iconsData: Array<{
     "tags": ["baggage","luggage","travel","cart","trolley","suitcase"]
   },
   {
+    "name": "balloon",
+    "categories": ["emoji"],
+    "tags": ["party","festival","congratulations","celebration","decoration","colorful","floating","fun","birthday","event","entertainment"]
+  },
+  {
     "name": "ban",
     "categories": ["account"],
     "tags": ["cancel","no","stop","forbidden","prohibited","error","incorrect","mistake","wrong","failure","circle","slash","null","void"]
@@ -1889,6 +1894,11 @@ export const iconsData: Array<{
     "tags": ["verified","unverified","sale","discount","offer","marketing","sticker","price tag"]
   },
   {
+    "name": "circle-pile",
+    "categories": ["shapes"],
+    "tags": ["off","zero","record","shape","circle-pile","circle","pile","stack","layer","structure","form","group","collection","stock","inventory","materials","warehouse"]
+  },
+  {
     "name": "circle-play",
     "categories": ["multimedia"],
     "tags": ["music","start","run"]
@@ -2139,6 +2149,11 @@ export const iconsData: Array<{
     "tags": ["weather","danger","warning","alert","error","sync","network","exclamation"]
   },
   {
+    "name": "cloud-backup",
+    "categories": ["arrows","files"],
+    "tags": ["storage","memory","bytes","servers","backup","timemachine","rotate","synchronize","synchronise","refresh","reconnect","transfer","data","security","upload","save","remote","safety"]
+  },
+  {
     "name": "cloud-check",
     "categories": ["development"],
     "tags": ["sync","network","success","done","completed","saved","persisted"]
@@ -2212,6 +2227,11 @@ export const iconsData: Array<{
     "name": "cloud-sun",
     "categories": ["weather"],
     "tags": ["weather","partly"]
+  },
+  {
+    "name": "cloud-sync",
+    "categories": ["arrows","files"],
+    "tags": ["synchronize","synchronise","refresh","reconnect","transfer","backup","storage","upload","download","connection","network","data"]
   },
   {
     "name": "cloud-upload",
@@ -3204,6 +3224,11 @@ export const iconsData: Array<{
     "tags": ["dish","restaurant","course","meal","seafood","pet","sea","marine"]
   },
   {
+    "name": "fishing-hook",
+    "categories": ["sports","travel"],
+    "tags": ["sea","boating","angler","bait","reel","tackle","marine","outdoors","fish","fishing","hook","sports","travel"]
+  },
+  {
     "name": "flag-off",
     "categories": ["account","social"],
     "tags": ["unflag","unmark","report","marker","notification","warning","milestone","goal","notice","signal","attention","banner"]
@@ -3874,6 +3899,11 @@ export const iconsData: Array<{
     "tags": ["mist","fog"]
   },
   {
+    "name": "hd",
+    "categories": ["devices","multimedia"],
+    "tags": ["tv","resolution","video","high definition","720p","1080p"]
+  },
+  {
     "name": "hdmi-port",
     "categories": ["devices","multimedia","gaming"],
     "tags": ["socket","plug","slot","controller","connector","interface","console","signal","audio","video","visual","av","data","input","output"]
@@ -4282,6 +4312,11 @@ export const iconsData: Array<{
     "name": "layers-2",
     "categories": ["design","layout"],
     "tags": ["stack","pile","pages","sheets","paperwork","copies","copy","duplicate","double","shortcuts"]
+  },
+  {
+    "name": "layers-plus",
+    "categories": ["design","layout"],
+    "tags": ["stack","layers","add","new","increase","create","positive","copy","upgrade"]
   },
   {
     "name": "layers",
@@ -6307,6 +6342,11 @@ export const iconsData: Array<{
     "name": "scroll",
     "categories": ["gaming","development","text"],
     "tags": ["paper","log","scripture","document","notes","parchment","list","long","script","story","code","coding"]
+  },
+  {
+    "name": "search-alert",
+    "categories": ["text","social"],
+    "tags": ["find","scan","magnifier","magnifying glass","stop","warning","alert","error","anomaly","lens"]
   },
   {
     "name": "search-check",
