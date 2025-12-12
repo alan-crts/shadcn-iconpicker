@@ -1389,6 +1389,11 @@ export const iconsData: Array<{
     "tags": ["sugar","food","sweet"]
   },
   {
+    "name": "cannabis-off",
+    "categories": ["nature"],
+    "tags": ["cannabis","weed","leaf"]
+  },
+  {
     "name": "cannabis",
     "categories": ["nature"],
     "tags": ["cannabis","weed","leaf"]
