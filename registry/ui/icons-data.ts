@@ -7214,6 +7214,11 @@ export const iconsData: Array<{
     "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office"]
   },
   {
+    "name": "stone",
+    "categories": ["nature"],
+    "tags": ["mineral","geology","nature","solid","pebble","crystal","ore","hard","coal","stone","rock","boulder"]
+  },
+  {
     "name": "store",
     "categories": ["buildings","navigation","shopping"],
     "tags": ["shop","supermarket","stand","boutique","building"]
