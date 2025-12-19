@@ -7614,6 +7614,11 @@ export const iconsData: Array<{
     "tags": ["tools","maintenance","repair"]
   },
   {
+    "name": "toolbox",
+    "categories": ["tools","home"],
+    "tags": ["toolkit","tools","trunk","chest","box","storage","utility","utilities","container","kit","set","repair","fix","service","maintenance","mechanic","workshop","construction","hardware","equipment","gear","handyman","engineering","craft","diy"]
+  },
+  {
     "name": "tornado",
     "categories": ["weather"],
     "tags": ["weather","wind","storm","hurricane"]
