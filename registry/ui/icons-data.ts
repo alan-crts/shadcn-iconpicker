@@ -3724,6 +3724,11 @@ export const iconsData: Array<{
     "tags": ["vpn","private","privacy","network","world","browser","security","encryption","protection","connection"]
   },
   {
+    "name": "globe-x",
+    "categories": ["connectivity","devices","navigation"],
+    "tags": ["globe","internet","offline","disconnected","network","connection","world","no connection","network failure","signal off"]
+  },
+  {
     "name": "globe",
     "categories": ["navigation"],
     "tags": ["world","browser","language","translate"]
