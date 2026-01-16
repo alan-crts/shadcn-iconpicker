@@ -1071,7 +1071,7 @@ export const iconsData: Array<{
   {
     "name": "bookmark",
     "categories": ["account"],
-    "tags": ["read","clip","marker","tag"]
+    "tags": ["save","favorite","mark","label","attachment","file","stick","pin","read","clip","marker","tag"]
   },
   {
     "name": "boom-box",
