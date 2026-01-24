@@ -5839,6 +5839,11 @@ export const iconsData: Array<{
     "tags": ["fax","office","device","success","printed"]
   },
   {
+    "name": "printer-x",
+    "categories": ["devices"],
+    "tags": ["fax","office","device","cross","cancel","remove","error"]
+  },
+  {
     "name": "printer",
     "categories": ["devices"],
     "tags": ["fax","office","device"]
