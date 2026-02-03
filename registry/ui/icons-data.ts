@@ -2539,6 +2539,11 @@ export const iconsData: Array<{
     "tags": ["storage","memory","bytes","servers","backup","timemachine","rotate","arrow","left"]
   },
   {
+    "name": "database-search",
+    "categories": ["devices","development"],
+    "tags": ["storage","memory","container","tin","pot","bytes","servers"]
+  },
+  {
     "name": "database-zap",
     "categories": ["devices","development"],
     "tags": ["cache busting","storage","memory","bytes","servers","power","crash"]
