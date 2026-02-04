@@ -3891,7 +3891,7 @@ export const iconsData: Array<{
   {
     "name": "hard-drive",
     "categories": ["development","devices"],
-    "tags": ["computer","server","memory","data","ssd","disk","hard disk"]
+    "tags": ["computer","server","memory","data","ssd","disk","hard disk","storage","hardware","backup","media"]
   },
   {
     "name": "hard-hat",
