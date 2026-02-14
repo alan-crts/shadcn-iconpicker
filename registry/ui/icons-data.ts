@@ -7919,6 +7919,11 @@ export const iconsData: Array<{
     "tags": ["settings","edit","cog","gear"]
   },
   {
+    "name": "user-key",
+    "categories": ["account"],
+    "tags": ["passkey","password","login","authentication","authorization","roles","permissions","private","public","security","person","account","contact"]
+  },
+  {
     "name": "user-lock",
     "categories": ["account","security"],
     "tags": ["person","lock","locked","account","secure"]
@@ -7947,6 +7952,11 @@ export const iconsData: Array<{
     "name": "user-round-cog",
     "categories": ["account"],
     "tags": ["settings","edit","cog","gear"]
+  },
+  {
+    "name": "user-round-key",
+    "categories": ["account"],
+    "tags": ["passkey","password","login","authentication","authorization","roles","permissions","private","public","security","person","account","contact"]
   },
   {
     "name": "user-round-minus",
