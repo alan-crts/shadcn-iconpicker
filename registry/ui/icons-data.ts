@@ -3501,7 +3501,7 @@ export const iconsData: Array<{
   {
     "name": "forklift",
     "categories": ["transportation"],
-    "tags": ["vehicle","transport","logistics"]
+    "tags": ["machinery","industrial","warehouse","lifting","storage","equipment","heavy-duty","moving","vehicle","transport","logistics"]
   },
   {
     "name": "form",
@@ -3669,6 +3669,11 @@ export const iconsData: Array<{
     "tags": ["code","version control","commit graph","commits","gitlens"]
   },
   {
+    "name": "git-merge-conflict",
+    "categories": ["development"],
+    "tags": ["code","version control","commits","diff","error","conflict"]
+  },
+  {
     "name": "git-merge",
     "categories": ["development"],
     "tags": ["code","version control"]
@@ -3727,6 +3732,11 @@ export const iconsData: Array<{
     "name": "globe-lock",
     "categories": ["security","development","devices"],
     "tags": ["vpn","private","privacy","network","world","browser","security","encryption","protection","connection"]
+  },
+  {
+    "name": "globe-off",
+    "categories": ["navigation","connectivity","devices"],
+    "tags": ["globe","earth","planet","disable","mute","off","hide","avoid","world","browser","language","translate","internet","offline","disconnected","network","connection","no connection","network failure","signal off"]
   },
   {
     "name": "globe-x",
@@ -4171,7 +4181,7 @@ export const iconsData: Array<{
   {
     "name": "info",
     "categories": ["accessibility","notifications"],
-    "tags": ["help"]
+    "tags": ["about","advice","clue","details","help","hint","indicator","information","knowledge","notice","status","support","tooltip"]
   },
   {
     "name": "inspection-panel",
@@ -4384,6 +4394,16 @@ export const iconsData: Array<{
     "tags": ["pulpit","podium","stand"]
   },
   {
+    "name": "lens-concave",
+    "categories": ["science","tools","shapes"],
+    "tags": ["concave","lens","optics","light","magnification","curved","focus","refraction","science","physics","eyeglass","telescope","microscope"]
+  },
+  {
+    "name": "lens-convex",
+    "categories": ["science","tools","shapes"],
+    "tags": ["convex","lens","optics","magnification","focus","light","refraction","physics","eyeglass","telescope","microscope","curved","science"]
+  },
+  {
     "name": "library-big",
     "categories": ["text","photography","multimedia","navigation","development"],
     "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package"]
@@ -4412,6 +4432,11 @@ export const iconsData: Array<{
     "name": "lightbulb",
     "categories": ["photography"],
     "tags": ["idea","bright","lights"]
+  },
+  {
+    "name": "line-dot-right-horizontal",
+    "categories": ["development","navigation"],
+    "tags": ["code","version control","waypoint","stop","station","last","end"]
   },
   {
     "name": "line-squiggle",
@@ -4819,6 +4844,11 @@ export const iconsData: Array<{
     "tags": ["combine","join","unite"]
   },
   {
+    "name": "message-circle-check",
+    "categories": ["social","account"],
+    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","moderate","check","done","todo","complete"]
+  },
+  {
     "name": "message-circle-code",
     "categories": ["development","social"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","code review","coding"]
@@ -4872,6 +4902,11 @@ export const iconsData: Array<{
     "name": "message-circle",
     "categories": ["social"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble"]
+  },
+  {
+    "name": "message-square-check",
+    "categories": ["social","account"],
+    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","moderate","check","done","todo","complete"]
   },
   {
     "name": "message-square-code",
@@ -5019,6 +5054,16 @@ export const iconsData: Array<{
     "tags": ["subtract","remove","decrease","decrement","reduce","negative","calculate","line","divider","separator","horizontal rule","hr","html","markup","markdown","---","toolbar","operator","code","coding","minimum","downgrade"]
   },
   {
+    "name": "mirror-rectangular",
+    "categories": ["science","home","tools"],
+    "tags": ["reflection","optics","glass","surface","image","physics","science","bathroom","decor","cosmetic","shiny","periscope","vanity"]
+  },
+  {
+    "name": "mirror-round",
+    "categories": ["science","home","tools"],
+    "tags": ["reflection","optics","glass","surface","image","physics","science","bathroom","vanity","makeup","decor","cosmetic","shiny","periscope"]
+  },
+  {
     "name": "monitor-check",
     "categories": ["connectivity","devices"],
     "tags": ["tv","screen","display","desktop","running","active","virtual machine","vm"]
@@ -5114,6 +5159,11 @@ export const iconsData: Array<{
     "tags": ["climb","hike","rock"]
   },
   {
+    "name": "mouse-left",
+    "categories": ["devices"],
+    "tags": ["device","scroll","click"]
+  },
+  {
     "name": "mouse-off",
     "categories": ["devices"],
     "tags": ["device","scroll","click","disabled"]
@@ -5142,6 +5192,11 @@ export const iconsData: Array<{
     "name": "mouse-pointer",
     "categories": ["arrows","cursors"],
     "tags": ["click","select"]
+  },
+  {
+    "name": "mouse-right",
+    "categories": ["devices"],
+    "tags": ["device","scroll","click"]
   },
   {
     "name": "mouse",
@@ -6126,7 +6181,7 @@ export const iconsData: Array<{
   {
     "name": "rocking-chair",
     "categories": ["home"],
-    "tags": ["chair","furniture","seat"]
+    "tags": ["chair","furniture","seat","comfort","relax"]
   },
   {
     "name": "roller-coaster",
@@ -6477,6 +6532,11 @@ export const iconsData: Array<{
     "name": "shell",
     "categories": ["animals","development","nature","science","travel","food-beverage","home"],
     "tags": ["beach","sand","holiday","sealife","fossil","ammonite","biology","ocean","terminal","command line","session","bash","zsh","roll","wrap","chewing gum","bubble gum","sweet","sugar","hosepipe","carpet","string","spiral","spinner","hypnotise","hypnosis"]
+  },
+  {
+    "name": "shelving-unit",
+    "categories": ["home"],
+    "tags": ["ledge","rack","storage","inventory","furniture","sill","shelves","shelf","organize","display","store","arrange","unit","cabinet","fixture","retail","warehouse"]
   },
   {
     "name": "shield-alert",
@@ -7654,6 +7714,11 @@ export const iconsData: Array<{
     "tags": ["trackpad","cursor"]
   },
   {
+    "name": "towel-rack",
+    "categories": ["home","travel"],
+    "tags": ["flannel","bathroom","toiletries","sanitation","clean","fresh","dry","laundry","laundrette","hospitality","housekeeping","room service","spa break","health club","amenities","hanging"]
+  },
+  {
     "name": "tower-control",
     "categories": ["travel","transportation"],
     "tags": ["airport","travel","tower","transportation","lighthouse"]
@@ -8327,6 +8392,11 @@ export const iconsData: Array<{
     "name": "wrench",
     "categories": ["account","development","tools"],
     "tags": ["account","settings","spanner","diy","toolbox","build","construction"]
+  },
+  {
+    "name": "x-line-top",
+    "categories": ["notifications","math"],
+    "tags": ["line","top","arrow","navigation","up","pointer","direction","vector","symbol","cancel","close","delete","remove","times","clear","math","multiply","multiplication","mean","median","average","x̄"]
   },
   {
     "name": "x",
