@@ -3299,17 +3299,7 @@ export const iconsData: Array<{
     "tags": ["reflect","mirror","alignment","dashed"]
   },
   {
-    "name": "flip-horizontal",
-    "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
-  },
-  {
     "name": "flip-vertical-2",
-    "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
-  },
-  {
-    "name": "flip-vertical",
     "categories": ["design","photography"],
     "tags": ["reflect","mirror","alignment","dashed"]
   },
@@ -4992,6 +4982,11 @@ export const iconsData: Array<{
     "name": "messages-square",
     "categories": ["social"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubbles","copy","multiple","discussion","interview","debate"]
+  },
+  {
+    "name": "metronome",
+    "categories": ["multimedia","time"],
+    "tags": ["metronome","tempo","rhythm","beat","bpm","music","audio","sound","practice","timing","timer","time","pulse","sync","cadence","control","playback","studio","tool"]
   },
   {
     "name": "mic-off",
@@ -6929,6 +6924,16 @@ export const iconsData: Array<{
     "tags": ["outwards","direction","north-east","diagonal","share","open","external","link"]
   },
   {
+    "name": "square-arrow-right-enter",
+    "categories": ["arrows","shapes","layout","multimedia"],
+    "tags": ["left","in","inside","input","insert","source","import","place","->"]
+  },
+  {
+    "name": "square-arrow-right-exit",
+    "categories": ["arrows","shapes","layout","multimedia"],
+    "tags": ["out","outside","output","export","->"]
+  },
+  {
     "name": "square-arrow-right",
     "categories": ["arrows"],
     "tags": ["next","forward","direction","west","sign","keyboard","button","->"]
@@ -6957,6 +6962,16 @@ export const iconsData: Array<{
     "name": "square-bottom-dashed-scissors",
     "categories": ["text","design","tools","files","development"],
     "tags": ["cut","snippet","chop","stationery","crafts"]
+  },
+  {
+    "name": "square-centerline-dashed-horizontal",
+    "categories": ["design","photography"],
+    "tags": ["reflect","mirror","alignment","dashed"]
+  },
+  {
+    "name": "square-centerline-dashed-vertical",
+    "categories": ["design","photography"],
+    "tags": ["reflect","mirror","alignment","dashed"]
   },
   {
     "name": "square-chart-gantt",
