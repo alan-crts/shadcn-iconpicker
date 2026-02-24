@@ -8434,6 +8434,71 @@ export const iconsData: Array<{
     "tags": ["flash","camera","lightning","electricity","energy"]
   },
   {
+    "name": "zodiac-aquarius",
+    "categories": ["social","emoji"],
+    "tags": ["water bearer","waves","innovation","air","future","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-aries",
+    "categories": ["social","emoji"],
+    "tags": ["ram","horns","fire","energy","initiative","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-cancer",
+    "categories": ["social","emoji"],
+    "tags": ["crab","shell","protection","water","intuition","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-capricorn",
+    "categories": ["social","emoji"],
+    "tags": ["goat","mountain","ambition","earth","discipline","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-gemini",
+    "categories": ["social","emoji"],
+    "tags": ["twins","duality","communication","air","adaptability","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-leo",
+    "categories": ["social","emoji"],
+    "tags": ["lion","crown","leadership","fire","confidence","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-libra",
+    "categories": ["social","emoji"],
+    "tags": ["scales","balance","justice","air","harmony","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-ophiuchus",
+    "categories": ["social","emoji"],
+    "tags": ["serpent","snake holder","healing","knowledge","astronomy","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-pisces",
+    "categories": ["social","emoji"],
+    "tags": ["fish","duality","water","dreams","empathy","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-sagittarius",
+    "categories": ["social","emoji"],
+    "tags": ["archer","arrow","exploration","fire","philosophy","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-scorpio",
+    "categories": ["social","emoji"],
+    "tags": ["scorpion","stinger","intensity","water","transformation","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-taurus",
+    "categories": ["social","emoji"],
+    "tags": ["bull","strength","stability","earth","endurance","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
+    "name": "zodiac-virgo",
+    "categories": ["social","emoji"],
+    "tags": ["virgin","maiden","harvest","precision","earth","analysis","astrology","star sign","horoscope","constellation","celestial"]
+  },
+  {
     "name": "zoom-in",
     "categories": ["accessibility","layout","design","text","photography"],
     "tags": ["magnifying glass","plus"]
