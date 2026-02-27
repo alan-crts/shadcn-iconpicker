@@ -2510,8 +2510,8 @@ export const iconsData: Array<{
   },
   {
     "name": "cuboid",
-    "categories": ["shapes","math","buildings"],
-    "tags": ["brick","block","container","storage","geometry","rectangular","hexahedron"]
+    "categories": ["shapes","math","food-beverage"],
+    "tags": ["brick","block","box","3d","solid","volume","container","storage","shipping","carton","geometry","rectangular","hexahedron","butter","tofu","soap","cheese","package","parcel","crate"]
   },
   {
     "name": "cup-soda",
