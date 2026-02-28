@@ -3239,6 +3239,11 @@ export const iconsData: Array<{
     "tags": ["sea","boating","angler","bait","reel","tackle","marine","outdoors","fish","fishing","hook","sports","travel"]
   },
   {
+    "name": "fishing-rod",
+    "categories": ["sports","travel"],
+    "tags": ["fishing","rod","hobby","equipment","reel"]
+  },
+  {
     "name": "flag-off",
     "categories": ["account","social"],
     "tags": ["unflag","unmark","report","marker","notification","warning","milestone","goal","notice","signal","attention","banner"]
