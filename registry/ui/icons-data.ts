@@ -2814,6 +2814,11 @@ export const iconsData: Array<{
     "tags": ["bird","chicken","nest","hatch","shell","incubate","soft boiled","hard","breakfast","brunch","morning","easter"]
   },
   {
+    "name": "ellipse",
+    "categories": ["shapes"],
+    "tags": ["shape","geometry","rounded","smooth","outline","form","boundary","curve","shapes","ellipse","oval"]
+  },
+  {
     "name": "ellipsis-vertical",
     "categories": ["layout"],
     "tags": ["menu","options","spread","more","further","extra","overflow","dots","…","..."]
