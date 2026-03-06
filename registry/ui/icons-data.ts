@@ -861,7 +861,7 @@ export const iconsData: Array<{
   {
     "name": "bitcoin",
     "categories": ["brands","development","finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["cryptocurrency","digital","blockchain","finance","coin","market","decentralized","investment","crypto","currency","money","payment"]
   },
   {
     "name": "blend",
