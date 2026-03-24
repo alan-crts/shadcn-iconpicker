@@ -35,7 +35,7 @@ export const iconsData: Array<{
   },
   {
     "name": "airplay",
-    "categories": ["multimedia","connectivity","devices","brands"],
+    "categories": ["multimedia","connectivity"],
     "tags": ["stream","cast","mirroring","screen","monitor","macos","osx"]
   },
   {
@@ -860,7 +860,7 @@ export const iconsData: Array<{
   },
   {
     "name": "bitcoin",
-    "categories": ["brands","development","finance"],
+    "categories": ["development","finance"],
     "tags": ["cryptocurrency","digital","blockchain","finance","coin","market","decentralized","investment","crypto","currency","money","payment"]
   },
   {
@@ -1474,6 +1474,11 @@ export const iconsData: Array<{
     "tags": ["animal","pet","kitten","feline"]
   },
   {
+    "name": "cctv-off",
+    "categories": ["security","devices","communication","connectivity","photography"],
+    "tags": ["camera","surveillance","recording","film","videotape","crime","watching"]
+  },
+  {
     "name": "cctv",
     "categories": ["security","devices","communication","connectivity","photography"],
     "tags": ["camera","surveillance","recording","film","videotape","crime","watching"]
@@ -1722,11 +1727,6 @@ export const iconsData: Array<{
     "name": "chevrons-up",
     "categories": ["arrows","gaming"],
     "tags": ["forward","ahead","faster","speed","boost"]
-  },
-  {
-    "name": "chromium",
-    "categories": ["brands"],
-    "tags": ["browser","logo"]
   },
   {
     "name": "church",
@@ -2274,16 +2274,6 @@ export const iconsData: Array<{
     "tags": ["source","programming","html","xml"]
   },
   {
-    "name": "codepen",
-    "categories": ["brands","development"],
-    "tags": ["logo"]
-  },
-  {
-    "name": "codesandbox",
-    "categories": ["brands","development"],
-    "tags": ["logo"]
-  },
-  {
     "name": "coffee",
     "categories": ["food-beverage"],
     "tags": ["drink","cup","mug","tea","cafe","hot","beverage"]
@@ -2729,11 +2719,6 @@ export const iconsData: Array<{
     "tags": ["drama","masks","theater","theatre","entertainment","show"]
   },
   {
-    "name": "dribbble",
-    "categories": ["brands","social","design"],
-    "tags": ["design","social"]
-  },
-  {
     "name": "drill",
     "categories": ["tools","home","devices"],
     "tags": ["power","bit","head","hole","diy","toolbox","build","construction"]
@@ -2889,11 +2874,6 @@ export const iconsData: Array<{
     "tags": ["view","watch","see","show","expose","reveal","display","visible","visibility","vision","preview","read"]
   },
   {
-    "name": "facebook",
-    "categories": ["social","brands"],
-    "tags": ["logo","social"]
-  },
-  {
     "name": "factory",
     "categories": ["buildings","navigation"],
     "tags": ["building","business","energy","industry","manufacture","sector"]
@@ -2922,11 +2902,6 @@ export const iconsData: Array<{
     "name": "ferris-wheel",
     "categories": ["navigation"],
     "tags": ["big wheel","daisy wheel","observation","attraction","entertainment","amusement park","theme park","funfair"]
-  },
-  {
-    "name": "figma",
-    "categories": ["brands","design"],
-    "tags": ["logo","design","tool"]
   },
   {
     "name": "file-archive",
@@ -3519,11 +3494,6 @@ export const iconsData: Array<{
     "tags": ["logo","design","tool"]
   },
   {
-    "name": "framer",
-    "categories": ["brands","design"],
-    "tags": ["logo","design","tool"]
-  },
-  {
     "name": "frown",
     "categories": ["emoji","account"],
     "tags": ["emoji","face","bad","sad","emotion"]
@@ -3707,16 +3677,6 @@ export const iconsData: Array<{
     "name": "git-pull-request",
     "categories": ["development"],
     "tags": ["code","version control","open"]
-  },
-  {
-    "name": "github",
-    "categories": ["brands","development"],
-    "tags": ["logo","version control"]
-  },
-  {
-    "name": "gitlab",
-    "categories": ["brands","development"],
-    "tags": ["logo","version control"]
   },
   {
     "name": "glass-water",
@@ -4030,7 +3990,7 @@ export const iconsData: Array<{
   },
   {
     "name": "hexagon",
-    "categories": ["shapes","brands","development"],
+    "categories": ["shapes","development"],
     "tags": ["shape","node.js","logo"]
   },
   {
@@ -4187,11 +4147,6 @@ export const iconsData: Array<{
     "name": "inspection-panel",
     "categories": ["tools"],
     "tags": ["access","cover","tile","metal","materials","screws"]
-  },
-  {
-    "name": "instagram",
-    "categories": ["brands","social","photography"],
-    "tags": ["logo","camera","social"]
   },
   {
     "name": "italic",
@@ -4457,11 +4412,6 @@ export const iconsData: Array<{
     "name": "link",
     "categories": ["text","account"],
     "tags": ["chain","url"]
-  },
-  {
-    "name": "linkedin",
-    "categories": ["social","brands"],
-    "tags": ["logo","social media","social"]
   },
   {
     "name": "list-check",
@@ -5849,11 +5799,6 @@ export const iconsData: Array<{
     "tags": ["swiss army knife","penknife","multi-tool","multitask","blade","cutter","gadget","corkscrew"]
   },
   {
-    "name": "pocket",
-    "categories": ["brands"],
-    "tags": ["logo","save"]
-  },
-  {
     "name": "podcast",
     "categories": ["multimedia","social"],
     "tags": ["audio","music","mic","talk","voice","subscribe","subscription","stream"]
@@ -5982,11 +5927,6 @@ export const iconsData: Array<{
     "name": "radius",
     "categories": ["shapes","math","design","tools"],
     "tags": ["shape","circle","geometry","trigonometry","radii","calculate","measure","size"]
-  },
-  {
-    "name": "rail-symbol",
-    "categories": ["transportation","navigation"],
-    "tags": ["railway","train","track","line"]
   },
   {
     "name": "rainbow",
@@ -6732,11 +6672,6 @@ export const iconsData: Array<{
     "name": "skull",
     "categories": ["gaming"],
     "tags": ["death","danger","bone"]
-  },
-  {
-    "name": "slack",
-    "categories": ["account","social","brands","development"],
-    "tags": ["logo"]
   },
   {
     "name": "slash",
@@ -7510,7 +7445,7 @@ export const iconsData: Array<{
   },
   {
     "name": "target",
-    "categories": ["brands","gaming"],
+    "categories": ["gaming"],
     "tags": ["logo","bullseye","deadline","projects","overview","work","productivity"]
   },
   {
@@ -7819,11 +7754,6 @@ export const iconsData: Array<{
     "tags": ["tree","forest","park","nature"]
   },
   {
-    "name": "trello",
-    "categories": ["account","brands","development"],
-    "tags": ["logo","brand"]
-  },
-  {
     "name": "trending-down",
     "categories": ["charts","arrows"],
     "tags": ["statistics"]
@@ -7902,16 +7832,6 @@ export const iconsData: Array<{
     "name": "tv",
     "categories": ["devices","multimedia","communication"],
     "tags": ["television","stream","display","widescreen","high-definition","hd","1080p","4k","8k","smart","digital","video","entertainment","showtime","channels","terrestrial","satellite","cable","broadcast","live","frequency","tune","scan","aerial","receiver","transmission","signal","connection","connectivity"]
-  },
-  {
-    "name": "twitch",
-    "categories": ["brands","social","account","gaming"],
-    "tags": ["logo","social"]
-  },
-  {
-    "name": "twitter",
-    "categories": ["brands","social","account"],
-    "tags": ["logo","social"]
   },
   {
     "name": "type-outline",
@@ -8427,11 +8347,6 @@ export const iconsData: Array<{
     "name": "x",
     "categories": ["notifications","math"],
     "tags": ["cancel","close","cross","delete","ex","remove","times","clear","math","multiply","multiplication"]
-  },
-  {
-    "name": "youtube",
-    "categories": ["multimedia","social","brands"],
-    "tags": ["logo","social","video","play"]
   },
   {
     "name": "zap-off",
