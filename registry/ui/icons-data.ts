@@ -754,6 +754,11 @@ export const iconsData: Array<{
     "tags": ["sleep","hotel","furniture"]
   },
   {
+    "name": "beef-off",
+    "categories": ["food-beverage"],
+    "tags": ["food","dish","restaurant","course","meal","meat","bbq","steak","vegetarian"]
+  },
+  {
     "name": "beef",
     "categories": ["food-beverage"],
     "tags": ["food","dish","restaurant","course","meal","meat","bbq","steak"]
@@ -4399,6 +4404,11 @@ export const iconsData: Array<{
     "tags": ["line","snakes","annotate","curve","doodle","stroke","pen","tool","gesture","draw","wave","art","road"]
   },
   {
+    "name": "line-style",
+    "categories": ["design","tools"],
+    "tags": ["line","stroke","style","dashed","border"]
+  },
+  {
     "name": "link-2-off",
     "categories": ["text"],
     "tags": ["unchain","chain"]
@@ -5909,6 +5919,11 @@ export const iconsData: Array<{
     "tags": ["calculate","formula","math","operator","root","square","symbol"]
   },
   {
+    "name": "radio-off",
+    "categories": ["devices","multimedia","social"],
+    "tags": ["signal","broadcast","connectivity","live","frequency"]
+  },
+  {
     "name": "radio-receiver",
     "categories": ["devices"],
     "tags": ["device","music","connect"]
@@ -6117,6 +6132,11 @@ export const iconsData: Array<{
     "name": "ribbon",
     "categories": ["social","medical","emoji"],
     "tags": ["awareness","strip","band","tape","strap","cordon"]
+  },
+  {
+    "name": "road",
+    "categories": ["transportation"],
+    "tags": ["road","street","highway","route","path","transport","traffic","drive","map"]
   },
   {
     "name": "rocket",
@@ -6499,6 +6519,16 @@ export const iconsData: Array<{
     "tags": ["cybersecurity","secured","safety","protection","protected","guardian","guarded","armored","armoured","defense","defence","defended","blocked","threat","prevention","prevented","antivirus","vigilance","vigilant","active","activated","enabled","detection","scanned","found","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audited","admin","verification","verified","certification","certified","tested","passed","qualified","cleared","cleaned","disinfected","uninfected","task","completed","todo","done","ticked","checked","crest","bravery"]
   },
   {
+    "name": "shield-cog-corner",
+    "categories": ["account","security","development","gaming","shapes"],
+    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","shieldcog","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
+  },
+  {
+    "name": "shield-cog",
+    "categories": ["account","security","development","gaming","shapes"],
+    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
+  },
+  {
     "name": "shield-ellipsis",
     "categories": ["account","security","development","gaming"],
     "tags": ["cybersecurity","securing","protecting","guarding","armoring","armouring","defending","blocking","preventing","antivirus","detecting","scanning","finding","auditing","admin","verifying","crest","upgrading","loader","loading","throbber","progress","dots","more","etc","...","…"]
@@ -6651,7 +6681,7 @@ export const iconsData: Array<{
   {
     "name": "signpost",
     "categories": ["arrows","navigation","development","gaming"],
-    "tags": ["bidirectional","left","right","east","west"]
+    "tags": ["navigation","direction","arrow","wayfinding","guide","location","pointer","route","indicator","marker","bidirectional","left","right","east","west"]
   },
   {
     "name": "siren",
@@ -6807,6 +6837,11 @@ export const iconsData: Array<{
     "name": "spool",
     "categories": ["communication","tools","social"],
     "tags": ["bobbin","spindle","yarn","thread","string","sewing","needlework"]
+  },
+  {
+    "name": "sport-shoe",
+    "categories": ["sports"],
+    "tags": ["footwear","sports","running","athletic","shoe","sneaker","training","exercise","fitness"]
   },
   {
     "name": "spotlight",
