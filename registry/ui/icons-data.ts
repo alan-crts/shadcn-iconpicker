@@ -4714,6 +4714,11 @@ export const iconsData: Array<{
     "tags": ["location","waypoint","marker","drop","add","create","new"]
   },
   {
+    "name": "map-pin-search",
+    "categories": ["text","navigation","travel","account"],
+    "tags": ["location","navigation","travel","waypoint","marker","drop"]
+  },
+  {
     "name": "map-pin-x-inside",
     "categories": ["navigation","travel","account"],
     "tags": ["location","waypoint","marker","drop","delete","remove","erase"]
