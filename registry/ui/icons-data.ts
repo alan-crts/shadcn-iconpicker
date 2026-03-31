@@ -7019,6 +7019,11 @@ export const iconsData: Array<{
     "tags": ["inspector","element","mouse","click","pointer","box","browser","selector","target","dom","node"]
   },
   {
+    "name": "square-dashed-text",
+    "categories": ["text","cursors"],
+    "tags": ["find","search","selection","dashed"]
+  },
+  {
     "name": "square-dashed-top-solid",
     "categories": ["design","development","layout"],
     "tags": ["square","border","width","layout","style","design","rectangular","marquee","dashed","box","rectangle","aspect ratio","1:1"]
@@ -7567,11 +7572,6 @@ export const iconsData: Array<{
     "name": "text-search",
     "categories": ["text"],
     "tags": ["find","data","copy","txt","pdf","document","scan","magnifier","magnifying glass","lens"]
-  },
-  {
-    "name": "text-select",
-    "categories": ["text","cursors"],
-    "tags": ["find","search","selection","dashed"]
   },
   {
     "name": "text-wrap",
