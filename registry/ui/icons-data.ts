@@ -3961,7 +3961,7 @@ export const iconsData: Array<{
   {
     "name": "heart-minus",
     "categories": ["medical","account","multimedia","gaming","social"],
-    "tags": ["unlike","unfavorite","remove","damage","ui & ux"]
+    "tags": ["unlike","unfavorite","remove","delete","damage"]
   },
   {
     "name": "heart-off",
