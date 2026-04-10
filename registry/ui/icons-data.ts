@@ -1064,6 +1064,11 @@ export const iconsData: Array<{
     "tags": ["delete","remove"]
   },
   {
+    "name": "bookmark-off",
+    "categories": ["account"],
+    "tags": ["unsaved","unfavorite","unmarked","unlabel","disabled","removed","unpin","unread","unclip","marker","untag"]
+  },
+  {
     "name": "bookmark-plus",
     "categories": ["account"],
     "tags": ["add"]
