@@ -7659,6 +7659,11 @@ export const iconsData: Array<{
     "tags": ["trip","travel","pass","entry","voucher","event","concert","show","perforated","dashed"]
   },
   {
+    "name": "timeline",
+    "categories": ["time"],
+    "tags": ["tags","history"]
+  },
+  {
     "name": "timer-off",
     "categories": ["time"],
     "tags": ["time","timer","stopwatch"]
