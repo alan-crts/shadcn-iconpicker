@@ -774,6 +774,11 @@ export const iconsData: Array<{
     "tags": ["alcohol","bar","beverage","brewery","drink"]
   },
   {
+    "name": "bell-check",
+    "categories": ["account","notifications"],
+    "tags": ["alarm","notification","sound","reminder"]
+  },
+  {
     "name": "bell-dot",
     "categories": ["account","notifications"],
     "tags": ["alarm","notification","sound","reminder","unread"]
@@ -3984,6 +3989,11 @@ export const iconsData: Array<{
     "tags": ["heartbeat","pulse","health","medical","blood pressure","cardiac","systole","diastole"]
   },
   {
+    "name": "heart-x",
+    "categories": ["social","multimedia","design","shapes"],
+    "tags": ["unlike","unfavorite","remove","reject","dismiss","delete","clear"]
+  },
+  {
     "name": "heart",
     "categories": ["medical","social","multimedia","emoji","gaming","shapes"],
     "tags": ["like","love","emotion","suit","playing","cards"]
@@ -4302,6 +4312,11 @@ export const iconsData: Array<{
     "name": "layers-2",
     "categories": ["design","layout"],
     "tags": ["stack","pile","pages","sheets","paperwork","copies","copy","duplicate","double","shortcuts"]
+  },
+  {
+    "name": "layers-minus",
+    "categories": ["design","layout"],
+    "tags": ["stack","pile","pages","sheets","paperwork","copies","copy","layers","remove","delete"]
   },
   {
     "name": "layers-plus",
@@ -8401,12 +8416,12 @@ export const iconsData: Array<{
   {
     "name": "zap-off",
     "categories": ["connectivity","devices","photography","weather"],
-    "tags": ["flash","camera","lightning","electricity","energy"]
+    "tags": ["flash","camera","lightning","electricity","energy","power"]
   },
   {
     "name": "zap",
     "categories": ["connectivity","devices","photography","weather"],
-    "tags": ["flash","camera","lightning","electricity","energy"]
+    "tags": ["flash","camera","lightning","electricity","energy","power","quick"]
   },
   {
     "name": "zodiac-aquarius",
