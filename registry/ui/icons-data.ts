@@ -3334,6 +3334,11 @@ export const iconsData: Array<{
     "tags": ["archive","zip","package"]
   },
   {
+    "name": "folder-bookmark",
+    "categories": ["files"],
+    "tags": ["folder","bookmark","file","mark","storage","archive","directory","project","favorite","save","read later"]
+  },
+  {
     "name": "folder-check",
     "categories": ["files"],
     "tags": ["done","directory","todo","tick","complete","task"]
