@@ -489,6 +489,11 @@ export const iconsData: Array<{
     "tags": ["reference","times","multiply","multiplication","operator","code","glob pattern","wildcard","*"]
   },
   {
+    "name": "astroid",
+    "categories": ["shapes","math"],
+    "tags": ["star","math","shape","curve","sharp","four-pointed","hypocycloid","ai","artificial intelligence"]
+  },
+  {
     "name": "at-sign",
     "categories": ["text","account"],
     "tags": ["mention","at","email","message","@"]
