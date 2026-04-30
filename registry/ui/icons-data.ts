@@ -6134,6 +6134,11 @@ export const iconsData: Array<{
     "tags": ["arrows","retweet","repost","share","repeat","loop"]
   },
   {
+    "name": "repeat-off",
+    "categories": ["arrows","multimedia"],
+    "tags": ["loop","arrows","recurring","again"]
+  },
+  {
     "name": "repeat",
     "categories": ["arrows","multimedia"],
     "tags": ["loop","arrows"]
@@ -8284,14 +8289,19 @@ export const iconsData: Array<{
     "tags": ["water","sea","level","sound","hertz","wavelength","vibrate","high","tide","ocean","rising"]
   },
   {
+    "name": "waves-horizontal",
+    "categories": ["weather","navigation","multimedia","sustainability"],
+    "tags": ["water","sea","sound","hertz","wavelength","vibrate","ocean","swimming","frequency"]
+  },
+  {
     "name": "waves-ladder",
     "categories": ["sports","home"],
     "tags": ["swimming","water","pool","lifeguard","ocean","🌊","🏊‍♂️","🏊‍♀️","🏊","🥽"]
   },
   {
-    "name": "waves",
-    "categories": ["weather","navigation","multimedia","sustainability"],
-    "tags": ["water","sea","sound","hertz","wavelength","vibrate"]
+    "name": "waves-vertical",
+    "categories": ["weather","sustainability"],
+    "tags": ["steam","warmth","temperature","burn","hot","boiling","heat","smoke","vapor","smell","aroma","sauna"]
   },
   {
     "name": "waypoints",
