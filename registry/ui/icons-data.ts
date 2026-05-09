@@ -4281,7 +4281,7 @@ export const iconsData: Array<{
   {
     "name": "landmark",
     "categories": ["finance","navigation","buildings"],
-    "tags": ["bank","building","capitol","finance","money","museum","art gallery","hall","institute","pediment","portico","columns","pillars","classical","architecture","government","institution"]
+    "tags": ["bank","building","capitol","finance","money","museum","art gallery","hall","institute","pediment","portico","doric","columns","pillars","classical","architecture","government","institution","monument","site","history","historic","library","temple","ancient","structure"]
   },
   {
     "name": "languages",
@@ -7591,7 +7591,7 @@ export const iconsData: Array<{
   {
     "name": "text-cursor",
     "categories": ["text","cursors"],
-    "tags": ["select"]
+    "tags": ["select","caret","type","typing","write","writing","edit","insert","input","textarea"]
   },
   {
     "name": "text-initial",
