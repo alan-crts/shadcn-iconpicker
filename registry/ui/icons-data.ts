@@ -1199,6 +1199,11 @@ export const iconsData: Array<{
     "tags": ["bring","send","move","over","forward","front","overlap","layer","order"]
   },
   {
+    "name": "broccoli",
+    "categories": ["food-beverage"],
+    "tags": ["leafy","crisp","fresh","culinary","vegetation","vegetable","food","healthy","vegan","vegetarian","nutrition","diet","plant","green","produce"]
+  },
+  {
     "name": "brush-cleaning",
     "categories": ["home","tools","design"],
     "tags": ["cleaning","utensil","housekeeping","tool","sweeping","scrubbing","hygiene","maintenance","household","cleaner","chores","equipment","sanitation","bristles","handle","home care","sanitize","purify","wash","disinfect","sterilize","scrub","polish","decontaminate","wipe","spotless","remove","empty","erase","purge","eliminate"]
