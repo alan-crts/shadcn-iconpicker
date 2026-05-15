@@ -884,6 +884,11 @@ export const iconsData: Array<{
     "tags": ["mode","overlay","multiply","screen","opacity","transparency","alpha","filters","lenses","mixed","shades","tints","hues","saturation","brightness","overlap","colors","colours"]
   },
   {
+    "name": "blender",
+    "categories": ["food-beverage","home"],
+    "tags": ["mixer","appliances","food","liquid","juicer","vitamizer","mix","emulsify","smoothie","drink","blade","container","kitchen","milkshake","cocktail","beverage","culinary","shredder","processor","cooking","recipe","chef","restaurant"]
+  },
+  {
     "name": "blinds",
     "categories": ["home"],
     "tags": ["shades","screen","curtain","shutter","roller blind","window","lighting","household","home"]
@@ -7329,9 +7334,39 @@ export const iconsData: Array<{
     "tags": ["reaction","emotion","smile","happy","feedback"]
   },
   {
+    "name": "sticky-note-check",
+    "categories": ["text","social"],
+    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","done","complete","success","check","verified"]
+  },
+  {
+    "name": "sticky-note-minus",
+    "categories": ["text","social"],
+    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","remove","delete","minus"]
+  },
+  {
+    "name": "sticky-note-off",
+    "categories": ["text","social"],
+    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","disabled","hidden","mute","inactive"]
+  },
+  {
+    "name": "sticky-note-plus",
+    "categories": ["text","social"],
+    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","add","create","new","plus"]
+  },
+  {
+    "name": "sticky-note-x",
+    "categories": ["text","social"],
+    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","close","cancel","delete","remove"]
+  },
+  {
     "name": "sticky-note",
     "categories": ["text","social"],
     "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office"]
+  },
+  {
+    "name": "sticky-notes",
+    "categories": ["text","social"],
+    "tags": ["post-it","annotation","memo","reminder","todo","tasks","ideas","brainstorm","documents","notes","multiple","collection","group","stack","clone","duplicate","copy"]
   },
   {
     "name": "stone",
