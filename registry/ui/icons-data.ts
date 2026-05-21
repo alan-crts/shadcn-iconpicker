@@ -4801,7 +4801,7 @@ export const iconsData: Array<{
   {
     "name": "martini",
     "categories": ["food-beverage"],
-    "tags": ["cocktail","alcohol","beverage","bar","drink","glass"]
+    "tags": ["cocktail","alcohol","beverage","bar","drink","glass","spirit","party","celebration","mixer"]
   },
   {
     "name": "maximize-2",
