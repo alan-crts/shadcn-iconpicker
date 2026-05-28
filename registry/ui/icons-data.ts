@@ -3724,6 +3724,11 @@ export const iconsData: Array<{
     "tags": ["glasses","spectacles"]
   },
   {
+    "name": "globe-check",
+    "categories": ["navigation"],
+    "tags": ["world","browser","language","translate","internet","web","check","verified","success","valid","available","online","status"]
+  },
+  {
     "name": "globe-lock",
     "categories": ["security","development","devices"],
     "tags": ["vpn","private","privacy","network","world","browser","security","encryption","protection","connection"]
