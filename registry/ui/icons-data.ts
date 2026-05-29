@@ -5614,6 +5614,11 @@ export const iconsData: Array<{
     "tags": ["attachment","file"]
   },
   {
+    "name": "parasol",
+    "categories": ["travel","weather"],
+    "tags": ["umbrella","sunshade","beach","shade","sun","protection","cover","canopy","garden","outdoors","resort","travel","vacation","holiday","summer","apparel","accessory","sunbathing","relax","tropical"]
+  },
+  {
     "name": "parentheses",
     "categories": ["development","files","math"],
     "tags": ["code","token","parenthesis","parens","brackets","parameters","arguments","args","input","call","math","formula","function","(",")"]
@@ -5827,6 +5832,11 @@ export const iconsData: Array<{
     "name": "plane",
     "categories": ["transportation","travel","navigation"],
     "tags": ["plane","trip","airplane"]
+  },
+  {
+    "name": "play-off",
+    "categories": ["multimedia"],
+    "tags": ["audio","video","music","start","run","off","disabled","blocked","forbidden"]
   },
   {
     "name": "play",
