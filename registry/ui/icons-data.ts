@@ -8364,6 +8364,11 @@ export const iconsData: Array<{
     "tags": ["indirection","vpn","virtual private network","proxy","connections","bounce","reroute","path","journey","planner","stops","stations","shared","spread","viral"]
   },
   {
+    "name": "webcam-off",
+    "categories": ["connectivity","devices","communication"],
+    "tags": ["camera","security"]
+  },
+  {
     "name": "webcam",
     "categories": ["connectivity","devices","communication"],
     "tags": ["camera","security"]
