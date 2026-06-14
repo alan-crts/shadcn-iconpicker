@@ -29,6 +29,11 @@ export const iconsData: Array<{
     "tags": ["pulse","action","motion","movement","exercise","fitness","healthcare","heart rate monitor","vital signs","vitals","emergency room","er","intensive care","hospital","defibrillator","earthquake","siesmic","magnitude","richter scale","aftershock","tremor","shockwave","audio","waveform","synthesizer","synthesiser","music"]
   },
   {
+    "name": "ad",
+    "categories": ["multimedia","notifications"],
+    "tags": ["advert","affiliate","brand","campaign","commercial","marketing","monetize","paid","partner","promo","sponsor"]
+  },
+  {
     "name": "air-vent",
     "categories": ["home"],
     "tags": ["air conditioner","ac","central air","cooling","climate-control"]
@@ -662,6 +667,11 @@ export const iconsData: Array<{
     "name": "banknote-arrow-up",
     "categories": ["finance"],
     "tags": ["bill","currency","money","payment","funds","transaction","cash","finance","deposit","earnings","income","in","credit","prepaid","growth","increase"]
+  },
+  {
+    "name": "banknote-check",
+    "categories": ["finance"],
+    "tags": ["banknote","bill","currency","payment","money","finance","document","verification","tick","verified","accepted","done","complete","found","paid","task","check","success"]
   },
   {
     "name": "banknote-x",
@@ -2149,6 +2159,16 @@ export const iconsData: Array<{
     "tags": ["time","watch","alarm","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
   },
   {
+    "name": "clock-arrow-left",
+    "categories": ["time"],
+    "tags": ["time","watch","alarm","assign","range"]
+  },
+  {
+    "name": "clock-arrow-right",
+    "categories": ["time","people","arrows"],
+    "tags": ["time","watch","alarm","range","unassign"]
+  },
+  {
     "name": "clock-arrow-up",
     "categories": ["time"],
     "tags": ["time","watch","alarm","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
@@ -2892,6 +2912,11 @@ export const iconsData: Array<{
     "name": "eye-closed",
     "categories": ["accessibility","photography","design","security"],
     "tags": ["view","watch","see","hide","conceal","mask","hidden","visibility","vision"]
+  },
+  {
+    "name": "eye-dashed",
+    "categories": ["accessibility","photography","design","security"],
+    "tags": ["view","watch","see","hide","conceal","mask","hidden","invisible","visibility","vision"]
   },
   {
     "name": "eye-off",
@@ -4544,6 +4569,16 @@ export const iconsData: Array<{
     "tags": ["reset","refresh","reload","playlist","replay"]
   },
   {
+    "name": "list-sort-ascending",
+    "categories": ["text","layout"],
+    "tags": ["list","order","arrangement","organization","sequence","ranking","categories","presentation","filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+  },
+  {
+    "name": "list-sort-descending",
+    "categories": ["text","layout"],
+    "tags": ["list","order","arrangement","organization","sequence","ranking","categories","presentation","filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+  },
+  {
     "name": "list-start",
     "categories": ["multimedia","text"],
     "tags": ["queue","top","start","next","playlist"]
@@ -5874,6 +5909,11 @@ export const iconsData: Array<{
     "tags": ["audio","music","mic","talk","voice","subscribe","subscription","stream"]
   },
   {
+    "name": "podium",
+    "categories": ["sports","gaming"],
+    "tags": ["award","stage","winner","celebration","performance","medal","success","achievement","highlight","ranking","winning","place","placing","leaderboard","first","second","third","gold","silver","bronze"]
+  },
+  {
     "name": "pointer-off",
     "categories": ["cursors"],
     "tags": ["mouse"]
@@ -6339,9 +6379,24 @@ export const iconsData: Array<{
     "tags": ["floppy disks","copy"]
   },
   {
+    "name": "save-check",
+    "categories": ["text","files","development"],
+    "tags": ["save","save-check","floppy-disk","saved","check","save-success"]
+  },
+  {
     "name": "save-off",
     "categories": ["text","files"],
     "tags": ["floppy disk","unsalvageable"]
+  },
+  {
+    "name": "save-pen",
+    "categories": ["text","files"],
+    "tags": ["floppy disk","directory","rename"]
+  },
+  {
+    "name": "save-plus",
+    "categories": ["text","files"],
+    "tags": ["floppy disk","save","plus","add","update","create"]
   },
   {
     "name": "save",
@@ -6451,32 +6506,32 @@ export const iconsData: Array<{
   {
     "name": "search-alert",
     "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","stop","warning","alert","error","anomaly","lens"]
+    "tags": ["find","scan","magnifier","magnifying glass","stop","warning","alert","error","anomaly","lens","locate","explore","discover","enlarge","zoom"]
   },
   {
     "name": "search-check",
     "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","found","correct","complete","tick","lens"]
+    "tags": ["find","scan","magnifier","magnifying glass","found","correct","complete","tick","lens","locate","explore","discover","enlarge","zoom"]
   },
   {
     "name": "search-code",
     "categories": ["text","social","development"],
-    "tags": ["find","scan","magnifier","magnifying glass","grep","chevrons","<>","lens"]
+    "tags": ["find","scan","magnifier","magnifying glass","grep","chevrons","<>","lens","locate","explore","discover","enlarge","zoom"]
   },
   {
     "name": "search-slash",
     "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","stop","clear","cancel","abort","/","lens"]
+    "tags": ["find","scan","magnifier","magnifying glass","stop","clear","cancel","abort","/","lens","locate","explore","discover","enlarge","zoom"]
   },
   {
     "name": "search-x",
     "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","stop","clear","cancel","abort","lens"]
+    "tags": ["find","scan","magnifier","magnifying glass","stop","clear","cancel","abort","lens","locate","explore","discover","enlarge","zoom"]
   },
   {
     "name": "search",
     "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","lens"]
+    "tags": ["find","scan","magnifier","magnifying glass","lens","locate","explore","discover","enlarge","zoom"]
   },
   {
     "name": "section",
@@ -7314,14 +7369,34 @@ export const iconsData: Array<{
     "tags": ["mark","print","clone","loyalty","library"]
   },
   {
+    "name": "star-check",
+    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
+    "tags": ["bookmark","favorite","like","review","rating","check","star"]
+  },
+  {
     "name": "star-half",
     "categories": ["social","multimedia"],
     "tags": ["bookmark","favorite","like","review","rating"]
   },
   {
+    "name": "star-minus",
+    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
+    "tags": ["bookmark","favorite","like","review","rating","minus","remove","deselect","star"]
+  },
+  {
     "name": "star-off",
     "categories": ["multimedia","social"],
     "tags": ["dislike","unlike","remove","unrate"]
+  },
+  {
+    "name": "star-plus",
+    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
+    "tags": ["bookmark","favorite","like","review","rating","plus","add","join","star"]
+  },
+  {
+    "name": "star-x",
+    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
+    "tags": ["mark","symbol","shape","vector","design","graphic","bookmark","favorite","like","review","rating","x","cancel","reject","star"]
   },
   {
     "name": "star",
@@ -7412,6 +7487,11 @@ export const iconsData: Array<{
     "name": "subscript",
     "categories": ["text"],
     "tags": ["text"]
+  },
+  {
+    "name": "summary",
+    "categories": ["text"],
+    "tags": ["brief","abstract","synopsis","report","digest","outline","recap","condensation","summary","ai","text","overview"]
   },
   {
     "name": "sun-dim",
@@ -7537,6 +7617,16 @@ export const iconsData: Array<{
     "name": "tablets",
     "categories": ["medical"],
     "tags": ["medicine","medication","drug","prescription","pills","pharmacy"]
+  },
+  {
+    "name": "tag-plus",
+    "categories": ["account"],
+    "tags": ["label","badge","ticket","mark","new","add","create","+"]
+  },
+  {
+    "name": "tag-x",
+    "categories": ["account"],
+    "tags": ["label","badge","ticket","mark","x","delete","remove"]
   },
   {
     "name": "tag",
@@ -8089,6 +8179,11 @@ export const iconsData: Array<{
     "tags": ["new","add","create","follow","subscribe"]
   },
   {
+    "name": "user-round-arrow-left",
+    "categories": ["account","people","arrows"],
+    "tags": ["person","assign","move","give","setup","self","me","myself","profile","avatar","incoming","recipient","assignee","inbound"]
+  },
+  {
     "name": "user-round-check",
     "categories": ["account"],
     "tags": ["followed","subscribed","done","todo","tick","complete","task"]
@@ -8291,7 +8386,7 @@ export const iconsData: Array<{
   {
     "name": "wallet-cards",
     "categories": ["account","finance"],
-    "tags": ["money","finance","pocket","credit","purchase","payment","shopping","retail","consumer","cc"]
+    "tags": ["wallet","cards","banking","cash","debit","transport","money","finance","pocket","credit","purchase","payment","shopping","retail","consumer","cc"]
   },
   {
     "name": "wallet-minimal",
@@ -8477,6 +8572,11 @@ export const iconsData: Array<{
     "name": "worm",
     "categories": ["animals","security"],
     "tags": ["invertebrate","grub","larva","snake","crawl","wiggle","slither","pest control","computer virus","malware"]
+  },
+  {
+    "name": "wrench-off",
+    "categories": ["account","development","tools"],
+    "tags": ["account","settings","spanner","diy","toolbox","build","construction","off","service","maintenance","disabled"]
   },
   {
     "name": "wrench",
