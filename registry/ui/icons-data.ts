@@ -5719,6 +5719,11 @@ export const iconsData: Array<{
     "tags": ["edit","create","draw","sketch","draft","writer","writing","stationery","artist","measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent"]
   },
   {
+    "name": "pencil-sparkles",
+    "categories": ["design","cursors","tools","text","photography"],
+    "tags": ["edit","ai","tools","smart","create","draw","sketch","draft","writer","writing","stationery","artist","magic","wizard","magician"]
+  },
+  {
     "name": "pencil",
     "categories": ["design","cursors","tools","text"],
     "tags": ["rubber","edit","create","draw","sketch","draft","writer","writing","stationery","artist"]
