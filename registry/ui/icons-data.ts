@@ -944,6 +944,11 @@ export const iconsData: Array<{
     "tags": ["fatal","error","crash","blockbuster","mine","explosion","explode","explosive"]
   },
   {
+    "name": "bone-fracture",
+    "categories": ["medical","animals"],
+    "tags": ["bone","fracture","injury","orthopedic","medical","anatomy","skeletal","broken","xray","trauma","health","vet","veterinary","crack","break","damage"]
+  },
+  {
     "name": "bone",
     "categories": ["animals","medical","gaming"],
     "tags": ["health","skeleton","skull","death","pets","dog"]
@@ -2574,14 +2579,44 @@ export const iconsData: Array<{
     "tags": ["electricity","energy","water"]
   },
   {
+    "name": "database-arrow-down",
+    "categories": ["devices","development"],
+    "tags": ["storage","memory","bytes","server","export","download","backup","pull","downsize"]
+  },
+  {
+    "name": "database-arrow-up",
+    "categories": ["devices","development"],
+    "tags": ["storage","memory","bytes","server","import","upload","backup","push","upscale"]
+  },
+  {
     "name": "database-backup",
     "categories": ["devices","arrows","design","development","photography"],
     "tags": ["storage","memory","bytes","servers","backup","timemachine","rotate","arrow","left"]
   },
   {
+    "name": "database-check",
+    "categories": ["devices","development"],
+    "tags": ["storage","memory","bytes","server","check","success","valid","verified","confirmed","complete"]
+  },
+  {
+    "name": "database-minus",
+    "categories": ["devices","development"],
+    "tags": ["storage","memory","bytes","server","minus","remove","delete","reduce"]
+  },
+  {
+    "name": "database-plus",
+    "categories": ["devices","development"],
+    "tags": ["storage","memory","bytes","server","plus","add","create","insert","new","expand"]
+  },
+  {
     "name": "database-search",
     "categories": ["devices","development"],
     "tags": ["storage","memory","container","tin","pot","bytes","servers"]
+  },
+  {
+    "name": "database-x",
+    "categories": ["devices","development"],
+    "tags": ["storage","memory","bytes","server","x","error","failed","invalid","rejected","denied","clear","remove","disconnect"]
   },
   {
     "name": "database-zap",
