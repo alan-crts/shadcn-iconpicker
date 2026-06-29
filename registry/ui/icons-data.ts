@@ -1481,7 +1481,7 @@ export const iconsData: Array<{
   {
     "name": "carrot",
     "categories": ["food-beverage"],
-    "tags": ["vegetable","food","eat"]
+    "tags": ["orange","healthy","nature","fresh","root","produce","organic","nutrition","vegetable","food","eat"]
   },
   {
     "name": "case-lower",
@@ -5777,6 +5777,11 @@ export const iconsData: Array<{
     "name": "person-standing",
     "categories": ["accessibility","people"],
     "tags": ["people","human","accessibility","stick figure"]
+  },
+  {
+    "name": "phi",
+    "categories": ["math","science"],
+    "tags": ["math","golden-ratio","symbol","greek","letter","typography","constant","flux","magnetic-flux"]
   },
   {
     "name": "philippine-peso",
