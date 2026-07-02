@@ -5679,6 +5679,11 @@ export const iconsData: Array<{
     "tags": ["menu bar","sidebar","primary","drawers","window","webpage","projects","overview"]
   },
   {
+    "name": "paper-bag",
+    "categories": ["food-beverage","shopping"],
+    "tags": ["storage","package","lunch","takeout","eco-friendly","kraft","retail","doggybag"]
+  },
+  {
     "name": "paperclip",
     "categories": ["text","design","files","mail"],
     "tags": ["attachment","file"]
