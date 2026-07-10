@@ -1899,6 +1899,11 @@ export const iconsData: Array<{
     "tags": ["calculate","shape","="]
   },
   {
+    "name": "circle-euro-sign",
+    "categories": ["shopping","finance"],
+    "tags": ["symbol","economy","banking","europe","€","euro","currency","money","payment","coin","finance","financial","exchange"]
+  },
+  {
     "name": "circle-fading-arrow-up",
     "categories": ["arrows","development"],
     "tags": ["north","up","upgrade","improve","circle","button"]
@@ -6627,6 +6632,11 @@ export const iconsData: Array<{
     "name": "server-off",
     "categories": ["development","devices"],
     "tags": ["cloud","storage"]
+  },
+  {
+    "name": "server-plus",
+    "categories": ["development","devices"],
+    "tags": ["add","create","new","cloud","storage","computing"]
   },
   {
     "name": "server",
