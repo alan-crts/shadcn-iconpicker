@@ -1899,7 +1899,7 @@ export const iconsData: Array<{
     "tags": ["calculate","shape","="]
   },
   {
-    "name": "circle-euro-sign",
+    "name": "circle-euro",
     "categories": ["shopping","finance"],
     "tags": ["symbol","economy","banking","europe","€","euro","currency","money","payment","coin","finance","financial","exchange"]
   },
