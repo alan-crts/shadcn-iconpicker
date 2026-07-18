@@ -3015,8 +3015,8 @@ export const iconsData: Array<{
   },
   {
     "name": "file-box",
-    "categories": ["files"],
-    "tags": ["box","package","model"]
+    "categories": ["files","design","development"],
+    "tags": ["document","page","sheet","cube","box","3d","model","asset","object","geometry","mesh","ar","augmented reality","cad","design","blueprint","draft","package","scene"]
   },
   {
     "name": "file-braces-corner",
@@ -6477,6 +6477,11 @@ export const iconsData: Array<{
     "name": "scan-barcode",
     "categories": ["shopping","devices"],
     "tags": ["checkout","till","cart","transaction","purchase","buy","product","packaging","retail","consumer"]
+  },
+  {
+    "name": "scan-box",
+    "categories": ["design","devices","shopping","gaming"],
+    "tags": ["ar","augmented reality","3d","object detection","object recognition","tracking","spatial computing","capture","cube","bounding box","camera","frame","shape","boundary","lidar","depth","scanning","mapping","placement"]
   },
   {
     "name": "scan-eye",
