@@ -30,8 +30,8 @@ export const iconsData: Array<{
   },
   {
     "name": "ad",
-    "categories": ["multimedia","notifications"],
-    "tags": ["advert","affiliate","brand","campaign","commercial","marketing","monetize","paid","partner","promo","sponsor"]
+    "categories": ["multimedia","accessibility","notifications"],
+    "tags": ["advert","affiliate","brand","campaign","commercial","marketing","monetize","paid","partner","promo","sponsor","audio description","video description","described video","visual description"]
   },
   {
     "name": "air-vent",
@@ -1506,7 +1506,7 @@ export const iconsData: Array<{
   {
     "name": "cast",
     "categories": ["devices","connectivity"],
-    "tags": ["chromecast","airplay","screen"]
+    "tags": ["stream","streaming","screen","display","wireless","broadcast","transmit","media","receiver","remote display","screen sharing","media streaming"]
   },
   {
     "name": "castle",
@@ -1911,7 +1911,7 @@ export const iconsData: Array<{
   {
     "name": "circle-fading-plus",
     "categories": ["communication","social"],
-    "tags": ["stories","social media","instagram","facebook","meta","snapchat","sharing","content"]
+    "tags": ["stories","social media","sharing","content"]
   },
   {
     "name": "circle-gauge",
@@ -2381,7 +2381,7 @@ export const iconsData: Array<{
   {
     "name": "compass",
     "categories": ["navigation","travel"],
-    "tags": ["direction","north","east","south","west","safari","browser"]
+    "tags": ["direction","north","east","south","west","browser"]
   },
   {
     "name": "component",
@@ -2391,7 +2391,7 @@ export const iconsData: Array<{
   {
     "name": "computer",
     "categories": ["devices","development","gaming"],
-    "tags": ["pc","chassis","codespaces","github"]
+    "tags": ["pc","chassis","codespaces"]
   },
   {
     "name": "concierge-bell",
@@ -2421,7 +2421,7 @@ export const iconsData: Array<{
   {
     "name": "container",
     "categories": ["development","transportation","mail"],
-    "tags": ["storage","shipping","freight","supply chain","docker","environment","devops","code","coding"]
+    "tags": ["storage","shipping","freight","supply chain","environment","devops","code","coding"]
   },
   {
     "name": "contrast",
@@ -4109,11 +4109,6 @@ export const iconsData: Array<{
     "tags": ["mark","text"]
   },
   {
-    "name": "history",
-    "categories": ["arrows","time"],
-    "tags": ["time","redo","undo","rewind","timeline","version","time machine","backup","rotate","ccw"]
-  },
-  {
     "name": "hop-off",
     "categories": ["food-beverage"],
     "tags": ["beer","brewery","drink","hop free","allergy","intolerance","diet"]
@@ -5234,6 +5229,11 @@ export const iconsData: Array<{
     "tags": ["dark","night"]
   },
   {
+    "name": "mosque",
+    "categories": ["buildings","navigation","travel"],
+    "tags": ["mosque","masjid","islam","muslim","ramadan","eid","prayer","worship","building","minaret","dome","architecture","faith","religion","holy","sacred","landmark","community","spiritual","tourism","map","heritage"]
+  },
+  {
     "name": "motorbike",
     "categories": ["transportation"],
     "tags": ["moto","motorcycle","transport","vehicle","drive","ride","trip","race","racing","journey","delivery"]
@@ -6324,6 +6324,11 @@ export const iconsData: Array<{
     "tags": ["gizmo","transform","orientation","orbit","axis"]
   },
   {
+    "name": "rotate-ccw-clock",
+    "categories": ["arrows","time"],
+    "tags": ["history","time","redo","undo","rewind","timeline","version","time machine","backup","ccw"]
+  },
+  {
     "name": "rotate-ccw-key",
     "categories": ["security","account"],
     "tags": ["password","key","refresh","change"]
@@ -6337,6 +6342,11 @@ export const iconsData: Array<{
     "name": "rotate-ccw",
     "categories": ["arrows","design","photography"],
     "tags": ["arrow","left","counter-clockwise","restart","reload","rerun","refresh","backup","undo","replay","redo","retry","rewind","reverse"]
+  },
+  {
+    "name": "rotate-cw-fading-clock",
+    "categories": ["time"],
+    "tags": ["clock","waiting","schedule","hourglass","loading","pause","pending","time","watch"]
   },
   {
     "name": "rotate-cw-square",
@@ -6512,6 +6522,11 @@ export const iconsData: Array<{
     "name": "scan-search",
     "categories": ["photography","multimedia","accessibility"],
     "tags": ["preview","zoom","expand","fullscreen","gallery","image","focus","lens"]
+  },
+  {
+    "name": "scan-square",
+    "categories": ["photography","design","development"],
+    "tags": ["scan","square","detect","recognition","select","frame","object","viewfinder","capture","shape","boundary","camera","scanner","overlay","focus","crop","marker"]
   },
   {
     "name": "scan-text",
@@ -6722,6 +6737,11 @@ export const iconsData: Array<{
     "name": "shield-half",
     "categories": ["account","security","development","gaming"],
     "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","logo","sigil","flag","team","faction","fraternity","university","college","academy","school","education","uniform","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","ranking","army","cadet","scout"]
+  },
+  {
+    "name": "shield-keyhole",
+    "categories": ["account","security","development","files"],
+    "tags": ["cybersecurity","secure","safety","protection","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","trooper","pawn"]
   },
   {
     "name": "shield-minus",
@@ -7262,6 +7282,11 @@ export const iconsData: Array<{
     "name": "square-mouse-pointer",
     "categories": ["arrows","cursors","development","tools"],
     "tags": ["inspector","element","mouse","click","pointer","box","browser","selector","target","dom","node"]
+  },
+  {
+    "name": "square-off",
+    "categories": ["shapes","design"],
+    "tags": ["/","not","slash","off","disabled","inactive","cancel","none","block","forbidden","unavailable","stopped","checkbox","unchecked","toggle","negation","form","ui"]
   },
   {
     "name": "square-parking-off",
@@ -8297,6 +8322,11 @@ export const iconsData: Array<{
     "name": "user-search",
     "categories": ["account","social"],
     "tags": ["person","account","contact","find","scan","magnifier","magnifying glass","lens"]
+  },
+  {
+    "name": "user-shield",
+    "categories": ["account","security","development","people"],
+    "tags": ["user","shield","admin","protected","guard","profile","security","privacy","permissions","role"]
   },
   {
     "name": "user-star",
