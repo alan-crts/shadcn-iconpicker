@@ -2985,8 +2985,8 @@ export const iconsData: Array<{
   },
   {
     "name": "feather",
-    "categories": ["gaming"],
-    "tags": ["logo"]
+    "categories": ["nature","animals","gaming","text"],
+    "tags": ["quill","plume","writing","author","literature","poetry","manuscript","bird","plumage","lightweight","soft"]
   },
   {
     "name": "fence",
