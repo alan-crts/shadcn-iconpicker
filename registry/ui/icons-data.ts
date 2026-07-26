@@ -4419,6 +4419,11 @@ export const iconsData: Array<{
     "tags": ["masonry","brick"]
   },
   {
+    "name": "layout-freeform",
+    "categories": ["design","layout"],
+    "tags": ["layout","freeform","free","absolute","position","auto layout","unaligned","scattered","arrange","blocks","canvas","frame"]
+  },
+  {
     "name": "layout-grid",
     "categories": ["design","layout"],
     "tags": ["app","home","start"]
@@ -5079,9 +5084,19 @@ export const iconsData: Array<{
     "tags": ["metronome","tempo","rhythm","beat","bpm","music","audio","sound","practice","timing","timer","time","pulse","sync","cadence","control","playback","studio","tool"]
   },
   {
+    "name": "mic-audio-lines",
+    "categories": ["devices","communication","multimedia"],
+    "tags": ["podcast","audio","waveform","sound waves","microphone","talk","voice","speech","stream","recording","transcription","dictation","voice assistant","noise cancellation","sound processing"]
+  },
+  {
     "name": "mic-off",
     "categories": ["devices","communication","connectivity","multimedia"],
     "tags": ["record","sound","mute","microphone"]
+  },
+  {
+    "name": "mic-signal",
+    "categories": ["devices","communication","connectivity","multimedia"],
+    "tags": ["podcast","audio","broadcast","signal","wireless","radio","airwaves","microphone","talk","voice","speech","stream","live","voice chat","push to talk","transmission"]
   },
   {
     "name": "mic-vocal",
@@ -5957,11 +5972,6 @@ export const iconsData: Array<{
     "name": "pocket-knife",
     "categories": ["tools"],
     "tags": ["swiss army knife","penknife","multi-tool","multitask","blade","cutter","gadget","corkscrew"]
-  },
-  {
-    "name": "podcast",
-    "categories": ["multimedia","social"],
-    "tags": ["audio","music","mic","talk","voice","subscribe","subscription","stream"]
   },
   {
     "name": "podium",
@@ -8106,7 +8116,7 @@ export const iconsData: Array<{
   {
     "name": "trophy",
     "categories": ["sports","gaming"],
-    "tags": ["prize","sports","winner","achievement","award","champion","celebration","victory"]
+    "tags": ["prize","sports","winner","achievement","award","champion","celebration","victory","competition","tournament","leaderboard","ranking","success","reward","cup","first","gold"]
   },
   {
     "name": "truck-electric",
