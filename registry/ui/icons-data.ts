@@ -214,16 +214,6 @@ export const iconsData: Array<{
     "tags": ["ship"]
   },
   {
-    "name": "angry",
-    "categories": ["emoji"],
-    "tags": ["emoji","anger","face","emotion"]
-  },
-  {
-    "name": "annoyed",
-    "categories": ["emoji"],
-    "tags": ["emoji","nuisance","face","emotion"]
-  },
-  {
     "name": "antenna",
     "categories": ["devices","multimedia","communication"],
     "tags": ["signal","connection","connectivity","tv","television","broadcast","live","frequency","tune","scan","channels","aerial","receiver","transmission","transducer","terrestrial","satellite","cable"]
@@ -507,6 +497,11 @@ export const iconsData: Array<{
     "name": "atom",
     "categories": ["science"],
     "tags": ["atomic","nuclear","physics","particle","element","molecule","electricity","energy","chemistry"]
+  },
+  {
+    "name": "audio-lines-x",
+    "categories": ["multimedia","communication"],
+    "tags": ["sound","noise","mute","silence","disabled","cancel","remove","unavailable","listen","hearing","equalizer","equaliser","hertz","frequency","wavelength","vibrate","sine","waveform","synthesizer","synthesiser","levels","track","music","playback","radio","broadcast","airwaves","voice","vocals","singer","song"]
   },
   {
     "name": "audio-lines",
@@ -2969,6 +2964,41 @@ export const iconsData: Array<{
     "tags": ["view","watch","see","show","expose","reveal","display","visible","visibility","vision","preview","read"]
   },
   {
+    "name": "face-angry",
+    "categories": ["emoji"],
+    "tags": ["anger","rage","fury","resentment","irritation","disgust","emoji","emotion"]
+  },
+  {
+    "name": "face-expressionless",
+    "categories": ["emoji"],
+    "tags": ["nuisance","annoyed","annoyance","frustration","emoji","emotion"]
+  },
+  {
+    "name": "face-grinning",
+    "categories": ["emoji"],
+    "tags": ["happy","happiness","good","laugh","broad smile","pleasure","good cheer","humour","funny","emoji","emotion"]
+  },
+  {
+    "name": "face-neutral",
+    "categories": ["emoji"],
+    "tags": ["emoji","neutral","emotion","meh","blank stare","social masking","irritation","concern","deadpan"]
+  },
+  {
+    "name": "face-slightly-frowning",
+    "categories": ["emoji","account"],
+    "tags": ["emoji","bad","sadness","emotion","concern","disappointment"]
+  },
+  {
+    "name": "face-slightly-smiling-plus",
+    "categories": ["emoji","social","notifications","communication"],
+    "tags": ["smile","happy","good","react","reaction","emoji","add","emotion"]
+  },
+  {
+    "name": "face-slightly-smiling",
+    "categories": ["emoji","account"],
+    "tags": ["smile","happy","happiness","good","positive","friendly","patronizing","passive aggressive","ironic","emoji","emotion"]
+  },
+  {
     "name": "factory",
     "categories": ["buildings","navigation"],
     "tags": ["building","business","energy","industry","manufacture","sector"]
@@ -3592,11 +3622,6 @@ export const iconsData: Array<{
     "name": "frame",
     "categories": ["design","photography"],
     "tags": ["logo","design","tool"]
-  },
-  {
-    "name": "frown",
-    "categories": ["emoji","account"],
-    "tags": ["emoji","face","bad","sad","emotion"]
   },
   {
     "name": "fuel",
@@ -4389,14 +4414,29 @@ export const iconsData: Array<{
     "tags": ["select","cursor"]
   },
   {
-    "name": "laugh",
-    "categories": ["emoji"],
-    "tags": ["emoji","face","happy","good","emotion"]
+    "name": "layer-arrow-down",
+    "categories": ["design","layout"],
+    "tags": ["move back","backward","lower","demote","step back","behind","reorder","arrange","layer","layers","stack","stacking","z-index","depth","graphics","design"]
+  },
+  {
+    "name": "layer-arrow-up",
+    "categories": ["design","layout"],
+    "tags": ["move forward","forward","raise","lift","promote","advance","step forward","reorder","arrange","stack","stacking","z-index","depth","graphics","design"]
   },
   {
     "name": "layers-2",
     "categories": ["design","layout"],
     "tags": ["stack","pile","pages","sheets","paperwork","copies","copy","duplicate","double","shortcuts"]
+  },
+  {
+    "name": "layers-arrow-down",
+    "categories": ["design","layout"],
+    "tags": ["send to back","send backward","back","background","bottom","bottommost","lower","demote","behind","reorder","arrange","stack","stacking","z-index","depth","graphics","design"]
+  },
+  {
+    "name": "layers-arrow-up",
+    "categories": ["design","layout","arrows"],
+    "tags": ["bring to front","bring forward","front","foreground","top","topmost","raise","lift","promote","reorder","arrange","stack","stacking","z-index","depth","graphics","design"]
   },
   {
     "name": "layers-minus",
@@ -4907,11 +4947,6 @@ export const iconsData: Array<{
     "name": "megaphone",
     "categories": ["multimedia","notifications"],
     "tags": ["advertisement","announcement","attention","alert","loudspeaker","megaphone","notification"]
-  },
-  {
-    "name": "meh",
-    "categories": ["emoji"],
-    "tags": ["emoji","face","neutral","emotion"]
   },
   {
     "name": "memory-stick",
@@ -6952,16 +6987,6 @@ export const iconsData: Array<{
     "name": "smartphone",
     "categories": ["connectivity","devices"],
     "tags": ["phone","cellphone","device","screen"]
-  },
-  {
-    "name": "smile-plus",
-    "categories": ["emoji","social","notifications","communication"],
-    "tags": ["emoji","face","happy","good","emotion","react","reaction","add"]
-  },
-  {
-    "name": "smile",
-    "categories": ["emoji","account"],
-    "tags": ["emoji","face","happy","good","emotion"]
   },
   {
     "name": "snail",
