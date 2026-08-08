@@ -214,6 +214,11 @@ export const iconsData: Array<{
     "tags": ["ship"]
   },
   {
+    "name": "angle",
+    "categories": ["math","design"],
+    "tags": ["angle","degree","corner","geometry","measure","math","rotate","vertex","slope","protractor","measurement","dimension","arc","drafting","cad"]
+  },
+  {
     "name": "antenna",
     "categories": ["devices","multimedia","communication"],
     "tags": ["signal","connection","connectivity","tv","television","broadcast","live","frequency","tune","scan","channels","aerial","receiver","transmission","transducer","terrestrial","satellite","cable"]
@@ -1217,6 +1222,16 @@ export const iconsData: Array<{
     "name": "broccoli",
     "categories": ["food-beverage"],
     "tags": ["leafy","crisp","fresh","culinary","vegetation","vegetable","food","healthy","vegan","vegetarian","nutrition","diet","plant","green","produce"]
+  },
+  {
+    "name": "broom-sparkles",
+    "categories": ["tools","home","gaming"],
+    "tags": ["broomstick","brush","sweep","sweeping","floor","cleaning","ai","magic","sparkle","smart","automation","housekeeping","chores","tidy","spotless","pristine","dust","debris","bristles","handle","janitor","maintenance","witch","halloween"]
+  },
+  {
+    "name": "broom",
+    "categories": ["tools","home","gaming"],
+    "tags": ["broomstick","brush","sweep","sweeping","floor","cleaning","housekeeping","chores","tidy","spotless","dust","debris","bristles","handle","janitor","maintenance","witch","halloween"]
   },
   {
     "name": "brush-cleaning",
@@ -4769,6 +4784,11 @@ export const iconsData: Array<{
     "tags": ["horseshoe","lock","science","snap"]
   },
   {
+    "name": "mail-badge",
+    "categories": ["mail","communication","security"],
+    "tags": ["email","message","letter","certified","registered","seal","stamp","verified","envelope","rosette","signed","official","delivery"]
+  },
+  {
     "name": "mail-check",
     "categories": ["mail"],
     "tags": ["email","message","letter","subscribe","delivered","success","read","done","todo","tick","complete","task"]
@@ -6787,6 +6807,11 @@ export const iconsData: Array<{
     "name": "shield-keyhole",
     "categories": ["account","security","development","files"],
     "tags": ["cybersecurity","secure","safety","protection","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","trooper","pawn"]
+  },
+  {
+    "name": "shield-lock",
+    "categories": ["security"],
+    "tags": ["antivirus","authentication","authorization","credentials","cybersecurity","data protection","defense","encryption","guard","login","password","privacy","safeguard","ssl","tls","two-factor authentication","verification","vpn"]
   },
   {
     "name": "shield-minus",
