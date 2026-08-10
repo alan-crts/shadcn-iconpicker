@@ -1464,6 +1464,11 @@ export const iconsData: Array<{
     "tags": ["closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
   },
   {
+    "name": "car-battery",
+    "categories": ["connectivity","transportation"],
+    "tags": ["battery","automobile","powercell","electric","power","electricity","energy","accumulator","charge","transport","vehicle","car"]
+  },
+  {
     "name": "car-front",
     "categories": ["transportation"],
     "tags": ["vehicle","drive","trip","journey"]
@@ -2897,6 +2902,11 @@ export const iconsData: Array<{
     "name": "egg",
     "categories": ["food-beverage","animals"],
     "tags": ["bird","chicken","nest","hatch","shell","incubate","soft boiled","hard","breakfast","brunch","morning","easter"]
+  },
+  {
+    "name": "eject",
+    "categories": ["devices","files","multimedia"],
+    "tags": ["disc","drive","dvd","blu-ray","cd","media","optical","optical drive","removable media","storage","tray","unmount","usb"]
   },
   {
     "name": "ellipse",
