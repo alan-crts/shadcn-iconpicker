@@ -504,6 +504,11 @@ export const iconsData: Array<{
     "tags": ["atomic","nuclear","physics","particle","element","molecule","electricity","energy","chemistry"]
   },
   {
+    "name": "audio-lines-off",
+    "categories": ["multimedia","communication"],
+    "tags": ["audio","sound","noise","mute","silence","off","disabled","inactive","listen","hearing","equalizer","equaliser","hertz","frequency","wavelength","vibrate","sine","waveform","synthesizer","synthesiser","levels","track","music","playback","radio","broadcast","airwaves","voice","vocals","singer","song"]
+  },
+  {
     "name": "audio-lines-x",
     "categories": ["multimedia","communication"],
     "tags": ["sound","noise","mute","silence","disabled","cancel","remove","unavailable","listen","hearing","equalizer","equaliser","hertz","frequency","wavelength","vibrate","sine","waveform","synthesizer","synthesiser","levels","track","music","playback","radio","broadcast","airwaves","voice","vocals","singer","song"]
@@ -4619,6 +4624,11 @@ export const iconsData: Array<{
     "tags": ["options","items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold","vertical"]
   },
   {
+    "name": "list-clock",
+    "categories": ["text","time","notifications"],
+    "tags": ["history","log","clock","time","recent","updated","revision","activity","timestamp","audit","list"]
+  },
+  {
     "name": "list-collapse",
     "categories": ["text"],
     "tags": ["items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold"]
@@ -5307,6 +5317,16 @@ export const iconsData: Array<{
     "name": "moon",
     "categories": ["accessibility"],
     "tags": ["dark","night"]
+  },
+  {
+    "name": "mop-sparkles",
+    "categories": ["home","tools","design"],
+    "tags": ["cleaning","scrubbing","sweeping","ai","magic","sparkle","smart","automation","housekeeping","hygiene","sanitation","chores","swab","tidy","floor","spotless","pristine","polish","sanitize","disinfect"]
+  },
+  {
+    "name": "mop",
+    "categories": ["home","tools"],
+    "tags": ["cleaning","sweeping","scrubbing","housekeeping","hygiene","sanitation","chores","swab","tidy","floor","janitor","maintenance","wash","wipe","spotless","pristine","disinfect"]
   },
   {
     "name": "mosque",
@@ -7304,6 +7324,11 @@ export const iconsData: Array<{
     "tags": ["selection","square","rectangular","marquee","tool","dashed","box"]
   },
   {
+    "name": "square-dimensions",
+    "categories": ["design","layout"],
+    "tags": ["ratio","size","width","height","resize","scale","frame","proportions","aspect","bounds","measurements","canvas"]
+  },
+  {
     "name": "square-divide",
     "categories": ["math"],
     "tags": ["calculate","math","÷","/"]
@@ -7467,6 +7492,11 @@ export const iconsData: Array<{
     "name": "square-terminal",
     "categories": ["development"],
     "tags": ["code","command line","prompt","shell"]
+  },
+  {
+    "name": "square-text",
+    "categories": ["text","shapes","development"],
+    "tags": ["text","paragraph","content","note","document","body","copy","article","square","container","block","card","placeholder","log","page","paper","sheet","list","script","code","editor"]
   },
   {
     "name": "square-user-round",
@@ -8297,6 +8327,11 @@ export const iconsData: Array<{
     "name": "upload",
     "categories": ["arrows","files"],
     "tags": ["file"]
+  },
+  {
+    "name": "usb-c-port",
+    "categories": ["devices","multimedia","home","gaming"],
+    "tags": ["universal","serial","bus","controller","connector","interface","socket","plug","slot","data","input","output"]
   },
   {
     "name": "usb",
