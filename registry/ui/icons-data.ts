@@ -5199,6 +5199,11 @@ export const iconsData: Array<{
     "tags": ["oven","cooker","toaster oven","bake"]
   },
   {
+    "name": "midi-port",
+    "categories": ["multimedia","connectivity","devices"],
+    "tags": ["musical instrument digital interface","port","connector","socket","jack","din","5-pin","audio","music","synthesizer","keyboard","controller","interface","input","output","io"]
+  },
+  {
     "name": "milestone",
     "categories": ["arrows","navigation","development","gaming"],
     "tags": ["signpost","direction","right","east","forward","version control","waypoint"]
