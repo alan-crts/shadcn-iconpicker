@@ -3679,6 +3679,11 @@ export const iconsData: Array<{
     "tags": ["filter","hopper"]
   },
   {
+    "name": "galaxy",
+    "categories": ["science"],
+    "tags": ["astronomy","space","stars","cosmos","universe","spiral","milky way","nebula","cosmology","interstellar","celestial","constellation","stargazing","spaceflight"]
+  },
+  {
     "name": "gallery-horizontal-end",
     "categories": ["layout","design","development","photography","multimedia","files"],
     "tags": ["carousel","pictures","images","scroll","swipe","album","portfolio","history","versions","backup","time machine"]
@@ -4812,6 +4817,11 @@ export const iconsData: Array<{
     "name": "mail-check",
     "categories": ["mail"],
     "tags": ["email","message","letter","subscribe","delivered","success","read","done","todo","tick","complete","task"]
+  },
+  {
+    "name": "mail-clock",
+    "categories": ["text","account","mail","time","notifications","communication"],
+    "tags": ["email","message","letter","unread","scheduled","delayed","sendlater","delivery","reminder","pending","outgoing","timer"]
   },
   {
     "name": "mail-minus",
@@ -6884,6 +6894,11 @@ export const iconsData: Array<{
     "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
   },
   {
+    "name": "ship-cargo",
+    "categories": ["transportation","navigation","travel"],
+    "tags": ["boat","knots","nautical mile","maritime","sailing","cruise","ocean liner","tanker","vessel","navy","cargo","container","freighter","freight","shipping","port","harbor","dock","logistics","import","export"]
+  },
+  {
     "name": "ship-wheel",
     "categories": ["transportation","navigation","travel"],
     "tags": ["steering","rudder","boat","knots","nautical mile","maritime","sailing","yacht","cruise","ocean liner","tanker","vessel","navy","trip"]
@@ -8117,6 +8132,11 @@ export const iconsData: Array<{
     "name": "traffic-cone",
     "categories": ["transportation"],
     "tags": ["roadworks","tarmac","safety","block"]
+  },
+  {
+    "name": "trailer",
+    "categories": ["transportation"],
+    "tags": ["tow","shipping","delivery","haulage","vehicle","equipment","freight"]
   },
   {
     "name": "train-front-tunnel",
