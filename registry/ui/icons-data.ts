@@ -486,7 +486,7 @@ export const iconsData: Array<{
   {
     "name": "asterisk",
     "categories": ["text","math","development"],
-    "tags": ["reference","times","multiply","multiplication","operator","code","glob pattern","wildcard","*"]
+    "tags": ["symbol","sterisk","mark","pointer","pencil","sign","alert","notification","indicator","symbolic","reference","times","multiply","multiplication","operator","code","glob pattern","wildcard","*"]
   },
   {
     "name": "astroid",
@@ -896,7 +896,7 @@ export const iconsData: Array<{
   {
     "name": "blend",
     "categories": ["design","photography","tools","development"],
-    "tags": ["mode","overlay","multiply","screen","opacity","transparency","alpha","filters","lenses","mixed","shades","tints","hues","saturation","brightness","overlap","colors","colours"]
+    "tags": ["mode","overlay","multiply","screen","opacity","transparency","alpha","filters","lenses","mixed","shades","tints","hues","saturation","brightness","overlap","colors","colours","marriage","rings","couple","connection"]
   },
   {
     "name": "blender",
@@ -1906,7 +1906,7 @@ export const iconsData: Array<{
   {
     "name": "circle-dot",
     "categories": ["development","shapes"],
-    "tags": ["pending","dot","progress","issue","code","coding","version control","choices","multiple choice","choose"]
+    "tags": ["pending","dot","progress","issue","code","coding","version control","choices","multiple choice","choose","album","music","songs","format","cd","dvd","vinyl","sleeve","cover","platinum","compilation","ep","recording","playback","spin","rotate","rpm","dj"]
   },
   {
     "name": "circle-ellipsis",
@@ -2931,7 +2931,7 @@ export const iconsData: Array<{
   {
     "name": "equal-approximately",
     "categories": ["math"],
-    "tags": ["about","calculate","math","operater"]
+    "tags": ["about","calculate","math","operator"]
   },
   {
     "name": "equal-not",
@@ -3746,7 +3746,7 @@ export const iconsData: Array<{
   {
     "name": "ghost",
     "categories": ["gaming"],
-    "tags": ["pac-man","spooky"]
+    "tags": ["spirit","haunt","specter","apparition","wraith","shade","phantom","entity","shadow","silhouette","pac-man","spooky","halloween","haunted","invisible","hidden","empty","dead","obsolete","outdated"]
   },
   {
     "name": "gift",
@@ -5024,6 +5024,11 @@ export const iconsData: Array<{
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","code review","coding"]
   },
   {
+    "name": "message-circle-dashed-check",
+    "categories": ["social","account"],
+    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","draft","pending","provisional","verification","confirmation","success","status","check","approval","moderate","resolved","done","complete"]
+  },
+  {
     "name": "message-circle-dashed",
     "categories": ["social"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","draft"]
@@ -6049,6 +6054,21 @@ export const iconsData: Array<{
     "tags": ["music","audio","video","start","run"]
   },
   {
+    "name": "playing-card",
+    "categories": ["gaming","development"],
+    "tags": ["deck","draw","deal","shuffle","chance","random","selection","tabletop","flashcard","study","learning","prompt","icebreaker","conversation","collectible","trading","poker","casino","game","gambling","suit"]
+  },
+  {
+    "name": "playing-cards-fan",
+    "categories": ["gaming","development","social"],
+    "tags": ["deck","fan","spread","hand","deal","dealt","draw","shuffle","tabletop","planning poker","scrum","agile","estimation","estimate","prompt","icebreaker","conversation","collectible","collection","trading","poker","casino","game","gambling","suit"]
+  },
+  {
+    "name": "playing-cards",
+    "categories": ["gaming","development"],
+    "tags": ["deck","stack","shuffle","deal","draw","hand","tabletop","planning poker","scrum","agile","estimation","estimate","flashcards","study","learning","collectible","collection","trading","poker","casino","game","gambling","suit"]
+  },
+  {
     "name": "plug-2",
     "categories": ["devices","development"],
     "tags": ["electricity","energy","socket","outlet"]
@@ -6407,6 +6427,16 @@ export const iconsData: Array<{
     "name": "road",
     "categories": ["transportation"],
     "tags": ["road","street","highway","route","path","transport","traffic","drive","map"]
+  },
+  {
+    "name": "robot-arm",
+    "categories": ["science","tools"],
+    "tags": ["mechanical","automation","factory","manufacture","technology","cyborg","industrial","hardware","machinery"]
+  },
+  {
+    "name": "robot-vacuum",
+    "categories": ["devices","home","tools"],
+    "tags": ["appliance","cleaning","household","housekeeping","tool","maintenance","smarthome","sweeping","hygiene","chores","automation","smart home","device","floor","dust","debris","navigation","sensor"]
   },
   {
     "name": "rocket",
@@ -7761,12 +7791,12 @@ export const iconsData: Array<{
   {
     "name": "sword",
     "categories": ["gaming","tools"],
-    "tags": ["battle","challenge","game","war","weapon"]
+    "tags": ["battle","challenge","combat","duel","fantasy","game","knight","melee","medieval","offense","rpg","sharp","weapon","war","warrior"]
   },
   {
     "name": "swords",
     "categories": ["gaming","tools"],
-    "tags": ["battle","challenge","game","war","weapon"]
+    "tags": ["battle","challenge","combat","conflict","crossed","duel","faction","fantasy","game","melee","medieval","opponent","rivalry","rpg","versus","weapon","war","warrior"]
   },
   {
     "name": "syringe",
