@@ -2549,6 +2549,26 @@ export const iconsData: Array<{
     "tags": ["licence","license"]
   },
   {
+    "name": "credit-card-check",
+    "categories": ["account","finance","shopping"],
+    "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","verified","approved","authorized","valid","success","complete","check","bank","cc"]
+  },
+  {
+    "name": "credit-card-minus",
+    "categories": ["account","finance","shopping"],
+    "tags": ["debit","payment","remove","delete","unlink","revoke","decline","canceled","banking","finance","wallet","transaction","billing","account","purchase","checkout","subtract","minus","bank","cc"]
+  },
+  {
+    "name": "credit-card-plus",
+    "categories": ["account","finance","shopping"],
+    "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","add","new","link","save","method","plastic","bank","cc"]
+  },
+  {
+    "name": "credit-card-x",
+    "categories": ["account","finance","shopping"],
+    "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","declined","rejected","failed","invalid","canceled","error","cancel","bank","cc"]
+  },
+  {
     "name": "credit-card",
     "categories": ["account","finance"],
     "tags": ["bank","purchase","payment","cc"]
