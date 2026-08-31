@@ -8564,6 +8564,11 @@ export const iconsData: Array<{
     "tags": ["safe","lockbox","deposit","locker","coffer","strongbox","safety","secure","storage","valuables","bank"]
   },
   {
+    "name": "vector-polygon",
+    "categories": ["design","math","shapes"],
+    "tags": ["map","vector","geometry","coordinates","shape","location","boundary","area","region","gis","geospatial","vertices","points","outline","drawing","design","math"]
+  },
+  {
     "name": "vector-square",
     "categories": ["shapes","math","design","tools"],
     "tags": ["shape","geometry","art","width","height","size","calculate","measure","select","graphics","box"]
