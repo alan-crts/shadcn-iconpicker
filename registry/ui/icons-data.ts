@@ -5281,72 +5281,72 @@ export const iconsData: Array<{
   {
     "name": "monitor-check",
     "categories": ["connectivity","devices"],
-    "tags": ["tv","screen","display","desktop","running","active","virtual machine","vm"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","connected","success","verified","running","active","virtual machine","vm"]
   },
   {
     "name": "monitor-cloud",
     "categories": ["connectivity","devices","development"],
-    "tags": ["virtual machine","virtual desktop","vm","vdi","computing","remote work","monitoring","infrastructure","software as a service","saas","workstation","environment","tv","screen","display"]
+    "tags": ["tv","computer","screen","display","desktop","external display","virtual machine","virtual desktop","vm","vdi","computing","remote work","monitoring","infrastructure","software as a service","saas","workstation","environment"]
   },
   {
     "name": "monitor-cog",
     "categories": ["connectivity","devices"],
-    "tags": ["tv","screen","display","virtual machine","vm","executable","settings","cog","edit","gear","configuration","preferences","system","control panel","network","computing"]
+    "tags": ["tv","computer","screen","display","desktop","external display","virtual machine","vm","executable","settings","edit","gear","configuration","preferences","system","control panel","network","computing"]
   },
   {
     "name": "monitor-dot",
     "categories": ["connectivity","devices"],
-    "tags": ["tv","screen","display","desktop","running","active","virtual machine","vm"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","status","notification","indicator","running","active","virtual machine","vm"]
   },
   {
     "name": "monitor-down",
     "categories": ["connectivity","devices"],
-    "tags": ["tv","screen","display","desktop","download"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","download","remote","cast"]
   },
   {
     "name": "monitor-off",
     "categories": ["connectivity","devices"],
-    "tags": ["share"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","offline","disabled","disconnected","power"]
   },
   {
     "name": "monitor-pause",
     "categories": ["connectivity","devices","multimedia"],
-    "tags": ["tv","screen","display","desktop","video","movie","film","suspend","hibernate","boot","virtual machine","vm"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","pause","suspend","hibernate","boot","virtual machine","vm"]
   },
   {
     "name": "monitor-play",
     "categories": ["connectivity","devices","multimedia"],
-    "tags": ["tv","screen","display","desktop","video","movie","film","running","start","boot","virtual machine","vm"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","play","running","start","boot","virtual machine","vm"]
   },
   {
     "name": "monitor-smartphone",
     "categories": ["connectivity","devices"],
-    "tags": ["smartphone","phone","cellphone","device","mobile","desktop","monitor","responsive","screens"]
+    "tags": ["phone","cellphone","device","mobile","desktop","screen","display","external display","screen sharing","responsive","screens","sync","cast"]
   },
   {
     "name": "monitor-speaker",
     "categories": ["connectivity","devices"],
-    "tags": ["devices","connect","cast"]
+    "tags": ["tv","computer","screen","display","desktop","external display","connect","cast","audio","sound","volume","presentation"]
   },
   {
     "name": "monitor-stop",
     "categories": ["connectivity","devices","multimedia"],
-    "tags": ["tv","screen","display","desktop","video","movie","film","stop","shutdown","virtual machine","vm"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","stop","shutdown","virtual machine","vm"]
   },
   {
     "name": "monitor-up",
     "categories": ["connectivity","devices"],
-    "tags": ["tv","screen","display","upload","connect","remote","screen share"]
+    "tags": ["tv","computer","screen","display","desktop","external display","upload","connect","remote","screen sharing","cast"]
   },
   {
     "name": "monitor-x",
     "categories": ["connectivity","devices"],
-    "tags": ["tv","screen","display","desktop","virtual machine","vm","close","stop","suspend","remove","delete"]
+    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","virtual machine","vm","close","error","failed","disconnected","stop","suspend","remove","delete"]
   },
   {
     "name": "monitor",
     "categories": ["connectivity","devices"],
-    "tags": ["tv","screen","display","virtual machine","vm"]
+    "tags": ["tv","computer","desktop","screen","display","external display","screen sharing","virtual machine","vm"]
   },
   {
     "name": "moon-star",
@@ -7111,7 +7111,7 @@ export const iconsData: Array<{
   {
     "name": "smartphone",
     "categories": ["connectivity","devices"],
-    "tags": ["phone","cellphone","device","screen"]
+    "tags": ["phone","cellphone","device","mobile","screen","display","touchscreen","portable","responsive"]
   },
   {
     "name": "snail",
@@ -7866,12 +7866,12 @@ export const iconsData: Array<{
   {
     "name": "tablet-smartphone",
     "categories": ["devices","design","development","tools"],
-    "tags": ["responsive","screens","browser","testing","mobile"]
+    "tags": ["phone","cellphone","device","mobile","screen","display","touchscreen","portable","responsive","screens","browser","testing"]
   },
   {
     "name": "tablet",
     "categories": ["devices"],
-    "tags": ["device"]
+    "tags": ["device","mobile","screen","display","touchscreen","portable","responsive"]
   },
   {
     "name": "tablets",
