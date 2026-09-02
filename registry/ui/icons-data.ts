@@ -1199,6 +1199,11 @@ export const iconsData: Array<{
     "tags": ["bricks","mortar","cement","materials","construction","builder","labourer","quantity surveyor","blocks","stone"]
   },
   {
+    "name": "bridge",
+    "categories": ["travel","transportation","buildings"],
+    "tags": ["overpass","cross over","traverse","viaduct","suspension","infrastructure","transportation","crossing","road","river","gate","golden","travel","landmark","route","maritime","clearance"]
+  },
+  {
     "name": "briefcase-business",
     "categories": ["transportation"],
     "tags": ["work","bag","baggage","folder","portfolio"]
@@ -1432,6 +1437,11 @@ export const iconsData: Array<{
     "name": "camera",
     "categories": ["photography","devices","communication"],
     "tags": ["photography","lens","focus","capture","shot","visual","image","device","equipment","photo","webcam","video"]
+  },
+  {
+    "name": "can",
+    "categories": ["food-beverage"],
+    "tags": ["food","storage","groceries","tin","metal","recyclable","container","pantry","grocery","preserved"]
   },
   {
     "name": "candy-cane",
@@ -4854,6 +4864,11 @@ export const iconsData: Array<{
     "tags": ["email","message","letter","read"]
   },
   {
+    "name": "mail-pen",
+    "categories": ["mail"],
+    "tags": ["email","message","letter","pen","edit","compose","draft","write","writing","create","reply"]
+  },
+  {
     "name": "mail-plus",
     "categories": ["mail"],
     "tags": ["email","message","letter","add","create","new","compose"]
@@ -6974,6 +6989,16 @@ export const iconsData: Array<{
     "tags": ["cart","e-commerce","store","purchase","products","items","ingredients"]
   },
   {
+    "name": "shopping-cart-minus",
+    "categories": ["shopping"],
+    "tags": ["trolley","cart","basket","e-commerce","ecommerce","store","purchase","products","items","checkout","order","retail","remove","decrease","quantity","subtract"]
+  },
+  {
+    "name": "shopping-cart-plus",
+    "categories": ["shopping"],
+    "tags": ["trolley","cart","basket","e-commerce","ecommerce","store","purchase","products","items","checkout","order","retail","add","increase","quantity","buy"]
+  },
+  {
     "name": "shopping-cart",
     "categories": ["shopping"],
     "tags": ["trolley","cart","basket","e-commerce","store","purchase","products","items","ingredients"]
@@ -6994,9 +7019,14 @@ export const iconsData: Array<{
     "tags": ["file","paper","tear","cut","delete","destroy","remove","erase","document","destruction","secure","security","confidential","data","trash","dispose","disposal","information","waste","permanent"]
   },
   {
+    "name": "shrimp-off",
+    "categories": ["animals","food-beverage"],
+    "tags": ["marine","creature","fisherman","ocean","fresh","cuisine","marine-life","seafood","shellfish","crustacean","prawn","scallop","whelk","arthropod","littleneck","quahog","allergy","intolerance","diet"]
+  },
+  {
     "name": "shrimp",
-    "categories": ["animals"],
-    "tags": ["seafood","shellfish","crustacean","prawn","scallop","whelk","arthropod","littleneck","quahog","cherrystone"]
+    "categories": ["animals","food-beverage"],
+    "tags": ["seafood","shellfish","crustacean","prawn","scallop","whelk","arthropod","littleneck","quahog","marine","creature","fisherman","ocean","fresh","cuisine","marine-life"]
   },
   {
     "name": "shrink",
@@ -8777,6 +8807,11 @@ export const iconsData: Array<{
     "name": "wheat",
     "categories": ["food-beverage"],
     "tags": ["corn","cereal","grain","gluten"]
+  },
+  {
+    "name": "whistle",
+    "categories": ["sports","notifications"],
+    "tags": ["alert","signal","sound","blow","noise","coach","trainer","referee","gym","game","training","sports","traffic cops","police","lifeguard","safety","rescue","emergency"]
   },
   {
     "name": "whole-word",
