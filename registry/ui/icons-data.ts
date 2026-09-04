@@ -1439,6 +1439,11 @@ export const iconsData: Array<{
     "tags": ["photography","lens","focus","capture","shot","visual","image","device","equipment","photo","webcam","video"]
   },
   {
+    "name": "can-soda",
+    "categories": ["food-beverage"],
+    "tags": ["beverage","drink","food","soda","tin","beer","alcohol","waste"]
+  },
+  {
     "name": "can",
     "categories": ["food-beverage"],
     "tags": ["food","storage","groceries","tin","metal","recyclable","container","pantry","grocery","preserved"]
@@ -2574,6 +2579,11 @@ export const iconsData: Array<{
     "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","add","new","link","save","method","plastic","bank","cc"]
   },
   {
+    "name": "credit-card-reader",
+    "categories": ["finance","navigation","shopping"],
+    "tags": ["bank","purchase","payment","cc","atm","terminal","checkout","kiosk","pos","point of sale","transaction","contactless","chip","swipe","tap","banking","finance","retail"]
+  },
+  {
     "name": "credit-card-x",
     "categories": ["account","finance","shopping"],
     "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","declined","rejected","failed","invalid","canceled","error","cancel","bank","cc"]
@@ -2839,6 +2849,11 @@ export const iconsData: Array<{
     "tags": ["entrance","entry","exit","ingress","egress","gate","gateway","emergency exit"]
   },
   {
+    "name": "door-stairwell",
+    "categories": ["home","travel"],
+    "tags": ["staircase","stairway","stairs","steps","ladder","transition","access","structure","espiral","building","vertical","movement","floor","level","entrance","entry","exit","egress","route","indoor","emergency exit"]
+  },
+  {
     "name": "dot",
     "categories": ["shapes","text"],
     "tags": ["interpunct","interpoint","middot","step","punctuation","period","full stop","end","finish","final","characters","font","typography","type","center","."]
@@ -2957,6 +2972,11 @@ export const iconsData: Array<{
     "name": "ellipsis",
     "categories": ["layout","development"],
     "tags": ["et cetera","etc","loader","loading","progress","pending","throbber","menu","options","operator","code","coding","spread","rest","more","further","extra","overflow","dots","…","..."]
+  },
+  {
+    "name": "engine",
+    "categories": ["transportation"],
+    "tags": ["vehicle","power","energy","drive","repair","car","motor","mechanical","diagnostics","maintenance","warning","dashboard","parts"]
   },
   {
     "name": "equal-approximately",
@@ -3772,6 +3792,16 @@ export const iconsData: Array<{
     "name": "georgian-lari",
     "categories": ["finance"],
     "tags": ["currency","money","payment"]
+  },
+  {
+    "name": "germ-off",
+    "categories": ["medical","science","security"],
+    "tags": ["virus","microbe","bacterium","bacteria","germ","organism","cilia","pathogen","infection","disease","contagion","contamination","microbiology","health","medicine","biology","science","microorganism","pandemic","epidemic","outbreak","amoeba","flu","security","single cell","unicellular","vaccine","immunity","quarantine"]
+  },
+  {
+    "name": "germ",
+    "categories": ["medical","science","security"],
+    "tags": ["virus","microbe","bacterium","bacteria","germ","organism","cilia","pathogen","infection","disease","contagion","contamination","microbiology","health","medicine","biology","science","microorganism","pandemic","epidemic","outbreak","amoeba","flu","security","single cell","unicellular","vaccine","immunity","quarantine"]
   },
   {
     "name": "ghost",
@@ -4607,6 +4637,11 @@ export const iconsData: Array<{
     "name": "lightbulb",
     "categories": ["photography"],
     "tags": ["idea","bright","lights"]
+  },
+  {
+    "name": "lighthouse",
+    "categories": ["buildings","navigation","travel"],
+    "tags": ["lighthouse","beacon","coast","navigation","tower","sea","ocean","maritime","guide","safety","light","shine","port","marine","faro","signal","nautical","harbor","shore","lightbeam","wayfinding","guidance","onboarding","help","landmark"]
   },
   {
     "name": "line-dot-right-horizontal",
@@ -7444,6 +7479,11 @@ export const iconsData: Array<{
     "tags": ["calculate","="]
   },
   {
+    "name": "square-exclamation-point",
+    "categories": ["notifications","shapes"],
+    "tags": ["warning","alert","danger","exclamation mark","rectangle","square","notification","attention","important","caution"]
+  },
+  {
     "name": "square-function",
     "categories": ["development","math"],
     "tags": ["programming","code","automation","math"]
@@ -8652,6 +8692,16 @@ export const iconsData: Array<{
     "name": "view",
     "categories": ["design","photography"],
     "tags": ["eye","look"]
+  },
+  {
+    "name": "virus-off",
+    "categories": ["medical","science","security"],
+    "tags": ["pathogen","infection","disease","illness","contagion","outbreak","pandemic","epidemic","covid","coronavirus","germ","microbe","microorganism","biology","medical","healthcare","malware","cybersecurity","threat","antivirus","blocked","removed","clean","safe","prevention","quarantine"]
+  },
+  {
+    "name": "virus",
+    "categories": ["medical","science","security"],
+    "tags": ["pathogen","infection","disease","illness","contagion","outbreak","pandemic","epidemic","covid","coronavirus","germ","microbe","microorganism","biology","medical","healthcare","malware","cybersecurity","threat"]
   },
   {
     "name": "voicemail",
