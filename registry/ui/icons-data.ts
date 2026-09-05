@@ -1899,6 +1899,11 @@ export const iconsData: Array<{
     "tags": ["caret","ahead","menu","^"]
   },
   {
+    "name": "circle-dashed-check",
+    "categories": ["shapes","development","notifications"],
+    "tags": ["approved","pending","changes","revision","reapproval","published","schedule","assignment","request","review","progress","issue","draft","code","coding","version control"]
+  },
+  {
     "name": "circle-dashed",
     "categories": ["development","shapes"],
     "tags": ["pending","dot","progress","issue","draft","code","coding","version control"]
@@ -2829,6 +2834,11 @@ export const iconsData: Array<{
     "tags": ["currency","money","payment"]
   },
   {
+    "name": "dome",
+    "categories": ["buildings","navigation","travel"],
+    "tags": ["roof","cupola","rotunda","shelter","building","architecture","structure","church","christian","orthodox","byzantine","cathedral","basilica","chapel","monument","landmark","museum","observatory","heritage"]
+  },
+  {
     "name": "donut",
     "categories": ["food-beverage"],
     "tags": ["doughnut","sprinkles","topping","fast food","junk food","snack","treat","sweet","sugar","dessert","hollow","ring"]
@@ -2977,6 +2987,11 @@ export const iconsData: Array<{
     "name": "engine",
     "categories": ["transportation"],
     "tags": ["vehicle","power","energy","drive","repair","car","motor","mechanical","diagnostics","maintenance","warning","dashboard","parts"]
+  },
+  {
+    "name": "equal-approximately-not",
+    "categories": ["math","development","charts","science"],
+    "tags": ["calculate","math","operator","not","approximately","unequal","code","≇","tolerance","threshold","mismatch","comparison","assertion","variance"]
   },
   {
     "name": "equal-approximately",
@@ -3772,6 +3787,16 @@ export const iconsData: Array<{
     "name": "gamepad",
     "categories": ["gaming","devices"],
     "tags": ["console"]
+  },
+  {
+    "name": "gap-horizontal",
+    "categories": ["design","layout"],
+    "tags": ["gap","spacing","space","between","padding","margin","horizontal","auto layout","layout","distance","frame","distribute"]
+  },
+  {
+    "name": "gap-vertical",
+    "categories": ["design","layout"],
+    "tags": ["gap","spacing","space","between","padding","margin","vertical","auto layout","layout","distance","frame","distribute"]
   },
   {
     "name": "gauge",
@@ -8284,9 +8309,9 @@ export const iconsData: Array<{
     "tags": ["gender","inclusive"]
   },
   {
-    "name": "trash-2",
+    "name": "trash-off",
     "categories": ["files","mail"],
-    "tags": ["garbage","delete","remove","bin"]
+    "tags": ["empty","deletion","cleanup","junk","clear","garbage","delete","remove","bin","trash","waste","recycle","discard","rubbish","disabled","off","prevent","locked","unavailable","protected"]
   },
   {
     "name": "trash",
