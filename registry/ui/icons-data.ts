@@ -8144,6 +8144,11 @@ export const iconsData: Array<{
     "tags": ["like","good","emotion"]
   },
   {
+    "name": "tic-tac-toe",
+    "categories": ["gaming"],
+    "tags": ["game","board","grid","strategy","noughts and crosses"]
+  },
+  {
     "name": "ticket-check",
     "categories": ["transportation"],
     "tags": ["entry","pass","voucher","event","concert","show","booked","purchased","receipt","redeemed","validated","verified","certified","checked","used"]
@@ -8519,6 +8524,11 @@ export const iconsData: Array<{
     "tags": ["settings","edit","cog","gear"]
   },
   {
+    "name": "user-group",
+    "categories": ["account","people","social"],
+    "tags": ["group","people","team","members","community","membership","collaboration","organization","contacts","directory","staff","family","ancestry","ancestors","lineage","parents"]
+  },
+  {
     "name": "user-key",
     "categories": ["account"],
     "tags": ["passkey","password","login","authentication","authorization","roles","permissions","private","public","security","person","account","contact"]
@@ -8557,6 +8567,11 @@ export const iconsData: Array<{
     "name": "user-round-cog",
     "categories": ["account"],
     "tags": ["settings","edit","cog","gear"]
+  },
+  {
+    "name": "user-round-group",
+    "categories": ["account","people","social"],
+    "tags": ["group","people","team","members","community","membership","collaboration","organization","contacts","directory","staff","family","ancestry","ancestors","lineage","parents"]
   },
   {
     "name": "user-round-key",
