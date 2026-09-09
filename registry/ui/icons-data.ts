@@ -1519,6 +1519,16 @@ export const iconsData: Array<{
     "tags": ["orange","healthy","nature","fresh","root","produce","organic","nutrition","vegetable","food","eat"]
   },
   {
+    "name": "carton-off",
+    "categories": ["food-beverage"],
+    "tags": ["milk","dairy","beverage","drink","diet","lactose free","non dairy","liquid","liter","litre","pint","pints","pasteurized","skim","skimmed","container","packaging","allergy","intolerance","vegan","unavailable"]
+  },
+  {
+    "name": "carton",
+    "categories": ["food-beverage"],
+    "tags": ["milk","dairy","beverage","drink","diet","lactose","liquid","liter","litre","pint","pints","pasteurized","skim","skimmed","container","packaging","grocery","juice","cream","cow"]
+  },
+  {
     "name": "case-lower",
     "categories": ["text","development"],
     "tags": ["text","letters","characters","font","typography"]
