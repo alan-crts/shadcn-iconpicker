@@ -3509,16 +3509,6 @@ export const iconsData: Array<{
     "tags": ["beaker","lab","chemistry","experiment","test"]
   },
   {
-    "name": "flip-horizontal-2",
-    "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
-  },
-  {
-    "name": "flip-vertical-2",
-    "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
-  },
-  {
     "name": "flower-2",
     "categories": ["nature","sustainability","seasons"],
     "tags": ["sustainability","nature","plant"]
@@ -6671,7 +6661,7 @@ export const iconsData: Array<{
   {
     "name": "satellite-dish",
     "categories": ["connectivity","devices","multimedia"],
-    "tags": ["antenna","receiver","dish aerial","saucer"]
+    "tags": ["antenna","receiver","dish aerial","saucer","communication","broadcast","signal"]
   },
   {
     "name": "satellite",
@@ -8387,6 +8377,16 @@ export const iconsData: Array<{
     "name": "triangle",
     "categories": ["shapes"],
     "tags": ["equilateral","delta","shape","pyramid","hierarchy"]
+  },
+  {
+    "name": "triangles-centerline-dashed-horizontal",
+    "categories": ["design","photography"],
+    "tags": ["reflect","mirror","alignment","dashed"]
+  },
+  {
+    "name": "triangles-centerline-dashed-vertical",
+    "categories": ["design","photography"],
+    "tags": ["reflect","mirror","alignment","dashed"]
   },
   {
     "name": "trophy",
