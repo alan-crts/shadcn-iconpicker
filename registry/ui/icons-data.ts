@@ -26,7 +26,7 @@ export const iconsData: Array<{
   {
     "name": "activity",
     "categories": ["medical","account","social","science","multimedia"],
-    "tags": ["pulse","action","motion","movement","exercise","fitness","healthcare","heart rate monitor","vital signs","vitals","emergency room","er","intensive care","hospital","defibrillator","earthquake","siesmic","magnitude","richter scale","aftershock","tremor","shockwave","audio","waveform","synthesizer","synthesiser","music"]
+    "tags": ["pulse","action","motion","movement","exercise","fitness","healthcare","heart rate monitor","vital signs","vitals","emergency room","er","intensive care","hospital","defibrillator","earthquake","seismic","magnitude","richter scale","aftershock","tremor","shockwave","audio","waveform","synthesizer","synthesiser","music"]
   },
   {
     "name": "ad",
@@ -72,11 +72,6 @@ export const iconsData: Array<{
     "name": "alarm-smoke",
     "categories": ["home","devices","travel"],
     "tags": ["fire","alert","warning","detector","carbon monoxide","safety","equipment","amenities"]
-  },
-  {
-    "name": "album",
-    "categories": ["photography","multimedia"],
-    "tags": ["photo","book"]
   },
   {
     "name": "align-center-horizontal",
@@ -974,6 +969,11 @@ export const iconsData: Array<{
     "tags": ["audiobook","reading","listening","sound","story","fiction","novel","information","knowledge","education","student","study","learning","research"]
   },
   {
+    "name": "book-bookmark",
+    "categories": ["text","development","gaming"],
+    "tags": ["dictionary","reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation","saved","later","future","reference","index","code","coding","version control","git","repository"]
+  },
+  {
     "name": "book-check",
     "categories": ["text","development","gaming"],
     "tags": ["read","booklet","magazine","leaflet","pamphlet","library","written","authored","published","informed","knowledgeable","educated","schooled","homework","examined","tested","marked","passed","graduated","studied","learned","lesson","researched","documented","revealed","blank","plain language","true","truth","verified","corrected","task","todo","done","completed","finished","ticked"]
@@ -1001,7 +1001,7 @@ export const iconsData: Array<{
   {
     "name": "book-heart",
     "categories": ["social","text","gaming"],
-    "tags": ["diary","romance","novel","journal","entry","entries","personal","private","secret","crush","like","love","emotion","feminine","girls","teens","teenager","therapy","theraputic","therapist","planner","organizer","organiser","notes","notepad","stationery","sketchbook","writing","written","reading","favorite","favourite","high school"]
+    "tags": ["diary","romance","novel","journal","entry","entries","personal","private","secret","crush","like","love","emotion","feminine","girls","teens","teenager","therapy","therapeutic","therapist","planner","organizer","organiser","notes","notepad","stationery","sketchbook","writing","written","reading","favorite","favourite","high school"]
   },
   {
     "name": "book-image",
@@ -1017,11 +1017,6 @@ export const iconsData: Array<{
     "name": "book-lock",
     "categories": ["development","security","gaming"],
     "tags": ["code","coding","version control","git","repository","private","secret","hidden","knowledge"]
-  },
-  {
-    "name": "book-marked",
-    "categories": ["text","development","gaming"],
-    "tags": ["dictionary","reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation","saved","later","future","reference","index","code","coding","version control","git","repository"]
   },
   {
     "name": "book-minus",
@@ -1274,7 +1269,12 @@ export const iconsData: Array<{
     "tags": ["issue","error","defect","testing","troubleshoot","problem","report","debug","code","insect","beetle"]
   },
   {
-    "name": "building-2",
+    "name": "building-complex-plus",
+    "categories": ["account","buildings"],
+    "tags": ["business","company","enterprise","skyscraper","organisation","organization","city","new","add","create","increase","office","headquarters","startup","registration","onboarding","realestate","property"]
+  },
+  {
+    "name": "building-complex",
     "categories": ["account","buildings"],
     "tags": ["business","company","enterprise","skyscraper","organisation","organization","city"]
   },
@@ -1342,6 +1342,11 @@ export const iconsData: Array<{
     "name": "calendar-check",
     "categories": ["time"],
     "tags": ["date","day","month","year","event","confirm","subscribe","schedule","done","todo","tick","complete","task"]
+  },
+  {
+    "name": "calendar-chevrons-right",
+    "categories": ["time","arrows","navigation"],
+    "tags": ["navigation","arrow","right","chevron","direction","symbol","pointer","indicator","next","menu","date","day","month","year","events","chevrons"]
   },
   {
     "name": "calendar-clock",
@@ -2481,7 +2486,7 @@ export const iconsData: Array<{
   {
     "name": "cookie",
     "categories": ["account","food-beverage"],
-    "tags": ["biscuit","privacy","legal","food"]
+    "tags": ["biscuit","snack","dessert","food","sweet","bakery","consent","privacy","legal","tracking","browser","website"]
   },
   {
     "name": "cooking-pot",
@@ -2871,7 +2876,7 @@ export const iconsData: Array<{
   {
     "name": "door-stairwell",
     "categories": ["home","travel"],
-    "tags": ["staircase","stairway","stairs","steps","ladder","transition","access","structure","espiral","building","vertical","movement","floor","level","entrance","entry","exit","egress","route","indoor","emergency exit"]
+    "tags": ["staircase","stairway","stairs","steps","ladder","transition","access","structure","spiral","building","vertical","movement","floor","level","entrance","entry","exit","egress","route","indoor","emergency exit"]
   },
   {
     "name": "dot",
@@ -3971,7 +3976,7 @@ export const iconsData: Array<{
   {
     "name": "graduation-cap",
     "categories": ["buildings"],
-    "tags": ["school","university","learn","study","mortarboard","education","ceremony","academic","hat","diploma","bachlor's","master's","doctorate"]
+    "tags": ["school","university","learn","study","mortarboard","education","ceremony","academic","hat","diploma","bachelor's","master's","doctorate"]
   },
   {
     "name": "grape",
@@ -4116,7 +4121,7 @@ export const iconsData: Array<{
   {
     "name": "hard-hat",
     "categories": ["tools"],
-    "tags": ["helmet","construction","safety","savety"]
+    "tags": ["helmet","construction","safety"]
   },
   {
     "name": "hash",
@@ -4274,6 +4279,11 @@ export const iconsData: Array<{
     "tags": ["building","hostel","motel","inn"]
   },
   {
+    "name": "hourglass-cog",
+    "categories": ["time","tools"],
+    "tags": ["timer","time","sandglass","duration","settings","gear","cog","edit","configuration","countdown","timeout","expiration"]
+  },
+  {
     "name": "hourglass",
     "categories": ["time","gaming"],
     "tags": ["timer","time","sandglass"]
@@ -4302,6 +4312,11 @@ export const iconsData: Array<{
     "name": "house",
     "categories": ["buildings","home","navigation"],
     "tags": ["home","living","building","residence","architecture"]
+  },
+  {
+    "name": "houses",
+    "categories": ["buildings","home"],
+    "tags": ["homes","housing","estate","living","buildings","development","residences","residential","village","neighbourhood","accommodation","community","dwellings","architecture"]
   },
   {
     "name": "ice-cream-bowl",
@@ -4412,6 +4427,11 @@ export const iconsData: Array<{
     "name": "iteration-cw",
     "categories": ["arrows","design"],
     "tags": ["arrow","left"]
+  },
+  {
+    "name": "iv-bag",
+    "categories": ["medical"],
+    "tags": ["intravenous","therapy","infusion","medicine","medication","treatment","healthcare","hydration","vitamin","supplement","blood","donation","chemotherapy","clinic","feeding tube","administration","health","regeneration"]
   },
   {
     "name": "japanese-yen",
@@ -4572,6 +4592,16 @@ export const iconsData: Array<{
     "name": "layers",
     "categories": ["design","layout"],
     "tags": ["stack","pile","pages","sheets","paperwork","copies","copy"]
+  },
+  {
+    "name": "layout-arrow-down",
+    "categories": ["design","layout"],
+    "tags": ["layout","direction","flex","flexbox","flex-direction","column","auto layout","vertical","arrange","order","flow","stack"]
+  },
+  {
+    "name": "layout-arrow-right",
+    "categories": ["design","layout"],
+    "tags": ["layout","direction","flex","flexbox","flex-direction","row","auto layout","horizontal","arrange","order","flow","stack"]
   },
   {
     "name": "layout-dashboard",
@@ -5259,6 +5289,11 @@ export const iconsData: Array<{
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble"]
   },
   {
+    "name": "messages-circle",
+    "categories": ["social","communication","notifications"],
+    "tags": ["comment","chat","conversation","dialog","feedback","speech bubbles","copy","multiple","discussion","interview","debate","group","groupchat","threads","unread","bubble","messaging"]
+  },
+  {
     "name": "messages-square",
     "categories": ["social"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubbles","copy","multiple","discussion","interview","debate"]
@@ -5509,6 +5544,16 @@ export const iconsData: Array<{
     "tags": ["device","scroll","click"]
   },
   {
+    "name": "mouth-off",
+    "categories": ["medical","accessibility","communication"],
+    "tags": ["speech","voice","talk","mute","silence","speechless","taste loss","flavor loss","ageusia","tasteless","gustatory","oral","dental","communication","accessibility"]
+  },
+  {
+    "name": "mouth",
+    "categories": ["medical","accessibility","communication"],
+    "tags": ["speech","voice","talk","speaking","taste","tasting","flavor","palate","tongue","gustatory","oral","dental","expression","communication","accessibility"]
+  },
+  {
     "name": "move-3d",
     "categories": ["design"],
     "tags": ["arrows","axis","gizmo","coordinates","transform","translate"]
@@ -5637,6 +5682,11 @@ export const iconsData: Array<{
     "name": "non-binary",
     "categories": ["medical"],
     "tags": ["gender","nonbinary","enby"]
+  },
+  {
+    "name": "notebook-dot",
+    "categories": ["communication"],
+    "tags": ["document","file","journal","page","paper","record","entry","notebook","notification","unread","note"]
   },
   {
     "name": "notebook-pen",
@@ -5919,6 +5969,11 @@ export const iconsData: Array<{
     "tags": ["code","token","parenthesis","parens","brackets","parameters","arguments","args","input","call","math","formula","function","(",")"]
   },
   {
+    "name": "park",
+    "categories": ["nature","navigation","travel"],
+    "tags": ["nature","green","trees","landscape","rest","walk","leisure","environment","tree","bench","outdoors","recreation"]
+  },
+  {
     "name": "parking-meter",
     "categories": ["transportation","navigation"],
     "tags": ["driving","car park","pay","sidewalk","pavement"]
@@ -6137,6 +6192,11 @@ export const iconsData: Array<{
     "name": "plane",
     "categories": ["transportation","travel","navigation"],
     "tags": ["plane","trip","airplane"]
+  },
+  {
+    "name": "plant-pot",
+    "categories": ["home","nature"],
+    "tags": ["plant","leaf","nature","pot","houseplant","gardening","planter","decor","indoor"]
   },
   {
     "name": "play-off",
@@ -6941,12 +7001,12 @@ export const iconsData: Array<{
   {
     "name": "shield-alert",
     "categories": ["account","security","development","notifications","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","comprimised","data leak","audited","admin","verification","unverified","uncertified","warning","emergency","attention","urgent","alarm","crest","bravery","strength","tough","attacked","damaged","injured","hit","expired","disabled","inactive","error","exclamation mark","!"]
+    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","admin","verification","unverified","uncertified","warning","emergency","attention","urgent","alarm","crest","bravery","strength","tough","attacked","damaged","injured","hit","expired","disabled","inactive","error","exclamation mark","!"]
   },
   {
     "name": "shield-ban",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","comprimised","data leak","audited","admin","verification","unverified","uncertified","cancel","error","crest","bravery","attacked","damaged","injured","hit","expired","eliminated","disabled","inactive","/"]
+    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","admin","verification","unverified","uncertified","cancel","error","crest","bravery","attacked","damaged","injured","hit","expired","eliminated","disabled","inactive","/"]
   },
   {
     "name": "shield-check",
@@ -6991,7 +7051,7 @@ export const iconsData: Array<{
   {
     "name": "shield-off",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","interception","threat","prevention","unprevented","antivirus","detection","undetected","exploit","vulnerability","vulnerable","weakness","infected","infection","comprimised","data leak","unaudited","admin","verification","unverified","inactive","cancelled","error","crest","bravery","damaged","injured","hit","expired","eliminated"]
+    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","interception","threat","prevention","unprevented","antivirus","detection","undetected","exploit","vulnerability","vulnerable","weakness","infected","infection","compromised","data leak","unaudited","admin","verification","unverified","inactive","cancelled","error","crest","bravery","damaged","injured","hit","expired","eliminated"]
   },
   {
     "name": "shield-plus",
@@ -7001,7 +7061,7 @@ export const iconsData: Array<{
   {
     "name": "shield-question-mark",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","undetected","scan","find","exploit","vulnerability","vulnerable","weakness","infection","comprimised","data leak","audit","admin","verification","unverified","uncertified","uncertain","unknown","inactive","crest","question mark","?"]
+    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","undetected","scan","find","exploit","vulnerability","vulnerable","weakness","infection","compromised","data leak","audit","admin","verification","unverified","uncertified","uncertain","unknown","inactive","crest","question mark","?"]
   },
   {
     "name": "shield-user",
@@ -7011,7 +7071,7 @@ export const iconsData: Array<{
   {
     "name": "shield-x",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","prevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","comprimised","data leak","audited","admin","verification","unverified","inactive","cancel","error","wrong","false","crest","bravery","attacked","damaged","injured","hit","dead","deceased","expired","eliminated","exterminated"]
+    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","prevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","admin","verification","unverified","inactive","cancel","error","wrong","false","crest","bravery","attacked","damaged","injured","hit","dead","deceased","expired","eliminated","exterminated"]
   },
   {
     "name": "shield",
@@ -7316,7 +7376,7 @@ export const iconsData: Array<{
   {
     "name": "square-activity",
     "categories": ["medical","social","science","multimedia"],
-    "tags": ["pulse","action","motion","movement","exercise","fitness","healthcare","heart rate monitor","vital signs","vitals","emergency room","er","intensive care","hospital","defibrillator","earthquake","siesmic","magnitude","richter scale","aftershock","tremor","shockwave","audio","waveform","synthesizer","synthesiser","music"]
+    "tags": ["pulse","action","motion","movement","exercise","fitness","healthcare","heart rate monitor","vital signs","vitals","emergency room","er","intensive care","hospital","defibrillator","earthquake","seismic","magnitude","richter scale","aftershock","tremor","shockwave","audio","waveform","synthesizer","synthesiser","music"]
   },
   {
     "name": "square-arrow-down-left",
@@ -7392,6 +7452,11 @@ export const iconsData: Array<{
     "name": "square-asterisk",
     "categories": ["text","security","math","development"],
     "tags": ["password","secret","access","key","multiply","multiplication","glob pattern","wildcard","*"]
+  },
+  {
+    "name": "square-bookmark",
+    "categories": ["photography","multimedia"],
+    "tags": ["photo","book"]
   },
   {
     "name": "square-bottom-dashed-scissors",
@@ -8237,6 +8302,16 @@ export const iconsData: Array<{
     "name": "toolbox",
     "categories": ["tools","home"],
     "tags": ["toolkit","tools","trunk","chest","box","storage","utility","utilities","container","kit","set","repair","fix","service","maintenance","mechanic","workshop","construction","hardware","equipment","gear","handyman","engineering","craft","diy"]
+  },
+  {
+    "name": "toothbrush-sparkles",
+    "categories": ["home","tools","medical","travel"],
+    "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","selfcare","grooming","fresh","clean"]
+  },
+  {
+    "name": "toothbrush",
+    "categories": ["home","travel","tools","medical"],
+    "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","selfcare","grooming"]
   },
   {
     "name": "tornado",
