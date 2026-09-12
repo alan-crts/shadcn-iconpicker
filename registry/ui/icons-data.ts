@@ -2094,6 +2094,21 @@ export const iconsData: Array<{
     "tags": ["movie","film","video","camera","cinema","cut","action","television","tv","show","entertainment"]
   },
   {
+    "name": "clef-alto",
+    "categories": ["multimedia"],
+    "tags": ["do","c","music","note","key","soprano","mezzo","alto","staff","pitch","baritone","major","scale"]
+  },
+  {
+    "name": "clef-bass",
+    "categories": ["multimedia"],
+    "tags": ["fa","f","music","note","key","baritone","staff","pitch","bass","subbass","major","scale"]
+  },
+  {
+    "name": "clef-treble",
+    "categories": ["multimedia"],
+    "tags": ["sol","g","music","note","key","treble","staff","pitch","violin","solfege","major","scale"]
+  },
+  {
     "name": "clipboard-check",
     "categories": ["text"],
     "tags": ["copied","pasted","done","todo","tick","complete","task"]
@@ -3942,6 +3957,11 @@ export const iconsData: Array<{
     "name": "globe-check",
     "categories": ["navigation"],
     "tags": ["world","browser","language","translate","internet","web","check","verified","success","valid","available","online","status"]
+  },
+  {
+    "name": "globe-code",
+    "categories": ["navigation","development"],
+    "tags": ["website","internet","globe","connection","network","digital","access","global","link","world","browser","language","translate"]
   },
   {
     "name": "globe-lock",
