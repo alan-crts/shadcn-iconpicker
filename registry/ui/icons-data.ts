@@ -2664,6 +2664,11 @@ export const iconsData: Array<{
     "tags": ["beverage","cup","drink","soda","straw","water"]
   },
   {
+    "name": "cupcake",
+    "categories": ["food-beverage"],
+    "tags": ["cake","dessert","food","celebration","sweet","baking","cooking"]
+  },
+  {
     "name": "currency",
     "categories": ["finance"],
     "tags": ["finance","money"]
@@ -2877,6 +2882,11 @@ export const iconsData: Array<{
     "name": "door-closed-locked",
     "categories": ["home","travel","security"],
     "tags": ["entrance","entry","exit","ingress","egress","gate","gateway","emergency exit","lock"]
+  },
+  {
+    "name": "door-closed-package",
+    "categories": ["home","food-beverage","transportation"],
+    "tags": ["delivery","parcel","doorstep","shipping","drop-off","courier"]
   },
   {
     "name": "door-closed",
@@ -3137,6 +3147,11 @@ export const iconsData: Array<{
     "name": "fast-forward",
     "categories": ["multimedia","arrows"],
     "tags": ["music"]
+  },
+  {
+    "name": "faucet",
+    "categories": ["food-beverage","home","navigation","travel"],
+    "tags": ["tap","spigot","water","drinking","fresh","source","pipes","plumbing","plumber","sink","basin","kitchen","bathroom","washroom","fixture","valve","flow","drinkable","potable","amenities","utilities","hydration"]
   },
   {
     "name": "feather",
@@ -4504,6 +4519,11 @@ export const iconsData: Array<{
     "tags": ["layout","spell","settings","mouse"]
   },
   {
+    "name": "lambda",
+    "categories": ["development","math","science","text"],
+    "tags": ["greek","symbol","math","function","programming","serverless","anonymous","functional","cloud","wavelength","calculus","linear algebra"]
+  },
+  {
     "name": "lamp-ceiling",
     "categories": ["home"],
     "tags": ["lighting","household","home","furniture"]
@@ -5444,6 +5464,11 @@ export const iconsData: Array<{
     "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","pause","suspend","hibernate","boot","virtual machine","vm"]
   },
   {
+    "name": "monitor-pc",
+    "categories": ["devices","development","gaming"],
+    "tags": ["personal computer","desktop","screen","display","workstation","tower","chassis","hardware","setup","gaming"]
+  },
+  {
     "name": "monitor-play",
     "categories": ["connectivity","devices","multimedia"],
     "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","play","running","start","boot","virtual machine","vm"]
@@ -5682,6 +5707,11 @@ export const iconsData: Array<{
     "name": "navigation",
     "categories": ["navigation"],
     "tags": ["location","travel"]
+  },
+  {
+    "name": "nepali-rupee",
+    "categories": ["finance","shopping","travel"],
+    "tags": ["currency","money","nepal","rupee","npr"]
   },
   {
     "name": "network",
@@ -6659,6 +6689,11 @@ export const iconsData: Array<{
     "tags": ["arrow","left","counter-clockwise","restart","reload","rerun","refresh","backup","undo","replay","redo","retry","rewind","reverse"]
   },
   {
+    "name": "rotate-cw-clock",
+    "categories": ["arrows","time"],
+    "tags": ["modify","edit","refresh","sync","renew","revision","settings","adjust","upgrade","time","timeline","version","time machine","backup","clockwise","arrow","reload","rerun","synchronize","circular","cycle","update"]
+  },
+  {
     "name": "rotate-cw-fading-clock",
     "categories": ["time"],
     "tags": ["clock","waiting","schedule","hourglass","loading","pause","pending","time","watch"]
@@ -7562,6 +7597,16 @@ export const iconsData: Array<{
     "name": "square-dashed-top-solid",
     "categories": ["design","development","layout"],
     "tags": ["square","border","width","layout","style","design","rectangular","marquee","dashed","box","rectangle","aspect ratio","1:1"]
+  },
+  {
+    "name": "square-dashed-x-corner",
+    "categories": ["design","development","layout"],
+    "tags": ["deselect","unselect","delete","select","selection","border","width","layout","style","design","rectangular","marquee","box","rectangle","aspect ratio","1:1"]
+  },
+  {
+    "name": "square-dashed-x",
+    "categories": ["design","development","layout"],
+    "tags": ["deselect","unselect","delete","select","selection","border","width","layout","style","design","rectangular","marquee","box","rectangle","aspect ratio","1:1"]
   },
   {
     "name": "square-dashed",
@@ -8497,6 +8542,11 @@ export const iconsData: Array<{
     "name": "truck",
     "categories": ["transportation"],
     "tags": ["delivery","van","shipping","haulage","lorry"]
+  },
+  {
+    "name": "tube-lotion",
+    "categories": ["medical","home","shopping","travel","seasons"],
+    "tags": ["sunscreen","sunblock","spf","uv","cream","skincare","toothpaste","ointment","bottle","toiletries","bathroom","beach","summer"]
   },
   {
     "name": "turkish-lira",
