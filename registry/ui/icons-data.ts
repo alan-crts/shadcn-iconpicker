@@ -1214,6 +1214,11 @@ export const iconsData: Array<{
     "tags": ["doctor","medicine","first aid"]
   },
   {
+    "name": "briefcase-plus",
+    "categories": ["transportation","files","account"],
+    "tags": ["work","bag","baggage","folder","new","add","create","increase","briefcase","portfolio","business","career","employment","professional","plus"]
+  },
+  {
     "name": "briefcase",
     "categories": ["transportation"],
     "tags": ["work","bag","baggage","folder"]
@@ -4739,9 +4744,24 @@ export const iconsData: Array<{
     "tags": ["lighthouse","beacon","coast","navigation","tower","sea","ocean","maritime","guide","safety","light","shine","port","marine","faro","signal","nautical","harbor","shore","lightbeam","wayfinding","guidance","onboarding","help","landmark"]
   },
   {
+    "name": "line-dot-bottom-vertical",
+    "categories": ["development","navigation"],
+    "tags": ["code","version","control","station","waypoint","start","first"]
+  },
+  {
+    "name": "line-dot-left-horizontal",
+    "categories": ["development","navigation"],
+    "tags": ["line","dot","left","horizontal","shape","symbol","navigation","arrow","pointer","code","version control","waypoint","stop","start","first","station"]
+  },
+  {
     "name": "line-dot-right-horizontal",
     "categories": ["development","navigation"],
     "tags": ["code","version control","waypoint","stop","station","last","end"]
+  },
+  {
+    "name": "line-dot-top-vertical",
+    "categories": ["development","navigation"],
+    "tags": ["arrow","pointer","direction","indicator","code","version","control","waypoint","stop","station","last","end"]
   },
   {
     "name": "line-squiggle",
@@ -7589,6 +7609,11 @@ export const iconsData: Array<{
     "tags": ["inspector","element","mouse","click","pointer","box","browser","selector","target","dom","node"]
   },
   {
+    "name": "square-dashed-plus",
+    "categories": ["design","layout","shapes"],
+    "tags": ["selection","select","add","new","placeholder","marquee","box","dashed","plus","insert","frame","empty"]
+  },
+  {
     "name": "square-dashed-text",
     "categories": ["text","cursors"],
     "tags": ["find","search","selection","dashed"]
@@ -7752,6 +7777,11 @@ export const iconsData: Array<{
     "name": "square-slash",
     "categories": ["development","math"],
     "tags": ["git","diff","ignored","divide","division","shortcut","or","/"]
+  },
+  {
+    "name": "square-sparkles",
+    "categories": ["photography","text","multimedia","files"],
+    "tags": ["picture","photo","sparkles"]
   },
   {
     "name": "square-split-horizontal",
