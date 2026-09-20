@@ -405,14 +405,29 @@ const IconPicker = React.forwardRef<
           />
         )}
         {categorized && search.trim() === "" && (
-          <div className="flex flex-row gap-1 mt-2 overflow-x-auto pb-2">
+          <div
+            className='flex flex-row gap-1 mt-2 overflow-x-auto pb-2'
+            style={{
+              scrollbarWidth: 'thin',
+              touchAction: 'pan-x',
+              overscrollBehavior: 'contain',
+            }}
+            onWheel={(e) => e.stopPropagation()}
+            onTouchMove={(e) => e.stopPropagation()}
+          >
             {categoryButtons}
           </div>
         )}
         <div
           ref={parentRef}
           className="max-h-60 overflow-auto"
-          style={{ scrollbarWidth: 'thin' }}
+          style={{
+            scrollbarWidth: 'thin',
+            touchAction: 'pan-y',
+            overscrollBehavior: 'contain',
+          }}
+          onWheel={(e) => e.stopPropagation()}
+          onTouchMove={(e) => e.stopPropagation()}
         >
           {isLoading ? (
             <IconsColumnSkeleton />
