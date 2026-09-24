@@ -4329,6 +4329,11 @@ export const iconsData: Array<{
     "tags": ["timer","time","sandglass"]
   },
   {
+    "name": "house-cog",
+    "categories": ["buildings","home"],
+    "tags": ["home","building","residence","settings","gear","configuration","property","automation"]
+  },
+  {
     "name": "house-heart",
     "categories": ["home","buildings","medical"],
     "tags": ["home sweet home","abode","building","residence","healthy living","lifestyle"]
