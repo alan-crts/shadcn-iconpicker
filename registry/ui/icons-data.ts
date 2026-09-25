@@ -659,6 +659,11 @@ export const iconsData: Array<{
     "tags": ["plaster","band-aid","first aid","medical","health","wound","injury","care","treatment","healing","protection","emergency","aid","safety","patch"]
   },
   {
+    "name": "bangladeshi-taka",
+    "categories": ["finance","shopping","travel"],
+    "tags": ["currency","money","payment","bdt","৳","currencysymbol","cash","banknote","price","remittance","ecommerce"]
+  },
+  {
     "name": "banknote-arrow-down",
     "categories": ["finance"],
     "tags": ["bill","currency","money","payment","funds","transaction","cash","finance","withdraw","expense","out","payout","refund","debit","spending","decrease"]
@@ -4712,6 +4717,11 @@ export const iconsData: Array<{
     "name": "lens-convex",
     "categories": ["science","tools","shapes"],
     "tags": ["convex","lens","optics","magnification","focus","light","refraction","physics","eyeglass","telescope","microscope","curved","science"]
+  },
+  {
+    "name": "letters",
+    "categories": ["text"],
+    "tags": ["abc","alphabet","alphabetical","text","characters","language","typography","literacy","spelling"]
   },
   {
     "name": "library-big",
