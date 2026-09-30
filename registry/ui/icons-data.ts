@@ -6379,6 +6379,11 @@ export const iconsData: Array<{
     "tags": ["screen","whiteboard","marker pens","markers","blackboard","chalk","easel","school","learning","lesson","office","meeting","project","planning"]
   },
   {
+    "name": "printer-3d",
+    "categories": ["devices","tools"],
+    "tags": ["model","hardware","technology","device","factory","manufacturing","art","extruder","stl","obj","step","additive","fabrication","rapid prototype","layer","filament","nozzle","maker","machine"]
+  },
+  {
     "name": "printer-check",
     "categories": ["devices"],
     "tags": ["fax","office","device","success","printed"]
