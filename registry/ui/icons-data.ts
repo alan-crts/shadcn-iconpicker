@@ -264,6 +264,11 @@ export const iconsData: Array<{
     "tags": ["sofa","furniture","leisure","lounge","loveseat","couch"]
   },
   {
+    "name": "armenian-dram",
+    "categories": ["finance"],
+    "tags": ["finance","symbol","banking","economy","currency","money","payment"]
+  },
+  {
     "name": "arrow-big-down-dash",
     "categories": ["arrows","gaming","files"],
     "tags": ["backwards","reverse","slow","direction","south","download"]
@@ -2889,6 +2894,11 @@ export const iconsData: Array<{
     "tags": ["doughnut","sprinkles","topping","fast food","junk food","snack","treat","sweet","sugar","dessert","hollow","ring"]
   },
   {
+    "name": "door-closed-cog",
+    "categories": ["home","security"],
+    "tags": ["room","entrance","entry","settings","gear","access","automation"]
+  },
+  {
     "name": "door-closed-locked",
     "categories": ["home","travel","security"],
     "tags": ["entrance","entry","exit","ingress","egress","gate","gateway","emergency exit","lock"]
@@ -4504,6 +4514,11 @@ export const iconsData: Array<{
     "tags": ["kayak","boat","paddle","water","sport","recreation","adventure","outdoors","equipment","lake","ocean"]
   },
   {
+    "name": "kazakh-tenge",
+    "categories": ["finance"],
+    "tags": ["currency","money","payment","kazakhstan","currency-symbol","exchange","cash"]
+  },
+  {
     "name": "key-round",
     "categories": ["security","account"],
     "tags": ["password","login","authentication","secure","unlock"]
@@ -4667,6 +4682,11 @@ export const iconsData: Array<{
     "name": "layout-freeform",
     "categories": ["design","layout"],
     "tags": ["layout","freeform","free","absolute","position","auto layout","unaligned","scattered","arrange","blocks","canvas","frame"]
+  },
+  {
+    "name": "layout-grid-circles",
+    "categories": ["design","layout"],
+    "tags": ["app","home","start","dot matrix","dots","menu","dashboard","collection","overview","tiles","grid","matrix","launcher","apps","widgets","ui","circles","shortcuts"]
   },
   {
     "name": "layout-grid",
@@ -6784,6 +6804,11 @@ export const iconsData: Array<{
     "tags": ["feed","subscribe","news","updates","notifications","content","blog","articles","broadcast","syndication","reader","channels","posts","publishing","digest","alert","following","inbox","newsletter","weblog","podcast"]
   },
   {
+    "name": "rugby-ball",
+    "categories": ["sports"],
+    "tags": ["rugby","football","ball","goal","sport"]
+  },
+  {
     "name": "ruler-dimension-line",
     "categories": ["tools","design","layout"],
     "tags": ["measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent","stationery"]
@@ -8254,6 +8279,21 @@ export const iconsData: Array<{
     "tags": ["text","alignment","right"]
   },
   {
+    "name": "text-align-justify-center",
+    "categories": ["text"],
+    "tags": ["paragraph","alignment","justified","center","middle","typography","editor","document"]
+  },
+  {
+    "name": "text-align-justify-end",
+    "categories": ["text"],
+    "tags": ["paragraph","alignment","justified","right","end","typography","editor","document"]
+  },
+  {
+    "name": "text-align-justify-start",
+    "categories": ["text"],
+    "tags": ["paragraph","alignment","justified","left","start","typography","editor","document"]
+  },
+  {
     "name": "text-align-justify",
     "categories": ["text"],
     "tags": ["text","alignment","justified","menu","list"]
@@ -9157,6 +9197,11 @@ export const iconsData: Array<{
     "name": "wind-arrow-down",
     "categories": ["weather","sustainability"],
     "tags": ["weather","air","pressure","blow"]
+  },
+  {
+    "name": "wind-arrow-up",
+    "categories": ["weather","sustainability","arrows","navigation"],
+    "tags": ["weather","air","pressure","blow","gust","windy","sort","increase"]
   },
   {
     "name": "wind",
