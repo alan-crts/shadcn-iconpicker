@@ -4084,6 +4084,11 @@ export const iconsData: Array<{
     "tags": ["grab","dots","handle","move","drag"]
   },
   {
+    "name": "groceries",
+    "categories": ["food-beverage"],
+    "tags": ["food","vegetables","health","grocery","market","farmer","produce","pantry","paper bag","shop","supermarket","retail","delivery","larder","provisions","takeout"]
+  },
+  {
     "name": "group",
     "categories": ["files"],
     "tags": ["cubes","packages","parts","units","collection","cluster","gather","dashed"]
@@ -4312,6 +4317,11 @@ export const iconsData: Array<{
     "name": "highlighter",
     "categories": ["text","design"],
     "tags": ["mark","text"]
+  },
+  {
+    "name": "hiking-stick",
+    "categories": ["sports","travel","nature","navigation"],
+    "tags": ["hiking","walking","stick","trekking","trail","pole","backpacking","outdoors","mountains"]
   },
   {
     "name": "hop-off",
@@ -4737,6 +4747,11 @@ export const iconsData: Array<{
     "name": "lens-convex",
     "categories": ["science","tools","shapes"],
     "tags": ["convex","lens","optics","magnification","focus","light","refraction","physics","eyeglass","telescope","microscope","curved","science"]
+  },
+  {
+    "name": "lens",
+    "categories": ["photography","science","tools"],
+    "tags": ["optics","reflection","camera","photography","focus","effect","shader","post-process","visual","contact lens","glass","magnify","translucent","transparent","orb","bubble","zoom"]
   },
   {
     "name": "letters",
@@ -6972,6 +6987,11 @@ export const iconsData: Array<{
     "name": "scooter",
     "categories": ["transportation"],
     "tags": ["vehicle","drive","trip","journey","transport","electric","ride","urban","commute","speed"]
+  },
+  {
+    "name": "scratch-blocks",
+    "categories": ["development"],
+    "tags": ["code","blocks","scratch","turbowarp","mistwarp","visual programming","block-based","drag-and-drop","editor","education","learning","programming","kids","integration"]
   },
   {
     "name": "screen-share-off",
