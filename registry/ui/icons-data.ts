@@ -486,7 +486,7 @@ export const iconsData: Array<{
   {
     "name": "asterisk",
     "categories": ["text","math","development"],
-    "tags": ["symbol","sterisk","mark","pointer","pencil","sign","alert","notification","indicator","symbolic","reference","times","multiply","multiplication","operator","code","glob pattern","wildcard","*"]
+    "tags": ["symbol","mark","pointer","pencil","sign","alert","notification","indicator","symbolic","reference","times","multiply","multiplication","operator","code","glob pattern","wildcard","*"]
   },
   {
     "name": "astroid",
@@ -666,7 +666,7 @@ export const iconsData: Array<{
   {
     "name": "bangladeshi-taka",
     "categories": ["finance","shopping","travel"],
-    "tags": ["currency","money","payment","bdt","৳","currencysymbol","cash","banknote","price","remittance","ecommerce"]
+    "tags": ["currency","money","payment","bdt","৳","currency symbol","cash","banknote","price","remittance","ecommerce"]
   },
   {
     "name": "banknote-arrow-down",
@@ -1286,7 +1286,7 @@ export const iconsData: Array<{
   {
     "name": "building-complex-plus",
     "categories": ["account","buildings"],
-    "tags": ["business","company","enterprise","skyscraper","organisation","organization","city","new","add","create","increase","office","headquarters","startup","registration","onboarding","realestate","property"]
+    "tags": ["business","company","enterprise","skyscraper","organisation","organization","city","new","add","create","increase","office","headquarters","startup","registration","onboarding","real estate","property"]
   },
   {
     "name": "building-complex",
@@ -1506,7 +1506,7 @@ export const iconsData: Array<{
   {
     "name": "car-battery",
     "categories": ["connectivity","transportation"],
-    "tags": ["battery","automobile","powercell","electric","power","electricity","energy","accumulator","charge","transport","vehicle","car"]
+    "tags": ["battery","automobile","power cell","electric","power","electricity","energy","accumulator","charge","transport","vehicle","car"]
   },
   {
     "name": "car-front",
@@ -2301,7 +2301,7 @@ export const iconsData: Array<{
   {
     "name": "cloud-backup",
     "categories": ["arrows","files"],
-    "tags": ["storage","memory","bytes","servers","backup","timemachine","rotate","synchronize","synchronise","refresh","reconnect","transfer","data","security","upload","save","remote","safety"]
+    "tags": ["storage","memory","bytes","servers","backup","time machine","rotate","synchronize","synchronise","refresh","reconnect","transfer","data","security","upload","save","remote","safety"]
   },
   {
     "name": "cloud-check",
@@ -2711,7 +2711,7 @@ export const iconsData: Array<{
   {
     "name": "database-backup",
     "categories": ["devices","arrows","design","development","photography"],
-    "tags": ["storage","memory","bytes","servers","backup","timemachine","rotate","arrow","left"]
+    "tags": ["storage","memory","bytes","servers","backup","time machine","rotate","arrow","left"]
   },
   {
     "name": "database-check",
@@ -4159,6 +4159,11 @@ export const iconsData: Array<{
     "tags": ["bag","baggage","carry","clutch","fashion","luggage","purse","tote","travel"]
   },
   {
+    "name": "handle-bottom-right",
+    "categories": ["design"],
+    "tags": ["mouse","grab","handle","move","drag","resize","corner"]
+  },
+  {
     "name": "handshake",
     "categories": ["account","social","communication","finance","security"],
     "tags": ["agreement","partnership","deal","business","assistance","cooperation","friendship","union","terms"]
@@ -4791,7 +4796,7 @@ export const iconsData: Array<{
   {
     "name": "lighthouse",
     "categories": ["buildings","navigation","travel"],
-    "tags": ["lighthouse","beacon","coast","navigation","tower","sea","ocean","maritime","guide","safety","light","shine","port","marine","faro","signal","nautical","harbor","shore","lightbeam","wayfinding","guidance","onboarding","help","landmark"]
+    "tags": ["lighthouse","beacon","coast","navigation","tower","sea","ocean","maritime","guide","safety","light","shine","port","marine","faro","signal","nautical","harbor","shore","light beam","wayfinding","guidance","onboarding","help","landmark"]
   },
   {
     "name": "line-dot-bottom-vertical",
@@ -5051,7 +5056,12 @@ export const iconsData: Array<{
   {
     "name": "mail-clock",
     "categories": ["text","account","mail","time","notifications","communication"],
-    "tags": ["email","message","letter","unread","scheduled","delayed","sendlater","delivery","reminder","pending","outgoing","timer"]
+    "tags": ["email","message","letter","unread","scheduled","delayed","send later","delivery","reminder","pending","outgoing","timer"]
+  },
+  {
+    "name": "mail-dot",
+    "categories": ["text","account","mail"],
+    "tags": ["mail","envelope","communication","post","send","address","notification","email","message","letter","unread","dot"]
   },
   {
     "name": "mail-minus",
@@ -5401,7 +5411,7 @@ export const iconsData: Array<{
   {
     "name": "messages-circle",
     "categories": ["social","communication","notifications"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubbles","copy","multiple","discussion","interview","debate","group","groupchat","threads","unread","bubble","messaging"]
+    "tags": ["comment","chat","conversation","dialog","feedback","speech bubbles","copy","multiple","discussion","interview","debate","group","group chat","threads","unread","bubble","messaging"]
   },
   {
     "name": "messages-square",
@@ -6071,7 +6081,7 @@ export const iconsData: Array<{
   {
     "name": "paper-bag",
     "categories": ["food-beverage","shopping"],
-    "tags": ["storage","package","lunch","takeout","eco-friendly","kraft","retail","doggybag"]
+    "tags": ["storage","package","lunch","takeout","eco-friendly","kraft","retail","doggy bag"]
   },
   {
     "name": "paperclip",
@@ -6202,6 +6212,11 @@ export const iconsData: Array<{
     "name": "phone-incoming",
     "categories": ["arrows","connectivity","devices","communication"],
     "tags": ["call"]
+  },
+  {
+    "name": "phone-log",
+    "categories": ["communication"],
+    "tags": ["telephone","communication","mobile","device","contact","history","data","information","call"]
   },
   {
     "name": "phone-missed",
@@ -6641,7 +6656,7 @@ export const iconsData: Array<{
   {
     "name": "refrigerator",
     "categories": ["food-beverage","home"],
-    "tags": ["frigerator","fridge","freezer","cooler","icebox","chiller","cold storage"]
+    "tags": ["fridge","freezer","cooler","icebox","chiller","cold storage"]
   },
   {
     "name": "regex",
@@ -6716,7 +6731,7 @@ export const iconsData: Array<{
   {
     "name": "robot-vacuum",
     "categories": ["devices","home","tools"],
-    "tags": ["appliance","cleaning","household","housekeeping","tool","maintenance","smarthome","sweeping","hygiene","chores","automation","smart home","device","floor","dust","debris","navigation","sensor"]
+    "tags": ["appliance","cleaning","household","housekeeping","tool","maintenance","sweeping","hygiene","chores","automation","smart home","device","floor","dust","debris","navigation","sensor"]
   },
   {
     "name": "rocket",
@@ -6946,7 +6961,7 @@ export const iconsData: Array<{
   {
     "name": "scan-qr-code",
     "categories": ["account","shopping","devices","security"],
-    "tags": ["barcode","scan","qrcode","url","information","digital","scanner"]
+    "tags": ["barcode","scan","qr code","url","information","digital","scanner"]
   },
   {
     "name": "scan-search",
@@ -7002,6 +7017,11 @@ export const iconsData: Array<{
     "name": "screen-share",
     "categories": ["connectivity","devices","communication"],
     "tags": ["host","desktop","monitor"]
+  },
+  {
+    "name": "screw",
+    "categories": ["tools"],
+    "tags": ["fastener","hardware","bolt","screwdriver","repair","assembly","diy","flathead"]
   },
   {
     "name": "scroll-text",
@@ -7131,7 +7151,7 @@ export const iconsData: Array<{
   {
     "name": "shell",
     "categories": ["animals","development","nature","science","travel","food-beverage","home"],
-    "tags": ["beach","sand","holiday","sealife","fossil","ammonite","biology","ocean","terminal","command line","session","bash","zsh","roll","wrap","chewing gum","bubble gum","sweet","sugar","hosepipe","carpet","string","spiral","spinner","hypnotise","hypnosis"]
+    "tags": ["beach","sand","holiday","sea life","fossil","ammonite","biology","ocean","terminal","command line","session","bash","zsh","roll","wrap","chewing gum","bubble gum","sweet","sugar","hosepipe","carpet","string","spiral","spinner","hypnotise","hypnosis"]
   },
   {
     "name": "shelving-unit",
@@ -7156,7 +7176,7 @@ export const iconsData: Array<{
   {
     "name": "shield-cog-corner",
     "categories": ["account","security","development","gaming","shapes"],
-    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","shieldcog","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
+    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","shield cog","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
   },
   {
     "name": "shield-cog",
@@ -7172,6 +7192,11 @@ export const iconsData: Array<{
     "name": "shield-half",
     "categories": ["account","security","development","gaming"],
     "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","logo","sigil","flag","team","faction","fraternity","university","college","academy","school","education","uniform","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","ranking","army","cadet","scout"]
+  },
+  {
+    "name": "shield-house",
+    "categories": ["account","security","development","home","connectivity"],
+    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","property","household","connectivity","building","residence"]
   },
   {
     "name": "shield-keyhole",
@@ -7501,7 +7526,7 @@ export const iconsData: Array<{
   {
     "name": "spotlight",
     "categories": ["devices","photography","multimedia","communication"],
-    "tags": ["winner","soapbox","stage","entertainment","drama","podium","actor","actress","singer","light","beam","play","theatre","show","focus","concert","performance","lens","leaderboard","followspot","best","highlight"]
+    "tags": ["winner","soapbox","stage","entertainment","drama","podium","actor","actress","singer","light","beam","play","theatre","show","focus","concert","performance","lens","leaderboard","follow spot","best","highlight"]
   },
   {
     "name": "spray-can",
@@ -8481,12 +8506,12 @@ export const iconsData: Array<{
   {
     "name": "toothbrush-sparkles",
     "categories": ["home","tools","medical","travel"],
-    "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","selfcare","grooming","fresh","clean"]
+    "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","self care","grooming","fresh","clean"]
   },
   {
     "name": "toothbrush",
     "categories": ["home","travel","tools","medical"],
-    "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","selfcare","grooming"]
+    "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","self care","grooming"]
   },
   {
     "name": "tornado",
@@ -8676,12 +8701,12 @@ export const iconsData: Array<{
   {
     "name": "tv-minimal-play",
     "categories": ["devices","multimedia"],
-    "tags": ["flatscreen","television","stream","display","widescreen","high-definition","hd","1080p","4k","8k","smart","digital","video","movie","live","ott","running","start","film","home cinema","entertainment","showtime","channels","catchup"]
+    "tags": ["flat screen","television","stream","display","widescreen","high-definition","hd","1080p","4k","8k","smart","digital","video","movie","live","ott","running","start","film","home cinema","entertainment","showtime","channels","catchup"]
   },
   {
     "name": "tv-minimal",
     "categories": ["devices","multimedia"],
-    "tags": ["flatscreen","television","stream","display","widescreen","high-definition","hd","1080p","4k","8k","smart","digital","video","home cinema","entertainment","showtime","channels","catchup"]
+    "tags": ["flat screen","television","stream","display","widescreen","high-definition","hd","1080p","4k","8k","smart","digital","video","home cinema","entertainment","showtime","channels","catchup"]
   },
   {
     "name": "tv",
@@ -8862,6 +8887,11 @@ export const iconsData: Array<{
     "name": "user-round-search",
     "categories": ["account","social"],
     "tags": ["person","account","contact","find","scan","magnifier","magnifying glass","lens"]
+  },
+  {
+    "name": "user-round-star",
+    "categories": ["account"],
+    "tags": ["person","account","favorite","contact","like","review","rating","admin","avatar","profile","featured","moderator","verified","badge","award","champion","starred"]
   },
   {
     "name": "user-round-x",
@@ -9182,6 +9212,11 @@ export const iconsData: Array<{
     "name": "wifi-high",
     "categories": ["connectivity","devices"],
     "tags": ["connection","signal","wireless"]
+  },
+  {
+    "name": "wifi-lock",
+    "categories": ["connectivity","devices","security"],
+    "tags": ["admin","connection","secure","security","signal","network","password","wireless","hotspot","encrypted","locked","private","ssid","guest","router","access","authentication","protected"]
   },
   {
     "name": "wifi-low",
