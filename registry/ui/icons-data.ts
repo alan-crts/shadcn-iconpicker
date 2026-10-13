@@ -799,6 +799,11 @@ export const iconsData: Array<{
     "tags": ["alcohol","bar","beverage","brewery","drink"]
   },
   {
+    "name": "belarusian-ruble",
+    "categories": ["finance","shopping","account"],
+    "tags": ["currency","money","payment","byn","iso4217","fiat","prices","localization","banking","checkout","wallet","exchange-rate"]
+  },
+  {
     "name": "bell-check",
     "categories": ["account","notifications"],
     "tags": ["alarm","notification","sound","reminder"]
@@ -1359,9 +1364,14 @@ export const iconsData: Array<{
     "tags": ["date","day","month","year","event","confirm","subscribe","schedule","done","todo","tick","complete","task"]
   },
   {
+    "name": "calendar-chevrons-left",
+    "categories": ["time","arrows","navigation"],
+    "tags": ["navigation","arrow","direction","symbol","pointer","indicator","next","menu","date","day","month","year","events"]
+  },
+  {
     "name": "calendar-chevrons-right",
     "categories": ["time","arrows","navigation"],
-    "tags": ["navigation","arrow","right","chevron","direction","symbol","pointer","indicator","next","menu","date","day","month","year","events","chevrons"]
+    "tags": ["navigation","arrow","direction","symbol","pointer","indicator","previous","menu","date","day","month","year","events"]
   },
   {
     "name": "calendar-clock",
@@ -1979,6 +1989,11 @@ export const iconsData: Array<{
     "tags": ["north","up","upgrade","improve","circle","button"]
   },
   {
+    "name": "circle-fading-play",
+    "categories": ["multimedia","social"],
+    "tags": ["short clips","shorts","reels","stories","video","highlights","social media","content","preview","teaser","clip","short form","vertical video"]
+  },
+  {
     "name": "circle-fading-plus",
     "categories": ["communication","social"],
     "tags": ["stories","social media","sharing","content"]
@@ -2086,7 +2101,7 @@ export const iconsData: Array<{
   {
     "name": "circle-x",
     "categories": ["math","development"],
-    "tags": ["cancel","close","delete","remove","times","clear","error","incorrect","wrong","mistake","failure","linter","multiply","multiplication"]
+    "tags": ["cancel","close","cross","delete","remove","times","clear","error","incorrect","wrong","mistake","failure","linter","multiply","multiplication"]
   },
   {
     "name": "circle",
@@ -2602,6 +2617,11 @@ export const iconsData: Array<{
     "name": "corner-up-right",
     "categories": ["arrows"],
     "tags": ["arrow"]
+  },
+  {
+    "name": "cpu-ai",
+    "categories": ["devices","development"],
+    "tags": ["ai","artificial intelligence","machine learning","neural network","automation","intelligence","generative","assistant","chatbot","llm","deep learning","inference","training","mlops","model","predictive","on-device","edge","api","service","cognitive","processor","chip"]
   },
   {
     "name": "cpu",
@@ -3734,6 +3754,16 @@ export const iconsData: Array<{
     "tags": ["directory","upload","import","export"]
   },
   {
+    "name": "folder-user",
+    "categories": ["files","account","social","people","security"],
+    "tags": ["directory","profile","person","personal","contact","document","account","individual","home folder","shared","access","owner"]
+  },
+  {
+    "name": "folder-users",
+    "categories": ["files","account","social","people","security"],
+    "tags": ["directory","profile","shared","people","document","accounts","group","team","permission","access","collaboration","organization"]
+  },
+  {
     "name": "folder-x",
     "categories": ["files"],
     "tags": ["directory","remove","delete"]
@@ -4039,6 +4069,11 @@ export const iconsData: Array<{
     "tags": ["fruit","wine","food"]
   },
   {
+    "name": "graph-star",
+    "categories": ["development","charts"],
+    "tags": ["mind map","network","hub","nodes","links","connections","relationships","dependencies","bonds","structure","topology","cluster","thoughts","ideas","concepts","molecule"]
+  },
+  {
     "name": "grid-2x2-check",
     "categories": ["text","layout","math"],
     "tags": ["table","rows","columns","blocks","plot","land","geometry","measure","data","size","width","height","distance","surface area","square meter","acre"]
@@ -4092,6 +4127,11 @@ export const iconsData: Array<{
     "name": "group",
     "categories": ["files"],
     "tags": ["cubes","packages","parts","units","collection","cluster","gather","dashed"]
+  },
+  {
+    "name": "guitar-electric",
+    "categories": ["multimedia"],
+    "tags": ["acoustic","instrument","strings","riff","rock","band","country","concert","performance","play","lead","loud","music","audio","sound","noise"]
   },
   {
     "name": "guitar",
@@ -5307,6 +5347,11 @@ export const iconsData: Array<{
     "name": "message-circle-reply",
     "categories": ["social"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","reply","response"]
+  },
+  {
+    "name": "message-circle-text",
+    "categories": ["social"],
+    "tags": ["comment","chat","conversation","dialog","feedback","speech","bubble","sms","texting","messaging","dm","discussion","thread","transcript","written","writing","lines","support","chatbot"]
   },
   {
     "name": "message-circle-warning",
@@ -7102,6 +7147,11 @@ export const iconsData: Array<{
     "name": "server-crash",
     "categories": ["development","devices"],
     "tags": ["cloud","storage","problem","error"]
+  },
+  {
+    "name": "server-nas",
+    "categories": ["devices","development"],
+    "tags": ["storage","network","server","backup","raid","files","sharing","disk","hardware","lan","cloud"]
   },
   {
     "name": "server-off",
@@ -8927,6 +8977,16 @@ export const iconsData: Array<{
     "name": "user",
     "categories": ["account"],
     "tags": ["person","account","contact"]
+  },
+  {
+    "name": "users-collaboration",
+    "categories": ["account","people","communication"],
+    "tags": ["group","people","collaboration","users","team","communication","cooperative","workspace","peer-to-peer","p2p","shared","delegation","handoff","coauthor","profiles"]
+  },
+  {
+    "name": "users-round-collaboration",
+    "categories": ["account","people","communication"],
+    "tags": ["group","people","collaboration","users","team","communication","cooperative","workspace","peer-to-peer","p2p","shared","delegation","handoff","coauthor","profiles"]
   },
   {
     "name": "users-round",
