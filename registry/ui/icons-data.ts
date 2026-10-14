@@ -6229,6 +6229,11 @@ export const iconsData: Array<{
     "tags": ["percentage","modulo","modulus","remainder","%","sale","discount","offer","marketing"]
   },
   {
+    "name": "perfume-bottle",
+    "categories": ["shopping","travel"],
+    "tags": ["eau de parfum","eau de toilette","essence","aftershave","cologne","aroma","fragrance","smell","scent","bouquet","gift","duty free","spray","puff","atomizer","mist","beauty","skincare","cosmetics"]
+  },
+  {
     "name": "person-standing",
     "categories": ["accessibility","people"],
     "tags": ["people","human","accessibility","stick figure"]
