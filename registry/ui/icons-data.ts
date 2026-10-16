@@ -1604,6 +1604,11 @@ export const iconsData: Array<{
     "tags": ["camera","surveillance","recording","film","videotape","crime","watching"]
   },
   {
+    "name": "certificate",
+    "categories": ["connectivity","security"],
+    "tags": ["award","ribbon","medal","achievement","pinned","badge","recognition","laurel","commendation","diploma","official","proof","fact","verified","license","warrant","authorization","legal","ownership","credential","ssl","tls","security","trust","cybersecurity","authority","graduation","study"]
+  },
+  {
     "name": "chart-area",
     "categories": ["charts"],
     "tags": ["statistics","analytics","diagram","graph","area"]
@@ -3044,6 +3049,16 @@ export const iconsData: Array<{
     "tags": ["bird","chicken","nest","hatch","shell","incubate","soft boiled","hard","breakfast","brunch","morning","easter"]
   },
   {
+    "name": "eighth-note",
+    "categories": ["multimedia","files"],
+    "tags": ["audio","music","sound","note","quaver"]
+  },
+  {
+    "name": "eighth-notes",
+    "categories": ["multimedia","files"],
+    "tags": ["audio","music","sound","notes","quavers"]
+  },
+  {
     "name": "eject",
     "categories": ["devices","files","multimedia"],
     "tags": ["disc","drive","dvd","blu-ray","cd","media","optical","optical drive","removable media","storage","tray","unmount","usb"]
@@ -4137,6 +4152,11 @@ export const iconsData: Array<{
     "name": "guitar",
     "categories": ["multimedia"],
     "tags": ["acoustic","instrument","strings","riff","rock","band","country","concert","performance","play","lead","loud","music","audio","sound","noise"]
+  },
+  {
+    "name": "half-note",
+    "categories": ["multimedia","files"],
+    "tags": ["audio","music","sound","note","crotchet","minim","quarter note"]
   },
   {
     "name": "ham",
@@ -5794,26 +5814,6 @@ export const iconsData: Array<{
     "tags": ["arrows"]
   },
   {
-    "name": "music-2",
-    "categories": ["multimedia","files"],
-    "tags": ["quaver","eighth note","note"]
-  },
-  {
-    "name": "music-3",
-    "categories": ["multimedia","files"],
-    "tags": ["crotchet","minim","quarter note","half note","note"]
-  },
-  {
-    "name": "music-4",
-    "categories": ["multimedia","files"],
-    "tags": ["semiquaver","sixteenth note","note"]
-  },
-  {
-    "name": "music",
-    "categories": ["multimedia","files"],
-    "tags": ["note","quaver","eighth note"]
-  },
-  {
     "name": "navigation-2-off",
     "categories": ["navigation"],
     "tags": ["location","travel"]
@@ -7432,6 +7432,11 @@ export const iconsData: Array<{
     "name": "siren",
     "categories": ["medical"],
     "tags": ["police","ambulance","emergency","security","alert","alarm","light"]
+  },
+  {
+    "name": "sixteenth-notes",
+    "categories": ["multimedia","files"],
+    "tags": ["audio","music","sound","notes","semiquavers"]
   },
   {
     "name": "skip-back",
