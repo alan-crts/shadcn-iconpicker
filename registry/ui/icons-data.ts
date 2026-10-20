@@ -524,6 +524,11 @@ export const iconsData: Array<{
     "tags": ["sound","noise","listen","hearing","hertz","frequency","wavelength","vibrate","sine","synthesizer","synthesiser","levels","track","music","playback","radio","broadcast","airwaves","voice","vocals","singer","song"]
   },
   {
+    "name": "avocado",
+    "categories": ["food-beverage"],
+    "tags": ["fruit","snack","meal","lunch","ingredient","cooking","cookery","kitchen","cuisine","eating","healthy","nutrition","diet","guacamole","mexican","green","pit","seed","half","produce","vegetarian","vegan","grocery","supermarket","toast","superfood","plant based","ripe"]
+  },
+  {
     "name": "award",
     "categories": ["account","sports","gaming"],
     "tags": ["achievement","badge","rosette","prize","winner"]
@@ -547,6 +552,11 @@ export const iconsData: Array<{
     "name": "backpack",
     "categories": ["gaming","photography","travel"],
     "tags": ["bag","hiking","travel","camping","school","childhood"]
+  },
+  {
+    "name": "bacon",
+    "categories": ["food-beverage"],
+    "tags": ["rashers","smoked","streaky","crispy","meat","fast food","junk food","snack","dish","restaurant","brunch","lunch","meal","savory","savoury","cookery","cooking","grilled","barbecue","barbeque","bbq","pig","pork","breakfast","cured","butcher","sandwich","protein","grocery","kitchen"]
   },
   {
     "name": "badge-alert",
@@ -1187,6 +1197,11 @@ export const iconsData: Array<{
     "name": "brain-cog",
     "categories": ["science","development"],
     "tags": ["mind","intellect","artificial intelligence","ai","deep learning","machine learning","computing"]
+  },
+  {
+    "name": "brain-off",
+    "categories": ["medical","science","development"],
+    "tags": ["medical","mind","mental","intellect","cerebral","consciousness","genius","artificial intelligence","ai","think","deep learning","machine learning","computing"]
   },
   {
     "name": "brain",
@@ -4084,6 +4099,11 @@ export const iconsData: Array<{
     "tags": ["fruit","wine","food"]
   },
   {
+    "name": "graph-hub",
+    "categories": ["connectivity","development"],
+    "tags": ["load balancer","distribute","traffic","network","nodes","parallel","branch","hierarchy","routing","dispatcher","cluster","backend","fan-out","topology","orchestration"]
+  },
+  {
     "name": "graph-star",
     "categories": ["development","charts"],
     "tags": ["mind map","network","hub","nodes","links","connections","relationships","dependencies","bonds","structure","topology","cluster","thoughts","ideas","concepts","molecule"]
@@ -4819,6 +4839,11 @@ export const iconsData: Array<{
     "tags": ["optics","reflection","camera","photography","focus","effect","shader","post-process","visual","contact lens","glass","magnify","translucent","transparent","orb","bubble","zoom"]
   },
   {
+    "name": "letter-spacing",
+    "categories": ["text"],
+    "tags": ["tracking","kerning","design","lettering","text","letters","characters","font","typography","formatting"]
+  },
+  {
     "name": "letters",
     "categories": ["text"],
     "tags": ["abc","alphabet","alphabetical","text","characters","language","typography","literacy","spelling"]
@@ -4877,6 +4902,11 @@ export const iconsData: Array<{
     "name": "line-dot-top-vertical",
     "categories": ["development","navigation"],
     "tags": ["arrow","pointer","direction","indicator","code","version","control","waypoint","stop","station","last","end"]
+  },
+  {
+    "name": "line-height",
+    "categories": ["text"],
+    "tags": ["leading","text","letters","characters","font","typography","spacing","paragraph","formatting","editor","readability","typesetting"]
   },
   {
     "name": "line-squiggle",
@@ -7484,6 +7514,11 @@ export const iconsData: Array<{
     "tags": ["contactless","payment","near-field communication","screen"]
   },
   {
+    "name": "smartphone-user-round",
+    "categories": ["account","devices","people"],
+    "tags": ["phone","cellphone","device","mobile","person","profile","account","avatar","contact","identity","owner","authentication"]
+  },
+  {
     "name": "smartphone",
     "categories": ["connectivity","devices"],
     "tags": ["phone","cellphone","device","mobile","screen","display","touchscreen","portable","responsive"]
@@ -8552,6 +8587,11 @@ export const iconsData: Array<{
     "name": "toilet",
     "categories": ["devices","home"],
     "tags": ["toilet","potty","bathroom","washroom"]
+  },
+  {
+    "name": "tombstone",
+    "categories": ["gaming","navigation","people","development"],
+    "tags": ["grave","gravestone","headstone","cemetery","graveyard","death","memorial","funeral","halloween","rip","obituary","deceased","epitaph","mourning","bereavement","condolence","deprecated","retired","archived","decommissioned"]
   },
   {
     "name": "tool-case",
