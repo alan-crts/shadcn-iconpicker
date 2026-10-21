@@ -1959,6 +1959,26 @@ export const iconsData: Array<{
     "tags": ["caret","ahead","menu","^"]
   },
   {
+    "name": "circle-chevrons-down",
+    "categories": ["arrows","navigation"],
+    "tags": ["bottom","descend","page","page down","scroll","jump","south","caret","button","skip","end","last page","latest","feed","chat","pagination","fast","media"]
+  },
+  {
+    "name": "circle-chevrons-left",
+    "categories": ["arrows","navigation","multimedia"],
+    "tags": ["previous","rewind","backward","first","beginning","start","west","music","caret","button","pagination","skip","skip-back","seek-back","media-controls","player","playlist","track","chapter","jump","timeline","controls"]
+  },
+  {
+    "name": "circle-chevrons-right",
+    "categories": ["arrows","navigation","multimedia"],
+    "tags": ["next","forward","skip","fast forward","last","end","east","music","caret","button","pagination","jump","seek","seek forward","player control","chapter","track","timeline","navigation control"]
+  },
+  {
+    "name": "circle-chevrons-up",
+    "categories": ["arrows","navigation"],
+    "tags": ["top","ascend","page","page up","back to top","scroll","jump","north","caret","button","skip","pagination","first page","fast","fast scroll","rewind","jump to start","floating action button","anchor","timeline"]
+  },
+  {
     "name": "circle-dashed-check",
     "categories": ["shapes","development","notifications"],
     "tags": ["approved","pending","changes","revision","reapproval","published","schedule","assignment","request","review","progress","issue","draft","code","coding","version control"]
