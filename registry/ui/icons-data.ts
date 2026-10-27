@@ -544,6 +544,11 @@ export const iconsData: Array<{
     "tags": ["gizmo","coordinates"]
   },
   {
+    "name": "azerbaijani-manat",
+    "categories": ["finance"],
+    "tags": ["currency","money","payment","azerbaijan","azn","exchange","banking","pricing","currency symbol"]
+  },
+  {
     "name": "baby",
     "categories": ["accessibility","people"],
     "tags": ["child","childproof","children"]
@@ -652,6 +657,11 @@ export const iconsData: Array<{
     "name": "baggage-claim",
     "categories": ["transportation","travel"],
     "tags": ["baggage","luggage","travel","cart","trolley","suitcase"]
+  },
+  {
+    "name": "ball-wave",
+    "categories": ["sports","gaming"],
+    "tags": ["polo","watercraft","athlete","feature","sport","ball","aquatic","swimming","pool","team","game","competition","olympic","water","match","aquatic sports","water polo","aquatics","water sports","pool sport","team sport","tournament","league"]
   },
   {
     "name": "balloon",
@@ -3114,6 +3124,11 @@ export const iconsData: Array<{
     "tags": ["et cetera","etc","loader","loading","progress","pending","throbber","menu","options","operator","code","coding","spread","rest","more","further","extra","overflow","dots","…","..."]
   },
   {
+    "name": "emirati-dirham",
+    "categories": ["finance"],
+    "tags": ["currency","money","payment","finance","price","aed","arab emirates dirham","uae","United Arab Emirates","cash","currency symbol","middle east","gulf","banking","invoice","exchange rate"]
+  },
+  {
     "name": "engine",
     "categories": ["transportation"],
     "tags": ["vehicle","power","energy","drive","repair","car","motor","mechanical","diagnostics","maintenance","warning","dashboard","parts"]
@@ -4429,6 +4444,11 @@ export const iconsData: Array<{
     "tags": ["hiking","walking","stick","trekking","trail","pole","backpacking","outdoors","mountains"]
   },
   {
+    "name": "hockey-stick",
+    "categories": ["sports"],
+    "tags": ["sport","campus","puck","athlete","ice","player","goal","cricket","bat","sports","game","equipment","stick","ball","match","play"]
+  },
+  {
     "name": "hop-off",
     "categories": ["food-beverage"],
     "tags": ["beer","brewery","drink","hop free","allergy","intolerance","diet"]
@@ -4442,6 +4462,11 @@ export const iconsData: Array<{
     "name": "hospital",
     "categories": ["medical","buildings","navigation","travel"],
     "tags": ["infirmary","sanatorium","healthcare","doctor","hospice","clinic","emergency room","ward","building","medical","vet"]
+  },
+  {
+    "name": "hot-air-balloon",
+    "categories": ["sports"],
+    "tags": ["aircraft","flight","adventure","travel","sky","celebration","festive"]
   },
   {
     "name": "hotel",
