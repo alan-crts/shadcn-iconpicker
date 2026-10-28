@@ -244,9 +244,14 @@ export const iconsData: Array<{
     "tags": ["fruit","food","healthy","snack","nutrition","fresh","produce","grocery","organic","harvest","vitamin","red","green","juicy","sweet","tart","bite","orchard","plant","core","raw","diet"]
   },
   {
-    "name": "archive-restore",
+    "name": "archive-arrow-down",
     "categories": ["files","mail"],
-    "tags": ["unarchive","index","backup","box","storage","records"]
+    "tags": ["index","backup","box","storage","records","email","download","save"]
+  },
+  {
+    "name": "archive-arrow-up",
+    "categories": ["files","mail"],
+    "tags": ["unarchive","index","backup","box","storage","records","restore","retrieve","recover","reactivate"]
   },
   {
     "name": "archive-x",
@@ -1184,6 +1189,11 @@ export const iconsData: Array<{
     "tags": ["cube","package","container","storage","geometry","3d","isometric"]
   },
   {
+    "name": "boxes-linked",
+    "categories": ["development"],
+    "tags": ["cubes","package","module","dependencies","link","chain","blockchain","network","nodes","supply chain","integration","component","logistics","distributed","interconnected","relationship","coupling","system architecture","distributed systems","inventory"]
+  },
+  {
     "name": "boxes",
     "categories": ["shapes","gaming","development"],
     "tags": ["cubes","packages","parts","group","units","collection","cluster","geometry"]
@@ -1372,6 +1382,16 @@ export const iconsData: Array<{
     "name": "calendar-arrow-down",
     "categories": ["time"],
     "tags": ["date","month","year","event","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
+  },
+  {
+    "name": "calendar-arrow-left",
+    "categories": ["time","arrows","navigation"],
+    "tags": ["date","day","month","year","event","arrow","direction","navigation","previous","back","backward","past","earlier","reschedule","postpone","schedule","timeline","date picker"]
+  },
+  {
+    "name": "calendar-arrow-right",
+    "categories": ["time","arrows","navigation"],
+    "tags": ["date","day","month","year","event","arrow","direction","navigation","next","forward","future","upcoming","later","reschedule","postpone","defer","schedule","timeline","appointment"]
   },
   {
     "name": "calendar-arrow-up",
@@ -1737,6 +1757,16 @@ export const iconsData: Array<{
     "name": "chart-pie",
     "categories": ["charts","files"],
     "tags": ["statistics","analytics","diagram","presentation"]
+  },
+  {
+    "name": "chart-quadrant",
+    "categories": ["charts","science","math"],
+    "tags": ["quadrant","chart","diagram","statistics","analytics","graph","chart-scatter","scatter plot","2x2","matrix","segmentation","correlation","comparison","risk","swot","clustering"]
+  },
+  {
+    "name": "chart-radar",
+    "categories": ["charts","shapes","science"],
+    "tags": ["radar","chart","diagram","shape","gem","mineral","pentagon","multidimensional","metrics","performance","comparison","profile","analytics","visualization","attributes"]
   },
   {
     "name": "chart-scatter",
@@ -2789,6 +2819,11 @@ export const iconsData: Array<{
     "tags": ["storage","memory","bytes","server","check","success","valid","verified","confirmed","complete"]
   },
   {
+    "name": "database-cog",
+    "categories": ["development"],
+    "tags": ["db","settings","configuration","preferences","gear","admin","sql","storage","server","maintenance","schema","query","relational"]
+  },
+  {
     "name": "database-minus",
     "categories": ["devices","development"],
     "tags": ["storage","memory","bytes","server","minus","remove","delete","reduce"]
@@ -3062,6 +3097,16 @@ export const iconsData: Array<{
     "name": "ear",
     "categories": ["medical","accessibility"],
     "tags": ["hearing","noise","audio","accessibility"]
+  },
+  {
+    "name": "earbuds-off",
+    "categories": ["devices"],
+    "tags": ["earphones","audio","sound","bluetooth","wireless","music","noise cancelling","acoustics","stereo","media","listen","pairing","hands-free","speaker","volume","disconnected","disabled","inactive"]
+  },
+  {
+    "name": "earbuds",
+    "categories": ["devices"],
+    "tags": ["earphones","audio","sound","bluetooth","wireless","music","noise cancelling","acoustics","stereo","media","listen","pairing","hands-free","speaker","volume"]
   },
   {
     "name": "earth-lock",
@@ -4752,6 +4797,11 @@ export const iconsData: Array<{
     "name": "laptop",
     "categories": ["devices"],
     "tags": ["computer","screen","remote"]
+  },
+  {
+    "name": "laser",
+    "categories": ["tools"],
+    "tags": ["annotation","beam","draw","guide","highlight","pointer","presentation","screen","spotlight","pointer device","projection"]
   },
   {
     "name": "lasso-select",
@@ -7504,6 +7554,11 @@ export const iconsData: Array<{
     "tags": ["navigation","direction","arrow","wayfinding","guide","location","pointer","route","indicator","marker","bidirectional","left","right","east","west"]
   },
   {
+    "name": "siren-off",
+    "categories": ["medical"],
+    "tags": ["police","ambulance","emergency","security","alert","alarm","light","disabled","mute","silent","silence","inactive"]
+  },
+  {
     "name": "siren",
     "categories": ["medical"],
     "tags": ["police","ambulance","emergency","security","alert","alarm","light"]
@@ -7812,6 +7867,26 @@ export const iconsData: Array<{
     "name": "square-chevron-up",
     "categories": ["arrows","navigation","math"],
     "tags": ["caret","keyboard","button","mac","control","ctrl","superscript","exponential","power","ahead","menu","panel","^"]
+  },
+  {
+    "name": "square-chevrons-down",
+    "categories": ["arrows","navigation","multimedia"],
+    "tags": ["bottom","descend","page","page down","scroll","jump","south","caret","button","keyboard","skip","end","last page","latest","feed","chat","pagination","fast","media","menu","panel","double-arrow","outlined","border","seek","rewind","controls","fast-forward"]
+  },
+  {
+    "name": "square-chevrons-left",
+    "categories": ["arrows","navigation","multimedia"],
+    "tags": ["previous","back","rewind","backward","first","beginning","start","west","music","caret","button","keyboard","menu","panel","pagination","skip","skip-back","seek-back","media-controls","player","playlist","track","chapter","jump","timeline","controls","seek","media"]
+  },
+  {
+    "name": "square-chevrons-right",
+    "categories": ["arrows","navigation","multimedia"],
+    "tags": ["next","forward","skip","fast forward","last","end","east","music","caret","button","keyboard","menu","panel","pagination","jump","seek","seek forward","player control","chapter","track","timeline","navigation control","double arrow","media controls","toolbar","keyboard shortcut","skip-to-end","end-of-list"]
+  },
+  {
+    "name": "square-chevrons-up",
+    "categories": ["arrows","navigation","multimedia","layout"],
+    "tags": ["top","ascend","page","page up","back to top","scroll","jump","north","caret","button","keyboard","skip","pagination","first page","fast","fast scroll","rewind","jump to start","floating action button","anchor","mac","control","ctrl","menu","panel","timeline","start","first","return","double arrow","seek","playlist","floating action"]
   },
   {
     "name": "square-code",
@@ -9032,6 +9107,11 @@ export const iconsData: Array<{
     "name": "user-round-search",
     "categories": ["account","social"],
     "tags": ["person","account","contact","find","scan","magnifier","magnifying glass","lens"]
+  },
+  {
+    "name": "user-round-shield",
+    "categories": ["account","security"],
+    "tags": ["security","protection","admin","guard","privacy","account","role","permissions","profile","identity","trusted"]
   },
   {
     "name": "user-round-star",
