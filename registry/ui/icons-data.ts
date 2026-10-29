@@ -5,17 +5,17 @@ export const iconsData: Array<{
 }> = [
   {
     "name": "a-arrow-down",
-    "categories": ["text","design"],
+    "categories": ["letters-digits","text","design"],
     "tags": ["letter","font size","text","formatting","smaller"]
   },
   {
     "name": "a-arrow-up",
-    "categories": ["text","design"],
+    "categories": ["letters-digits","text","design"],
     "tags": ["letter","font size","text","formatting","larger","bigger"]
   },
   {
     "name": "a-large-small",
-    "categories": ["text","design"],
+    "categories": ["letters-digits","text","design"],
     "tags": ["letter","font size","text","formatting"]
   },
   {
@@ -30,7 +30,7 @@ export const iconsData: Array<{
   },
   {
     "name": "ad",
-    "categories": ["multimedia","accessibility","notifications"],
+    "categories": ["letters-digits","multimedia","accessibility","notifications"],
     "tags": ["advert","affiliate","brand","campaign","commercial","marketing","monetize","paid","partner","promo","sponsor","audio description","video description","described video","visual description"]
   },
   {
@@ -315,17 +315,17 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-down-0-1",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
   },
   {
     "name": "arrow-down-1-0",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
   },
   {
     "name": "arrow-down-a-z",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical"]
   },
   {
@@ -370,7 +370,7 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-down-z-a",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical","reverse"]
   },
   {
@@ -420,17 +420,17 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-up-0-1",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
   },
   {
     "name": "arrow-up-1-0",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
   },
   {
     "name": "arrow-up-a-z",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical"]
   },
   {
@@ -475,7 +475,7 @@ export const iconsData: Array<{
   },
   {
     "name": "arrow-up-z-a",
-    "categories": ["text","layout","arrows"],
+    "categories": ["letters-digits","text","layout","arrows"],
     "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical","reverse"]
   },
   {
@@ -500,7 +500,7 @@ export const iconsData: Array<{
   },
   {
     "name": "at-sign",
-    "categories": ["text","account"],
+    "categories": ["letters-digits","text","account"],
     "tags": ["mention","at","email","message","@"]
   },
   {
@@ -600,7 +600,7 @@ export const iconsData: Array<{
   },
   {
     "name": "badge-info",
-    "categories": ["account","accessibility","social"],
+    "categories": ["letters-digits","account","accessibility","social"],
     "tags": ["verified","unverified","help"]
   },
   {
@@ -730,7 +730,7 @@ export const iconsData: Array<{
   },
   {
     "name": "baseline",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","format","color"]
   },
   {
@@ -900,7 +900,7 @@ export const iconsData: Array<{
   },
   {
     "name": "binary",
-    "categories": ["text","development"],
+    "categories": ["letters-digits","text","development"],
     "tags": ["code","digits","computer","zero","one","boolean"]
   },
   {
@@ -969,11 +969,6 @@ export const iconsData: Array<{
     "tags": ["wireless"]
   },
   {
-    "name": "bold",
-    "categories": ["text"],
-    "tags": ["text","strong","format"]
-  },
-  {
     "name": "bolt",
     "categories": ["tools","home"],
     "tags": ["nut","screw","settings","preferences","configuration","controls","edit","diy","fixed","build","construction","parts"]
@@ -995,7 +990,7 @@ export const iconsData: Array<{
   },
   {
     "name": "book-a",
-    "categories": ["text","gaming"],
+    "categories": ["letters-digits","text","gaming"],
     "tags": ["dictionary","define","definition","thesaurus","encyclopedia","encyclopaedia","reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","language","translate","alphabetical","a-z","ordered"]
   },
   {
@@ -1095,7 +1090,7 @@ export const iconsData: Array<{
   },
   {
     "name": "book-type",
-    "categories": ["text","design","gaming"],
+    "categories": ["letters-digits","text","design","gaming"],
     "tags": ["thesaurus","synonym","reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","language","translate","typography","fonts","collection"]
   },
   {
@@ -1375,7 +1370,7 @@ export const iconsData: Array<{
   },
   {
     "name": "calendar-1",
-    "categories": ["time"],
+    "categories": ["letters-digits","time"],
     "tags": ["date","month","year","event","single","singular","once","1","first"]
   },
   {
@@ -1605,17 +1600,17 @@ export const iconsData: Array<{
   },
   {
     "name": "case-lower",
-    "categories": ["text","development"],
+    "categories": ["letters-digits","text","development"],
     "tags": ["text","letters","characters","font","typography"]
   },
   {
     "name": "case-sensitive",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","letters","characters","font","typography"]
   },
   {
     "name": "case-upper",
-    "categories": ["text","development"],
+    "categories": ["letters-digits","text","development"],
     "tags": ["text","letters","characters","font","typography"]
   },
   {
@@ -2084,6 +2079,141 @@ export const iconsData: Array<{
     "tags": ["dashboard","dial","meter","speed","pressure","measure","level"]
   },
   {
+    "name": "circle-letter-a",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-b",
+    "categories": ["letters-digits"],
+    "tags": ["strong","emphasis","format","alphabet","character","uppercase","bold","blood type","byte","computing","b-side","bus","transit","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-c",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","celsius","temperature","carbon","chemistry","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-d",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-e",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","explicit","content rating","east","empty","energy","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-f",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-g",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","gravity","g-force","gram","measurement","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-h",
+    "categories": ["letters-digits"],
+    "tags": ["h1","html","markup","markdown","alphabet","character","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-i",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","information","help","input","current","electricity","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-j",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","joule","energy","java","javascript","code","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-k",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-l",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","learner","driver","litre","left","length","measurement","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-m",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","million","mega","metre","measurement","male","medium","size","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-n",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-o",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","oxygen","chemistry","blood type","off","zero","marker","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-p-off",
+    "categories": ["letters-digits","transportation","navigation"],
+    "tags": ["parking lot","car park","no parking"]
+  },
+  {
+    "name": "circle-letter-p",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-q",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","question","help","queue","charge","electricity","quality","rating","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-r",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-s",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-t",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","tesla","magnetism","temperature","tonne","measurement","time","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-u",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","rack unit","server","equipment","uranium","chemistry","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-v",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-w",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-x",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-y",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","y-axis","axis","yes","confirm","year","time","chromosome","text","font","typography"]
+  },
+  {
+    "name": "circle-letter-z",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry","text","font","typography"]
+  },
+  {
     "name": "circle-minus",
     "categories": ["math"],
     "tags": ["subtract","remove","decrease","reduce","calculate","line","operator","code","coding","minimum","downgrade","-"]
@@ -2092,16 +2222,6 @@ export const iconsData: Array<{
     "name": "circle-off",
     "categories": ["shapes"],
     "tags": ["diameter","zero","Ø","nothing","null","void","cancel","ban","no","stop","forbidden","prohibited","error","incorrect","mistake","wrong","failure"]
-  },
-  {
-    "name": "circle-parking-off",
-    "categories": ["transportation","navigation"],
-    "tags": ["parking lot","car park","no parking"]
-  },
-  {
-    "name": "circle-parking",
-    "categories": ["transportation","navigation"],
-    "tags": ["parking lot","car park"]
   },
   {
     "name": "circle-pause",
@@ -2265,7 +2385,7 @@ export const iconsData: Array<{
   },
   {
     "name": "clipboard-type",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["paste","format","text"]
   },
   {
@@ -2385,7 +2505,7 @@ export const iconsData: Array<{
   },
   {
     "name": "closed-caption",
-    "categories": ["accessibility","multimedia"],
+    "categories": ["letters-digits","accessibility","multimedia"],
     "tags": ["tv","movie","video","closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
   },
   {
@@ -2650,12 +2770,12 @@ export const iconsData: Array<{
   },
   {
     "name": "copyleft",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["licence"]
   },
   {
     "name": "copyright",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["licence","license"]
   },
   {
@@ -2700,7 +2820,7 @@ export const iconsData: Array<{
   },
   {
     "name": "cpu-ai",
-    "categories": ["devices","development"],
+    "categories": ["letters-digits","devices","development"],
     "tags": ["ai","artificial intelligence","machine learning","neural network","automation","intelligence","generative","assistant","chatbot","llm","deep learning","inference","training","mlops","model","predictive","on-device","edge","api","service","cognitive","processor","chip"]
   },
   {
@@ -2710,7 +2830,7 @@ export const iconsData: Array<{
   },
   {
     "name": "creative-commons",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["licence","license"]
   },
   {
@@ -2855,12 +2975,12 @@ export const iconsData: Array<{
   },
   {
     "name": "decimals-arrow-left",
-    "categories": ["design","text","arrows","math"],
+    "categories": ["letters-digits","design","text","arrows","math"],
     "tags": ["numerical","decimal","decrease","less","fewer","precision","rounding","digits","fraction","float","number"]
   },
   {
     "name": "decimals-arrow-right",
-    "categories": ["design","text","arrows","math"],
+    "categories": ["letters-digits","design","text","arrows","math"],
     "tags": ["numerical","decimal","increase","more","precision","rounding","digits","fraction","float","number"]
   },
   {
@@ -3405,7 +3525,7 @@ export const iconsData: Array<{
   },
   {
     "name": "file-digit",
-    "categories": ["files","development"],
+    "categories": ["letters-digits","files","development"],
     "tags": ["number","document"]
   },
   {
@@ -3550,12 +3670,12 @@ export const iconsData: Array<{
   },
   {
     "name": "file-type-corner",
-    "categories": ["files","text"],
+    "categories": ["letters-digits","files","text"],
     "tags": ["font","text","typography","type"]
   },
   {
     "name": "file-type",
-    "categories": ["files","text"],
+    "categories": ["letters-digits","files","text"],
     "tags": ["font","text","typography","type"]
   },
   {
@@ -4365,7 +4485,7 @@ export const iconsData: Array<{
   },
   {
     "name": "hd",
-    "categories": ["devices","multimedia"],
+    "categories": ["letters-digits","devices","multimedia"],
     "tags": ["tv","resolution","video","high definition","720p","1080p"]
   },
   {
@@ -4375,38 +4495,33 @@ export const iconsData: Array<{
   },
   {
     "name": "heading-1",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["h1","html","markup","markdown"]
   },
   {
     "name": "heading-2",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["h2","html","markup","markdown"]
   },
   {
     "name": "heading-3",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["h3","html","markup","markdown"]
   },
   {
     "name": "heading-4",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["h4","html","markup","markdown"]
   },
   {
     "name": "heading-5",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["h5","html","markup","markdown"]
   },
   {
     "name": "heading-6",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["h6","html","markup","markdown"]
-  },
-  {
-    "name": "heading",
-    "categories": ["text"],
-    "tags": ["h1","html","markup","markdown"]
   },
   {
     "name": "headphone-off",
@@ -4650,7 +4765,7 @@ export const iconsData: Array<{
   },
   {
     "name": "info",
-    "categories": ["accessibility","notifications"],
+    "categories": ["letters-digits","accessibility","notifications"],
     "tags": ["about","advice","clue","details","help","hint","indicator","information","knowledge","notice","status","support","tooltip"]
   },
   {
@@ -4660,7 +4775,7 @@ export const iconsData: Array<{
   },
   {
     "name": "italic",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["oblique","text","format"]
   },
   {
@@ -4735,7 +4850,7 @@ export const iconsData: Array<{
   },
   {
     "name": "lambda",
-    "categories": ["development","math","science","text"],
+    "categories": ["letters-digits","development","math","science","text"],
     "tags": ["greek","symbol","math","function","programming","serverless","anonymous","functional","cloud","wavelength","calculus","linear algebra"]
   },
   {
@@ -4780,7 +4895,7 @@ export const iconsData: Array<{
   },
   {
     "name": "languages",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["translate"]
   },
   {
@@ -4934,13 +5049,143 @@ export const iconsData: Array<{
     "tags": ["optics","reflection","camera","photography","focus","effect","shader","post-process","visual","contact lens","glass","magnify","translucent","transparent","orb","bubble","zoom"]
   },
   {
+    "name": "letter-a",
+    "categories": ["letters-digits","text"],
+    "tags": ["alphabet","character","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance","text","font","typography"]
+  },
+  {
+    "name": "letter-b",
+    "categories": ["letters-digits","text"],
+    "tags": ["strong","emphasis","format","alphabet","character","uppercase","bold","blood type","byte","computing","b-side","bus","transit","text","font","typography"]
+  },
+  {
+    "name": "letter-c",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","celsius","temperature","carbon","chemistry","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "letter-d",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "letter-e",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","explicit","content rating","east","empty","energy","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "letter-f",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera","text","font","typography"]
+  },
+  {
+    "name": "letter-g",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","gravity","g-force","gram","measurement","text","font","typography"]
+  },
+  {
+    "name": "letter-h",
+    "categories": ["letters-digits","text"],
+    "tags": ["h1","html","markup","markdown","alphabet","character","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement","text","font","typography"]
+  },
+  {
+    "name": "letter-i",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","information","help","input","current","electricity","text","font","typography"]
+  },
+  {
+    "name": "letter-j",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","joule","energy","java","javascript","code","text","font","typography"]
+  },
+  {
+    "name": "letter-k",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry","text","font","typography"]
+  },
+  {
+    "name": "letter-l",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","learner","driver","litre","left","length","measurement","text","font","typography"]
+  },
+  {
+    "name": "letter-m",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","million","mega","metre","measurement","male","medium","size","text","font","typography"]
+  },
+  {
+    "name": "letter-n",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics","text","font","typography"]
+  },
+  {
+    "name": "letter-o",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","oxygen","chemistry","blood type","off","zero","marker","text","font","typography"]
+  },
+  {
+    "name": "letter-p",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math","text","font","typography"]
+  },
+  {
+    "name": "letter-q",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","question","help","queue","charge","electricity","quality","rating","text","font","typography"]
+  },
+  {
+    "name": "letter-r",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review","text","font","typography"]
+  },
+  {
+    "name": "letter-s",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity","text","font","typography"]
+  },
+  {
     "name": "letter-spacing",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["tracking","kerning","design","lettering","text","letters","characters","font","typography","formatting"]
   },
   {
+    "name": "letter-t",
+    "categories": ["letters-digits","text"],
+    "tags": ["alphabet","character","uppercase","tesla","magnetism","temperature","tonne","measurement","time","text","font","typography"]
+  },
+  {
+    "name": "letter-u",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","rack unit","server","equipment","uranium","chemistry","text","font","typography"]
+  },
+  {
+    "name": "letter-v",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video","text","font","typography"]
+  },
+  {
+    "name": "letter-w",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win","text","font","typography"]
+  },
+  {
+    "name": "letter-x",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome","text","font","typography"]
+  },
+  {
+    "name": "letter-y",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","y-axis","axis","yes","confirm","year","time","chromosome","text","font","typography"]
+  },
+  {
+    "name": "letter-z",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry","text","font","typography"]
+  },
+  {
     "name": "letters",
-    "categories": ["text"],
+    "categories": ["letters-digits"],
     "tags": ["abc","alphabet","alphabetical","text","characters","language","typography","literacy","spelling"]
   },
   {
@@ -4960,7 +5205,7 @@ export const iconsData: Array<{
   },
   {
     "name": "ligature",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","font","typography","alternates","alternatives"]
   },
   {
@@ -5000,7 +5245,7 @@ export const iconsData: Array<{
   },
   {
     "name": "line-height",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["leading","text","letters","characters","font","typography","spacing","paragraph","formatting","editor","readability","typesetting"]
   },
   {
@@ -5095,7 +5340,7 @@ export const iconsData: Array<{
   },
   {
     "name": "list-ordered",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["number","order","queue"]
   },
   {
@@ -5960,7 +6205,7 @@ export const iconsData: Array<{
   },
   {
     "name": "nepali-rupee",
-    "categories": ["finance","shopping","travel"],
+    "categories": ["finance"],
     "tags": ["currency","money","nepal","rupee","npr"]
   },
   {
@@ -6019,6 +6264,11 @@ export const iconsData: Array<{
     "tags": ["notebook","notes","pages","paper","stationery","sketchbook","organizer","organiser","planner","diary","journal","writing","write","written","reading","high school","university","college","academy","student","study","homework","research","lines","opened"]
   },
   {
+    "name": "numbers",
+    "categories": ["letters-digits","text","math"],
+    "tags": ["123","digits","numeric","numerical","counting","quantity","math","sequence","integer"]
+  },
+  {
     "name": "nut-off",
     "categories": ["food-beverage"],
     "tags": ["hazelnut","acorn","food","allergy","intolerance","diet"]
@@ -6055,7 +6305,7 @@ export const iconsData: Array<{
   },
   {
     "name": "omega",
-    "categories": ["math","development","text","science"],
+    "categories": ["letters-digits","math","development","text","science"],
     "tags": ["greek","symbol","mathematics","education","physics","engineering","ohms","electrical resistance","angular frequency","dynamical systems","astronomy","constellations","philosophy"]
   },
   {
@@ -6365,7 +6615,7 @@ export const iconsData: Array<{
   },
   {
     "name": "phi",
-    "categories": ["math","science"],
+    "categories": ["letters-digits","math","science"],
     "tags": ["math","golden-ratio","symbol","greek","letter","typography","constant","flux","magnetic-flux"]
   },
   {
@@ -6415,7 +6665,7 @@ export const iconsData: Array<{
   },
   {
     "name": "pi",
-    "categories": ["development","math"],
+    "categories": ["letters-digits","development","math"],
     "tags": ["constant","code","coding","programming","symbol","trigonometry","geometry","formula"]
   },
   {
@@ -6560,7 +6810,7 @@ export const iconsData: Array<{
   },
   {
     "name": "podium",
-    "categories": ["sports","gaming"],
+    "categories": ["letters-digits","sports","gaming"],
     "tags": ["award","stage","winner","celebration","performance","medal","success","achievement","highlight","ranking","winning","place","placing","leaderboard","first","second","third","gold","silver","bronze"]
   },
   {
@@ -6715,37 +6965,37 @@ export const iconsData: Array<{
   },
   {
     "name": "receipt-cent",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","cents","dollar","usd","$","¢"]
   },
   {
     "name": "receipt-euro",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","€"]
   },
   {
     "name": "receipt-indian-rupee",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","inr","₹"]
   },
   {
     "name": "receipt-japanese-yen",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","jpy","¥"]
   },
   {
     "name": "receipt-pound-sterling",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","british","currency","gbp","£"]
   },
   {
     "name": "receipt-russian-ruble",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","rub","₽"]
   },
   {
     "name": "receipt-swiss-franc",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","chf","₣"]
   },
   {
@@ -6755,7 +7005,7 @@ export const iconsData: Array<{
   },
   {
     "name": "receipt-turkish-lira",
-    "categories": ["finance","travel"],
+    "categories": ["finance"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","try","₺"]
   },
   {
@@ -6840,12 +7090,12 @@ export const iconsData: Array<{
   },
   {
     "name": "remove-formatting",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","font","typography","format","x","remove","delete","times","clear"]
   },
   {
     "name": "repeat-1",
-    "categories": ["multimedia"],
+    "categories": ["letters-digits","multimedia"],
     "tags": ["replay"]
   },
   {
@@ -7510,7 +7760,7 @@ export const iconsData: Array<{
   },
   {
     "name": "sigma",
-    "categories": ["text","math","science"],
+    "categories": ["letters-digits","text","math","science"],
     "tags": ["sum","calculate","formula","math","enumeration","enumerate"]
   },
   {
@@ -7685,12 +7935,12 @@ export const iconsData: Array<{
   },
   {
     "name": "spell-check-2",
-    "categories": ["text","development"],
+    "categories": ["letters-digits","text","development"],
     "tags": ["spelling","error","mistake","oversight","typo","correction","code","linter","a"]
   },
   {
     "name": "spell-check",
-    "categories": ["text","development"],
+    "categories": ["letters-digits","text","development"],
     "tags": ["spelling","error","mistake","oversight","typo","correction","code","linter","a"]
   },
   {
@@ -7970,8 +8220,13 @@ export const iconsData: Array<{
   },
   {
     "name": "square-function",
-    "categories": ["development","math"],
+    "categories": ["letters-digits","development","math"],
     "tags": ["programming","code","automation","math"]
+  },
+  {
+    "name": "square-kanban-plus",
+    "categories": ["charts","development","design","layout"],
+    "tags": ["board","project","add","create","plus","agile","tickets","issues","productivity","columns","workflow","planning","dashboard","workspace","collaboration","cards"]
   },
   {
     "name": "square-kanban",
@@ -7979,14 +8234,144 @@ export const iconsData: Array<{
     "tags": ["projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","code","coding","toolbar","button"]
   },
   {
+    "name": "square-letter-a",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance","text","font","typography"]
+  },
+  {
+    "name": "square-letter-b",
+    "categories": ["letters-digits"],
+    "tags": ["strong","emphasis","format","alphabet","character","uppercase","bold","blood type","byte","computing","b-side","bus","transit","text","font","typography"]
+  },
+  {
+    "name": "square-letter-c",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","celsius","temperature","carbon","chemistry","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "square-letter-d",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "square-letter-e",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","explicit","content rating","east","empty","energy","grade","rating","text","font","typography"]
+  },
+  {
+    "name": "square-letter-f",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera","text","font","typography"]
+  },
+  {
+    "name": "square-letter-g",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","gravity","g-force","gram","measurement","text","font","typography"]
+  },
+  {
+    "name": "square-letter-h",
+    "categories": ["letters-digits"],
+    "tags": ["h1","html","markup","markdown","alphabet","character","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement","text","font","typography"]
+  },
+  {
+    "name": "square-letter-i",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","information","help","input","current","electricity","text","font","typography"]
+  },
+  {
+    "name": "square-letter-j",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","joule","energy","java","javascript","code","text","font","typography"]
+  },
+  {
+    "name": "square-letter-k",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry","text","font","typography"]
+  },
+  {
+    "name": "square-letter-l",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","learner","driver","litre","left","length","measurement","text","font","typography"]
+  },
+  {
+    "name": "square-letter-m",
+    "categories": ["letters-digits","transportation","navigation"],
+    "tags": ["metro","subway","underground","track","line","alphabet","character","uppercase","million","mega","metre","measurement","male","medium","size","text","font","typography"]
+  },
+  {
+    "name": "square-letter-n",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics","text","font","typography"]
+  },
+  {
+    "name": "square-letter-o",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","oxygen","chemistry","blood type","off","zero","marker","text","font","typography"]
+  },
+  {
+    "name": "square-letter-p-off",
+    "categories": ["letters-digits","transportation","navigation"],
+    "tags": ["parking lot","car park","no parking"]
+  },
+  {
+    "name": "square-letter-p",
+    "categories": ["letters-digits","transportation","navigation"],
+    "tags": ["parking lot","car park","alphabet","character","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math","text","font","typography"]
+  },
+  {
+    "name": "square-letter-q",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","question","help","queue","charge","electricity","quality","rating","text","font","typography"]
+  },
+  {
+    "name": "square-letter-r",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review","text","font","typography"]
+  },
+  {
+    "name": "square-letter-s",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity","text","font","typography"]
+  },
+  {
+    "name": "square-letter-t",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","tesla","magnetism","temperature","tonne","measurement","time","text","font","typography"]
+  },
+  {
+    "name": "square-letter-u",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","rack unit","server","equipment","uranium","chemistry","text","font","typography"]
+  },
+  {
+    "name": "square-letter-v",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video","text","font","typography"]
+  },
+  {
+    "name": "square-letter-w",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win","text","font","typography"]
+  },
+  {
+    "name": "square-letter-x",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome","text","font","typography"]
+  },
+  {
+    "name": "square-letter-y",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","y-axis","axis","yes","confirm","year","time","chromosome","text","font","typography"]
+  },
+  {
+    "name": "square-letter-z",
+    "categories": ["letters-digits"],
+    "tags": ["alphabet","character","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry","text","font","typography"]
+  },
+  {
     "name": "square-library",
     "categories": ["text","photography","multimedia","navigation","development"],
     "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package"]
-  },
-  {
-    "name": "square-m",
-    "categories": ["transportation","navigation"],
-    "tags": ["metro","subway","underground","track","line"]
   },
   {
     "name": "square-menu",
@@ -8009,16 +8394,6 @@ export const iconsData: Array<{
     "tags": ["/","not","slash","off","disabled","inactive","cancel","none","block","forbidden","unavailable","stopped","checkbox","unchecked","toggle","negation","form","ui"]
   },
   {
-    "name": "square-parking-off",
-    "categories": ["transportation","navigation"],
-    "tags": ["parking lot","car park","no parking"]
-  },
-  {
-    "name": "square-parking",
-    "categories": ["transportation","navigation"],
-    "tags": ["parking lot","car park"]
-  },
-  {
     "name": "square-pause",
     "categories": ["multimedia"],
     "tags": ["music","audio","stop"]
@@ -8035,7 +8410,7 @@ export const iconsData: Array<{
   },
   {
     "name": "square-pi",
-    "categories": ["development","math"],
+    "categories": ["letters-digits","development","math"],
     "tags": ["constant","code","coding","programming","symbol","trigonometry","geometry","formula"]
   },
   {
@@ -8075,7 +8450,7 @@ export const iconsData: Array<{
   },
   {
     "name": "square-sigma",
-    "categories": ["text","math"],
+    "categories": ["letters-digits","text","math"],
     "tags": ["sum","calculate","formula","math","enumeration","enumerate"]
   },
   {
@@ -8300,12 +8675,12 @@ export const iconsData: Array<{
   },
   {
     "name": "strikethrough",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["cross out","delete","remove","format"]
   },
   {
     "name": "subscript",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text"]
   },
   {
@@ -8350,7 +8725,7 @@ export const iconsData: Array<{
   },
   {
     "name": "superscript",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","exponent"]
   },
   {
@@ -8575,7 +8950,7 @@ export const iconsData: Array<{
   },
   {
     "name": "text-initial",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["drop cap","text","format","typography","letter","font size"]
   },
   {
@@ -8935,12 +9310,12 @@ export const iconsData: Array<{
   },
   {
     "name": "type-outline",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","font","typography","silhouette","profile","contour","stroke","line"]
   },
   {
     "name": "type",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","font","typography"]
   },
   {
@@ -8955,7 +9330,7 @@ export const iconsData: Array<{
   },
   {
     "name": "underline",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","format"]
   },
   {
@@ -9195,7 +9570,7 @@ export const iconsData: Array<{
   },
   {
     "name": "variable",
-    "categories": ["development","math"],
+    "categories": ["letters-digits","development","math"],
     "tags": ["code","coding","programming","symbol","calculate","algebra","x","parentheses","parenthesis","brackets","parameter","(",")"]
   },
   {
@@ -9435,7 +9810,7 @@ export const iconsData: Array<{
   },
   {
     "name": "whole-word",
-    "categories": ["text"],
+    "categories": ["letters-digits","text"],
     "tags": ["text","selection","letters","characters","font","typography"]
   },
   {
@@ -9530,7 +9905,7 @@ export const iconsData: Array<{
   },
   {
     "name": "x-line-top",
-    "categories": ["notifications","math"],
+    "categories": ["letters-digits","notifications","math"],
     "tags": ["line","top","arrow","navigation","up","pointer","direction","vector","symbol","cancel","close","delete","remove","times","clear","math","multiply","multiplication","mean","median","average","x̄"]
   },
   {
