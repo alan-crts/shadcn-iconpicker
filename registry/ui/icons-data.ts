@@ -5,18 +5,18 @@ export const iconsData: Array<{
 }> = [
   {
     "name": "a-arrow-down",
-    "categories": ["letters-digits","text","design"],
-    "tags": ["letter","font size","text","formatting","smaller"]
+    "categories": ["text","design"],
+    "tags": ["$group:letter","$group:direction-down","letter","font size","formatting","smaller"]
   },
   {
     "name": "a-arrow-up",
-    "categories": ["letters-digits","text","design"],
-    "tags": ["letter","font size","text","formatting","larger","bigger"]
+    "categories": ["text","design"],
+    "tags": ["$group:letter","$group:direction-up","letter","font size","formatting","larger","bigger"]
   },
   {
     "name": "a-large-small",
-    "categories": ["letters-digits","text","design"],
-    "tags": ["letter","font size","text","formatting"]
+    "categories": ["text","design"],
+    "tags": ["$group:letter","letter","font size","formatting"]
   },
   {
     "name": "accessibility",
@@ -25,13 +25,13 @@ export const iconsData: Array<{
   },
   {
     "name": "activity",
-    "categories": ["medical","account","social","science","multimedia"],
+    "categories": ["medical","account","social"],
     "tags": ["pulse","action","motion","movement","exercise","fitness","healthcare","heart rate monitor","vital signs","vitals","emergency room","er","intensive care","hospital","defibrillator","earthquake","seismic","magnitude","richter scale","aftershock","tremor","shockwave","audio","waveform","synthesizer","synthesiser","music"]
   },
   {
     "name": "ad",
-    "categories": ["letters-digits","multimedia","accessibility","notifications"],
-    "tags": ["advert","affiliate","brand","campaign","commercial","marketing","monetize","paid","partner","promo","sponsor","audio description","video description","described video","visual description"]
+    "categories": ["multimedia","accessibility"],
+    "tags": ["$group:letter","advert","affiliate","brand","campaign","commercial","marketing","monetize","paid","partner","promo","sponsor","audio description","video description","described video","visual description"]
   },
   {
     "name": "air-vent",
@@ -45,28 +45,28 @@ export const iconsData: Array<{
   },
   {
     "name": "alarm-clock-check",
-    "categories": ["devices","notifications","time"],
-    "tags": ["done","todo","tick","complete","task"]
+    "categories": ["$extends:alarm-clock"],
+    "tags": ["$extends:alarm-clock","$group:check","reminder","wake-up"]
   },
   {
     "name": "alarm-clock-minus",
-    "categories": ["devices","notifications","time"],
-    "tags": ["remove"]
+    "categories": ["$extends:alarm-clock"],
+    "tags": ["$extends:alarm-clock","$group:minus","reminder","unschedule"]
   },
   {
     "name": "alarm-clock-off",
-    "categories": ["devices","notifications","time"],
-    "tags": ["morning","turn-off"]
+    "categories": ["$extends:alarm-clock"],
+    "tags": ["$extends:alarm-clock","$group:off","silent","silence","disarmed","muted"]
   },
   {
     "name": "alarm-clock-plus",
-    "categories": ["devices","notifications","time"],
-    "tags": ["add"]
+    "categories": ["$extends:alarm-clock"],
+    "tags": ["$extends:alarm-clock","$group:plus"]
   },
   {
     "name": "alarm-clock",
     "categories": ["devices","notifications","time"],
-    "tags": ["morning"]
+    "tags": ["$group:clock","morning"]
   },
   {
     "name": "alarm-smoke",
@@ -86,12 +86,12 @@ export const iconsData: Array<{
   {
     "name": "align-end-horizontal",
     "categories": ["layout"],
-    "tags": ["items","bottom","flex","justify"]
+    "tags": ["$group:position-bottom","items","flex","justify"]
   },
   {
     "name": "align-end-vertical",
     "categories": ["layout"],
-    "tags": ["items","right","flex","justify"]
+    "tags": ["$group:position-right","items","flex","justify"]
   },
   {
     "name": "align-horizontal-distribute-center",
@@ -101,12 +101,12 @@ export const iconsData: Array<{
   {
     "name": "align-horizontal-distribute-end",
     "categories": ["layout"],
-    "tags": ["right","items","flex","justify"]
+    "tags": ["$group:position-right","items","flex","justify"]
   },
   {
     "name": "align-horizontal-distribute-start",
     "categories": ["layout"],
-    "tags": ["left","items","flex","justify"]
+    "tags": ["$group:position-left","items","flex","justify"]
   },
   {
     "name": "align-horizontal-justify-center",
@@ -116,12 +116,12 @@ export const iconsData: Array<{
   {
     "name": "align-horizontal-justify-end",
     "categories": ["layout"],
-    "tags": ["right","items","flex","justify"]
+    "tags": ["$group:position-right","items","flex","justify"]
   },
   {
     "name": "align-horizontal-justify-start",
     "categories": ["layout"],
-    "tags": ["left","items","flex","justify"]
+    "tags": ["$group:position-left","items","flex","justify"]
   },
   {
     "name": "align-horizontal-space-around",
@@ -131,17 +131,17 @@ export const iconsData: Array<{
   {
     "name": "align-horizontal-space-between",
     "categories": ["layout"],
-    "tags": ["around","items","bottom","flex","justify"]
+    "tags": ["$group:position-left","$group:position-right","around","items","bottom","flex","justify"]
   },
   {
     "name": "align-start-horizontal",
     "categories": ["layout"],
-    "tags": ["top","items","flex","justify"]
+    "tags": ["$group:position-top","items","flex","justify"]
   },
   {
     "name": "align-start-vertical",
     "categories": ["layout"],
-    "tags": ["left","items","flex","justify"]
+    "tags": ["$group:position-left","items","flex","justify"]
   },
   {
     "name": "align-vertical-distribute-center",
@@ -151,12 +151,12 @@ export const iconsData: Array<{
   {
     "name": "align-vertical-distribute-end",
     "categories": ["layout"],
-    "tags": ["bottom","items","flex","justify"]
+    "tags": ["$group:position-bottom","items","flex","justify"]
   },
   {
     "name": "align-vertical-distribute-start",
     "categories": ["layout"],
-    "tags": ["top","items","flex","justify"]
+    "tags": ["$group:position-top","items","flex","justify"]
   },
   {
     "name": "align-vertical-justify-center",
@@ -166,12 +166,12 @@ export const iconsData: Array<{
   {
     "name": "align-vertical-justify-end",
     "categories": ["layout"],
-    "tags": ["bottom","items","flex","justify","distribute","between"]
+    "tags": ["$group:position-bottom","items","flex","justify","distribute","between"]
   },
   {
     "name": "align-vertical-justify-start",
     "categories": ["layout"],
-    "tags": ["top","items","flex","justify","distribute","between"]
+    "tags": ["$group:position-top","items","flex","justify","distribute","between"]
   },
   {
     "name": "align-vertical-space-around",
@@ -181,7 +181,7 @@ export const iconsData: Array<{
   {
     "name": "align-vertical-space-between",
     "categories": ["layout"],
-    "tags": ["center","items","flex","justify","distribute","between"]
+    "tags": ["$group:position-top","$group:position-bottom","center","items","flex","justify","distribute","between"]
   },
   {
     "name": "ambulance",
@@ -200,7 +200,7 @@ export const iconsData: Array<{
   },
   {
     "name": "amphora",
-    "categories": ["food-beverage","gaming"],
+    "categories": ["food-beverage"],
     "tags": ["pottery","artifact","artefact","vase","ceramics","clay","archaeology","museum","wine","oil"]
   },
   {
@@ -215,12 +215,12 @@ export const iconsData: Array<{
   },
   {
     "name": "antenna",
-    "categories": ["devices","multimedia","communication"],
+    "categories": ["devices","multimedia","communication","connectivity"],
     "tags": ["signal","connection","connectivity","tv","television","broadcast","live","frequency","tune","scan","channels","aerial","receiver","transmission","transducer","terrestrial","satellite","cable"]
   },
   {
     "name": "anvil",
-    "categories": ["buildings","tools","gaming"],
+    "categories": ["tools","gaming"],
     "tags": ["metal","iron","alloy","materials","heavy","weight","blacksmith","forge","acme"]
   },
   {
@@ -230,12 +230,12 @@ export const iconsData: Array<{
   },
   {
     "name": "app-window-mac",
-    "categories": ["layout","design","development","files"],
-    "tags": ["application","menu bar","pane","preferences","macos","osx","executable"]
+    "categories": ["$extends:app-window"],
+    "tags": ["$extends:app-window","preferences","macos","osx","desktop","title bar","traffic lights","close button","minimize","maximize","native app"]
   },
   {
     "name": "app-window",
-    "categories": ["layout","design","development","files"],
+    "categories": ["layout","development"],
     "tags": ["application","menu bar","pane","executable"]
   },
   {
@@ -245,18 +245,18 @@ export const iconsData: Array<{
   },
   {
     "name": "archive-arrow-down",
-    "categories": ["files","mail"],
-    "tags": ["index","backup","box","storage","records","email","download","save"]
+    "categories": ["$extends:archive"],
+    "tags": ["$extends:archive","unarchive","email","download","save"]
   },
   {
     "name": "archive-arrow-up",
-    "categories": ["files","mail"],
-    "tags": ["unarchive","index","backup","box","storage","records","restore","retrieve","recover","reactivate"]
+    "categories": ["$extends:archive"],
+    "tags": ["$extends:archive","unarchive"]
   },
   {
     "name": "archive-x",
-    "categories": ["files","mail"],
-    "tags": ["index","backup","box","storage","records","junk"]
+    "categories": ["$extends:archive"],
+    "tags": ["$extends:archive","$group:x","junk"]
   },
   {
     "name": "archive",
@@ -271,222 +271,222 @@ export const iconsData: Array<{
   {
     "name": "armenian-dram",
     "categories": ["finance"],
-    "tags": ["finance","symbol","banking","economy","currency","money","payment"]
+    "tags": ["$group:currency","symbol"]
   },
   {
     "name": "arrow-big-down-dash",
-    "categories": ["arrows","gaming","files"],
-    "tags": ["backwards","reverse","slow","direction","south","download"]
+    "categories": ["$extends:arrow-big-down","files"],
+    "tags": ["$extends:arrow-big-down","$group:direction-down","slow","download"]
   },
   {
     "name": "arrow-big-down",
     "categories": ["arrows","gaming"],
-    "tags": ["backwards","reverse","direction","south"]
+    "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse"]
   },
   {
     "name": "arrow-big-left-dash",
-    "categories": ["arrows","gaming"],
-    "tags": ["previous","back","direction","west","turn","corner"]
+    "categories": ["$extends:arrow-big-left"],
+    "tags": ["$extends:arrow-big-left","$group:direction-left","turn","corner"]
   },
   {
     "name": "arrow-big-left",
     "categories": ["arrows","gaming"],
-    "tags": ["previous","back","direction","west","indicate turn"]
+    "tags": ["$group:direction-left","$group:navigation-previous","previous","indicate turn"]
   },
   {
     "name": "arrow-big-right-dash",
-    "categories": ["arrows","gaming"],
-    "tags": ["next","forward","direction","east","turn","corner"]
+    "categories": ["$extends:arrow-big-right"],
+    "tags": ["$extends:arrow-big-right","$group:direction-right","turn","corner"]
   },
   {
     "name": "arrow-big-right",
     "categories": ["arrows","gaming"],
-    "tags": ["next","forward","direction","east","indicate turn"]
+    "tags": ["$group:direction-right","$group:navigation-next","next","indicate turn"]
   },
   {
     "name": "arrow-big-up-dash",
-    "categories": ["arrows","text","development","gaming"],
-    "tags": ["caps lock","capitals","keyboard","button","mac","forward","direction","north","faster","speed","boost"]
+    "categories": ["$extends:arrow-big-up"],
+    "tags": ["$extends:arrow-big-up","$group:direction-up","caps lock","capitals","faster","speed","boost"]
   },
   {
     "name": "arrow-big-up",
-    "categories": ["arrows","text","development","gaming"],
-    "tags": ["shift","keyboard","button","mac","capitalize","capitalise","forward","direction","north"]
+    "categories": ["arrows","text","gaming"],
+    "tags": ["$group:direction-up","$group:navigation-previous","shift","keyboard","button","mac","capitalize","capitalise","forward"]
   },
   {
     "name": "arrow-down-0-1",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
+    "categories": ["$extends:arrow-down","text","layout"],
+    "tags": ["$group:digit","$group:direction-down","$group:sort"]
   },
   {
     "name": "arrow-down-1-0",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
+    "categories": ["$extends:arrow-down","text","layout"],
+    "tags": ["$group:digit","$group:direction-down","$group:sort"]
   },
   {
     "name": "arrow-down-a-z",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical"]
+    "categories": ["$extends:arrow-down","text","layout"],
+    "tags": ["$group:letter","$group:direction-down","$group:sort","alphabetical"]
   },
   {
     "name": "arrow-down-from-line",
-    "categories": ["arrows","files"],
-    "tags": ["backwards","reverse","direction","south","download","expand","fold","vertical"]
+    "categories": ["$extends:arrow-down","files"],
+    "tags": ["$extends:arrow-down","$group:direction-down","download","expand","fold"]
   },
   {
     "name": "arrow-down-left",
     "categories": ["arrows"],
-    "tags": ["direction","south-west","diagonal"]
+    "tags": ["$group:direction-down-left"]
   },
   {
     "name": "arrow-down-narrow-wide",
-    "categories": ["text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:arrow-down","text","layout"],
+    "tags": ["$group:direction-down","$group:sort"]
   },
   {
     "name": "arrow-down-right",
     "categories": ["arrows"],
-    "tags": ["direction","south-east","diagonal"]
+    "tags": ["$group:direction-down-right"]
   },
   {
     "name": "arrow-down-to-dot",
-    "categories": ["arrows"],
-    "tags": ["direction","south","waypoint","location","step","into"]
+    "categories": ["$extends:arrow-down"],
+    "tags": ["$extends:arrow-down","$group:direction-down","waypoint","location","step","into"]
   },
   {
     "name": "arrow-down-to-line",
-    "categories": ["arrows","files","development"],
-    "tags": ["behind","direction","south","download","save","git","version control","pull","collapse","fold","vertical"]
+    "categories": ["$extends:arrow-down","files","development"],
+    "tags": ["$extends:arrow-down","$extends:download","$group:direction-down","$group:navigation-last","behind","download","git","version control","collapse","fold"]
   },
   {
     "name": "arrow-down-up",
     "categories": ["arrows"],
-    "tags": ["bidirectional","two-way","2-way","swap","switch","network","traffic","flow","mobile data","internet","sort","reorder","move"]
+    "tags": ["$group:direction-down","$group:direction-up","$group:sort","bidirectional","two-way","2-way","swap","switch","network","traffic","flow","mobile data","internet","move"]
   },
   {
     "name": "arrow-down-wide-narrow",
-    "categories": ["text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:arrow-down","text","layout"],
+    "tags": ["$group:direction-down","$group:sort"]
   },
   {
     "name": "arrow-down-z-a",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical","reverse"]
+    "categories": ["$extends:arrow-down","text","layout"],
+    "tags": ["$group:letter","$group:direction-down","$group:sort","alphabetical","reverse"]
   },
   {
     "name": "arrow-down",
     "categories": ["arrows"],
-    "tags": ["backwards","reverse","direction","south"]
+    "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse"]
   },
   {
     "name": "arrow-left-from-line",
-    "categories": ["arrows"],
-    "tags": ["previous","back","direction","west","expand","fold","horizontal","<-|"]
+    "categories": ["$extends:arrow-left"],
+    "tags": ["$extends:arrow-left","$group:direction-left","expand","fold","<-|"]
   },
   {
     "name": "arrow-left-right",
-    "categories": ["arrows"],
-    "tags": ["bidirectional","two-way","2-way","swap","switch","transaction","reorder","move","<-","->"]
+    "categories": ["$extends:arrow-left"],
+    "tags": ["$group:direction-left","$group:direction-right","bidirectional","two-way","2-way","swap","switch","transaction","reorder","move","<-","->"]
   },
   {
     "name": "arrow-left-to-line",
-    "categories": ["arrows"],
-    "tags": ["previous","back","direction","west","collapse","fold","horizontal","|<-"]
+    "categories": ["$extends:arrow-left"],
+    "tags": ["$extends:arrow-left","$group:direction-left","$group:navigation-first","collapse","fold","|<-"]
   },
   {
     "name": "arrow-left",
     "categories": ["arrows"],
-    "tags": ["previous","back","direction","west","<-"]
+    "tags": ["$group:direction-left","$group:navigation-previous","previous","<-"]
   },
   {
     "name": "arrow-right-from-line",
-    "categories": ["arrows"],
-    "tags": ["next","forward","direction","east","export","expand","fold","horizontal","|->"]
+    "categories": ["$extends:arrow-right"],
+    "tags": ["$extends:arrow-right","$group:direction-right","export","expand","fold","|->"]
   },
   {
     "name": "arrow-right-left",
-    "categories": ["arrows"],
-    "tags": ["bidirectional","two-way","2-way","swap","switch","transaction","reorder","move","<-","->"]
+    "categories": ["$extends:arrow-right"],
+    "tags": ["$group:direction-right","$group:direction-left","bidirectional","two-way","2-way","swap","switch","transaction","reorder","move","<-","->"]
   },
   {
     "name": "arrow-right-to-line",
-    "categories": ["arrows","development"],
-    "tags": ["next","forward","direction","east","tab","keyboard","mac","indent","collapse","fold","horizontal","->|"]
+    "categories": ["$extends:arrow-right","development"],
+    "tags": ["$extends:arrow-right","$group:direction-right","$group:navigation-last","tab","keyboard","mac","indent","collapse","fold","->|"]
   },
   {
     "name": "arrow-right",
     "categories": ["arrows"],
-    "tags": ["forward","next","direction","east","->"]
+    "tags": ["$group:direction-right","$group:navigation-next","next","->"]
   },
   {
     "name": "arrow-up-0-1",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
+    "categories": ["$extends:arrow-up","text","layout"],
+    "tags": ["$group:digit","$group:direction-up","$group:sort"]
   },
   {
     "name": "arrow-up-1-0",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","numerical"]
+    "categories": ["$extends:arrow-up","text","layout"],
+    "tags": ["$group:digit","$group:direction-up","$group:sort"]
   },
   {
     "name": "arrow-up-a-z",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical"]
+    "categories": ["$extends:arrow-up","text","layout"],
+    "tags": ["$group:letter","$group:direction-up","$group:sort","alphabetical"]
   },
   {
     "name": "arrow-up-down",
     "categories": ["arrows"],
-    "tags": ["bidirectional","two-way","2-way","swap","switch","network","mobile data","internet","sort","reorder","move"]
+    "tags": ["$group:direction-up","$group:direction-down","$group:sort","bidirectional","two-way","2-way","swap","switch","network","mobile data","internet","move"]
   },
   {
     "name": "arrow-up-from-dot",
-    "categories": ["arrows"],
-    "tags": ["direction","north","step","out"]
+    "categories": ["$extends:arrow-up"],
+    "tags": ["$extends:arrow-up","$group:direction-up","step","out"]
   },
   {
     "name": "arrow-up-from-line",
-    "categories": ["arrows","files","development"],
-    "tags": ["forward","direction","north","upload","git","version control","push","expand","fold","vertical"]
+    "categories": ["$extends:arrow-up","files","development"],
+    "tags": ["$extends:arrow-up","$group:direction-up","upload","git","version control","push","expand","fold"]
   },
   {
     "name": "arrow-up-left",
     "categories": ["arrows"],
-    "tags": ["direction","north-west","diagonal"]
+    "tags": ["$group:direction-up-left"]
   },
   {
     "name": "arrow-up-narrow-wide",
-    "categories": ["text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:arrow-up","text","layout"],
+    "tags": ["$group:direction-up","$group:sort"]
   },
   {
     "name": "arrow-up-right",
     "categories": ["arrows"],
-    "tags": ["direction","north-east","diagonal"]
+    "tags": ["$group:direction-up-right"]
   },
   {
     "name": "arrow-up-to-line",
-    "categories": ["arrows","files"],
-    "tags": ["forward","direction","north","upload","collapse","fold","vertical"]
+    "categories": ["$extends:arrow-up","files"],
+    "tags": ["$extends:arrow-up","$group:direction-up","$group:navigation-first","upload","collapse","fold"]
   },
   {
     "name": "arrow-up-wide-narrow",
-    "categories": ["text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:arrow-up","text","layout"],
+    "tags": ["$group:direction-up","$group:sort"]
   },
   {
     "name": "arrow-up-z-a",
-    "categories": ["letters-digits","text","layout","arrows"],
-    "tags": ["filter","sort","ascending","descending","increasing","decreasing","rising","falling","alphabetical","reverse"]
+    "categories": ["$extends:arrow-up","text","layout"],
+    "tags": ["$group:letter","$group:direction-up","$group:sort","alphabetical","reverse"]
   },
   {
     "name": "arrow-up",
     "categories": ["arrows"],
-    "tags": ["forward","direction","north"]
+    "tags": ["$group:direction-up","$group:navigation-previous","forward"]
   },
   {
     "name": "arrows-up-from-line",
-    "categories": ["arrows","transportation","mail"],
-    "tags": ["direction","orientation","this way up","vertical","package","box","fragile","postage","shipping"]
+    "categories": ["arrows","transportation"],
+    "tags": ["$group:direction-up","orientation","this way up","package","box","fragile","postage","shipping"]
   },
   {
     "name": "asterisk",
@@ -500,8 +500,8 @@ export const iconsData: Array<{
   },
   {
     "name": "at-sign",
-    "categories": ["letters-digits","text","account"],
-    "tags": ["mention","at","email","message","@"]
+    "categories": ["text","account","mail"],
+    "tags": ["$group:letter","mention","at","email","message","@"]
   },
   {
     "name": "atom",
@@ -510,13 +510,13 @@ export const iconsData: Array<{
   },
   {
     "name": "audio-lines-off",
-    "categories": ["multimedia","communication"],
-    "tags": ["audio","sound","noise","mute","silence","off","disabled","inactive","listen","hearing","equalizer","equaliser","hertz","frequency","wavelength","vibrate","sine","waveform","synthesizer","synthesiser","levels","track","music","playback","radio","broadcast","airwaves","voice","vocals","singer","song"]
+    "categories": ["$extends:audio-lines"],
+    "tags": ["$extends:audio-lines","$group:off","audio","mute","silence","equalizer","equaliser","waveform"]
   },
   {
     "name": "audio-lines-x",
-    "categories": ["multimedia","communication"],
-    "tags": ["sound","noise","mute","silence","disabled","cancel","remove","unavailable","listen","hearing","equalizer","equaliser","hertz","frequency","wavelength","vibrate","sine","waveform","synthesizer","synthesiser","levels","track","music","playback","radio","broadcast","airwaves","voice","vocals","singer","song"]
+    "categories": ["$extends:audio-lines"],
+    "tags": ["$extends:audio-lines","$group:x","mute","silence","disabled","unavailable","equalizer","equaliser","waveform"]
   },
   {
     "name": "audio-lines",
@@ -546,12 +546,12 @@ export const iconsData: Array<{
   {
     "name": "axis-3d",
     "categories": ["design"],
-    "tags": ["gizmo","coordinates"]
+    "tags": ["gizmo","coordinates","model"]
   },
   {
     "name": "azerbaijani-manat",
     "categories": ["finance"],
-    "tags": ["currency","money","payment","azerbaijan","azn","exchange","banking","pricing","currency symbol"]
+    "tags": ["$group:currency","azerbaijan","azn"]
   },
   {
     "name": "baby",
@@ -560,7 +560,7 @@ export const iconsData: Array<{
   },
   {
     "name": "backpack",
-    "categories": ["gaming","photography","travel"],
+    "categories": ["gaming","travel"],
     "tags": ["bag","hiking","travel","camping","school","childhood"]
   },
   {
@@ -571,7 +571,7 @@ export const iconsData: Array<{
   {
     "name": "badge-alert",
     "categories": ["account","social"],
-    "tags": ["check","verified","unverified","security","safety","issue"]
+    "tags": ["$extends:badge","$group:exclamation-mark","security","safety","issue"]
   },
   {
     "name": "badge-cent",
@@ -581,7 +581,7 @@ export const iconsData: Array<{
   {
     "name": "badge-check",
     "categories": ["social"],
-    "tags": ["verified","check"]
+    "tags": ["$extends:badge","$group:check"]
   },
   {
     "name": "badge-dollar-sign",
@@ -591,7 +591,7 @@ export const iconsData: Array<{
   {
     "name": "badge-euro",
     "categories": ["shopping","finance"],
-    "tags": ["discount","offer","sale","voucher","tag","monetization","marketing","finance","financial","exchange","transaction","payment","€"]
+    "tags": ["$group:currency","discount","offer","sale","voucher","tag","marketing","€"]
   },
   {
     "name": "badge-indian-rupee",
@@ -601,27 +601,27 @@ export const iconsData: Array<{
   {
     "name": "badge-info",
     "categories": ["letters-digits","account","accessibility","social"],
-    "tags": ["verified","unverified","help"]
+    "tags": ["$extends:badge","$group:letter","help"]
   },
   {
     "name": "badge-japanese-yen",
     "categories": ["shopping","finance"],
-    "tags": ["discount","offer","sale","voucher","tag","monetization","marketing","finance","financial","exchange","transaction","payment","jpy","¥"]
+    "tags": ["$group:currency","discount","offer","sale","voucher","tag","marketing","jpy","¥"]
   },
   {
     "name": "badge-minus",
     "categories": ["social"],
-    "tags": ["verified","unverified","delete","remove","erase"]
+    "tags": ["$extends:badge","$group:minus"]
   },
   {
     "name": "badge-percent",
-    "categories": ["social","finance","shopping","math"],
-    "tags": ["verified","unverified","sale","discount","offer","marketing","sticker","price tag"]
+    "categories": ["finance","shopping","math"],
+    "tags": ["$extends:badge","$group:percent"]
   },
   {
     "name": "badge-plus",
     "categories": ["social"],
-    "tags": ["verified","unverified","add","create","new"]
+    "tags": ["$extends:badge","$group:plus"]
   },
   {
     "name": "badge-pound-sterling",
@@ -630,8 +630,8 @@ export const iconsData: Array<{
   },
   {
     "name": "badge-question-mark",
-    "categories": ["accessibility","social","shapes"],
-    "tags": ["verified","unverified","help"]
+    "categories": ["accessibility","social"],
+    "tags": ["$extends:badge","$group:question-mark"]
   },
   {
     "name": "badge-russian-ruble",
@@ -651,12 +651,12 @@ export const iconsData: Array<{
   {
     "name": "badge-x",
     "categories": ["social"],
-    "tags": ["verified","unverified","lost","delete","remove"]
+    "tags": ["$extends:badge","$group:x","lost"]
   },
   {
     "name": "badge",
     "categories": ["account","social","shapes"],
-    "tags": ["check","verified","unverified"]
+    "tags": ["seal","emblem","rosette","insignia","sticker","stamp","label","award","achievement","certification","official","status","starburst","scalloped","shape"]
   },
   {
     "name": "baggage-claim",
@@ -665,7 +665,7 @@ export const iconsData: Array<{
   },
   {
     "name": "ball-wave",
-    "categories": ["sports","gaming"],
+    "categories": ["sports"],
     "tags": ["polo","watercraft","athlete","feature","sport","ball","aquatic","swimming","pool","team","game","competition","olympic","water","match","aquatic sports","water polo","aquatics","water sports","pool sport","team sport","tournament","league"]
   },
   {
@@ -690,33 +690,33 @@ export const iconsData: Array<{
   },
   {
     "name": "bangladeshi-taka",
-    "categories": ["finance","shopping","travel"],
-    "tags": ["currency","money","payment","bdt","৳","currency symbol","cash","banknote","price","remittance","ecommerce"]
+    "categories": ["finance"],
+    "tags": ["$group:currency","bdt","৳","remittance","ecommerce"]
   },
   {
     "name": "banknote-arrow-down",
-    "categories": ["finance"],
-    "tags": ["bill","currency","money","payment","funds","transaction","cash","finance","withdraw","expense","out","payout","refund","debit","spending","decrease"]
+    "categories": ["$extends:banknote"],
+    "tags": ["$extends:banknote","$group:direction-down","withdraw","expense","out","payout","refund","debit","spending","decrease"]
   },
   {
     "name": "banknote-arrow-up",
-    "categories": ["finance"],
-    "tags": ["bill","currency","money","payment","funds","transaction","cash","finance","deposit","earnings","income","in","credit","prepaid","growth","increase"]
+    "categories": ["$extends:banknote"],
+    "tags": ["$extends:banknote","$group:direction-up","deposit","earnings","income","in","credit","prepaid","growth","increase"]
   },
   {
     "name": "banknote-check",
-    "categories": ["finance"],
-    "tags": ["banknote","bill","currency","payment","money","finance","document","verification","tick","verified","accepted","done","complete","found","paid","task","check","success"]
+    "categories": ["$extends:banknote"],
+    "tags": ["$extends:banknote","$group:check","banknote","document","verification","found","paid"]
   },
   {
     "name": "banknote-x",
-    "categories": ["finance"],
-    "tags": ["bill","currency","money","payment","funds","transaction","cash","finance","error","failed","rejected","canceled","declined","lost","delete","remove"]
+    "categories": ["$extends:banknote"],
+    "tags": ["$extends:banknote","$group:x","error","failed","rejected","declined","lost"]
   },
   {
     "name": "banknote",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["currency","money","payment","bill","cash","funds","transaction","finance"]
   },
   {
     "name": "barcode",
@@ -725,52 +725,52 @@ export const iconsData: Array<{
   },
   {
     "name": "barrel",
-    "categories": ["food-beverage","navigation"],
+    "categories": ["food-beverage"],
     "tags": ["keg","drum","tank","wine","beer","oak","wood","firkin","hogshead","kilderkin","barrique","solera","aging","whiskey","brewery","distillery","winery","vineyard"]
   },
   {
     "name": "baseline",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","format","color"]
+    "categories": ["text"],
+    "tags": ["$group:letter","format","color"]
   },
   {
     "name": "bath",
-    "categories": ["travel"],
+    "categories": ["travel","home"],
     "tags": ["amenities","services","bathroom","shower"]
   },
   {
     "name": "battery-charging",
-    "categories": ["connectivity","devices"],
-    "tags": ["power","electricity","energy","accumulator","charge"]
+    "categories": ["$extends:battery"],
+    "tags": ["$extends:battery"]
   },
   {
     "name": "battery-full",
-    "categories": ["connectivity","devices"],
-    "tags": ["power","electricity","energy","accumulator","charge"]
+    "categories": ["$extends:battery"],
+    "tags": ["$extends:battery"]
   },
   {
     "name": "battery-low",
-    "categories": ["connectivity","devices"],
-    "tags": ["power","electricity","energy","accumulator","charge"]
+    "categories": ["$extends:battery"],
+    "tags": ["$extends:battery"]
   },
   {
     "name": "battery-medium",
-    "categories": ["connectivity","devices"],
-    "tags": ["power","electricity","energy","accumulator","charge"]
+    "categories": ["$extends:battery"],
+    "tags": ["$extends:battery"]
   },
   {
     "name": "battery-plus",
     "categories": ["devices"],
-    "tags": ["power","electricity","energy","accumulator","charge","plus","economy","health","add","new","maximum","upgrade","extra","+"]
+    "tags": ["$extends:battery","$group:plus","economy","health","maximum","upgrade"]
   },
   {
     "name": "battery-warning",
-    "categories": ["connectivity","devices"],
-    "tags": ["power","electricity","energy","accumulator","charge","exclamation mark"]
+    "categories": ["$extends:battery"],
+    "tags": ["$extends:battery","$group:exclamation-mark"]
   },
   {
     "name": "battery",
-    "categories": ["connectivity","devices"],
+    "categories": ["devices"],
     "tags": ["power","electricity","energy","accumulator","charge"]
   },
   {
@@ -780,8 +780,8 @@ export const iconsData: Array<{
   },
   {
     "name": "bean-off",
-    "categories": ["food-beverage"],
-    "tags": ["soy free","legume","soy","food","seed","allergy","intolerance","diet"]
+    "categories": ["$extends:bean"],
+    "tags": ["$extends:bean","$group:off","soy free","allergy","intolerance","diet"]
   },
   {
     "name": "bean",
@@ -790,13 +790,13 @@ export const iconsData: Array<{
   },
   {
     "name": "bed-double",
-    "categories": ["home"],
-    "tags": ["sleep","hotel","furniture"]
+    "categories": ["$extends:bed"],
+    "tags": ["$extends:bed"]
   },
   {
     "name": "bed-single",
-    "categories": ["home"],
-    "tags": ["sleep","hotel","furniture"]
+    "categories": ["$extends:bed"],
+    "tags": ["$extends:bed"]
   },
   {
     "name": "bed",
@@ -805,8 +805,8 @@ export const iconsData: Array<{
   },
   {
     "name": "beef-off",
-    "categories": ["food-beverage"],
-    "tags": ["food","dish","restaurant","course","meal","meat","bbq","steak","vegetarian"]
+    "categories": ["$extends:beef"],
+    "tags": ["$extends:beef","$group:off","vegetarian"]
   },
   {
     "name": "beef",
@@ -815,8 +815,8 @@ export const iconsData: Array<{
   },
   {
     "name": "beer-off",
-    "categories": ["food-beverage"],
-    "tags": ["alcohol","bar","beverage","brewery","drink"]
+    "categories": ["$extends:beer"],
+    "tags": ["$extends:beer","$group:off"]
   },
   {
     "name": "beer",
@@ -825,18 +825,18 @@ export const iconsData: Array<{
   },
   {
     "name": "belarusian-ruble",
-    "categories": ["finance","shopping","account"],
-    "tags": ["currency","money","payment","byn","iso4217","fiat","prices","localization","banking","checkout","wallet","exchange-rate"]
+    "categories": ["finance"],
+    "tags": ["$group:currency","byn","iso4217","fiat","localization","checkout","wallet","exchange-rate"]
   },
   {
     "name": "bell-check",
-    "categories": ["account","notifications"],
-    "tags": ["alarm","notification","sound","reminder"]
+    "categories": ["$extends:bell"],
+    "tags": ["$extends:bell","$group:check"]
   },
   {
     "name": "bell-dot",
-    "categories": ["account","notifications"],
-    "tags": ["alarm","notification","sound","reminder","unread"]
+    "categories": ["$extends:bell"],
+    "tags": ["$extends:bell","$group:dot"]
   },
   {
     "name": "bell-electric",
@@ -846,22 +846,22 @@ export const iconsData: Array<{
   {
     "name": "bell-minus",
     "categories": ["notifications"],
-    "tags": ["alarm","notification","silent","reminder","delete","remove","erase"]
+    "tags": ["$extends:bell","$group:minus","silent"]
   },
   {
     "name": "bell-off",
     "categories": ["notifications"],
-    "tags": ["alarm","notification","silent","reminder"]
+    "tags": ["$extends:bell","$group:off","silent"]
   },
   {
     "name": "bell-plus",
     "categories": ["notifications"],
-    "tags": ["notification","silent","reminder","add","create","new"]
+    "tags": ["$extends:bell","$group:plus","silent"]
   },
   {
     "name": "bell-ring",
     "categories": ["notifications"],
-    "tags": ["alarm","notification","sound","reminder"]
+    "tags": ["$extends:bell"]
   },
   {
     "name": "bell",
@@ -870,27 +870,27 @@ export const iconsData: Array<{
   },
   {
     "name": "between-horizontal-end",
-    "categories": ["layout","design","tools"],
-    "tags": ["insert","add","left","slot","squeeze","space","vertical","grid","table","rows","cells","excel","spreadsheet","accountancy","data","enter","entry","entries","blocks","rectangles","chevron"]
+    "categories": ["layout","design"],
+    "tags": ["$group:position-right","insert","add","left","slot","squeeze","space","vertical","grid","table","rows","cells","excel","spreadsheet","accountancy","data","enter","entry","entries","blocks","rectangles","chevron"]
   },
   {
     "name": "between-horizontal-start",
-    "categories": ["layout","design","tools"],
-    "tags": ["insert","add","right","slot","squeeze","space","vertical","grid","table","rows","cells","excel","spreadsheet","accountancy","data","enter","entry","entries","blocks","rectangles","chevron"]
+    "categories": ["layout","design"],
+    "tags": ["$group:position-left","insert","add","right","slot","squeeze","space","vertical","grid","table","rows","cells","excel","spreadsheet","accountancy","data","enter","entry","entries","blocks","rectangles","chevron"]
   },
   {
     "name": "between-vertical-end",
-    "categories": ["layout","design","tools"],
-    "tags": ["insert","add","top","slot","squeeze","space","vertical","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
+    "categories": ["layout","design"],
+    "tags": ["$group:position-bottom","insert","add","top","slot","squeeze","space","vertical","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
   },
   {
     "name": "between-vertical-start",
-    "categories": ["layout","design","tools"],
-    "tags": ["insert","add","bottom","slot","squeeze","space","vertical","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
+    "categories": ["layout","design"],
+    "tags": ["$group:position-top","insert","add","bottom","slot","squeeze","space","vertical","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
   },
   {
     "name": "biceps-flexed",
-    "categories": ["emoji"],
+    "categories": ["emoji","sports"],
     "tags": ["arm","muscle","strong","working out","athletic","toned","muscular","forelimb","curled"]
   },
   {
@@ -900,12 +900,12 @@ export const iconsData: Array<{
   },
   {
     "name": "binary",
-    "categories": ["letters-digits","text","development"],
-    "tags": ["code","digits","computer","zero","one","boolean"]
+    "categories": ["text","development"],
+    "tags": ["$group:digit","code","digits","computer","zero","one","boolean"]
   },
   {
     "name": "binoculars",
-    "categories": ["navigation","nature","photography","science","travel","development"],
+    "categories": ["navigation","nature","travel"],
     "tags": ["field glasses","lorgnette","pince-nez","observation","sightseeing","nature","wildlife","birdwatching","scouting","surveillance","search","discovery","monitoring","lookout","viewpoint","travel","tourism","research"]
   },
   {
@@ -920,17 +920,17 @@ export const iconsData: Array<{
   },
   {
     "name": "birdhouse",
-    "categories": ["nature","animals","navigation","home"],
+    "categories": ["nature","animals","home"],
     "tags": ["birdhouse","bird","garden","home","house","woodwork"]
   },
   {
     "name": "bitcoin",
-    "categories": ["development","finance"],
-    "tags": ["cryptocurrency","digital","blockchain","finance","coin","market","decentralized","investment","crypto","currency","money","payment"]
+    "categories": ["finance"],
+    "tags": ["$group:currency","cryptocurrency","digital","blockchain","coin","market","decentralized","investment","crypto"]
   },
   {
     "name": "blend",
-    "categories": ["design","photography","tools","development"],
+    "categories": ["design","photography"],
     "tags": ["mode","overlay","multiply","screen","opacity","transparency","alpha","filters","lenses","mixed","shades","tints","hues","saturation","brightness","overlap","colors","colours","marriage","rings","couple","connection"]
   },
   {
@@ -945,23 +945,23 @@ export const iconsData: Array<{
   },
   {
     "name": "blocks",
-    "categories": ["development","layout","shapes"],
+    "categories": ["development","layout"],
     "tags": ["addon","plugin","integration","extension","package","build","stack","toys","kids","children","learning","squares","corner"]
   },
   {
     "name": "bluetooth-connected",
-    "categories": ["connectivity","devices"],
-    "tags": ["paired"]
+    "categories": ["$extends:bluetooth"],
+    "tags": ["$extends:bluetooth","paired"]
   },
   {
     "name": "bluetooth-off",
-    "categories": ["connectivity","devices"],
-    "tags": ["lost"]
+    "categories": ["$extends:bluetooth"],
+    "tags": ["$extends:bluetooth","$group:off","lost"]
   },
   {
     "name": "bluetooth-searching",
-    "categories": ["connectivity","devices"],
-    "tags": ["pairing"]
+    "categories": ["$extends:bluetooth"],
+    "tags": ["$extends:bluetooth","pairing"]
   },
   {
     "name": "bluetooth",
@@ -975,12 +975,12 @@ export const iconsData: Array<{
   },
   {
     "name": "bomb",
-    "categories": ["security","tools"],
+    "categories": ["gaming","development"],
     "tags": ["fatal","error","crash","blockbuster","mine","explosion","explode","explosive"]
   },
   {
     "name": "bone-fracture",
-    "categories": ["medical","animals"],
+    "categories": ["medical"],
     "tags": ["bone","fracture","injury","orthopedic","medical","anatomy","skeletal","broken","xray","trauma","health","vet","veterinary","crack","break","damage"]
   },
   {
@@ -990,128 +990,128 @@ export const iconsData: Array<{
   },
   {
     "name": "book-a",
-    "categories": ["letters-digits","text","gaming"],
-    "tags": ["dictionary","define","definition","thesaurus","encyclopedia","encyclopaedia","reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","language","translate","alphabetical","a-z","ordered"]
+    "categories": ["text","gaming"],
+    "tags": ["$extends:book","$group:letter","dictionary","define","definition","thesaurus","encyclopedia","encyclopaedia","language","translate","alphabetical","a-z","ordered"]
   },
   {
     "name": "book-alert",
-    "categories": ["text","development","gaming"],
-    "tags": ["reading","paperback","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation","warning","alert","danger","exclamation mark"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","$group:exclamation-mark"]
   },
   {
     "name": "book-audio",
     "categories": ["multimedia","text"],
-    "tags": ["audiobook","reading","listening","sound","story","fiction","novel","information","knowledge","education","student","study","learning","research"]
+    "tags": ["$extends:book","$extends:audio-lines","audiobook","listening"]
   },
   {
     "name": "book-bookmark",
-    "categories": ["text","development","gaming"],
-    "tags": ["dictionary","reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation","saved","later","future","reference","index","code","coding","version control","git","repository"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","dictionary","saved","later","future","reference","index","code","coding","version control","git","repository"]
   },
   {
     "name": "book-check",
-    "categories": ["text","development","gaming"],
-    "tags": ["read","booklet","magazine","leaflet","pamphlet","library","written","authored","published","informed","knowledgeable","educated","schooled","homework","examined","tested","marked","passed","graduated","studied","learned","lesson","researched","documented","revealed","blank","plain language","true","truth","verified","corrected","task","todo","done","completed","finished","ticked"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","$group:check","read","authored","published","informed","knowledgeable","educated","schooled","examined","tested","marked","passed","graduated","studied","learned","lesson","researched","documented","revealed","blank","plain language","true","truth","corrected"]
   },
   {
     "name": "book-copy",
-    "categories": ["development","text","gaming"],
-    "tags": ["code","coding","version control","git","repository","clone","fork","duplicate","multiple","books","library","copies","copied","plagiarism","plagiarised","plagiarized","reading list","information","informed","knowledge","knowledgeable","knowledgable","education","high school","university","college","academy","student","study","learning","research","smart","intelligent","intellectual"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","$extends:copy","code","coding","version control","git","repository","fork","books","copies","copied","plagiarism","plagiarised","plagiarized","reading list","informed","knowledgeable","knowledgable","smart","intelligent","intellectual"]
   },
   {
     "name": "book-dashed",
-    "categories": ["development"],
-    "tags": ["code","coding","version control","git","repository","template","draft","script","screenplay","writing","writer","author","unwritten","unpublished","untold"]
+    "categories": ["development","text"],
+    "tags": ["$extends:book","code","coding","version control","git","repository","template","draft","screenplay","unwritten","unpublished","untold"]
   },
   {
     "name": "book-down",
     "categories": ["development"],
-    "tags": ["code","coding","version control","git","repository","pull"]
+    "tags": ["$extends:book","$group:direction-down","code","coding","version control","git","repository","pull"]
   },
   {
     "name": "book-headphones",
     "categories": ["multimedia","text"],
-    "tags": ["audiobook","reading","listening","sound","story","fiction","novel","information","knowledge","education","student","study","learning","research"]
+    "tags": ["$extends:book","$extends:headphones","audiobook","listening"]
   },
   {
     "name": "book-heart",
     "categories": ["social","text","gaming"],
-    "tags": ["diary","romance","novel","journal","entry","entries","personal","private","secret","crush","like","love","emotion","feminine","girls","teens","teenager","therapy","therapeutic","therapist","planner","organizer","organiser","notes","notepad","stationery","sketchbook","writing","written","reading","favorite","favourite","high school"]
+    "tags": ["$extends:book","$group:heart","diary","romance","journal","entry","entries","personal","private","secret","crush","emotion","feminine","girls","teens","teenager","therapy","therapeutic","therapist","planner","organizer","organiser","notes","notepad","stationery","sketchbook"]
   },
   {
     "name": "book-image",
-    "categories": ["photography","text","multimedia","files","social","shopping","travel"],
-    "tags": ["images","pictures","photos","album","collection","event","magazine","catalog","catalogue","brochure","browse","gallery"]
+    "categories": ["photography","text","multimedia"],
+    "tags": ["$extends:book","$extends:image","images","pictures","photos","album","collection","event","catalog","catalogue","brochure","browse","gallery"]
   },
   {
     "name": "book-key",
     "categories": ["development","security","gaming"],
-    "tags": ["code","coding","version control","git","repository","private","public","secret","unlocked","hidden","revealed","knowledge","learning"]
+    "tags": ["$extends:book","$group:key","code","coding","version control","git","repository","hidden","revealed"]
   },
   {
     "name": "book-lock",
     "categories": ["development","security","gaming"],
-    "tags": ["code","coding","version control","git","repository","private","secret","hidden","knowledge"]
+    "tags": ["$extends:book","$group:lock","code","coding","version control","git","repository","secret","hidden"]
   },
   {
     "name": "book-minus",
-    "categories": ["development","text","gaming"],
-    "tags": ["code","coding","version control","git","repository","remove","delete","censor","cancel","forbid","prohibit","ban","uneducated","re-educate","unlearn","downgrade"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","$group:minus","code","coding","version control","git","repository","censor","forbid","prohibit","ban","uneducated","re-educate","unlearn","downgrade"]
   },
   {
     "name": "book-open-check",
-    "categories": ["text","development","gaming"],
-    "tags": ["read","pages","booklet","magazine","leaflet","pamphlet","library","written","authored","published","informed","knowledgeable","educated","schooled","homework","examined","tested","marked","passed","graduated","studied","learned","lesson","researched","documented","revealed","blank","plain language","true","truth","verified","corrected","task","todo","done","completed","finished","ticked"]
+    "categories": ["$extends:book-open"],
+    "tags": ["$extends:book-open","$group:check","read","authored","published","informed","knowledgeable","educated","schooled","examined","tested","marked","passed","graduated","studied","learned","lesson","researched","documented","plain language","true","truth","corrected"]
   },
   {
     "name": "book-open-text",
     "categories": ["text","development"],
-    "tags": ["reading","pages","booklet","magazine","leaflet","pamphlet","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation","revealed"]
+    "tags": ["$extends:book-open"]
   },
   {
     "name": "book-open",
-    "categories": ["text","development","gaming"],
-    "tags": ["reading","pages","booklet","magazine","leaflet","pamphlet","library","writing","written","writer","author","story","script","screenplay","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation","revealed","blank","plain"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","pages","screenplay","revealed","blank","plain"]
   },
   {
     "name": "book-plus",
-    "categories": ["development","text","gaming"],
-    "tags": ["code","coding","version control","git","repository","remove","delete","read","write","author","publish","inform","graduate","re-educate","study","learn","research","knowledge","improve","upgrade","level up"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","$group:plus","code","coding","version control","git","repository","read","write","publish","inform","graduate","re-educate","learn","improve","upgrade","level up"]
   },
   {
     "name": "book-search",
-    "categories": ["text","development","gaming"],
-    "tags": ["reading","library","study","education","research","knowledge","discover","browsing","lookup","finding","scanning"]
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","$group:search"]
   },
   {
     "name": "book-text",
     "categories": ["text","gaming"],
-    "tags": ["reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation"]
+    "tags": ["$extends:book"]
   },
   {
     "name": "book-type",
-    "categories": ["letters-digits","text","design","gaming"],
-    "tags": ["thesaurus","synonym","reading","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","language","translate","typography","fonts","collection"]
+    "categories": ["text","design","gaming"],
+    "tags": ["$extends:book","$group:letter","thesaurus","synonym","language","translate","fonts","collection"]
   },
   {
     "name": "book-up-2",
-    "categories": ["development"],
-    "tags": ["code","coding","version control","git","repository","push","force"]
+    "categories": ["$extends:book-up"],
+    "tags": ["$extends:book-up","$group:direction-up","force"]
   },
   {
     "name": "book-up",
     "categories": ["development"],
-    "tags": ["code","coding","version control","git","repository","push"]
+    "tags": ["$extends:book","$group:direction-up","code","coding","version control","git","repository","push"]
   },
   {
     "name": "book-user",
-    "categories": ["account","connectivity","communication","social"],
-    "tags": ["person","people","family","friends","acquaintances","contacts","details","addresses","phone numbers","directory","listing","networking"]
+    "categories": ["account","communication","social"],
+    "tags": ["$extends:book","$group:user","family","friends","acquaintances","details","addresses","phone numbers","directory","listing","networking"]
   },
   {
     "name": "book-x",
     "categories": ["text","gaming"],
-    "tags": ["code","coding","version control","git","repository","remove","delete","reading","misinformation","disinformation","misinformed","charlatan","sophistry","false","lies","untruth","propaganda","censored","cancelled","forbidden","prohibited","banned","uneducated","re-education","unlearn"]
+    "tags": ["$extends:book","$group:x","code","coding","version control","git","repository","misinformation","disinformation","misinformed","charlatan","sophistry","false","lies","untruth","propaganda","censored","forbidden","prohibited","banned","uneducated","re-education","unlearn"]
   },
   {
     "name": "book",
@@ -1120,48 +1120,48 @@ export const iconsData: Array<{
   },
   {
     "name": "bookmark-check",
-    "categories": ["account"],
-    "tags": ["read","finished","complete","clip","marker","tag","task","todo"]
+    "categories": ["$extends:bookmark"],
+    "tags": ["$extends:bookmark","$group:check"]
   },
   {
     "name": "bookmark-minus",
-    "categories": ["account"],
-    "tags": ["delete","remove"]
+    "categories": ["$extends:bookmark"],
+    "tags": ["$extends:bookmark","$group:minus"]
   },
   {
     "name": "bookmark-off",
-    "categories": ["account"],
-    "tags": ["unsaved","unfavorite","unmarked","unlabel","disabled","removed","unpin","unread","unclip","marker","untag"]
+    "categories": ["$extends:bookmark"],
+    "tags": ["$extends:bookmark","$group:off","unsaved","unfavorite","unmarked","unlabel","removed","unpin","unread","unclip","untag"]
   },
   {
     "name": "bookmark-plus",
-    "categories": ["account"],
-    "tags": ["add"]
+    "categories": ["$extends:bookmark"],
+    "tags": ["$extends:bookmark","$group:plus"]
   },
   {
     "name": "bookmark-x",
-    "categories": ["account"],
-    "tags": ["read","clip","marker","tag","cancel","close","delete","remove","clear"]
+    "categories": ["$extends:bookmark"],
+    "tags": ["$extends:bookmark","$group:x"]
   },
   {
     "name": "bookmark",
     "categories": ["account"],
-    "tags": ["save","favorite","mark","label","attachment","file","stick","pin","read","clip","marker","tag"]
+    "tags": ["save","favorite","favourite","mark","label","attachment","file","stick","pin","read","clip","marker","tag"]
   },
   {
     "name": "boom-box",
-    "categories": ["devices","multimedia","social"],
+    "categories": ["devices","multimedia"],
     "tags": ["radio","speakers","audio","music","sound","broadcast","live","frequency"]
   },
   {
     "name": "bot-message-square",
-    "categories": ["development","social"],
-    "tags": ["robot","ai","chat","assistant"]
+    "categories": ["$extends:bot"],
+    "tags": ["$extends:bot"]
   },
   {
     "name": "bot-off",
-    "categories": ["development","social"],
-    "tags": ["robot","ai","chat","assistant"]
+    "categories": ["$extends:bot"],
+    "tags": ["$extends:bot","$group:off"]
   },
   {
     "name": "bot",
@@ -1175,7 +1175,7 @@ export const iconsData: Array<{
   },
   {
     "name": "bow-arrow",
-    "categories": ["gaming","tools"],
+    "categories": ["gaming","sports"],
     "tags": ["archer","archery","game","war","weapon"]
   },
   {
@@ -1196,7 +1196,7 @@ export const iconsData: Array<{
   {
     "name": "braces",
     "categories": ["development","files"],
-    "tags": ["json","code","token","curly brackets","data","{","}"]
+    "tags": ["json","code","token","curly brackets","curly braces","data","{","}"]
   },
   {
     "name": "brackets",
@@ -1206,32 +1206,32 @@ export const iconsData: Array<{
   {
     "name": "brain-circuit",
     "categories": ["science","development"],
-    "tags": ["mind","intellect","artificial intelligence","ai","deep learning","machine learning","computing"]
+    "tags": ["$extends:brain"]
   },
   {
     "name": "brain-cog",
     "categories": ["science","development"],
-    "tags": ["mind","intellect","artificial intelligence","ai","deep learning","machine learning","computing"]
+    "tags": ["$extends:brain","$group:cog"]
   },
   {
     "name": "brain-off",
-    "categories": ["medical","science","development"],
-    "tags": ["medical","mind","mental","intellect","cerebral","consciousness","genius","artificial intelligence","ai","think","deep learning","machine learning","computing"]
+    "categories": ["$extends:brain","development"],
+    "tags": ["$extends:brain","$group:off"]
   },
   {
     "name": "brain",
     "categories": ["medical","science"],
-    "tags": ["medical","mind","mental","intellect","cerebral","consciousness","genius","artificial intelligence","ai","think","thought","insight","intelligent","smart"]
+    "tags": ["medical","mind","mental","intellect","cerebral","consciousness","genius","artificial intelligence","ai","think","thought","insight","intelligent","smart","deep learning","machine learning","computing"]
   },
   {
     "name": "brick-wall-fire",
-    "categories": ["security","home","connectivity"],
-    "tags": ["firewall","security","bricks","mortar","cement","materials","construction","builder","labourer","quantity surveyor","blocks","stone","campfire","camping","wilderness","outdoors","lit","warmth","wood","twigs","sticks"]
+    "categories": ["security","connectivity"],
+    "tags": ["$extends:brick-wall","firewall","security","campfire","camping","wilderness","outdoors","lit","warmth","wood","twigs","sticks"]
   },
   {
     "name": "brick-wall-shield",
-    "categories": ["security","home","connectivity"],
-    "tags": ["firewall","security","bricks","mortar","cement","materials","construction","builder","labourer","quantity surveyor","blocks","stone","cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
+    "categories": ["security","connectivity"],
+    "tags": ["$extends:brick-wall","$group:shield","firewall","armored","armoured","block","threat","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
   },
   {
     "name": "brick-wall",
@@ -1245,27 +1245,27 @@ export const iconsData: Array<{
   },
   {
     "name": "briefcase-business",
-    "categories": ["transportation"],
-    "tags": ["work","bag","baggage","folder","portfolio"]
+    "categories": ["$extends:briefcase"],
+    "tags": ["$extends:briefcase","portfolio"]
   },
   {
     "name": "briefcase-conveyor-belt",
-    "categories": ["travel","transportation"],
+    "categories": ["$extends:briefcase"],
     "tags": ["baggage","luggage","travel","suitcase","conveyor","carousel"]
   },
   {
     "name": "briefcase-medical",
-    "categories": ["medical","transportation"],
+    "categories": ["medical"],
     "tags": ["doctor","medicine","first aid"]
   },
   {
     "name": "briefcase-plus",
-    "categories": ["transportation","files","account"],
-    "tags": ["work","bag","baggage","folder","new","add","create","increase","briefcase","portfolio","business","career","employment","professional","plus"]
+    "categories": ["$extends:briefcase","files","account"],
+    "tags": ["$extends:briefcase","$group:plus","briefcase","portfolio","business","career","employment","professional"]
   },
   {
     "name": "briefcase",
-    "categories": ["transportation"],
+    "categories": ["travel"],
     "tags": ["work","bag","baggage","folder"]
   },
   {
@@ -1280,8 +1280,8 @@ export const iconsData: Array<{
   },
   {
     "name": "broom-sparkles",
-    "categories": ["tools","home","gaming"],
-    "tags": ["broomstick","brush","sweep","sweeping","floor","cleaning","ai","magic","sparkle","smart","automation","housekeeping","chores","tidy","spotless","pristine","dust","debris","bristles","handle","janitor","maintenance","witch","halloween"]
+    "categories": ["$extends:broom"],
+    "tags": ["$extends:broom","$group:sparkles","pristine"]
   },
   {
     "name": "broom",
@@ -1300,18 +1300,18 @@ export const iconsData: Array<{
   },
   {
     "name": "bubbles",
-    "categories": ["weather"],
+    "categories": ["home"],
     "tags": ["water","cleaning","soap","bath","hygiene","freshness","wash","foam","cleanliness","shampoo","purity","splash","lightness","airy","relaxation","spa","bubbly","fluid","floating","drop"]
   },
   {
     "name": "bug-off",
-    "categories": ["development","animals"],
-    "tags": ["issue","fixed","resolved","testing","debug","code","insect","kill","exterminate","pest control"]
+    "categories": ["$extends:bug"],
+    "tags": ["$extends:bug","$group:off","fixed","resolved","kill","exterminate","pest control"]
   },
   {
     "name": "bug-play",
-    "categories": ["development","animals"],
-    "tags": ["issue","testing","debug","reproduce","code","insect"]
+    "categories": ["$extends:bug"],
+    "tags": ["$extends:bug","$group:play","reproduce"]
   },
   {
     "name": "bug",
@@ -1320,13 +1320,13 @@ export const iconsData: Array<{
   },
   {
     "name": "building-complex-plus",
-    "categories": ["account","buildings"],
-    "tags": ["business","company","enterprise","skyscraper","organisation","organization","city","new","add","create","increase","office","headquarters","startup","registration","onboarding","real estate","property"]
+    "categories": ["$extends:building-complex"],
+    "tags": ["$extends:building-complex","$group:plus","office","headquarters","startup","registration","onboarding","real estate","property"]
   },
   {
     "name": "building-complex",
-    "categories": ["account","buildings"],
-    "tags": ["business","company","enterprise","skyscraper","organisation","organization","city"]
+    "categories": ["$extends:building"],
+    "tags": ["$extends:building","business","company","enterprise","skyscraper","city"]
   },
   {
     "name": "building",
@@ -1335,13 +1335,13 @@ export const iconsData: Array<{
   },
   {
     "name": "bus-front",
-    "categories": ["transportation"],
-    "tags": ["coach","vehicle","trip","road"]
+    "categories": ["$extends:bus"],
+    "tags": ["$extends:bus"]
   },
   {
     "name": "bus",
     "categories": ["transportation"],
-    "tags": ["bus","vehicle","transport","trip"]
+    "tags": ["bus","vehicle","transport","trip","coach","road"]
   },
   {
     "name": "cable-car",
@@ -1356,12 +1356,12 @@ export const iconsData: Array<{
   {
     "name": "cake-slice",
     "categories": ["food-beverage","social"],
-    "tags": ["birthday","birthdate","celebration","party","surprise","gateaux","dessert","candles","wish","fondant","icing sugar","sweet","baking"]
+    "tags": ["$extends:cake"]
   },
   {
     "name": "cake",
-    "categories": ["food-beverage","social","account"],
-    "tags": ["birthday","birthdate","celebration","party","surprise","gateaux","dessert","fondant","icing sugar","sweet","baking"]
+    "categories": ["food-beverage","social"],
+    "tags": ["birthday","birthdate","celebration","party","surprise","gateaux","dessert","fondant","icing sugar","sweet","baking","candles","wish"]
   },
   {
     "name": "calculator",
@@ -1370,128 +1370,128 @@ export const iconsData: Array<{
   },
   {
     "name": "calendar-1",
-    "categories": ["letters-digits","time"],
-    "tags": ["date","month","year","event","single","singular","once","1","first"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:digit","single","singular","once","1","first"]
   },
   {
     "name": "calendar-arrow-down",
-    "categories": ["time"],
-    "tags": ["date","month","year","event","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:direction-down","$group:sort"]
   },
   {
     "name": "calendar-arrow-left",
-    "categories": ["time","arrows","navigation"],
-    "tags": ["date","day","month","year","event","arrow","direction","navigation","previous","back","backward","past","earlier","reschedule","postpone","schedule","timeline","date picker"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:direction-left","$group:navigation-previous","arrow","previous","past","earlier","reschedule","postpone","schedule","timeline","date picker"]
   },
   {
     "name": "calendar-arrow-right",
-    "categories": ["time","arrows","navigation"],
-    "tags": ["date","day","month","year","event","arrow","direction","navigation","next","forward","future","upcoming","later","reschedule","postpone","defer","schedule","timeline","appointment"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:direction-right","$group:navigation-next","arrow","next","future","upcoming","later","reschedule","postpone","defer","schedule","timeline","appointment"]
   },
   {
     "name": "calendar-arrow-up",
-    "categories": ["time"],
-    "tags": ["date","month","year","event","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:direction-up","$group:sort"]
   },
   {
     "name": "calendar-check-2",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","confirm","subscribe","schedule","done","todo","tick","complete","task"]
+    "categories": ["$extends:calendar-check"],
+    "tags": ["$extends:calendar-check"]
   },
   {
     "name": "calendar-check",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","confirm","subscribe","schedule","done","todo","tick","complete","task"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:check","subscribe","schedule"]
   },
   {
     "name": "calendar-chevrons-left",
-    "categories": ["time","arrows","navigation"],
-    "tags": ["navigation","arrow","direction","symbol","pointer","indicator","next","menu","date","day","month","year","events"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:direction-left","$group:navigation-first","arrow","symbol","pointer","indicator","menu","events"]
   },
   {
     "name": "calendar-chevrons-right",
-    "categories": ["time","arrows","navigation"],
-    "tags": ["navigation","arrow","direction","symbol","pointer","indicator","previous","menu","date","day","month","year","events"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:direction-right","$group:navigation-last","arrow","symbol","pointer","indicator","menu","events"]
   },
   {
     "name": "calendar-clock",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","clock","hour"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:clock"]
   },
   {
     "name": "calendar-cog",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","events","settings","gear","cog"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:cog","events"]
   },
   {
     "name": "calendar-days",
-    "categories": ["time"],
-    "tags": ["date","month","year","event"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar"]
   },
   {
     "name": "calendar-fold",
-    "categories": ["time","files"],
-    "tags": ["date","month","year","event","birthday","birthdate","ics"]
+    "categories": ["$extends:calendar","files"],
+    "tags": ["$extends:calendar","ics"]
   },
   {
     "name": "calendar-heart",
-    "categories": ["time"],
-    "tags": ["date","month","year","event","heart","favourite","subscribe","valentines day"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:heart","subscribe","valentines day"]
   },
   {
     "name": "calendar-minus-2",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","delete","remove"]
+    "categories": ["$extends:calendar-minus"],
+    "tags": ["$extends:calendar-minus"]
   },
   {
     "name": "calendar-minus",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","delete","remove"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:minus"]
   },
   {
     "name": "calendar-off",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","delete","remove"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:minus","$group:off"]
   },
   {
     "name": "calendar-plus-2",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","add","subscribe","create","new"]
+    "categories": ["$extends:calendar-plus"],
+    "tags": ["$extends:calendar-plus"]
   },
   {
     "name": "calendar-plus",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","add","subscribe","create","new"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:plus","subscribe"]
   },
   {
     "name": "calendar-range",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","range","period"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","range","period"]
   },
   {
     "name": "calendar-search",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","events","search","lens"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:search","events"]
   },
   {
     "name": "calendar-sync",
-    "categories": ["arrows","time"],
-    "tags": ["repeat","refresh","reconnect","transfer","backup","date","month","year","event","subscribe","recurring","schedule","reminder","automatic","auto"]
+    "categories": ["$extends:calendar","arrows"],
+    "tags": ["$extends:calendar","$group:sync","transfer","backup","subscribe","recurring","schedule","reminder","automatic","auto"]
   },
   {
     "name": "calendar-x-2",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","remove"]
+    "categories": ["$extends:calendar-x"],
+    "tags": ["$extends:calendar-x"]
   },
   {
     "name": "calendar-x",
-    "categories": ["time"],
-    "tags": ["date","day","month","year","event","remove","busy"]
+    "categories": ["$extends:calendar"],
+    "tags": ["$extends:calendar","$group:x","busy"]
   },
   {
     "name": "calendar",
     "categories": ["time"],
-    "tags": ["date","month","year","event","birthday","birthdate"]
+    "tags": ["day","date","month","year","timestamp","event","birthday","birthdate"]
   },
   {
     "name": "calendars",
@@ -1500,8 +1500,8 @@ export const iconsData: Array<{
   },
   {
     "name": "camera-off",
-    "categories": ["photography","devices","communication"],
-    "tags": ["photo","webcam","video"]
+    "categories": ["$extends:camera"],
+    "tags": ["$extends:camera","$group:off"]
   },
   {
     "name": "camera",
@@ -1510,7 +1510,7 @@ export const iconsData: Array<{
   },
   {
     "name": "can-soda",
-    "categories": ["food-beverage"],
+    "categories": ["$extends:can"],
     "tags": ["beverage","drink","food","soda","tin","beer","alcohol","waste"]
   },
   {
@@ -1520,13 +1520,13 @@ export const iconsData: Array<{
   },
   {
     "name": "candy-cane",
-    "categories": ["food-beverage"],
-    "tags": ["sugar","food","sweet","christmas","xmas"]
+    "categories": ["$extends:candy"],
+    "tags": ["$extends:candy","christmas","xmas"]
   },
   {
     "name": "candy-off",
-    "categories": ["food-beverage"],
-    "tags": ["sugar free","food","sweet","allergy","intolerance","diet"]
+    "categories": ["$extends:candy"],
+    "tags": ["$extends:candy","$group:off","sugar free","allergy","intolerance","diet"]
   },
   {
     "name": "candy",
@@ -1535,8 +1535,8 @@ export const iconsData: Array<{
   },
   {
     "name": "cannabis-off",
-    "categories": ["nature"],
-    "tags": ["cannabis","weed","leaf"]
+    "categories": ["$extends:cannabis"],
+    "tags": ["$extends:cannabis","$group:off"]
   },
   {
     "name": "cannabis",
@@ -1545,28 +1545,28 @@ export const iconsData: Array<{
   },
   {
     "name": "captions-off",
-    "categories": ["multimedia"],
-    "tags": ["closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
+    "categories": ["$extends:captions"],
+    "tags": ["$extends:captions","$group:off"]
   },
   {
     "name": "captions",
-    "categories": ["multimedia"],
+    "categories": ["multimedia","accessibility"],
     "tags": ["closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
   },
   {
     "name": "car-battery",
-    "categories": ["connectivity","transportation"],
+    "categories": ["$extends:car","devices"],
     "tags": ["battery","automobile","power cell","electric","power","electricity","energy","accumulator","charge","transport","vehicle","car"]
   },
   {
     "name": "car-front",
-    "categories": ["transportation"],
-    "tags": ["vehicle","drive","trip","journey"]
+    "categories": ["$extends:car"],
+    "tags": ["$extends:car"]
   },
   {
     "name": "car-taxi-front",
-    "categories": ["transportation"],
-    "tags": ["cab","vehicle","drive","trip","journey"]
+    "categories": ["$extends:car"],
+    "tags": ["$extends:car","cab"]
   },
   {
     "name": "car",
@@ -1580,7 +1580,7 @@ export const iconsData: Array<{
   },
   {
     "name": "card-sim",
-    "categories": ["connectivity","communication","multimedia","devices"],
+    "categories": ["connectivity","communication","devices"],
     "tags": ["cellphone","smartphone","mobile","network","cellular","service","provider","signal","coverage","disk","data","format","storage","flash","digital","contacts","phone book","contractual","circuit board","chip"]
   },
   {
@@ -1590,8 +1590,8 @@ export const iconsData: Array<{
   },
   {
     "name": "carton-off",
-    "categories": ["food-beverage"],
-    "tags": ["milk","dairy","beverage","drink","diet","lactose free","non dairy","liquid","liter","litre","pint","pints","pasteurized","skim","skimmed","container","packaging","allergy","intolerance","vegan","unavailable"]
+    "categories": ["$extends:carton"],
+    "tags": ["$extends:carton","$group:off","lactose free","non dairy","allergy","intolerance","vegan"]
   },
   {
     "name": "carton",
@@ -1600,22 +1600,22 @@ export const iconsData: Array<{
   },
   {
     "name": "case-lower",
-    "categories": ["letters-digits","text","development"],
-    "tags": ["text","letters","characters","font","typography"]
+    "categories": ["text","development"],
+    "tags": ["$group:letter","letters","characters"]
   },
   {
     "name": "case-sensitive",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","letters","characters","font","typography"]
+    "categories": ["text"],
+    "tags": ["$group:letter","letters","characters"]
   },
   {
     "name": "case-upper",
-    "categories": ["letters-digits","text","development"],
-    "tags": ["text","letters","characters","font","typography"]
+    "categories": ["text","development"],
+    "tags": ["$group:letter","letters","characters"]
   },
   {
     "name": "cassette-tape",
-    "categories": ["connectivity","devices","multimedia","communication","files"],
+    "categories": ["devices","multimedia"],
     "tags": ["audio","music","recording","play"]
   },
   {
@@ -1635,17 +1635,17 @@ export const iconsData: Array<{
   },
   {
     "name": "cctv-off",
-    "categories": ["security","devices","communication","connectivity","photography"],
-    "tags": ["camera","surveillance","recording","film","videotape","crime","watching"]
+    "categories": ["$extends:cctv"],
+    "tags": ["$extends:cctv","$group:off"]
   },
   {
     "name": "cctv",
-    "categories": ["security","devices","communication","connectivity","photography"],
+    "categories": ["security","devices","photography"],
     "tags": ["camera","surveillance","recording","film","videotape","crime","watching"]
   },
   {
     "name": "certificate",
-    "categories": ["connectivity","security"],
+    "categories": ["security","files"],
     "tags": ["award","ribbon","medal","achievement","pinned","badge","recognition","laurel","commendation","diploma","official","proof","fact","verified","license","warrant","authorization","legal","ownership","credential","ssl","tls","security","trust","cybersecurity","authority","graduation","study"]
   },
   {
@@ -1655,23 +1655,23 @@ export const iconsData: Array<{
   },
   {
     "name": "chart-bar-big",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph"]
+    "categories": ["$extends:chart-bar"],
+    "tags": ["$extends:chart-bar"]
   },
   {
     "name": "chart-bar-decreasing",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","trending down"]
+    "categories": ["$extends:chart-bar"],
+    "tags": ["$extends:chart-bar","trending down"]
   },
   {
     "name": "chart-bar-increasing",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","trending up"]
+    "categories": ["$extends:chart-bar"],
+    "tags": ["$extends:chart-bar","trending up"]
   },
   {
     "name": "chart-bar-stacked",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","multivariate","categorical","comparison"]
+    "categories": ["$extends:chart-bar"],
+    "tags": ["$extends:chart-bar","multivariate","categorical","comparison"]
   },
   {
     "name": "chart-bar",
@@ -1685,23 +1685,23 @@ export const iconsData: Array<{
   },
   {
     "name": "chart-column-big",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph"]
+    "categories": ["$extends:chart-column"],
+    "tags": ["$extends:chart-column"]
   },
   {
     "name": "chart-column-decreasing",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","trending down"]
+    "categories": ["$extends:chart-column"],
+    "tags": ["$extends:chart-column","trending down"]
   },
   {
     "name": "chart-column-increasing",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","trending up"]
+    "categories": ["$extends:chart-column"],
+    "tags": ["$extends:chart-column","trending up"]
   },
   {
     "name": "chart-column-stacked",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","multivariate","categorical","comparison"]
+    "categories": ["$extends:chart-column"],
+    "tags": ["$extends:chart-column","multivariate","categorical","comparison"]
   },
   {
     "name": "chart-column",
@@ -1710,13 +1710,13 @@ export const iconsData: Array<{
   },
   {
     "name": "chart-gantt",
-    "categories": ["charts"],
+    "categories": ["charts","time"],
     "tags": ["diagram","graph","timeline","planning"]
   },
   {
     "name": "chart-line",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph"]
+    "tags": ["statistics","analytics","diagram","graph","presentation"]
   },
   {
     "name": "chart-network",
@@ -1725,13 +1725,13 @@ export const iconsData: Array<{
   },
   {
     "name": "chart-no-axes-column-decreasing",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","trending down"]
+    "categories": ["$extends:chart-no-axes-column"],
+    "tags": ["$extends:chart-no-axes-column","trending down"]
   },
   {
     "name": "chart-no-axes-column-increasing",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","trending up"]
+    "categories": ["$extends:chart-no-axes-column"],
+    "tags": ["$extends:chart-no-axes-column","trending up"]
   },
   {
     "name": "chart-no-axes-column",
@@ -1745,12 +1745,12 @@ export const iconsData: Array<{
   },
   {
     "name": "chart-no-axes-gantt",
-    "categories": ["charts","time","development","design"],
+    "categories": ["charts","time","development"],
     "tags": ["projects","manage","overview","roadmap","plan","intentions","timeline","deadline","date","event","range","period","productivity","work","agile","code","coding"]
   },
   {
     "name": "chart-pie",
-    "categories": ["charts","files"],
+    "categories": ["charts"],
     "tags": ["statistics","analytics","diagram","presentation"]
   },
   {
@@ -1775,18 +1775,18 @@ export const iconsData: Array<{
   },
   {
     "name": "check-check",
-    "categories": ["notifications"],
-    "tags": ["done","received","double","todo","tick","complete","task"]
+    "categories": ["$extends:check"],
+    "tags": ["$extends:check","received","double"]
   },
   {
     "name": "check-line",
-    "categories": ["notifications"],
-    "tags": ["done","todo","tick","complete","task"]
+    "categories": ["$extends:check"],
+    "tags": ["$extends:check"]
   },
   {
     "name": "check",
     "categories": ["notifications"],
-    "tags": ["done","todo","tick","complete","task"]
+    "tags": ["$group:check"]
   },
   {
     "name": "chef-hat",
@@ -1800,38 +1800,38 @@ export const iconsData: Array<{
   },
   {
     "name": "chess-bishop",
-    "categories": ["gaming","emoji"],
+    "categories": ["gaming"],
     "tags": ["mitre","miter","piece","board game","religion"]
   },
   {
     "name": "chess-king",
-    "categories": ["gaming","emoji"],
+    "categories": ["gaming"],
     "tags": ["ruler","crown","piece","board game","stalemate"]
   },
   {
     "name": "chess-knight",
-    "categories": ["gaming","emoji"],
+    "categories": ["gaming"],
     "tags": ["piece","horse","board game"]
   },
   {
     "name": "chess-pawn",
-    "categories": ["gaming","emoji"],
+    "categories": ["gaming"],
     "tags": ["piece","board game"]
   },
   {
     "name": "chess-queen",
-    "categories": ["gaming","emoji"],
+    "categories": ["gaming"],
     "tags": ["ruler","crown","piece","board game","stalemate"]
   },
   {
     "name": "chess-rook",
-    "categories": ["gaming","emoji"],
+    "categories": ["gaming"],
     "tags": ["castle","piece","board game"]
   },
   {
     "name": "chevron-down",
-    "categories": ["arrows","gaming"],
-    "tags": ["backwards","reverse","slow","dropdown"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse","slow","dropdown"]
   },
   {
     "name": "chevron-first",
@@ -1845,63 +1845,63 @@ export const iconsData: Array<{
   },
   {
     "name": "chevron-left",
-    "categories": ["arrows"],
-    "tags": ["back","previous","less than","fewer","menu","<"]
+    "categories": ["arrows","math"],
+    "tags": ["$group:direction-left","$group:navigation-previous","previous","less than","fewer","menu","<"]
   },
   {
     "name": "chevron-right",
     "categories": ["arrows","math","development"],
-    "tags": ["forward","next","more than","greater","menu","code","coding","command line","terminal","prompt","shell",">"]
+    "tags": ["$group:direction-right","$group:navigation-next","next","more than","greater","menu","code","coding","command line","terminal","prompt","shell",">"]
   },
   {
     "name": "chevron-up",
-    "categories": ["arrows","math","gaming"],
-    "tags": ["caret","keyboard","mac","control","ctrl","superscript","exponential","power","ahead","fast","^","dropdown"]
+    "categories": ["arrows","math"],
+    "tags": ["$group:direction-up","$group:navigation-previous","caret","keyboard","mac","control","ctrl","superscript","exponential","power","ahead","fast","^","dropdown"]
   },
   {
     "name": "chevrons-down-up",
     "categories": ["arrows"],
-    "tags": ["collapse","fold","vertical"]
+    "tags": ["$group:direction-down","$group:direction-up","collapse","fold"]
   },
   {
     "name": "chevrons-down",
-    "categories": ["arrows","gaming"],
-    "tags": ["backwards","reverse","slower"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down","$group:navigation-last","backwards","reverse","slower"]
   },
   {
     "name": "chevrons-left-right-ellipsis",
-    "categories": ["communication","devices","multimedia","gaming"],
-    "tags": ["internet","network","connection","cable","lan","port","router","switch","hub","modem","web","online","networking","communication","socket","plug","slot","controller","connector","interface","console","signal","data","input","output"]
+    "categories": ["devices","connectivity"],
+    "tags": ["$group:direction-left","$group:direction-right","internet","network","connection","cable","lan","port","router","switch","hub","modem","web","online","networking","communication","socket","plug","slot","controller","connector","interface","console","signal","data","input","output"]
   },
   {
     "name": "chevrons-left-right",
     "categories": ["arrows"],
-    "tags": ["expand","horizontal","unfold"]
+    "tags": ["$group:direction-left","$group:direction-right","expand","unfold"]
   },
   {
     "name": "chevrons-left",
-    "categories": ["arrows","gaming"],
-    "tags": ["turn","corner"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-left","$group:navigation-first","turn","corner"]
   },
   {
     "name": "chevrons-right-left",
     "categories": ["arrows"],
-    "tags": ["collapse","fold","horizontal"]
+    "tags": ["$group:direction-right","$group:direction-left","collapse","fold"]
   },
   {
     "name": "chevrons-right",
-    "categories": ["arrows","gaming"],
-    "tags": ["turn","corner"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-right","$group:navigation-last","turn","corner"]
   },
   {
     "name": "chevrons-up-down",
     "categories": ["arrows"],
-    "tags": ["expand","unfold","vertical"]
+    "tags": ["$group:direction-up","$group:direction-down","expand","unfold"]
   },
   {
     "name": "chevrons-up",
-    "categories": ["arrows","gaming"],
-    "tags": ["forward","ahead","faster","speed","boost"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-up","$group:navigation-first","forward","ahead","faster","speed","boost"]
   },
   {
     "name": "church",
@@ -1910,8 +1910,8 @@ export const iconsData: Array<{
   },
   {
     "name": "cigarette-off",
-    "categories": ["travel","transportation","medical"],
-    "tags": ["smoking","no-smoking"]
+    "categories": ["$extends:cigarette"],
+    "tags": ["$extends:cigarette","$group:off","no-smoking"]
   },
   {
     "name": "cigarette",
@@ -1921,106 +1921,106 @@ export const iconsData: Array<{
   {
     "name": "circle-alert",
     "categories": ["notifications"],
-    "tags": ["warning","alert","danger","exclamation mark"]
+    "tags": ["$group:exclamation-mark"]
   },
   {
     "name": "circle-arrow-down",
-    "categories": ["arrows","gaming"],
-    "tags": ["backwards","reverse","direction","south","sign","button"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse","sign","button"]
   },
   {
     "name": "circle-arrow-left",
-    "categories": ["arrows","gaming"],
-    "tags": ["previous","back","direction","west","sign","turn","button","<-"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-left","$group:navigation-previous","previous","sign","turn","button","<-"]
   },
   {
     "name": "circle-arrow-out-down-left",
     "categories": ["arrows"],
-    "tags": ["outwards","direction","south-west","diagonal"]
+    "tags": ["$group:direction-down-left","outwards"]
   },
   {
     "name": "circle-arrow-out-down-right",
     "categories": ["arrows"],
-    "tags": ["outwards","direction","south-east","diagonal"]
+    "tags": ["$group:direction-down-right","outwards"]
   },
   {
     "name": "circle-arrow-out-up-left",
-    "categories": ["arrows","development"],
-    "tags": ["outwards","direction","north-west","diagonal","keyboard","button","escape"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-up-left","outwards","keyboard","button","escape"]
   },
   {
     "name": "circle-arrow-out-up-right",
     "categories": ["arrows"],
-    "tags": ["outwards","direction","north-east","diagonal"]
+    "tags": ["$group:direction-up-right","outwards"]
   },
   {
     "name": "circle-arrow-right",
-    "categories": ["arrows","gaming"],
-    "tags": ["next","forward","direction","east","sign","turn","button","->"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-right","$group:navigation-next","next","sign","turn","button","->"]
   },
   {
     "name": "circle-arrow-up",
-    "categories": ["arrows","gaming"],
-    "tags": ["forward","direction","north","sign","button"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-up","$group:navigation-previous","forward","sign","button"]
   },
   {
     "name": "circle-check-big",
-    "categories": ["notifications"],
-    "tags": ["done","todo","tick","complete","task"]
+    "categories": ["$extends:circle-check"],
+    "tags": ["$extends:circle-check"]
   },
   {
     "name": "circle-check",
     "categories": ["notifications"],
-    "tags": ["done","todo","tick","complete","task"]
+    "tags": ["$group:check"]
   },
   {
     "name": "circle-chevron-down",
     "categories": ["arrows"],
-    "tags": ["back","menu"]
+    "tags": ["$group:direction-down","$group:navigation-next","back","menu"]
   },
   {
     "name": "circle-chevron-left",
     "categories": ["arrows"],
-    "tags": ["back","previous","less than","fewer","menu","<"]
+    "tags": ["$group:direction-left","$group:navigation-previous","previous","less than","fewer","menu","<"]
   },
   {
     "name": "circle-chevron-right",
     "categories": ["arrows"],
-    "tags": ["back","more than","greater","menu",">"]
+    "tags": ["$group:direction-right","$group:navigation-next","back","more than","greater","menu",">"]
   },
   {
     "name": "circle-chevron-up",
     "categories": ["arrows"],
-    "tags": ["caret","ahead","menu","^"]
+    "tags": ["$group:direction-up","$group:navigation-previous","caret","ahead","menu","^"]
   },
   {
     "name": "circle-chevrons-down",
-    "categories": ["arrows","navigation"],
-    "tags": ["bottom","descend","page","page down","scroll","jump","south","caret","button","skip","end","last page","latest","feed","chat","pagination","fast","media"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down","$group:navigation-last","bottom","page","scroll","jump","caret","button","skip","feed","chat","pagination","fast","media"]
   },
   {
     "name": "circle-chevrons-left",
-    "categories": ["arrows","navigation","multimedia"],
-    "tags": ["previous","rewind","backward","first","beginning","start","west","music","caret","button","pagination","skip","skip-back","seek-back","media-controls","player","playlist","track","chapter","jump","timeline","controls"]
+    "categories": ["arrows","multimedia"],
+    "tags": ["$group:direction-left","$group:navigation-first","previous","rewind","first","start","music","caret","button","pagination","skip","skip-back","seek-back","media-controls","player","playlist","track","chapter","jump","timeline","controls"]
   },
   {
     "name": "circle-chevrons-right",
-    "categories": ["arrows","navigation","multimedia"],
-    "tags": ["next","forward","skip","fast forward","last","end","east","music","caret","button","pagination","jump","seek","seek forward","player control","chapter","track","timeline","navigation control"]
+    "categories": ["arrows","multimedia"],
+    "tags": ["$group:direction-right","$group:navigation-last","next","skip","fast forward","last","music","caret","button","pagination","jump","seek","seek forward","player control","chapter","track","timeline","navigation control"]
   },
   {
     "name": "circle-chevrons-up",
-    "categories": ["arrows","navigation"],
-    "tags": ["top","ascend","page","page up","back to top","scroll","jump","north","caret","button","skip","pagination","first page","fast","fast scroll","rewind","jump to start","floating action button","anchor","timeline"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-up","$group:navigation-first","top","page","back to top","scroll","jump","caret","button","skip","pagination","fast","fast scroll","rewind","jump to start","floating action button","anchor","timeline"]
   },
   {
     "name": "circle-dashed-check",
-    "categories": ["shapes","development","notifications"],
-    "tags": ["approved","pending","changes","revision","reapproval","published","schedule","assignment","request","review","progress","issue","draft","code","coding","version control"]
+    "categories": ["$extends:circle-dashed","notifications"],
+    "tags": ["$extends:circle-dashed","$extends:circle-check","changes","revision","reapproval","published","schedule","assignment","request","review"]
   },
   {
     "name": "circle-dashed",
-    "categories": ["development","shapes"],
+    "categories": ["$extends:circle","development"],
     "tags": ["pending","dot","progress","issue","draft","code","coding","version control"]
   },
   {
@@ -2031,17 +2031,17 @@ export const iconsData: Array<{
   {
     "name": "circle-dollar-sign",
     "categories": ["finance"],
-    "tags": ["monetization","marketing","currency","money","payment"]
+    "tags": ["$group:currency","marketing"]
   },
   {
     "name": "circle-dot-dashed",
-    "categories": ["development","shapes"],
-    "tags": ["pending","dot","progress","issue","draft","code","coding","version control"]
+    "categories": ["$extends:circle-dot"],
+    "tags": ["pending","progress","issue","draft","code","coding","version control"]
   },
   {
     "name": "circle-dot",
-    "categories": ["development","shapes"],
-    "tags": ["pending","dot","progress","issue","code","coding","version control","choices","multiple choice","choose","album","music","songs","format","cd","dvd","vinyl","sleeve","cover","platinum","compilation","ep","recording","playback","spin","rotate","rpm","dj"]
+    "categories": ["$extends:circle","development"],
+    "tags": ["pending","progress","issue","code","coding","version control","choices","multiple choice","choose","album","music","songs","format","cd","dvd","vinyl","sleeve","cover","platinum","compilation","ep","recording","playback","spin","rotate","rpm","dj"]
   },
   {
     "name": "circle-ellipsis",
@@ -2055,23 +2055,23 @@ export const iconsData: Array<{
   },
   {
     "name": "circle-euro",
-    "categories": ["shopping","finance"],
-    "tags": ["symbol","economy","banking","europe","€","euro","currency","money","payment","coin","finance","financial","exchange"]
+    "categories": ["finance"],
+    "tags": ["$group:currency","symbol","europe","€","euro","coin"]
   },
   {
     "name": "circle-fading-arrow-up",
     "categories": ["arrows","development"],
-    "tags": ["north","up","upgrade","improve","circle","button"]
+    "tags": ["$group:direction-up","up","upgrade","improve","circle","button"]
   },
   {
     "name": "circle-fading-play",
     "categories": ["multimedia","social"],
-    "tags": ["short clips","shorts","reels","stories","video","highlights","social media","content","preview","teaser","clip","short form","vertical video"]
+    "tags": ["$group:play","short clips","shorts","reels","stories","video","highlights","social media","content","teaser","clip","short form","vertical video"]
   },
   {
     "name": "circle-fading-plus",
     "categories": ["communication","social"],
-    "tags": ["stories","social media","sharing","content"]
+    "tags": ["$group:plus","stories","social media","sharing","content"]
   },
   {
     "name": "circle-gauge",
@@ -2081,227 +2081,227 @@ export const iconsData: Array<{
   {
     "name": "circle-letter-a",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance","text","font","typography"]
+    "tags": ["$group:letter","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance"]
   },
   {
     "name": "circle-letter-b",
     "categories": ["letters-digits"],
-    "tags": ["strong","emphasis","format","alphabet","character","uppercase","bold","blood type","byte","computing","b-side","bus","transit","text","font","typography"]
+    "tags": ["strong","emphasis","format","$group:letter","uppercase","bold","blood type","byte","computing","b-side","bus","transit"]
   },
   {
     "name": "circle-letter-c",
-    "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","celsius","temperature","carbon","chemistry","grade","rating","text","font","typography"]
+    "categories": ["letters-digits","text"],
+    "tags": ["$group:letter","uppercase","licence","license","celsius","temperature","carbon","chemistry","grade","rating"]
   },
   {
     "name": "circle-letter-d",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating"]
   },
   {
     "name": "circle-letter-e",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","explicit","content rating","east","empty","energy","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","explicit","content rating","east","empty","energy","grade","rating"]
   },
   {
     "name": "circle-letter-f",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera","text","font","typography"]
+    "tags": ["$group:letter","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera"]
   },
   {
     "name": "circle-letter-g",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","gravity","g-force","gram","measurement","text","font","typography"]
+    "tags": ["$group:letter","uppercase","gravity","g-force","gram","measurement"]
   },
   {
     "name": "circle-letter-h",
     "categories": ["letters-digits"],
-    "tags": ["h1","html","markup","markdown","alphabet","character","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement","text","font","typography"]
+    "tags": ["h1","html","markup","markdown","$group:letter","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement"]
   },
   {
     "name": "circle-letter-i",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","information","help","input","current","electricity","text","font","typography"]
+    "tags": ["$group:letter","uppercase","information","help","input","current","electricity"]
   },
   {
     "name": "circle-letter-j",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","joule","energy","java","javascript","code","text","font","typography"]
+    "tags": ["$group:letter","uppercase","joule","energy","java","javascript","code"]
   },
   {
     "name": "circle-letter-k",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry"]
   },
   {
     "name": "circle-letter-l",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","learner","driver","litre","left","length","measurement","text","font","typography"]
+    "tags": ["$group:letter","uppercase","learner","driver","litre","left","length","measurement"]
   },
   {
     "name": "circle-letter-m",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","million","mega","metre","measurement","male","medium","size","text","font","typography"]
+    "tags": ["$group:letter","uppercase","million","mega","metre","measurement","male","medium","size"]
   },
   {
     "name": "circle-letter-n",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics","text","font","typography"]
+    "tags": ["$group:letter","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics"]
   },
   {
     "name": "circle-letter-o",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","oxygen","chemistry","blood type","off","zero","marker","text","font","typography"]
+    "tags": ["$group:letter","uppercase","oxygen","chemistry","blood type","off","zero","marker"]
   },
   {
     "name": "circle-letter-p-off",
-    "categories": ["letters-digits","transportation","navigation"],
-    "tags": ["parking lot","car park","no parking"]
+    "categories": ["$extends:circle-letter-p"],
+    "tags": ["$extends:circle-letter-p","$group:off","no parking"]
   },
   {
     "name": "circle-letter-p",
-    "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math","text","font","typography"]
+    "categories": ["letters-digits","navigation","transportation"],
+    "tags": ["$group:letter","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math"]
   },
   {
     "name": "circle-letter-q",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","question","help","queue","charge","electricity","quality","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","question","help","queue","charge","electricity","quality","rating"]
   },
   {
     "name": "circle-letter-r",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review","text","font","typography"]
+    "tags": ["$group:letter","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review"]
   },
   {
     "name": "circle-letter-s",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity","text","font","typography"]
+    "tags": ["$group:letter","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity"]
   },
   {
     "name": "circle-letter-t",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","tesla","magnetism","temperature","tonne","measurement","time","text","font","typography"]
+    "tags": ["$group:letter","uppercase","tesla","magnetism","temperature","tonne","measurement","time"]
   },
   {
     "name": "circle-letter-u",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","rack unit","server","equipment","uranium","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","rack unit","server","equipment","uranium","chemistry"]
   },
   {
     "name": "circle-letter-v",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video","text","font","typography"]
+    "tags": ["$group:letter","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video"]
   },
   {
     "name": "circle-letter-w",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win","text","font","typography"]
+    "tags": ["$group:letter","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win"]
   },
   {
     "name": "circle-letter-x",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome","text","font","typography"]
+    "tags": ["$group:letter","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome"]
   },
   {
     "name": "circle-letter-y",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","y-axis","axis","yes","confirm","year","time","chromosome","text","font","typography"]
+    "tags": ["$group:letter","uppercase","y-axis","axis","yes","confirm","year","time","chromosome"]
   },
   {
     "name": "circle-letter-z",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry"]
   },
   {
     "name": "circle-minus",
     "categories": ["math"],
-    "tags": ["subtract","remove","decrease","reduce","calculate","line","operator","code","coding","minimum","downgrade","-"]
+    "tags": ["$group:minus","decrease","calculate","line","operator","code","coding","minimum","downgrade"]
   },
   {
     "name": "circle-off",
-    "categories": ["shapes"],
-    "tags": ["diameter","zero","Ø","nothing","null","void","cancel","ban","no","stop","forbidden","prohibited","error","incorrect","mistake","wrong","failure"]
+    "categories": ["$extends:circle"],
+    "tags": ["$group:off","diameter","zero","Ø","nothing","null","void","no","stop","error","incorrect","mistake","wrong","failure"]
   },
   {
     "name": "circle-pause",
     "categories": ["multimedia"],
-    "tags": ["music","audio","stop"]
+    "tags": ["$group:pause","music","audio"]
   },
   {
     "name": "circle-percent",
     "categories": ["social","finance","shopping","math"],
-    "tags": ["verified","unverified","sale","discount","offer","marketing","sticker","price tag"]
+    "tags": ["$group:percent","verified","unverified","sticker"]
   },
   {
     "name": "circle-pile",
-    "categories": ["shapes"],
-    "tags": ["off","zero","record","shape","circle-pile","circle","pile","stack","layer","structure","form","group","collection","stock","inventory","materials","warehouse"]
+    "categories": ["$extends:circle"],
+    "tags": ["$extends:circle","circle-pile","circle","pile","stack","layer","structure","form","group","collection","stock","inventory","materials","warehouse"]
   },
   {
     "name": "circle-play",
     "categories": ["multimedia"],
-    "tags": ["music","start","run"]
+    "tags": ["$group:play","music"]
   },
   {
     "name": "circle-plus",
-    "categories": ["math","development","cursors","gaming"],
-    "tags": ["add","new","increase","increment","positive","calculate","crosshair","aim","target","scope","sight","reticule","maximum","upgrade","extra","operator","join","concatenate","code","coding","+"]
+    "categories": ["math","development"],
+    "tags": ["$group:plus","positive","calculate","crosshair","aim","target","scope","sight","reticule","maximum","upgrade","operator","join","concatenate","code","coding"]
   },
   {
     "name": "circle-pound-sterling",
     "categories": ["finance"],
-    "tags": ["monetization","coin","penny","marketing","currency","money","payment","british","gbp","£"]
+    "tags": ["$group:currency","coin","penny","marketing","british","gbp","£"]
   },
   {
     "name": "circle-power",
-    "categories": ["connectivity"],
+    "categories": ["devices"],
     "tags": ["on","off","device","switch","toggle","binary","boolean","reboot","restart","button","keyboard","troubleshoot"]
   },
   {
     "name": "circle-question-mark",
     "categories": ["accessibility","text","notifications"],
-    "tags": ["question mark"]
+    "tags": ["$group:question-mark"]
   },
   {
     "name": "circle-slash-2",
-    "categories": ["shapes","math","development"],
+    "categories": ["$extends:circle-slash","shapes"],
     "tags": ["diameter","zero","ø","nothing","null","void","ban","math","divide","division","half","split","/","average","avg","mean","median","normal"]
   },
   {
     "name": "circle-slash",
     "categories": ["development","math"],
-    "tags": ["diameter","zero","Ø","nothing","null","void","cancel","ban","no","stop","forbidden","prohibited","error","incorrect","mistake","wrong","failure","divide","division","or","/"]
+    "tags": ["$group:off","diameter","zero","Ø","nothing","null","void","no","stop","error","incorrect","mistake","wrong","failure","divide","division","or"]
   },
   {
     "name": "circle-small",
-    "categories": ["shapes","medical"],
+    "categories": ["$extends:circle"],
     "tags": ["shape","bullet","gender","genderless"]
   },
   {
     "name": "circle-star",
     "categories": ["sports","gaming"],
-    "tags": ["badge","medal","honour","decoration","order","pin","laurel","trophy","medallion","insignia","bronze","silver","gold"]
+    "tags": ["$group:star","badge","medal","honour","decoration","order","pin","laurel","trophy","medallion","insignia","bronze","silver","gold"]
   },
   {
     "name": "circle-stop",
     "categories": ["multimedia"],
-    "tags": ["media","music"]
+    "tags": ["$group:stop","media","music"]
   },
   {
     "name": "circle-user-round",
-    "categories": ["account"],
-    "tags": ["person","account","contact"]
+    "categories": ["$extends:circle-user"],
+    "tags": ["$extends:circle-user"]
   },
   {
     "name": "circle-user",
     "categories": ["account"],
-    "tags": ["person","account","contact"]
+    "tags": ["$group:user"]
   },
   {
     "name": "circle-x",
-    "categories": ["math","development"],
-    "tags": ["cancel","close","cross","delete","remove","times","clear","error","incorrect","wrong","mistake","failure","linter","multiply","multiplication"]
+    "categories": ["math","notifications"],
+    "tags": ["$group:x","error","incorrect","wrong","mistake","failure","linter","multiply","multiplication"]
   },
   {
     "name": "circle",
@@ -2310,7 +2310,7 @@ export const iconsData: Array<{
   },
   {
     "name": "circuit-board",
-    "categories": ["science","development"],
+    "categories": ["science","development","devices"],
     "tags": ["computing","electricity","electronics"]
   },
   {
@@ -2340,58 +2340,58 @@ export const iconsData: Array<{
   },
   {
     "name": "clipboard-check",
-    "categories": ["text"],
-    "tags": ["copied","pasted","done","todo","tick","complete","task"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard","$group:check","copied","pasted"]
   },
   {
     "name": "clipboard-clock",
-    "categories": ["time","text"],
-    "tags": ["copy","paste","history","log","clock","time","watch","alarm","hour","minute","reminder","scheduled","deadline","pending","time tracking","timesheets","appointment","logbook"]
+    "categories": ["$extends:clipboard","time"],
+    "tags": ["$extends:clipboard","$group:clock","log","alarm","reminder","scheduled","time tracking","timesheets","appointment","logbook"]
   },
   {
     "name": "clipboard-copy",
-    "categories": ["text","arrows"],
-    "tags": ["copy","paste"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard"]
   },
   {
     "name": "clipboard-list",
-    "categories": ["text"],
-    "tags": ["copy","paste","tasks"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard","tasks"]
   },
   {
     "name": "clipboard-minus",
-    "categories": ["text","medical"],
-    "tags": ["copy","delete","remove","erase","document","medical","report","doctor"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard","$group:minus","document","medical","report","doctor"]
   },
   {
     "name": "clipboard-paste",
-    "categories": ["text","arrows"],
-    "tags": ["copy","paste"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard"]
   },
   {
     "name": "clipboard-pen-line",
-    "categories": ["text"],
-    "tags": ["paste"]
+    "categories": ["$extends:clipboard-pen"],
+    "tags": ["$extends:clipboard-pen"]
   },
   {
     "name": "clipboard-pen",
-    "categories": ["text"],
-    "tags": ["paste","signature"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard","$group:pen","signature"]
   },
   {
     "name": "clipboard-plus",
-    "categories": ["text","medical"],
-    "tags": ["copy","paste","add","create","new","document","medical","report","doctor"]
+    "categories": ["$extends:clipboard","medical"],
+    "tags": ["$extends:clipboard","$group:plus","document","medical","report","doctor"]
   },
   {
     "name": "clipboard-type",
-    "categories": ["letters-digits","text"],
-    "tags": ["paste","format","text"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard","$group:letter","format"]
   },
   {
     "name": "clipboard-x",
-    "categories": ["text"],
-    "tags": ["copy","paste","discard","remove"]
+    "categories": ["$extends:clipboard"],
+    "tags": ["$extends:clipboard","$group:x"]
   },
   {
     "name": "clipboard",
@@ -2400,118 +2400,118 @@ export const iconsData: Array<{
   },
   {
     "name": "clock-1",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-10",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-11",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-12",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm","noon","midnight"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","noon","midnight"]
   },
   {
     "name": "clock-2",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-3",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-4",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-5",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-6",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-7",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-8",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-9",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-alert",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm","warning","wrong"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:exclamation-mark","wrong"]
   },
   {
     "name": "clock-arrow-down",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:direction-down","$group:sort"]
   },
   {
     "name": "clock-arrow-left",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm","assign","range"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:direction-left","assign","range"]
   },
   {
     "name": "clock-arrow-right",
-    "categories": ["time","people","arrows"],
-    "tags": ["time","watch","alarm","range","unassign"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:direction-right","range","unassign"]
   },
   {
     "name": "clock-arrow-up",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm","sort","order","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:direction-up","$group:sort"]
   },
   {
     "name": "clock-check",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:check"]
   },
   {
     "name": "clock-fading",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock"]
   },
   {
     "name": "clock-plus",
-    "categories": ["time"],
-    "tags": ["time","watch","alarm","add","create","new"]
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:plus"]
   },
   {
     "name": "clock",
     "categories": ["time"],
-    "tags": ["time","watch","alarm"]
+    "tags": ["$group:clock","alarm"]
   },
   {
     "name": "closed-caption",
-    "categories": ["letters-digits","accessibility","multimedia"],
-    "tags": ["tv","movie","video","closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
+    "categories": ["accessibility","multimedia"],
+    "tags": ["$group:letter","tv","movie","video","closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
   },
   {
     "name": "cloud-alert",
-    "categories": ["development"],
-    "tags": ["weather","danger","warning","alert","error","sync","network","exclamation"]
+    "categories": ["development","notifications","weather"],
+    "tags": ["$extends:cloud","$group:exclamation-mark","sync","network"]
   },
   {
     "name": "cloud-backup",
@@ -2521,12 +2521,12 @@ export const iconsData: Array<{
   {
     "name": "cloud-check",
     "categories": ["development"],
-    "tags": ["sync","network","success","done","completed","saved","persisted"]
+    "tags": ["$group:check","sync","network","saved","persisted"]
   },
   {
     "name": "cloud-cog",
     "categories": ["development"],
-    "tags": ["computing","ai","cluster","network"]
+    "tags": ["$group:cog","computing","ai","cluster","network"]
   },
   {
     "name": "cloud-download",
@@ -2535,68 +2535,68 @@ export const iconsData: Array<{
   },
   {
     "name": "cloud-drizzle",
-    "categories": ["weather"],
-    "tags": ["weather","shower"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","shower"]
   },
   {
     "name": "cloud-fog",
-    "categories": ["weather"],
-    "tags": ["weather","mist"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","mist"]
   },
   {
     "name": "cloud-hail",
-    "categories": ["weather"],
-    "tags": ["weather","rainfall"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","rainfall"]
   },
   {
     "name": "cloud-lightning",
-    "categories": ["weather"],
-    "tags": ["weather","bolt"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","bolt"]
   },
   {
     "name": "cloud-moon-rain",
-    "categories": ["weather"],
-    "tags": ["weather","partly","night","rainfall"]
+    "categories": ["$extends:cloud-moon"],
+    "tags": ["$extends:cloud-moon","partly","rainfall"]
   },
   {
     "name": "cloud-moon",
-    "categories": ["weather"],
-    "tags": ["weather","night"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","night"]
   },
   {
     "name": "cloud-off",
-    "categories": ["connectivity","weather"],
-    "tags": ["disconnect"]
+    "categories": ["$extends:cloud","connectivity"],
+    "tags": ["$group:off","disconnect"]
   },
   {
     "name": "cloud-rain-wind",
-    "categories": ["weather"],
-    "tags": ["weather","rainfall"]
+    "categories": ["$extends:cloud-rain"],
+    "tags": ["$extends:cloud-rain"]
   },
   {
     "name": "cloud-rain",
-    "categories": ["weather"],
-    "tags": ["weather","rainfall"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","rainfall"]
   },
   {
     "name": "cloud-snow",
-    "categories": ["weather"],
-    "tags": ["weather","blizzard"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","blizzard"]
   },
   {
     "name": "cloud-sun-rain",
-    "categories": ["weather"],
-    "tags": ["weather","partly","rainfall"]
+    "categories": ["$extends:cloud-sun"],
+    "tags": ["$extends:cloud-sun","rainfall"]
   },
   {
     "name": "cloud-sun",
-    "categories": ["weather"],
-    "tags": ["weather","partly"]
+    "categories": ["$extends:cloud"],
+    "tags": ["$extends:cloud","partly"]
   },
   {
     "name": "cloud-sync",
     "categories": ["arrows","files"],
-    "tags": ["synchronize","synchronise","refresh","reconnect","transfer","backup","storage","upload","download","connection","network","data"]
+    "tags": ["$group:sync","transfer","backup","storage","upload","download","connection","network","data"]
   },
   {
     "name": "cloud-upload",
@@ -2615,7 +2615,7 @@ export const iconsData: Array<{
   },
   {
     "name": "clover",
-    "categories": ["gaming"],
+    "categories": ["gaming","nature"],
     "tags": ["leaf","luck","plant"]
   },
   {
@@ -2625,13 +2625,13 @@ export const iconsData: Array<{
   },
   {
     "name": "code-xml",
-    "categories": ["text","development"],
-    "tags": ["source","programming","html","xml"]
+    "categories": ["$extends:code"],
+    "tags": ["$extends:code"]
   },
   {
     "name": "code",
     "categories": ["text","development"],
-    "tags": ["source","programming","html","xml"]
+    "tags": ["$group:code","source","html","xml"]
   },
   {
     "name": "coffee",
@@ -2641,12 +2641,12 @@ export const iconsData: Array<{
   {
     "name": "cog",
     "categories": ["account"],
-    "tags": ["computing","settings","cog","edit","gear","preferences","controls","configuration","fixed","build","construction","parts"]
+    "tags": ["$group:cog","computing","fixed","build","construction","parts"]
   },
   {
     "name": "coins",
-    "categories": ["gaming"],
-    "tags": ["money","cash","finance","gamble"]
+    "categories": ["gaming","finance"],
+    "tags": ["$group:digit","money","cash","finance","gamble"]
   },
   {
     "name": "columns-2",
@@ -2656,7 +2656,7 @@ export const iconsData: Array<{
   {
     "name": "columns-3-cog",
     "categories": ["layout","design"],
-    "tags": ["columns","settings","customize","table","grid","adjust","configuration","panel","layout"]
+    "tags": ["$extends:columns-3","$group:cog","columns","customize","table","grid","adjust","panel","layout"]
   },
   {
     "name": "columns-3",
@@ -2665,7 +2665,7 @@ export const iconsData: Array<{
   },
   {
     "name": "columns-4",
-    "categories": ["layout","design","text","security"],
+    "categories": ["layout","design","text"],
     "tags": ["lines","list","queue","preview","parallel","series","split","vertical","horizontal","thirds","triple","center","middle","alignment","even","sidebars","drawers","gutters","fold","reflow","typography","pagination","pages","prison","jail","bars","sentence","police","cops","cell","crime","criminal","justice","law","enforcement","grill"]
   },
   {
@@ -2705,22 +2705,22 @@ export const iconsData: Array<{
   },
   {
     "name": "construction",
-    "categories": ["development"],
+    "categories": ["development","transportation"],
     "tags": ["roadwork","maintenance","blockade","barricade"]
   },
   {
     "name": "contact-round",
-    "categories": ["account","connectivity","communication","social"],
-    "tags": ["user","person","family","friend","acquaintance","listing","networking"]
+    "categories": ["$extends:contact"],
+    "tags": ["$extends:contact"]
   },
   {
     "name": "contact",
-    "categories": ["account","connectivity","communication","social"],
+    "categories": ["account","communication","social"],
     "tags": ["user","person","family","friend","acquaintance","listing","networking"]
   },
   {
     "name": "container",
-    "categories": ["development","transportation","mail"],
+    "categories": ["development","transportation"],
     "tags": ["storage","shipping","freight","supply chain","environment","devops","code","coding"]
   },
   {
@@ -2740,28 +2740,28 @@ export const iconsData: Array<{
   },
   {
     "name": "copy-check",
-    "categories": ["text","notifications"],
-    "tags": ["clone","duplicate","done","multiple"]
+    "categories": ["$extends:copy","notifications"],
+    "tags": ["$extends:copy","$group:check"]
   },
   {
     "name": "copy-minus",
-    "categories": ["text","math"],
-    "tags": ["clone","duplicate","remove","delete","collapse","subtract","multiple","-"]
+    "categories": ["$extends:copy"],
+    "tags": ["$extends:copy","$group:minus","collapse"]
   },
   {
     "name": "copy-plus",
-    "categories": ["text","math"],
-    "tags": ["clone","duplicate","add","multiple","expand","+"]
+    "categories": ["$extends:copy"],
+    "tags": ["$extends:copy","$group:plus","expand"]
   },
   {
     "name": "copy-slash",
-    "categories": ["text","development","math"],
-    "tags": ["clone","duplicate","cancel","ban","no","stop","forbidden","prohibited","error","multiple","divide","division","split","or","/"]
+    "categories": ["$extends:copy"],
+    "tags": ["$extends:copy","$group:off","no","stop","error","divide","division","split","or"]
   },
   {
     "name": "copy-x",
-    "categories": ["notifications","math"],
-    "tags": ["cancel","close","delete","remove","clear","multiple","multiply","multiplication","times"]
+    "categories": ["notifications","$extends:copy"],
+    "tags": ["$extends:copy","$group:x","multiply","multiplication"]
   },
   {
     "name": "copy",
@@ -2770,58 +2770,53 @@ export const iconsData: Array<{
   },
   {
     "name": "copyleft",
-    "categories": ["letters-digits","text"],
-    "tags": ["licence"]
-  },
-  {
-    "name": "copyright",
-    "categories": ["letters-digits","text"],
-    "tags": ["licence","license"]
+    "categories": ["text"],
+    "tags": ["$group:letter","licence"]
   },
   {
     "name": "corner-down-left",
     "categories": ["arrows"],
-    "tags": ["arrow","return"]
+    "tags": ["$group:direction-down","$group:direction-left","arrow","return"]
   },
   {
     "name": "corner-down-right",
     "categories": ["arrows","text","development"],
-    "tags": ["arrow","indent","tab"]
+    "tags": ["$group:direction-down","$group:direction-right","arrow","indent","tab"]
   },
   {
     "name": "corner-left-down",
     "categories": ["arrows"],
-    "tags": ["arrow"]
+    "tags": ["$group:direction-left","$group:direction-down","arrow"]
   },
   {
     "name": "corner-left-up",
     "categories": ["arrows"],
-    "tags": ["arrow"]
+    "tags": ["$group:direction-left","$group:direction-up","arrow"]
   },
   {
     "name": "corner-right-down",
     "categories": ["arrows"],
-    "tags": ["arrow"]
+    "tags": ["$group:direction-right","$group:direction-down","arrow"]
   },
   {
     "name": "corner-right-up",
     "categories": ["arrows"],
-    "tags": ["arrow"]
+    "tags": ["$group:direction-right","$group:direction-up","arrow"]
   },
   {
     "name": "corner-up-left",
     "categories": ["arrows"],
-    "tags": ["arrow"]
+    "tags": ["$group:direction-up","$group:direction-left","arrow"]
   },
   {
     "name": "corner-up-right",
     "categories": ["arrows"],
-    "tags": ["arrow"]
+    "tags": ["$group:direction-up","$group:direction-right","arrow"]
   },
   {
     "name": "cpu-ai",
-    "categories": ["letters-digits","devices","development"],
-    "tags": ["ai","artificial intelligence","machine learning","neural network","automation","intelligence","generative","assistant","chatbot","llm","deep learning","inference","training","mlops","model","predictive","on-device","edge","api","service","cognitive","processor","chip"]
+    "categories": ["$extends:cpu","development"],
+    "tags": ["$group:letter","ai","artificial intelligence","machine learning","neural network","automation","intelligence","generative","assistant","chatbot","llm","deep learning","inference","training","mlops","model","predictive","on-device","edge","api","service","cognitive","processor","chip"]
   },
   {
     "name": "cpu",
@@ -2830,33 +2825,33 @@ export const iconsData: Array<{
   },
   {
     "name": "creative-commons",
-    "categories": ["letters-digits","text"],
-    "tags": ["licence","license"]
+    "categories": ["text"],
+    "tags": ["$group:letter","licence","license"]
   },
   {
     "name": "credit-card-check",
-    "categories": ["account","finance","shopping"],
-    "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","verified","approved","authorized","valid","success","complete","check","bank","cc"]
+    "categories": ["$extends:credit-card","shopping"],
+    "tags": ["$extends:credit-card","$group:check","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","authorized"]
   },
   {
     "name": "credit-card-minus",
-    "categories": ["account","finance","shopping"],
-    "tags": ["debit","payment","remove","delete","unlink","revoke","decline","canceled","banking","finance","wallet","transaction","billing","account","purchase","checkout","subtract","minus","bank","cc"]
+    "categories": ["$extends:credit-card","shopping"],
+    "tags": ["$extends:credit-card","$group:minus","debit","unlink","revoke","decline","canceled","banking","finance","wallet","transaction","billing","account","checkout"]
   },
   {
     "name": "credit-card-plus",
-    "categories": ["account","finance","shopping"],
-    "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","add","new","link","save","method","plastic","bank","cc"]
+    "categories": ["$extends:credit-card","shopping"],
+    "tags": ["$extends:credit-card","$group:plus","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","link","save","method","plastic"]
   },
   {
     "name": "credit-card-reader",
     "categories": ["finance","navigation","shopping"],
-    "tags": ["bank","purchase","payment","cc","atm","terminal","checkout","kiosk","pos","point of sale","transaction","contactless","chip","swipe","tap","banking","finance","retail"]
+    "tags": ["$extends:credit-card","atm","terminal","checkout","kiosk","pos","point of sale","transaction","contactless","chip","swipe","tap","banking","finance","retail"]
   },
   {
     "name": "credit-card-x",
-    "categories": ["account","finance","shopping"],
-    "tags": ["debit","payment","banking","finance","transaction","wallet","purchase","checkout","billing","account","cardholder","declined","rejected","failed","invalid","canceled","error","cancel","bank","cc"]
+    "categories": ["$extends:credit-card","shopping"],
+    "tags": ["$extends:credit-card","$group:x","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","declined","rejected","failed","invalid","error"]
   },
   {
     "name": "credit-card",
@@ -2875,7 +2870,7 @@ export const iconsData: Array<{
   },
   {
     "name": "cross",
-    "categories": ["shapes"],
+    "categories": ["shapes","medical"],
     "tags": ["healthcare","first aid"]
   },
   {
@@ -2886,11 +2881,11 @@ export const iconsData: Array<{
   {
     "name": "crown",
     "categories": ["gaming"],
-    "tags": ["diadem","tiara","circlet","corona","king","ruler","winner","favourite"]
+    "tags": ["diadem","tiara","circlet","corona","king","ruler","winner","favorite","favourite"]
   },
   {
     "name": "cuboid",
-    "categories": ["shapes","math","food-beverage"],
+    "categories": ["shapes","math"],
     "tags": ["brick","block","box","3d","solid","volume","container","storage","shipping","carton","geometry","rectangular","hexahedron","butter","tofu","soap","cheese","package","parcel","crate"]
   },
   {
@@ -2920,23 +2915,23 @@ export const iconsData: Array<{
   },
   {
     "name": "database-arrow-down",
-    "categories": ["devices","development"],
-    "tags": ["storage","memory","bytes","server","export","download","backup","pull","downsize"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$group:direction-down","server","export","download","backup","pull","downsize"]
   },
   {
     "name": "database-arrow-up",
-    "categories": ["devices","development"],
-    "tags": ["storage","memory","bytes","server","import","upload","backup","push","upscale"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$group:direction-up","server","import","upload","backup","push","upscale"]
   },
   {
     "name": "database-backup",
-    "categories": ["devices","arrows","design","development","photography"],
-    "tags": ["storage","memory","bytes","servers","backup","time machine","rotate","arrow","left"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","backup","time machine","rotate","arrow","left"]
   },
   {
     "name": "database-check",
-    "categories": ["devices","development"],
-    "tags": ["storage","memory","bytes","server","check","success","valid","verified","confirmed","complete"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$group:check","server"]
   },
   {
     "name": "database-cog",
@@ -2945,28 +2940,28 @@ export const iconsData: Array<{
   },
   {
     "name": "database-minus",
-    "categories": ["devices","development"],
-    "tags": ["storage","memory","bytes","server","minus","remove","delete","reduce"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$group:minus","server"]
   },
   {
     "name": "database-plus",
-    "categories": ["devices","development"],
-    "tags": ["storage","memory","bytes","server","plus","add","create","insert","new","expand"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$group:plus","server","expand"]
   },
   {
     "name": "database-search",
-    "categories": ["devices","development"],
-    "tags": ["storage","memory","container","tin","pot","bytes","servers"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$group:search"]
   },
   {
     "name": "database-x",
-    "categories": ["devices","development"],
-    "tags": ["storage","memory","bytes","server","x","error","failed","invalid","rejected","denied","clear","remove","disconnect"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$group:x","server","error","failed","invalid","rejected","denied","disconnect"]
   },
   {
     "name": "database-zap",
-    "categories": ["devices","development"],
-    "tags": ["cache busting","storage","memory","bytes","servers","power","crash"]
+    "categories": ["$extends:database"],
+    "tags": ["$extends:database","$extends:zap","cache busting","crash"]
   },
   {
     "name": "database",
@@ -2975,13 +2970,13 @@ export const iconsData: Array<{
   },
   {
     "name": "decimals-arrow-left",
-    "categories": ["letters-digits","design","text","arrows","math"],
-    "tags": ["numerical","decimal","decrease","less","fewer","precision","rounding","digits","fraction","float","number"]
+    "categories": ["design","text","arrows","math"],
+    "tags": ["$group:digit","$group:direction-left","decimal","decrease","less","fewer","precision","rounding","digits","fraction","float"]
   },
   {
     "name": "decimals-arrow-right",
-    "categories": ["letters-digits","design","text","arrows","math"],
-    "tags": ["numerical","decimal","increase","more","precision","rounding","digits","fraction","float","number"]
+    "categories": ["design","text","arrows","math"],
+    "tags": ["$group:digit","$group:direction-right","decimal","increase","more","precision","rounding","digits","fraction","float"]
   },
   {
     "name": "delete",
@@ -3000,18 +2995,18 @@ export const iconsData: Array<{
   },
   {
     "name": "diamond-minus",
-    "categories": ["multimedia","photography","tools","devices"],
-    "tags": ["keyframe","subtract","remove","decrease","reduce","calculator","button","keyboard","line","divider","separator","horizontal rule","hr","html","markup","markdown","---","toolbar","operator","code","coding","minimum","downgrade"]
+    "categories": ["multimedia","design"],
+    "tags": ["$group:minus","keyframe","decrease","calculator","button","keyboard","line","divider","separator","horizontal rule","hr","html","markup","markdown","---","toolbar","operator","code","coding","minimum","downgrade"]
   },
   {
     "name": "diamond-percent",
     "categories": ["social","finance","shopping","math"],
-    "tags": ["verified","unverified","sale","discount","offer","marketing","sticker","price tag"]
+    "tags": ["$group:percent","verified","unverified","sticker"]
   },
   {
     "name": "diamond-plus",
-    "categories": ["multimedia","photography","tools","devices"],
-    "tags": ["keyframe","add","new","increase","increment","positive","calculate","toolbar","crosshair","aim","target","scope","sight","reticule","maximum","upgrade","extra","+"]
+    "categories": ["multimedia","design"],
+    "tags": ["$group:plus","keyframe","positive","calculate","toolbar","crosshair","aim","target","scope","sight","reticule","maximum","upgrade"]
   },
   {
     "name": "diamond",
@@ -3060,18 +3055,18 @@ export const iconsData: Array<{
   },
   {
     "name": "disc-2",
-    "categories": ["devices","multimedia"],
-    "tags": ["album","music","vinyl","record","cd","dvd","format","dj","spin","rotate","rpm"]
+    "categories": ["$extends:disc"],
+    "tags": ["$extends:disc","record"]
   },
   {
     "name": "disc-3",
-    "categories": ["devices","multimedia"],
-    "tags": ["album","music","vinyl","record","cd","dvd","format","dj","spin","rotate","rpm"]
+    "categories": ["$extends:disc"],
+    "tags": ["$extends:disc","record"]
   },
   {
     "name": "disc-album",
-    "categories": ["devices","multimedia"],
-    "tags": ["album","music","songs","format","cd","dvd","vinyl","sleeve","cover","platinum","compilation","ep","recording","playback","spin","rotate","rpm","dj"]
+    "categories": ["$extends:disc"],
+    "tags": ["$extends:disc"]
   },
   {
     "name": "disc",
@@ -3085,18 +3080,18 @@ export const iconsData: Array<{
   },
   {
     "name": "dna-off",
-    "categories": ["medical","food-beverage"],
-    "tags": ["gene","gmo free","helix","heredity","chromosome","nucleic acid"]
+    "categories": ["$extends:dna","food-beverage"],
+    "tags": ["$extends:dna","$group:off","gmo free"]
   },
   {
     "name": "dna",
-    "categories": ["medical"],
+    "categories": ["medical","science"],
     "tags": ["gene","gmo","helix","heredity","chromosome","nucleic acid"]
   },
   {
     "name": "dock",
-    "categories": ["layout","design","development","files"],
-    "tags": ["desktop","applications","launch","home","menu bar","bottom","line","macos","osx"]
+    "categories": ["layout"],
+    "tags": ["$group:position-bottom","desktop","applications","launch","home","menu bar","line","macos","osx"]
   },
   {
     "name": "dog",
@@ -3106,7 +3101,7 @@ export const iconsData: Array<{
   {
     "name": "dollar-sign",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "dome",
@@ -3121,16 +3116,16 @@ export const iconsData: Array<{
   {
     "name": "door-closed-cog",
     "categories": ["home","security"],
-    "tags": ["room","entrance","entry","settings","gear","access","automation"]
+    "tags": ["$extends:door-closed","$group:cog","room","access","automation"]
   },
   {
     "name": "door-closed-locked",
-    "categories": ["home","travel","security"],
-    "tags": ["entrance","entry","exit","ingress","egress","gate","gateway","emergency exit","lock"]
+    "categories": ["$extends:door-closed"],
+    "tags": ["$extends:door-closed","$group:lock"]
   },
   {
     "name": "door-closed-package",
-    "categories": ["home","food-beverage","transportation"],
+    "categories": ["home","transportation","shopping"],
     "tags": ["delivery","parcel","doorstep","shipping","drop-off","courier"]
   },
   {
@@ -3145,7 +3140,7 @@ export const iconsData: Array<{
   },
   {
     "name": "door-stairwell",
-    "categories": ["home","travel"],
+    "categories": ["buildings","navigation"],
     "tags": ["staircase","stairway","stairs","steps","ladder","transition","access","structure","spiral","building","vertical","movement","floor","level","entrance","entry","exit","egress","route","indoor","emergency exit"]
   },
   {
@@ -3156,7 +3151,7 @@ export const iconsData: Array<{
   {
     "name": "download",
     "categories": ["arrows","files"],
-    "tags": ["import","export","save"]
+    "tags": ["import","export","save","pull"]
   },
   {
     "name": "drafting-compass",
@@ -3180,12 +3175,12 @@ export const iconsData: Array<{
   },
   {
     "name": "droplet-off",
-    "categories": ["weather","gaming"],
-    "tags": ["water","weather","liquid","fluid","wet","moisture","damp","bead","globule"]
+    "categories": ["$extends:droplet"],
+    "tags": ["$extends:droplet","$group:off"]
   },
   {
     "name": "droplet",
-    "categories": ["weather","gaming"],
+    "categories": ["weather"],
     "tags": ["water","weather","liquid","fluid","wet","moisture","damp","bead","globule"]
   },
   {
@@ -3195,7 +3190,7 @@ export const iconsData: Array<{
   },
   {
     "name": "drum",
-    "categories": ["multimedia","devices"],
+    "categories": ["multimedia"],
     "tags": ["drummer","kit","sticks","instrument","beat","bang","bass","backing track","band","play","performance","concert","march","music","audio","sound","noise","loud"]
   },
   {
@@ -3210,8 +3205,8 @@ export const iconsData: Array<{
   },
   {
     "name": "ear-off",
-    "categories": ["medical","accessibility"],
-    "tags": ["hearing","hard of hearing","hearing loss","deafness","noise","silence","audio","accessibility"]
+    "categories": ["$extends:ear"],
+    "tags": ["$extends:ear","$group:off","hard of hearing","hearing loss","deafness","silence"]
   },
   {
     "name": "ear",
@@ -3230,8 +3225,8 @@ export const iconsData: Array<{
   },
   {
     "name": "earth-lock",
-    "categories": ["security","development","devices"],
-    "tags": ["vpn","private","privacy","network","world","browser","security","encryption","protection","connection"]
+    "categories": ["security","connectivity"],
+    "tags": ["$extends:earth","$group:lock","vpn","network","encryption","connection"]
   },
   {
     "name": "earth",
@@ -3240,7 +3235,7 @@ export const iconsData: Array<{
   },
   {
     "name": "eclipse",
-    "categories": ["science","design","development","accessibility","photography"],
+    "categories": ["science","design","accessibility"],
     "tags": ["lunar","solar","crescent moon","sun","earth","day","night","planet","space","mode","dark","light","toggle","switch","color","css","styles","display","accessibility","contrast","brightness","blend","shade"]
   },
   {
@@ -3251,7 +3246,7 @@ export const iconsData: Array<{
   {
     "name": "egg-off",
     "categories": ["food-beverage"],
-    "tags": ["egg free","vegan","hatched","bad egg"]
+    "tags": ["$extends:egg","$group:off","egg free","vegan","hatched","bad egg"]
   },
   {
     "name": "egg",
@@ -3260,12 +3255,12 @@ export const iconsData: Array<{
   },
   {
     "name": "eighth-note",
-    "categories": ["multimedia","files"],
+    "categories": ["multimedia"],
     "tags": ["audio","music","sound","note","quaver"]
   },
   {
     "name": "eighth-notes",
-    "categories": ["multimedia","files"],
+    "categories": ["multimedia"],
     "tags": ["audio","music","sound","notes","quavers"]
   },
   {
@@ -3291,7 +3286,7 @@ export const iconsData: Array<{
   {
     "name": "emirati-dirham",
     "categories": ["finance"],
-    "tags": ["currency","money","payment","finance","price","aed","arab emirates dirham","uae","United Arab Emirates","cash","currency symbol","middle east","gulf","banking","invoice","exchange rate"]
+    "tags": ["$group:currency","aed","arab emirates dirham","uae","United Arab Emirates","middle east","gulf","exchange rate"]
   },
   {
     "name": "engine",
@@ -3300,18 +3295,18 @@ export const iconsData: Array<{
   },
   {
     "name": "equal-approximately-not",
-    "categories": ["math","development","charts","science"],
-    "tags": ["calculate","math","operator","not","approximately","unequal","code","≇","tolerance","threshold","mismatch","comparison","assertion","variance"]
+    "categories": ["$extends:equal-approximately","development","science"],
+    "tags": ["$extends:equal-approximately","not","approximately","unequal","≇","tolerance","threshold","mismatch","comparison","assertion","variance"]
   },
   {
     "name": "equal-approximately",
     "categories": ["math"],
-    "tags": ["about","calculate","math","operator"]
+    "tags": ["$extends:equal","about"]
   },
   {
     "name": "equal-not",
-    "categories": ["math","development"],
-    "tags": ["calculate","off","math","operator","code","≠"]
+    "categories": ["$extends:equal"],
+    "tags": ["$extends:equal","off","≠"]
   },
   {
     "name": "equal",
@@ -3320,18 +3315,18 @@ export const iconsData: Array<{
   },
   {
     "name": "eraser",
-    "categories": ["text"],
-    "tags": ["pencil","drawing","undo","delete","clear","trash","remove"]
+    "categories": ["text","design"],
+    "tags": ["$group:minus","pencil","drawing","undo","trash"]
   },
   {
     "name": "ethernet-port",
-    "categories": ["communication","devices","multimedia","gaming"],
+    "categories": ["devices","connectivity"],
     "tags": ["internet","network","connection","cable","lan","port","router","switch","hub","modem","web","online","networking","communication","socket","plug","slot","controller","connector","interface","console","signal","data","input","output"]
   },
   {
     "name": "euro",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "ev-charger",
@@ -3340,7 +3335,7 @@ export const iconsData: Array<{
   },
   {
     "name": "expand",
-    "categories": ["text","arrows"],
+    "categories": ["arrows","layout"],
     "tags": ["scale","fullscreen","maximize","minimize","contract"]
   },
   {
@@ -3350,18 +3345,18 @@ export const iconsData: Array<{
   },
   {
     "name": "eye-closed",
-    "categories": ["accessibility","photography","design","security"],
-    "tags": ["view","watch","see","hide","conceal","mask","hidden","visibility","vision"]
+    "categories": ["$extends:eye"],
+    "tags": ["$extends:eye","hide","conceal","mask","hidden"]
   },
   {
     "name": "eye-dashed",
-    "categories": ["accessibility","photography","design","security"],
-    "tags": ["view","watch","see","hide","conceal","mask","hidden","invisible","visibility","vision"]
+    "categories": ["$extends:eye"],
+    "tags": ["$extends:eye","hide","conceal","mask","hidden","invisible"]
   },
   {
     "name": "eye-off",
-    "categories": ["accessibility","photography","design","security"],
-    "tags": ["view","watch","see","hide","conceal","mask","hidden","visibility","vision"]
+    "categories": ["$extends:eye"],
+    "tags": ["$extends:eye","$group:off","conceal","mask"]
   },
   {
     "name": "eye",
@@ -3390,17 +3385,17 @@ export const iconsData: Array<{
   },
   {
     "name": "face-slightly-frowning",
-    "categories": ["emoji","account"],
+    "categories": ["emoji"],
     "tags": ["emoji","bad","sadness","emotion","concern","disappointment"]
   },
   {
     "name": "face-slightly-smiling-plus",
-    "categories": ["emoji","social","notifications","communication"],
-    "tags": ["smile","happy","good","react","reaction","emoji","add","emotion"]
+    "categories": ["emoji","social","communication"],
+    "tags": ["$extends:face-slightly-smiling","$extends:group","$group:plus","react","reaction"]
   },
   {
     "name": "face-slightly-smiling",
-    "categories": ["emoji","account"],
+    "categories": ["emoji"],
     "tags": ["smile","happy","happiness","good","positive","friendly","patronizing","passive aggressive","ironic","emoji","emotion"]
   },
   {
@@ -3425,7 +3420,7 @@ export const iconsData: Array<{
   },
   {
     "name": "feather",
-    "categories": ["nature","animals","gaming","text"],
+    "categories": ["nature","animals","text"],
     "tags": ["quill","plume","writing","author","literature","poetry","manuscript","bird","plumage","lightweight","soft"]
   },
   {
@@ -3435,278 +3430,278 @@ export const iconsData: Array<{
   },
   {
     "name": "ferris-wheel",
-    "categories": ["navigation"],
+    "categories": ["navigation","travel"],
     "tags": ["big wheel","daisy wheel","observation","attraction","entertainment","amusement park","theme park","funfair"]
   },
   {
     "name": "file-archive",
-    "categories": ["files"],
-    "tags": ["zip","package","archive"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","zip","package","archive"]
   },
   {
     "name": "file-axis-3d",
-    "categories": ["design","files"],
-    "tags": ["model","3d","axis","coordinates"]
+    "categories": ["$extends:file","design"],
+    "tags": ["$extends:file","$extends:axis-3d","3d","axis"]
   },
   {
     "name": "file-badge",
-    "categories": ["files"],
-    "tags": ["award","achievement","badge","rosette","prize","winner"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","award","achievement","badge","rosette","prize","winner"]
   },
   {
     "name": "file-box",
-    "categories": ["files","design","development"],
-    "tags": ["document","page","sheet","cube","box","3d","model","asset","object","geometry","mesh","ar","augmented reality","cad","design","blueprint","draft","package","scene"]
+    "categories": ["$extends:file","design","development"],
+    "tags": ["$extends:file","page","sheet","cube","box","3d","model","asset","object","geometry","mesh","ar","augmented reality","cad","design","blueprint","draft","package","scene"]
   },
   {
     "name": "file-braces-corner",
-    "categories": ["files","development"],
-    "tags": ["code","json","curly braces","curly brackets"]
+    "categories": ["$extends:file-braces"],
+    "tags": ["$extends:file-braces"]
   },
   {
     "name": "file-braces",
-    "categories": ["files","development"],
-    "tags": ["code","json","curly braces","curly brackets"]
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","$extends:braces"]
   },
   {
     "name": "file-chart-column-increasing",
-    "categories": ["files"],
-    "tags": ["statistics","analytics","diagram","graph","presentation","trending up"]
+    "categories": ["$extends:file-chart-column"],
+    "tags": ["$extends:file-chart-column","trending up"]
   },
   {
     "name": "file-chart-column",
-    "categories": ["files"],
-    "tags": ["statistics","analytics","diagram","graph","presentation"]
+    "categories": ["$extends:file","charts"],
+    "tags": ["$extends:file","statistics","analytics","diagram","graph","presentation"]
   },
   {
     "name": "file-chart-line",
-    "categories": ["files"],
-    "tags": ["statistics","analytics","diagram","graph","presentation"]
+    "categories": ["$extends:file","charts"],
+    "tags": ["$extends:file","$extends:chart-line"]
   },
   {
     "name": "file-chart-pie",
-    "categories": ["files"],
-    "tags": ["statistics","analytics","diagram","graph","presentation"]
+    "categories": ["$extends:file","charts"],
+    "tags": ["$extends:file","statistics","analytics","diagram","graph","presentation"]
   },
   {
     "name": "file-check-corner",
-    "categories": ["files"],
-    "tags": ["done","document","todo","tick","complete","task"]
+    "categories": ["$extends:file-check"],
+    "tags": ["$extends:file-check"]
   },
   {
     "name": "file-check",
-    "categories": ["files"],
-    "tags": ["done","document","todo","tick","complete","task"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:check"]
   },
   {
     "name": "file-clock",
-    "categories": ["files","time"],
-    "tags": ["history","log","clock"]
+    "categories": ["$extends:file","time"],
+    "tags": ["$extends:file","$group:clock","log"]
   },
   {
     "name": "file-code-corner",
-    "categories": ["files","development"],
-    "tags": ["script","document","html","xml","property list","plist"]
+    "categories": ["$extends:file-code"],
+    "tags": ["$extends:file-code","$extends:code"]
   },
   {
     "name": "file-code",
-    "categories": ["files","development"],
-    "tags": ["script","document","gist","html","xml","property list","plist"]
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","$group:code","script","gist","html","xml","property list","plist"]
   },
   {
     "name": "file-cog",
-    "categories": ["files"],
-    "tags": ["executable","settings","cog","edit","gear"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:cog","executable"]
   },
   {
     "name": "file-diff",
-    "categories": ["files","development"],
-    "tags": ["diff","patch"]
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","diff","patch"]
   },
   {
     "name": "file-digit",
-    "categories": ["letters-digits","files","development"],
-    "tags": ["number","document"]
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","$group:digit"]
   },
   {
     "name": "file-down",
-    "categories": ["files","arrows"],
-    "tags": ["download","import","export"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$extends:download","$group:direction-down","download"]
   },
   {
     "name": "file-exclamation-point",
-    "categories": ["files","notifications"],
-    "tags": ["hidden","warning","alert","danger","protected","exclamation mark"]
+    "categories": ["$extends:file","notifications"],
+    "tags": ["$extends:file","$group:exclamation-mark","hidden","protected"]
   },
   {
     "name": "file-headphone",
-    "categories": ["files"],
-    "tags": ["music","audio","sound","headphones"]
+    "categories": ["$extends:file","multimedia"],
+    "tags": ["$extends:file","$extends:headphones","headphones"]
   },
   {
     "name": "file-heart",
-    "categories": ["files"],
-    "tags": ["heart","favourite","bookmark","quick link"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:heart","bookmark","quick link"]
   },
   {
     "name": "file-image",
-    "categories": ["files"],
-    "tags": ["image","graphics","photo","picture"]
+    "categories": ["$extends:file","photography"],
+    "tags": ["$extends:file","image","graphics","photo","picture"]
   },
   {
     "name": "file-input",
-    "categories": ["files","arrows"],
-    "tags": ["document"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file"]
   },
   {
     "name": "file-key",
-    "categories": ["files","security"],
-    "tags": ["key","private","public","security"]
+    "categories": ["$extends:file","security"],
+    "tags": ["$extends:file","$group:key"]
   },
   {
     "name": "file-lock",
-    "categories": ["files","security"],
-    "tags": ["lock","password","security"]
+    "categories": ["$extends:file","security"],
+    "tags": ["$extends:file","$group:lock"]
   },
   {
     "name": "file-minus-corner",
-    "categories": ["files"],
-    "tags": ["document"]
+    "categories": ["$extends:file-minus"],
+    "tags": ["$extends:file-minus"]
   },
   {
     "name": "file-minus",
-    "categories": ["files"],
-    "tags": ["delete","remove","erase","document"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:minus","discard"]
   },
   {
     "name": "file-music",
-    "categories": ["files","multimedia"],
-    "tags": ["audio","sound","noise","track","digital","recording","playback","piano","keyboard","keys","notes","chord","midi","octave"]
+    "categories": ["$extends:file","multimedia"],
+    "tags": ["$extends:file","audio","sound","noise","track","digital","recording","playback","piano","keyboard","keys","notes","chord","midi","octave"]
   },
   {
     "name": "file-output",
-    "categories": ["files","arrows"],
-    "tags": ["document"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file"]
   },
   {
     "name": "file-pen-line",
-    "categories": ["files"],
-    "tags": ["edit"]
+    "categories": ["$extends:file-pen"],
+    "tags": ["$extends:file-pen","$group:pen"]
   },
   {
     "name": "file-pen",
-    "categories": ["files"],
-    "tags": ["signature"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:pen","signature"]
   },
   {
     "name": "file-play",
-    "categories": ["files"],
-    "tags": ["movie","video","film"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:play","movie","video","film"]
   },
   {
     "name": "file-plus-corner",
-    "categories": ["files"],
-    "tags": ["add","create","new","document"]
+    "categories": ["$extends:file-plus"],
+    "tags": ["$extends:file-plus"]
   },
   {
     "name": "file-plus",
-    "categories": ["files"],
-    "tags": ["add","create","new","document"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:plus"]
   },
   {
     "name": "file-question-mark",
-    "categories": ["files"],
-    "tags": ["readme","help","question"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:question-mark","readme"]
   },
   {
     "name": "file-scan",
-    "categories": ["files"],
-    "tags": ["scan","code","qr-code"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$extends:scan","scan","code"]
   },
   {
     "name": "file-search-corner",
-    "categories": ["files"],
-    "tags": ["lost","document","find","browser","lens"]
+    "categories": ["$extends:file-search"],
+    "tags": ["$extends:file-search","$group:search"]
   },
   {
     "name": "file-search",
-    "categories": ["files"],
-    "tags": ["lost","document","find","browser","lens"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:search","lost","browser"]
   },
   {
     "name": "file-signal",
-    "categories": ["files"],
-    "tags": ["audio","music","volume"]
+    "categories": ["$extends:file","multimedia"],
+    "tags": ["$extends:file","audio","music","volume"]
   },
   {
     "name": "file-sliders",
-    "categories": ["files","development"],
-    "tags": ["cogged","gear","mechanical","machinery","configuration","controls","preferences","settings","system","admin","edit","executable"]
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","$extends:sliders-horizontal","cogged","gear","mechanical","machinery","configuration","preferences","system","admin","edit","executable"]
   },
   {
     "name": "file-spreadsheet",
-    "categories": ["files"],
-    "tags": ["spreadsheet","sheet","table"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","spreadsheet","sheet","table"]
   },
   {
     "name": "file-stack",
-    "categories": ["files","development"],
-    "tags": ["versions","multiple","copy","documents","revisions","version control","history"]
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","$extends:files","versions","revisions","version control","history"]
   },
   {
     "name": "file-symlink",
-    "categories": ["files"],
-    "tags": ["symlink","symbolic","link"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","symlink","symbolic","link"]
   },
   {
     "name": "file-terminal",
-    "categories": ["files","development"],
-    "tags": ["terminal","bash","script","executable"]
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","terminal","bash","script","executable"]
   },
   {
     "name": "file-text",
-    "categories": ["files","text"],
-    "tags": ["data","txt","pdf","document"]
+    "categories": ["$extends:file","text"],
+    "tags": ["$extends:file","data","txt","pdf"]
   },
   {
     "name": "file-type-corner",
-    "categories": ["letters-digits","files","text"],
-    "tags": ["font","text","typography","type"]
+    "categories": ["$extends:file-type"],
+    "tags": ["$extends:file-type"]
   },
   {
     "name": "file-type",
-    "categories": ["letters-digits","files","text"],
-    "tags": ["font","text","typography","type"]
+    "categories": ["$extends:file","text"],
+    "tags": ["$extends:file","$group:letter","type"]
   },
   {
     "name": "file-up",
-    "categories": ["files","arrows"],
-    "tags": ["upload","import","export"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:direction-up","upload","import","export"]
   },
   {
     "name": "file-user",
-    "categories": ["account","files"],
-    "tags": ["person","personal information","people","listing","networking","document","contact","cover letter","resume","cv","curriculum vitae","application form"]
+    "categories": ["$extends:file","account"],
+    "tags": ["$extends:file","$group:user","personal information","listing","networking","cover letter","resume","cv","curriculum vitae","application form"]
   },
   {
     "name": "file-video-camera",
-    "categories": ["files"],
-    "tags": ["movie","video","film"]
+    "categories": ["$extends:file","multimedia"],
+    "tags": ["$extends:file","$extends:video","video"]
   },
   {
     "name": "file-volume",
-    "categories": ["files"],
-    "tags": ["audio","music","volume"]
+    "categories": ["$extends:file","multimedia"],
+    "tags": ["$extends:file","$extends:volume","audio","volume"]
   },
   {
     "name": "file-x-corner",
-    "categories": ["files"],
-    "tags": ["lost","delete","remove","document"]
+    "categories": ["$extends:file-x"],
+    "tags": ["$extends:file-x","$group:x"]
   },
   {
     "name": "file-x",
-    "categories": ["files"],
-    "tags": ["lost","delete","remove","document"]
+    "categories": ["$extends:file"],
+    "tags": ["$extends:file","$group:x","lost"]
   },
   {
     "name": "file",
@@ -3725,23 +3720,23 @@ export const iconsData: Array<{
   },
   {
     "name": "fingerprint-pattern",
-    "categories": ["account","security","medical","devices"],
+    "categories": ["account","security"],
     "tags": ["2fa","authentication","biometric","identity","security"]
   },
   {
     "name": "fire-extinguisher",
-    "categories": ["home","tools","travel"],
+    "categories": ["home","tools"],
     "tags": ["flames","smoke","foam","water","spray","hose","firefighter","fireman","department","brigade","station","emergency","suppress","compressed","tank","cylinder","safety","equipment","amenities"]
   },
   {
     "name": "fish-off",
-    "categories": ["food-beverage","animals"],
-    "tags": ["food","dish","restaurant","course","meal","seafood","animal","pet","sea","marine","allergy","intolerance","diet"]
+    "categories": ["$extends:fish"],
+    "tags": ["$extends:fish","$group:off","food","animal","allergy","intolerance","diet"]
   },
   {
     "name": "fish-symbol",
-    "categories": ["food-beverage","animals"],
-    "tags": ["dish","restaurant","course","meal","seafood","pet","sea","marine"]
+    "categories": ["$extends:fish"],
+    "tags": ["$extends:fish"]
   },
   {
     "name": "fish",
@@ -3760,18 +3755,18 @@ export const iconsData: Array<{
   },
   {
     "name": "flag-off",
-    "categories": ["account","social"],
-    "tags": ["unflag","unmark","report","marker","notification","warning","milestone","goal","notice","signal","attention","banner"]
+    "categories": ["$extends:flag"],
+    "tags": ["$extends:flag","$group:off","unflag","unmark"]
   },
   {
     "name": "flag-triangle-left",
     "categories": ["development","navigation"],
-    "tags": ["report","timeline","marker","pin"]
+    "tags": ["$group:direction-left","report","timeline","marker","pin"]
   },
   {
     "name": "flag-triangle-right",
     "categories": ["development","navigation"],
-    "tags": ["report","timeline","marker","pin"]
+    "tags": ["$group:direction-right","report","timeline","marker","pin"]
   },
   {
     "name": "flag",
@@ -3780,7 +3775,7 @@ export const iconsData: Array<{
   },
   {
     "name": "flame-kindling",
-    "categories": ["nature","social","gaming"],
+    "categories": ["nature"],
     "tags": ["campfire","camping","wilderness","outdoors","lit","warmth","wood","twigs","sticks"]
   },
   {
@@ -3790,8 +3785,8 @@ export const iconsData: Array<{
   },
   {
     "name": "flashlight-off",
-    "categories": ["photography","devices"],
-    "tags": ["torch","light","beam","emergency","safety","tool","bright"]
+    "categories": ["$extends:flashlight"],
+    "tags": ["$extends:flashlight","$group:off"]
   },
   {
     "name": "flashlight",
@@ -3800,8 +3795,8 @@ export const iconsData: Array<{
   },
   {
     "name": "flask-conical-off",
-    "categories": ["science","gaming"],
-    "tags": ["beaker","erlenmeyer","non toxic","lab","chemistry","experiment","test"]
+    "categories": ["$extends:flask-conical"],
+    "tags": ["$extends:flask-conical","$group:off","non toxic"]
   },
   {
     "name": "flask-conical",
@@ -3816,11 +3811,11 @@ export const iconsData: Array<{
   {
     "name": "flower-2",
     "categories": ["nature","sustainability","seasons"],
-    "tags": ["sustainability","nature","plant"]
+    "tags": ["$extends:flower"]
   },
   {
     "name": "flower",
-    "categories": ["nature","gaming","sustainability"],
+    "categories": ["nature","sustainability","seasons"],
     "tags": ["sustainability","nature","plant","spring"]
   },
   {
@@ -3840,163 +3835,163 @@ export const iconsData: Array<{
   },
   {
     "name": "folder-archive",
-    "categories": ["files"],
-    "tags": ["archive","zip","package"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","archive","zip","package"]
   },
   {
     "name": "folder-bookmark",
-    "categories": ["files"],
-    "tags": ["folder","bookmark","file","mark","storage","archive","directory","project","favorite","save","read later"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","folder","bookmark","file","mark","storage","archive","project","favorite","favourite","save","read later"]
   },
   {
     "name": "folder-check",
-    "categories": ["files"],
-    "tags": ["done","directory","todo","tick","complete","task"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:check"]
   },
   {
     "name": "folder-clock",
-    "categories": ["files","time"],
-    "tags": ["history","directory","clock"]
+    "categories": ["$extends:folder","time"],
+    "tags": ["$extends:folder","$group:clock"]
   },
   {
     "name": "folder-closed",
-    "categories": ["files"],
-    "tags": ["directory","closed"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","closed"]
   },
   {
     "name": "folder-code",
-    "categories": ["files","development"],
-    "tags": ["directory","coding","develop","software"]
+    "categories": ["$extends:folder","development"],
+    "tags": ["$extends:folder","$group:code","develop","software"]
   },
   {
     "name": "folder-cog",
-    "categories": ["files"],
-    "tags": ["directory","settings","control","preferences","cog","edit","gear"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:cog","control"]
   },
   {
     "name": "folder-dot",
-    "categories": ["files","development"],
-    "tags": ["directory","root","project","pinned","active","current","cogged","gear","mechanical","machinery","configuration","controls","preferences","settings","system","admin","edit"]
+    "categories": ["$extends:folder","development"],
+    "tags": ["$extends:folder","$group:dot","root","project","pinned","cogged","gear","mechanical","machinery","configuration","controls","preferences","settings","system","admin","edit"]
   },
   {
     "name": "folder-down",
-    "categories": ["files","arrows"],
-    "tags": ["directory","download","import","export"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:direction-down","download","import","export"]
   },
   {
     "name": "folder-git-2",
-    "categories": ["files"],
-    "tags": ["directory","root","project","git","repo"]
+    "categories": ["$extends:folder-git"],
+    "tags": ["$extends:folder-git"]
   },
   {
     "name": "folder-git",
-    "categories": ["files"],
-    "tags": ["directory","root","project","git","repo"]
+    "categories": ["$extends:folder","development"],
+    "tags": ["$extends:folder","root","project","git","repo"]
   },
   {
     "name": "folder-heart",
-    "categories": ["files"],
-    "tags": ["directory","heart","favourite","bookmark","quick link"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:heart","bookmark","quick link"]
   },
   {
     "name": "folder-input",
-    "categories": ["files","arrows"],
-    "tags": ["directory","import","export"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","import","export"]
   },
   {
     "name": "folder-kanban",
-    "categories": ["charts","development","design","files"],
-    "tags": ["projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","code","coding","directory","project","root"]
+    "categories": ["$extends:folder","charts","development"],
+    "tags": ["$extends:folder","projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","code","coding","project","root"]
   },
   {
     "name": "folder-key",
-    "categories": ["files","security"],
-    "tags": ["directory","key","private","security","protected"]
+    "categories": ["$extends:folder","security"],
+    "tags": ["$extends:folder","$group:key"]
   },
   {
     "name": "folder-lock",
-    "categories": ["files","security"],
-    "tags": ["directory","lock","private","security","protected"]
+    "categories": ["$extends:folder","security"],
+    "tags": ["$extends:folder","$group:lock"]
   },
   {
     "name": "folder-minus",
-    "categories": ["files"],
-    "tags": ["directory","remove","delete"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:minus"]
   },
   {
     "name": "folder-open-dot",
-    "categories": ["files","development"],
-    "tags": ["directory","root","project","active","current","pinned"]
+    "categories": ["$extends:folder-open","development"],
+    "tags": ["$extends:folder-open","$group:dot","root","project","pinned"]
   },
   {
     "name": "folder-open",
-    "categories": ["files"],
-    "tags": ["directory"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder"]
   },
   {
     "name": "folder-output",
-    "categories": ["files","arrows"],
-    "tags": ["directory","import","export"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","import","export"]
   },
   {
     "name": "folder-pen",
-    "categories": ["files"],
-    "tags": ["directory","rename"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:pen"]
   },
   {
     "name": "folder-plus",
-    "categories": ["files"],
-    "tags": ["directory","add","create","new"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:plus"]
   },
   {
     "name": "folder-root",
-    "categories": ["files","development"],
-    "tags": ["directory","root","project","git","repo"]
+    "categories": ["$extends:folder","development"],
+    "tags": ["$extends:folder","root","project","git","repo"]
   },
   {
     "name": "folder-search-2",
-    "categories": ["files"],
-    "tags": ["directory","search","find","lost","browser","lens"]
+    "categories": ["$extends:folder-search"],
+    "tags": ["$extends:folder-search"]
   },
   {
     "name": "folder-search",
-    "categories": ["files"],
-    "tags": ["directory","search","find","lost","browser","lens"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:search","lost","browser"]
   },
   {
     "name": "folder-symlink",
-    "categories": ["files"],
-    "tags": ["directory","symlink","symbolic","link"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","symlink","symbolic","link"]
   },
   {
     "name": "folder-sync",
-    "categories": ["files","arrows"],
-    "tags": ["directory","synchronize","synchronise","refresh","reconnect","transfer","backup"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:sync","transfer","backup"]
   },
   {
     "name": "folder-tree",
-    "categories": ["files"],
-    "tags": ["directory","tree","browser"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","tree","browser"]
   },
   {
     "name": "folder-up",
-    "categories": ["files","arrows"],
-    "tags": ["directory","upload","import","export"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:direction-up","upload","import","export"]
   },
   {
     "name": "folder-user",
-    "categories": ["files","account","social","people","security"],
-    "tags": ["directory","profile","person","personal","contact","document","account","individual","home folder","shared","access","owner"]
+    "categories": ["$extends:folder","account"],
+    "tags": ["$extends:folder","$group:user","document","home folder","shared","access","owner"]
   },
   {
     "name": "folder-users",
-    "categories": ["files","account","social","people","security"],
-    "tags": ["directory","profile","shared","people","document","accounts","group","team","permission","access","collaboration","organization"]
+    "categories": ["$extends:folder","account","people"],
+    "tags": ["$extends:folder","$group:user","shared","document","group","team","permission","access","collaboration","organization"]
   },
   {
     "name": "folder-x",
-    "categories": ["files"],
-    "tags": ["directory","remove","delete"]
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:x"]
   },
   {
     "name": "folder",
@@ -4040,18 +4035,18 @@ export const iconsData: Array<{
   },
   {
     "name": "fullscreen",
-    "categories": ["layout","multimedia","design","photography"],
+    "categories": ["layout","multimedia","photography"],
     "tags": ["expand","zoom","preview","focus","camera","lens","image"]
   },
   {
     "name": "funnel-plus",
-    "categories": ["layout"],
-    "tags": ["filter","hopper","add","create","new"]
+    "categories": ["$extends:funnel"],
+    "tags": ["$extends:funnel","$group:plus"]
   },
   {
     "name": "funnel-x",
-    "categories": ["layout"],
-    "tags": ["filter","hopper","remove","delete"]
+    "categories": ["$extends:funnel"],
+    "tags": ["$extends:funnel","$group:x"]
   },
   {
     "name": "funnel",
@@ -4065,38 +4060,38 @@ export const iconsData: Array<{
   },
   {
     "name": "gallery-horizontal-end",
-    "categories": ["layout","design","development","photography","multimedia","files"],
-    "tags": ["carousel","pictures","images","scroll","swipe","album","portfolio","history","versions","backup","time machine"]
+    "categories": ["$extends:gallery-horizontal","files"],
+    "tags": ["$extends:gallery-horizontal","$group:position-right","history","versions","backup","time machine"]
   },
   {
     "name": "gallery-horizontal",
-    "categories": ["layout","design","development","photography","multimedia"],
+    "categories": ["layout","photography","multimedia"],
     "tags": ["carousel","pictures","images","scroll","swipe","album","portfolio"]
   },
   {
     "name": "gallery-thumbnails",
-    "categories": ["layout","design","development","photography","multimedia"],
+    "categories": ["layout","photography","multimedia"],
     "tags": ["carousel","pictures","images","album","portfolio","preview"]
   },
   {
     "name": "gallery-vertical-end",
-    "categories": ["layout","design","development","photography","multimedia","files"],
-    "tags": ["carousel","pictures","images","scroll","swipe","album","portfolio","history","versions","backup","time machine"]
+    "categories": ["$extends:gallery-vertical","files"],
+    "tags": ["$extends:gallery-vertical","$group:position-bottom","history","versions","backup","time machine"]
   },
   {
     "name": "gallery-vertical",
-    "categories": ["layout","design","development","photography","multimedia"],
+    "categories": ["layout","photography","multimedia"],
     "tags": ["carousel","pictures","images","scroll","swipe","album","portfolio"]
   },
   {
     "name": "gamepad-2",
-    "categories": ["gaming","devices"],
-    "tags": ["console"]
+    "categories": ["$extends:gamepad"],
+    "tags": ["$extends:gamepad"]
   },
   {
     "name": "gamepad-directional",
-    "categories": ["gaming","devices"],
-    "tags": ["direction","arrow","controller","navigation","button","move","pointer","arrowhead","console","game","gaming"]
+    "categories": ["$extends:gamepad"],
+    "tags": ["$extends:gamepad","direction","arrow","controller","navigation","button","move","pointer","arrowhead","game","gaming"]
   },
   {
     "name": "gamepad",
@@ -4115,32 +4110,32 @@ export const iconsData: Array<{
   },
   {
     "name": "gauge",
-    "categories": ["transportation","sports","science"],
+    "categories": ["transportation","science","charts"],
     "tags": ["dashboard","dial","meter","speed","pressure","measure","level"]
   },
   {
     "name": "gavel",
-    "categories": ["navigation","tools"],
+    "categories": ["tools"],
     "tags": ["justice","law","court","judgment","legal","hands","penalty","decision","authority","hammer","mallet"]
   },
   {
     "name": "gem",
-    "categories": ["gaming","development","finance"],
+    "categories": ["gaming","finance"],
     "tags": ["diamond","crystal","ruby","jewellery","price","special","present","gift","ring","wedding","proposal","marriage","rubygems"]
   },
   {
     "name": "georgian-lari",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "germ-off",
-    "categories": ["medical","science","security"],
-    "tags": ["virus","microbe","bacterium","bacteria","germ","organism","cilia","pathogen","infection","disease","contagion","contamination","microbiology","health","medicine","biology","science","microorganism","pandemic","epidemic","outbreak","amoeba","flu","security","single cell","unicellular","vaccine","immunity","quarantine"]
+    "categories": ["$extends:germ"],
+    "tags": ["$extends:germ","$group:off"]
   },
   {
     "name": "germ",
-    "categories": ["medical","science","security"],
+    "categories": ["medical","science"],
     "tags": ["virus","microbe","bacterium","bacteria","germ","organism","cilia","pathogen","infection","disease","contagion","contamination","microbiology","health","medicine","biology","science","microorganism","pandemic","epidemic","outbreak","amoeba","flu","security","single cell","unicellular","vaccine","immunity","quarantine"]
   },
   {
@@ -4150,18 +4145,18 @@ export const iconsData: Array<{
   },
   {
     "name": "gift",
-    "categories": ["gaming","account"],
+    "categories": ["gaming","shopping"],
     "tags": ["present","box","birthday","party"]
   },
   {
     "name": "git-branch-minus",
-    "categories": ["development"],
-    "tags": ["code","version control","vcs","repository","delete","remove","-"]
+    "categories": ["$extends:git-branch"],
+    "tags": ["$extends:git-branch","$group:minus"]
   },
   {
     "name": "git-branch-plus",
-    "categories": ["development"],
-    "tags": ["code","version control","vcs","repository","add","create","+"]
+    "categories": ["$extends:git-branch"],
+    "tags": ["$extends:git-branch","$group:plus"]
   },
   {
     "name": "git-branch",
@@ -4180,8 +4175,8 @@ export const iconsData: Array<{
   },
   {
     "name": "git-compare-arrows",
-    "categories": ["development","arrows"],
-    "tags": ["code","version control","diff"]
+    "categories": ["$extends:git-compare"],
+    "tags": ["$extends:git-compare"]
   },
   {
     "name": "git-compare",
@@ -4200,8 +4195,8 @@ export const iconsData: Array<{
   },
   {
     "name": "git-merge-conflict",
-    "categories": ["development"],
-    "tags": ["code","version control","commits","diff","error","conflict"]
+    "categories": ["$extends:git-merge"],
+    "tags": ["$extends:git-merge","commits","diff","error","conflict"]
   },
   {
     "name": "git-merge",
@@ -4210,28 +4205,28 @@ export const iconsData: Array<{
   },
   {
     "name": "git-pull-request-arrow",
-    "categories": ["development","arrows"],
-    "tags": ["code","version control","open"]
+    "categories": ["$extends:git-pull-request"],
+    "tags": ["$extends:git-pull-request"]
   },
   {
     "name": "git-pull-request-closed",
-    "categories": ["development"],
-    "tags": ["code","version control","rejected","closed","cancelled","x"]
+    "categories": ["$extends:git-pull-request"],
+    "tags": ["$extends:git-pull-request","rejected","closed","cancelled","x"]
   },
   {
     "name": "git-pull-request-create-arrow",
-    "categories": ["development","arrows"],
-    "tags": ["code","version control","open","plus","add","+"]
+    "categories": ["$extends:git-pull-request-create"],
+    "tags": ["$extends:git-pull-request-create"]
   },
   {
     "name": "git-pull-request-create",
-    "categories": ["development"],
-    "tags": ["code","version control","open","plus","add","+"]
+    "categories": ["$extends:git-pull-request"],
+    "tags": ["$extends:git-pull-request","$group:plus"]
   },
   {
     "name": "git-pull-request-draft",
-    "categories": ["development"],
-    "tags": ["code","version control","open","draft","dashed"]
+    "categories": ["$extends:git-pull-request"],
+    "tags": ["$extends:git-pull-request","draft","dashed"]
   },
   {
     "name": "git-pull-request",
@@ -4250,32 +4245,32 @@ export const iconsData: Array<{
   },
   {
     "name": "globe-check",
-    "categories": ["navigation"],
-    "tags": ["world","browser","language","translate","internet","web","check","verified","success","valid","available","online","status"]
+    "categories": ["$extends:globe"],
+    "tags": ["$extends:globe","$group:check","internet","web","available","online","status"]
   },
   {
     "name": "globe-code",
-    "categories": ["navigation","development"],
-    "tags": ["website","internet","globe","connection","network","digital","access","global","link","world","browser","language","translate"]
+    "categories": ["$extends:globe","development"],
+    "tags": ["$extends:globe","$group:code","website","internet","globe","connection","network","digital","access","global","link"]
   },
   {
     "name": "globe-lock",
-    "categories": ["security","development","devices"],
-    "tags": ["vpn","private","privacy","network","world","browser","security","encryption","protection","connection"]
+    "categories": ["security","connectivity"],
+    "tags": ["$extends:globe","$group:lock","vpn","network","encryption","connection"]
   },
   {
     "name": "globe-off",
-    "categories": ["navigation","connectivity","devices"],
-    "tags": ["globe","earth","planet","disable","mute","off","hide","avoid","world","browser","language","translate","internet","offline","disconnected","network","connection","no connection","network failure","signal off"]
+    "categories": ["$extends:globe"],
+    "tags": ["$extends:globe","$group:off","globe","earth","planet","mute","avoid","internet","offline","disconnected","network","connection","no connection","network failure","signal off"]
   },
   {
     "name": "globe-x",
-    "categories": ["connectivity","devices","navigation"],
-    "tags": ["globe","internet","offline","disconnected","network","connection","world","no connection","network failure","signal off"]
+    "categories": ["$extends:globe"],
+    "tags": ["$extends:globe","$group:x","globe","internet","offline","disconnected","network","connection","no connection","network failure","signal off"]
   },
   {
     "name": "globe",
-    "categories": ["navigation"],
+    "categories": ["navigation","connectivity"],
     "tags": ["world","browser","language","translate"]
   },
   {
@@ -4310,27 +4305,27 @@ export const iconsData: Array<{
   },
   {
     "name": "grid-2x2-check",
-    "categories": ["text","layout","math"],
-    "tags": ["table","rows","columns","blocks","plot","land","geometry","measure","data","size","width","height","distance","surface area","square meter","acre"]
+    "categories": ["text","layout"],
+    "tags": ["$extends:grid-2x2","$group:check","data"]
   },
   {
     "name": "grid-2x2-plus",
-    "categories": ["text","layout","math"],
-    "tags": ["table","rows","columns","blocks","plot","land","geometry","measure","data","size","width","height","distance","surface area","square meter","acre"]
+    "categories": ["text","layout"],
+    "tags": ["$extends:grid-2x2","$group:plus","data"]
   },
   {
     "name": "grid-2x2-x",
-    "categories": ["text","layout","math"],
-    "tags": ["table","rows","columns","data","blocks","plot","land","geometry","measure","size","width","height","distance","surface area","square meter","acre"]
+    "categories": ["text","layout"],
+    "tags": ["$extends:grid-2x2","$group:x","data"]
   },
   {
     "name": "grid-2x2",
-    "categories": ["text","layout","design","math"],
+    "categories": ["text","layout","design"],
     "tags": ["table","rows","columns","blocks","plot","land","geometry","measure","size","width","height","distance","surface area","square meter","acre","window","skylight"]
   },
   {
     "name": "grid-3x2",
-    "categories": ["text","math","layout","design"],
+    "categories": ["text","layout","design"],
     "tags": ["table","rows","columns","blocks","plot","land","geometry","measure","size","width","height","distance","surface area","square meter","acre","window"]
   },
   {
@@ -4340,13 +4335,13 @@ export const iconsData: Array<{
   },
   {
     "name": "grip-horizontal",
-    "categories": ["layout"],
-    "tags": ["grab","dots","handle","move","drag"]
+    "categories": ["$extends:grip"],
+    "tags": ["$extends:grip"]
   },
   {
     "name": "grip-vertical",
-    "categories": ["layout"],
-    "tags": ["grab","dots","handle","move","drag"]
+    "categories": ["$extends:grip"],
+    "tags": ["$extends:grip"]
   },
   {
     "name": "grip",
@@ -4355,18 +4350,18 @@ export const iconsData: Array<{
   },
   {
     "name": "groceries",
-    "categories": ["food-beverage"],
+    "categories": ["food-beverage","shopping"],
     "tags": ["food","vegetables","health","grocery","market","farmer","produce","pantry","paper bag","shop","supermarket","retail","delivery","larder","provisions","takeout"]
   },
   {
     "name": "group",
-    "categories": ["files"],
+    "categories": ["layout","design"],
     "tags": ["cubes","packages","parts","units","collection","cluster","gather","dashed"]
   },
   {
     "name": "guitar-electric",
-    "categories": ["multimedia"],
-    "tags": ["acoustic","instrument","strings","riff","rock","band","country","concert","performance","play","lead","loud","music","audio","sound","noise"]
+    "categories": ["$extends:guitar"],
+    "tags": ["$extends:guitar"]
   },
   {
     "name": "guitar",
@@ -4375,7 +4370,7 @@ export const iconsData: Array<{
   },
   {
     "name": "half-note",
-    "categories": ["multimedia","files"],
+    "categories": ["multimedia"],
     "tags": ["audio","music","sound","note","crotchet","minim","quarter note"]
   },
   {
@@ -4395,12 +4390,12 @@ export const iconsData: Array<{
   },
   {
     "name": "hand-coins",
-    "categories": ["finance","account"],
+    "categories": ["finance"],
     "tags": ["savings","banking","money","finance","offers","mortgage","payment","received","wage","payroll","allowance","pocket money","handout","pennies"]
   },
   {
     "name": "hand-fist",
-    "categories": ["social","emoji","communication","sports"],
+    "categories": ["social","emoji","sports"],
     "tags": ["clench","strength","power","unity","solidarity","rebellion","victory","triumph","support","fight","combat","brawl"]
   },
   {
@@ -4411,11 +4406,11 @@ export const iconsData: Array<{
   {
     "name": "hand-heart",
     "categories": ["social"],
-    "tags": ["love","like","emotion"]
+    "tags": ["$group:heart","emotion"]
   },
   {
     "name": "hand-helping",
-    "categories": ["emoji"],
+    "categories": ["emoji","social"],
     "tags": ["agreement","help","proposal","charity","begging","terms"]
   },
   {
@@ -4435,32 +4430,32 @@ export const iconsData: Array<{
   },
   {
     "name": "handbag",
-    "categories": ["shopping","transportation"],
+    "categories": ["shopping","travel"],
     "tags": ["bag","baggage","carry","clutch","fashion","luggage","purse","tote","travel"]
   },
   {
     "name": "handle-bottom-right",
-    "categories": ["design"],
-    "tags": ["mouse","grab","handle","move","drag","resize","corner"]
+    "categories": ["design","layout"],
+    "tags": ["$group:position-bottom","$group:position-right","mouse","grab","handle","move","drag","resize","corner"]
   },
   {
     "name": "handshake",
-    "categories": ["account","social","communication","finance","security"],
+    "categories": ["social","finance"],
     "tags": ["agreement","partnership","deal","business","assistance","cooperation","friendship","union","terms"]
   },
   {
     "name": "hard-drive-download",
-    "categories": ["development","devices","arrows","files"],
-    "tags": ["computer","server","memory","data","ssd","disk","hard disk","save"]
+    "categories": ["$extends:hard-drive"],
+    "tags": ["$extends:hard-drive","$extends:download"]
   },
   {
     "name": "hard-drive-upload",
-    "categories": ["development","devices","arrows","files"],
-    "tags": ["computer","server","memory","data","ssd","disk","hard disk","save"]
+    "categories": ["$extends:hard-drive"],
+    "tags": ["$extends:hard-drive","$extends:upload","save"]
   },
   {
     "name": "hard-drive",
-    "categories": ["development","devices"],
+    "categories": ["development","devices","files"],
     "tags": ["computer","server","memory","data","ssd","disk","hard disk","storage","hardware","backup","media"]
   },
   {
@@ -4485,57 +4480,57 @@ export const iconsData: Array<{
   },
   {
     "name": "hd",
-    "categories": ["letters-digits","devices","multimedia"],
-    "tags": ["tv","resolution","video","high definition","720p","1080p"]
+    "categories": ["devices","multimedia"],
+    "tags": ["$group:letter","tv","resolution","video","high definition","720p","1080p"]
   },
   {
     "name": "hdmi-port",
-    "categories": ["devices","multimedia","gaming"],
+    "categories": ["devices","multimedia","connectivity"],
     "tags": ["socket","plug","slot","controller","connector","interface","console","signal","audio","video","visual","av","data","input","output"]
   },
   {
     "name": "heading-1",
-    "categories": ["letters-digits","text"],
-    "tags": ["h1","html","markup","markdown"]
+    "categories": ["$extends:letter-h"],
+    "tags": ["$extends:letter-h","$group:digit","h1"]
   },
   {
     "name": "heading-2",
-    "categories": ["letters-digits","text"],
-    "tags": ["h2","html","markup","markdown"]
+    "categories": ["$extends:letter-h"],
+    "tags": ["$extends:letter-h","$group:digit","h2"]
   },
   {
     "name": "heading-3",
-    "categories": ["letters-digits","text"],
-    "tags": ["h3","html","markup","markdown"]
+    "categories": ["$extends:letter-h"],
+    "tags": ["$extends:letter-h","$group:digit","h3"]
   },
   {
     "name": "heading-4",
-    "categories": ["letters-digits","text"],
-    "tags": ["h4","html","markup","markdown"]
+    "categories": ["$extends:letter-h"],
+    "tags": ["$extends:letter-h","$group:digit","h4"]
   },
   {
     "name": "heading-5",
-    "categories": ["letters-digits","text"],
-    "tags": ["h5","html","markup","markdown"]
+    "categories": ["$extends:letter-h"],
+    "tags": ["$extends:letter-h","$group:digit","h5"]
   },
   {
     "name": "heading-6",
-    "categories": ["letters-digits","text"],
-    "tags": ["h6","html","markup","markdown"]
+    "categories": ["$extends:letter-h"],
+    "tags": ["$extends:letter-h","$group:digit","h6"]
   },
   {
     "name": "headphone-off",
-    "categories": ["multimedia","connectivity","communication","devices","gaming"],
-    "tags": ["music","audio","sound","mute","off"]
+    "categories": ["multimedia","devices"],
+    "tags": ["$group:off","music","audio","sound","mute"]
   },
   {
     "name": "headphones",
-    "categories": ["multimedia","connectivity","devices","files","gaming"],
+    "categories": ["multimedia","devices"],
     "tags": ["music","audio","sound"]
   },
   {
     "name": "headset",
-    "categories": ["multimedia","connectivity","devices","files","gaming"],
+    "categories": ["multimedia","devices","gaming","communication"],
     "tags": ["music","audio","sound","gaming","headphones","headset","call","center","phone","telephone","voip","video"]
   },
   {
@@ -4545,23 +4540,23 @@ export const iconsData: Array<{
   },
   {
     "name": "heart-handshake",
-    "categories": ["emoji","account","security"],
+    "categories": ["emoji","social"],
     "tags": ["agreement","charity","help","deal","terms","emotion","together","handshake"]
   },
   {
     "name": "heart-minus",
-    "categories": ["medical","account","multimedia","gaming","social"],
-    "tags": ["unlike","unfavorite","remove","delete","damage"]
+    "categories": ["social"],
+    "tags": ["$group:minus","unlike","unfavorite","damage"]
   },
   {
     "name": "heart-off",
-    "categories": ["social","multimedia"],
-    "tags": ["unlike","dislike","hate","emotion"]
+    "categories": ["social"],
+    "tags": ["$group:off","unlike","dislike","hate","emotion"]
   },
   {
     "name": "heart-plus",
-    "categories": ["medical","account","multimedia","gaming","social"],
-    "tags": ["plus","like","favorite","add","health","support"]
+    "categories": ["social"],
+    "tags": ["$group:heart","$group:plus","support"]
   },
   {
     "name": "heart-pulse",
@@ -4570,13 +4565,13 @@ export const iconsData: Array<{
   },
   {
     "name": "heart-x",
-    "categories": ["social","multimedia","design","shapes"],
-    "tags": ["unlike","unfavorite","remove","reject","dismiss","delete","clear"]
+    "categories": ["social","gaming"],
+    "tags": ["$group:x","unlike","unfavorite"]
   },
   {
     "name": "heart",
-    "categories": ["medical","social","multimedia","emoji","gaming","shapes"],
-    "tags": ["like","love","emotion","suit","playing","cards"]
+    "categories": ["medical","social","emoji","gaming","shapes"],
+    "tags": ["$group:heart","emotion","suit","playing","cards"]
   },
   {
     "name": "heater",
@@ -4610,8 +4605,8 @@ export const iconsData: Array<{
   },
   {
     "name": "hop-off",
-    "categories": ["food-beverage"],
-    "tags": ["beer","brewery","drink","hop free","allergy","intolerance","diet"]
+    "categories": ["$extends:hop"],
+    "tags": ["$extends:hop","$group:off","hop free","allergy","intolerance","diet"]
   },
   {
     "name": "hop",
@@ -4620,12 +4615,12 @@ export const iconsData: Array<{
   },
   {
     "name": "hospital",
-    "categories": ["medical","buildings","navigation","travel"],
+    "categories": ["medical","buildings","navigation"],
     "tags": ["infirmary","sanatorium","healthcare","doctor","hospice","clinic","emergency room","ward","building","medical","vet"]
   },
   {
     "name": "hot-air-balloon",
-    "categories": ["sports"],
+    "categories": ["transportation","travel"],
     "tags": ["aircraft","flight","adventure","travel","sky","celebration","festive"]
   },
   {
@@ -4635,38 +4630,38 @@ export const iconsData: Array<{
   },
   {
     "name": "hourglass-cog",
-    "categories": ["time","tools"],
-    "tags": ["timer","time","sandglass","duration","settings","gear","cog","edit","configuration","countdown","timeout","expiration"]
+    "categories": ["time"],
+    "tags": ["$extends:hourglass","$group:cog","countdown","timeout","expiration"]
   },
   {
     "name": "hourglass",
     "categories": ["time","gaming"],
-    "tags": ["timer","time","sandglass"]
+    "tags": ["$group:clock","sandglass"]
   },
   {
     "name": "house-cog",
     "categories": ["buildings","home"],
-    "tags": ["home","building","residence","settings","gear","configuration","property","automation"]
+    "tags": ["$extends:house","$group:cog","property","automation"]
   },
   {
     "name": "house-heart",
-    "categories": ["home","buildings","medical"],
-    "tags": ["home sweet home","abode","building","residence","healthy living","lifestyle"]
+    "categories": ["home","buildings"],
+    "tags": ["$extends:house","$group:heart","home sweet home","abode","healthy living","lifestyle"]
   },
   {
     "name": "house-plug",
     "categories": ["buildings","home","sustainability"],
-    "tags": ["home","living","building","residence","architecture","autarky","energy"]
+    "tags": ["$extends:house","autarky","energy"]
   },
   {
     "name": "house-plus",
     "categories": ["buildings","medical"],
-    "tags": ["home","living","medical","new","addition","building","residence","architecture"]
+    "tags": ["$extends:house","$group:plus","medical"]
   },
   {
     "name": "house-wifi",
     "categories": ["home","buildings","connectivity"],
-    "tags": ["home","living","building","wifi","connectivity"]
+    "tags": ["$extends:house","$extends:wifi","connectivity"]
   },
   {
     "name": "house",
@@ -4690,8 +4685,8 @@ export const iconsData: Array<{
   },
   {
     "name": "id-card-lanyard",
-    "categories": ["security","account"],
-    "tags": ["id-card","id-card-lanyard","identity","employee","gate-pass","badge"]
+    "categories": ["$extends:id-card"],
+    "tags": ["$extends:id-card","id-card","id-card-lanyard","employee","gate-pass"]
   },
   {
     "name": "id-card",
@@ -4700,38 +4695,38 @@ export const iconsData: Array<{
   },
   {
     "name": "image-down",
-    "categories": ["photography","text","multimedia","files"],
-    "tags": ["picture","photo","download","save","export"]
+    "categories": ["$extends:image"],
+    "tags": ["$extends:image","$group:direction-down","download","save","export"]
   },
   {
     "name": "image-minus",
     "categories": ["photography","multimedia","files"],
-    "tags": ["remove","delete"]
+    "tags": ["$extends:image","$group:minus"]
   },
   {
     "name": "image-off",
     "categories": ["photography","multimedia","files"],
-    "tags": ["picture","photo"]
+    "tags": ["$extends:image","$group:off"]
   },
   {
     "name": "image-play",
-    "categories": ["photography","text","multimedia","files"],
-    "tags": ["picture","gif","photo"]
+    "categories": ["$extends:image"],
+    "tags": ["$extends:image","$group:play","gif"]
   },
   {
     "name": "image-plus",
     "categories": ["photography","multimedia","files"],
-    "tags": ["add","create","picture"]
+    "tags": ["$extends:image","$group:plus"]
   },
   {
     "name": "image-up",
-    "categories": ["photography","text","multimedia","files"],
-    "tags": ["picture","photo","upload","import"]
+    "categories": ["$extends:image"],
+    "tags": ["$extends:image","$group:direction-up","upload","import"]
   },
   {
     "name": "image-upscale",
     "categories": ["photography","multimedia"],
-    "tags": ["resize","picture","sharpen","increase"]
+    "tags": ["$extends:image","resize","sharpen","increase"]
   },
   {
     "name": "image",
@@ -4750,23 +4745,23 @@ export const iconsData: Array<{
   },
   {
     "name": "inbox",
-    "categories": ["account","mail"],
+    "categories": ["mail"],
     "tags": ["email"]
   },
   {
     "name": "indian-rupee",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "infinity",
-    "categories": ["multimedia"],
+    "categories": ["multimedia","math"],
     "tags": ["unlimited","forever","loop","math"]
   },
   {
     "name": "info",
-    "categories": ["letters-digits","accessibility","notifications"],
-    "tags": ["about","advice","clue","details","help","hint","indicator","information","knowledge","notice","status","support","tooltip"]
+    "categories": ["accessibility","notifications"],
+    "tags": ["$group:letter","about","advice","clue","details","help","hint","indicator","information","knowledge","notice","status","support","tooltip"]
   },
   {
     "name": "inspection-panel",
@@ -4776,16 +4771,16 @@ export const iconsData: Array<{
   {
     "name": "italic",
     "categories": ["letters-digits","text"],
-    "tags": ["oblique","text","format"]
+    "tags": ["$group:letter","oblique","format"]
   },
   {
     "name": "iteration-ccw",
-    "categories": ["arrows","design"],
+    "categories": ["arrows","development"],
     "tags": ["arrow","right"]
   },
   {
     "name": "iteration-cw",
-    "categories": ["arrows","design"],
+    "categories": ["arrows","development"],
     "tags": ["arrow","left"]
   },
   {
@@ -4796,7 +4791,7 @@ export const iconsData: Array<{
   {
     "name": "japanese-yen",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "joystick",
@@ -4805,33 +4800,33 @@ export const iconsData: Array<{
   },
   {
     "name": "kanban",
-    "categories": ["charts","development","design"],
+    "categories": ["charts","development"],
     "tags": ["projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","code","coding"]
   },
   {
     "name": "kayak",
-    "categories": ["transportation"],
+    "categories": ["transportation","sports"],
     "tags": ["kayak","boat","paddle","water","sport","recreation","adventure","outdoors","equipment","lake","ocean"]
   },
   {
     "name": "kazakh-tenge",
     "categories": ["finance"],
-    "tags": ["currency","money","payment","kazakhstan","currency-symbol","exchange","cash"]
+    "tags": ["$group:currency","kazakhstan"]
   },
   {
     "name": "key-round",
-    "categories": ["security","account"],
-    "tags": ["password","login","authentication","secure","unlock"]
+    "categories": ["$extends:key"],
+    "tags": ["$extends:key"]
   },
   {
     "name": "key-square",
-    "categories": ["security","account"],
-    "tags": ["password","login","authentication","secure","unlock","car key"]
+    "categories": ["$extends:key"],
+    "tags": ["$extends:key","car key"]
   },
   {
     "name": "key",
     "categories": ["security","account"],
-    "tags": ["password","login","authentication","secure","unlock","keychain","key ring","fob"]
+    "tags": ["$group:key","login","fob"]
   },
   {
     "name": "keyboard-music",
@@ -4840,8 +4835,8 @@ export const iconsData: Array<{
   },
   {
     "name": "keyboard-off",
-    "categories": ["devices","text","development"],
-    "tags": ["unkeys","layout","spell","settings","mouse"]
+    "categories": ["$extends:keyboard"],
+    "tags": ["$extends:keyboard","$group:off","unkeys"]
   },
   {
     "name": "keyboard",
@@ -4851,32 +4846,32 @@ export const iconsData: Array<{
   {
     "name": "lambda",
     "categories": ["letters-digits","development","math","science","text"],
-    "tags": ["greek","symbol","math","function","programming","serverless","anonymous","functional","cloud","wavelength","calculus","linear algebra"]
+    "tags": ["$group:letter","greek","symbol","math","function","programming","serverless","anonymous","functional","cloud","wavelength","calculus","linear algebra"]
   },
   {
     "name": "lamp-ceiling",
-    "categories": ["home"],
-    "tags": ["lighting","household","home","furniture"]
+    "categories": ["$extends:lamp"],
+    "tags": ["$extends:lamp"]
   },
   {
     "name": "lamp-desk",
-    "categories": ["home"],
-    "tags": ["lighting","household","office","desk","home","furniture"]
+    "categories": ["$extends:lamp"],
+    "tags": ["$extends:lamp","office","desk"]
   },
   {
     "name": "lamp-floor",
-    "categories": ["home"],
-    "tags": ["lighting","household","floor","home","furniture"]
+    "categories": ["$extends:lamp"],
+    "tags": ["$extends:lamp","floor"]
   },
   {
     "name": "lamp-wall-down",
-    "categories": ["home"],
-    "tags": ["lighting","household","wall","home","furniture"]
+    "categories": ["$extends:lamp"],
+    "tags": ["$extends:lamp","$group:direction-down","wall"]
   },
   {
     "name": "lamp-wall-up",
-    "categories": ["home"],
-    "tags": ["lighting","household","wall","home","furniture"]
+    "categories": ["$extends:lamp"],
+    "tags": ["$extends:lamp","$group:direction-up","wall"]
   },
   {
     "name": "lamp",
@@ -4885,7 +4880,7 @@ export const iconsData: Array<{
   },
   {
     "name": "land-plot",
-    "categories": ["design","tools","math","sports","gaming"],
+    "categories": ["math","navigation"],
     "tags": ["area","surface","square metres","allotment","parcel","property","plane","acres","measure","distance","isometric","flag","golf course","hole"]
   },
   {
@@ -4895,18 +4890,18 @@ export const iconsData: Array<{
   },
   {
     "name": "languages",
-    "categories": ["letters-digits","text"],
-    "tags": ["translate"]
+    "categories": ["text"],
+    "tags": ["$group:letter","translate"]
   },
   {
     "name": "laptop-minimal-check",
-    "categories": ["devices","notifications"],
-    "tags": ["computer","screen","remote","success","done","todo","tick","complete","task"]
+    "categories": ["$extends:laptop-minimal","notifications"],
+    "tags": ["$extends:laptop-minimal","$group:check"]
   },
   {
     "name": "laptop-minimal",
-    "categories": ["devices"],
-    "tags": ["computer","screen","remote"]
+    "categories": ["$extends:laptop"],
+    "tags": ["$extends:laptop"]
   },
   {
     "name": "laptop",
@@ -4920,8 +4915,8 @@ export const iconsData: Array<{
   },
   {
     "name": "lasso-select",
-    "categories": ["arrows","design","cursors"],
-    "tags": ["select","cursor"]
+    "categories": ["$extends:lasso"],
+    "tags": ["$extends:lasso"]
   },
   {
     "name": "lasso",
@@ -4931,37 +4926,37 @@ export const iconsData: Array<{
   {
     "name": "layer-arrow-down",
     "categories": ["design","layout"],
-    "tags": ["move back","backward","lower","demote","step back","behind","reorder","arrange","layer","layers","stack","stacking","z-index","depth","graphics","design"]
+    "tags": ["$group:direction-down","move back","backward","lower","demote","step back","behind","reorder","arrange","layer","layers","stack","stacking","z-index","depth","graphics","design"]
   },
   {
     "name": "layer-arrow-up",
     "categories": ["design","layout"],
-    "tags": ["move forward","forward","raise","lift","promote","advance","step forward","reorder","arrange","stack","stacking","z-index","depth","graphics","design"]
+    "tags": ["$group:direction-up","move forward","forward","raise","lift","promote","advance","step forward","reorder","arrange","stack","stacking","z-index","depth","graphics","design"]
   },
   {
     "name": "layers-2",
-    "categories": ["design","layout"],
-    "tags": ["stack","pile","pages","sheets","paperwork","copies","copy","duplicate","double","shortcuts"]
+    "categories": ["$extends:layers"],
+    "tags": ["$extends:layers","duplicate","double","shortcuts"]
   },
   {
     "name": "layers-arrow-down",
-    "categories": ["design","layout"],
-    "tags": ["send to back","send backward","back","background","bottom","bottommost","lower","demote","behind","reorder","arrange","stack","stacking","z-index","depth","graphics","design"]
+    "categories": ["$extends:layers"],
+    "tags": ["$extends:layers","$group:direction-down","send to back","send backward","back","background","bottom","bottommost","lower","demote","behind","reorder","arrange","stacking","z-index","depth","graphics","design"]
   },
   {
     "name": "layers-arrow-up",
-    "categories": ["design","layout","arrows"],
-    "tags": ["bring to front","bring forward","front","foreground","top","topmost","raise","lift","promote","reorder","arrange","stack","stacking","z-index","depth","graphics","design"]
+    "categories": ["$extends:layers"],
+    "tags": ["$extends:layers","$group:direction-up","bring to front","bring forward","front","foreground","top","topmost","raise","lift","promote","reorder","arrange","stacking","z-index","depth","graphics","design"]
   },
   {
     "name": "layers-minus",
-    "categories": ["design","layout"],
-    "tags": ["stack","pile","pages","sheets","paperwork","copies","copy","layers","remove","delete"]
+    "categories": ["$extends:layers"],
+    "tags": ["$extends:layers","$group:minus","layers"]
   },
   {
     "name": "layers-plus",
-    "categories": ["design","layout"],
-    "tags": ["stack","layers","add","new","increase","create","positive","copy","upgrade"]
+    "categories": ["$extends:layers"],
+    "tags": ["$extends:layers","$group:plus","layers","positive","upgrade"]
   },
   {
     "name": "layers",
@@ -4971,12 +4966,12 @@ export const iconsData: Array<{
   {
     "name": "layout-arrow-down",
     "categories": ["design","layout"],
-    "tags": ["layout","direction","flex","flexbox","flex-direction","column","auto layout","vertical","arrange","order","flow","stack"]
+    "tags": ["$group:direction-down","layout","flex","flexbox","flex-direction","column","auto layout","arrange","order","flow","stack"]
   },
   {
     "name": "layout-arrow-right",
     "categories": ["design","layout"],
-    "tags": ["layout","direction","flex","flexbox","flex-direction","row","auto layout","horizontal","arrange","order","flow","stack"]
+    "tags": ["$group:direction-right","layout","flex","flexbox","flex-direction","row","auto layout","arrange","order","flow","stack"]
   },
   {
     "name": "layout-dashboard",
@@ -4990,8 +4985,8 @@ export const iconsData: Array<{
   },
   {
     "name": "layout-grid-circles",
-    "categories": ["design","layout"],
-    "tags": ["app","home","start","dot matrix","dots","menu","dashboard","collection","overview","tiles","grid","matrix","launcher","apps","widgets","ui","circles","shortcuts"]
+    "categories": ["$extends:layout-grid"],
+    "tags": ["$extends:layout-grid","dot matrix","dots","menu","dashboard","collection","overview","tiles","grid","matrix","launcher","apps","widgets","ui","circles","shortcuts"]
   },
   {
     "name": "layout-grid",
@@ -5000,18 +4995,18 @@ export const iconsData: Array<{
   },
   {
     "name": "layout-list",
-    "categories": ["design","layout","photography","text"],
+    "categories": ["design","layout","text"],
     "tags": ["todo","tasks","items","pending","image","photo"]
   },
   {
     "name": "layout-panel-left",
     "categories": ["design","layout"],
-    "tags": ["app","home","start","grid"]
+    "tags": ["$group:position-left","app","home","start","grid"]
   },
   {
     "name": "layout-panel-top",
     "categories": ["layout"],
-    "tags": ["window","webpage","block","section","grid","template","structure"]
+    "tags": ["$group:position-top","window","webpage","block","section","grid","template","structure"]
   },
   {
     "name": "layout-template",
@@ -5025,22 +5020,22 @@ export const iconsData: Array<{
   },
   {
     "name": "leafy-green",
-    "categories": ["food-beverage","emoji","sustainability"],
+    "categories": ["food-beverage","sustainability"],
     "tags": ["salad","lettuce","vegetable","chard","cabbage","bok choy"]
   },
   {
     "name": "lectern",
-    "categories": ["communication","multimedia"],
+    "categories": ["communication"],
     "tags": ["pulpit","podium","stand"]
   },
   {
     "name": "lens-concave",
-    "categories": ["science","tools","shapes"],
+    "categories": ["science","tools"],
     "tags": ["concave","lens","optics","light","magnification","curved","focus","refraction","science","physics","eyeglass","telescope","microscope"]
   },
   {
     "name": "lens-convex",
-    "categories": ["science","tools","shapes"],
+    "categories": ["science","tools"],
     "tags": ["convex","lens","optics","magnification","focus","light","refraction","physics","eyeglass","telescope","microscope","curved","science"]
   },
   {
@@ -5051,151 +5046,151 @@ export const iconsData: Array<{
   {
     "name": "letter-a",
     "categories": ["letters-digits","text"],
-    "tags": ["alphabet","character","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance","text","font","typography"]
+    "tags": ["$group:letter","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance"]
   },
   {
     "name": "letter-b",
     "categories": ["letters-digits","text"],
-    "tags": ["strong","emphasis","format","alphabet","character","uppercase","bold","blood type","byte","computing","b-side","bus","transit","text","font","typography"]
+    "tags": ["strong","emphasis","format","$group:letter","uppercase","bold","blood type","byte","computing","b-side","bus","transit"]
   },
   {
     "name": "letter-c",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","celsius","temperature","carbon","chemistry","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","celsius","temperature","carbon","chemistry","grade","rating"]
   },
   {
     "name": "letter-d",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating"]
   },
   {
     "name": "letter-e",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","explicit","content rating","east","empty","energy","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","explicit","content rating","east","empty","energy","grade","rating"]
   },
   {
     "name": "letter-f",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera","text","font","typography"]
+    "tags": ["$group:letter","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera"]
   },
   {
     "name": "letter-g",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","gravity","g-force","gram","measurement","text","font","typography"]
+    "tags": ["$group:letter","uppercase","gravity","g-force","gram","measurement"]
   },
   {
     "name": "letter-h",
     "categories": ["letters-digits","text"],
-    "tags": ["h1","html","markup","markdown","alphabet","character","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement","text","font","typography"]
+    "tags": ["html","markup","markdown","$group:letter","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement"]
   },
   {
     "name": "letter-i",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","information","help","input","current","electricity","text","font","typography"]
+    "tags": ["$group:letter","uppercase","information","help","input","current","electricity"]
   },
   {
     "name": "letter-j",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","joule","energy","java","javascript","code","text","font","typography"]
+    "tags": ["$group:letter","uppercase","joule","energy","java","javascript","code"]
   },
   {
     "name": "letter-k",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry"]
   },
   {
     "name": "letter-l",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","learner","driver","litre","left","length","measurement","text","font","typography"]
+    "tags": ["$group:letter","uppercase","learner","driver","litre","left","length","measurement"]
   },
   {
     "name": "letter-m",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","million","mega","metre","measurement","male","medium","size","text","font","typography"]
+    "tags": ["$group:letter","uppercase","million","mega","metre","measurement","male","medium","size"]
   },
   {
     "name": "letter-n",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics","text","font","typography"]
+    "tags": ["$group:letter","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics"]
   },
   {
     "name": "letter-o",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","oxygen","chemistry","blood type","off","zero","marker","text","font","typography"]
+    "tags": ["$group:letter","uppercase","oxygen","chemistry","blood type","off","zero","marker"]
   },
   {
     "name": "letter-p",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math","text","font","typography"]
+    "tags": ["$group:letter","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math"]
   },
   {
     "name": "letter-q",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","question","help","queue","charge","electricity","quality","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","question","help","queue","charge","electricity","quality","rating"]
   },
   {
     "name": "letter-r",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review","text","font","typography"]
+    "tags": ["$group:letter","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review"]
   },
   {
     "name": "letter-s",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity","text","font","typography"]
+    "tags": ["$group:letter","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity"]
   },
   {
     "name": "letter-spacing",
-    "categories": ["letters-digits","text"],
-    "tags": ["tracking","kerning","design","lettering","text","letters","characters","font","typography","formatting"]
+    "categories": ["text"],
+    "tags": ["$group:letter","tracking","kerning","design","lettering","letters","characters","formatting"]
   },
   {
     "name": "letter-t",
     "categories": ["letters-digits","text"],
-    "tags": ["alphabet","character","uppercase","tesla","magnetism","temperature","tonne","measurement","time","text","font","typography"]
+    "tags": ["$group:letter","uppercase","tesla","magnetism","temperature","tonne","measurement","time"]
   },
   {
     "name": "letter-u",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","rack unit","server","equipment","uranium","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","rack unit","server","equipment","uranium","chemistry"]
   },
   {
     "name": "letter-v",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video","text","font","typography"]
+    "tags": ["$group:letter","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video"]
   },
   {
     "name": "letter-w",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win","text","font","typography"]
+    "tags": ["$group:letter","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win"]
   },
   {
     "name": "letter-x",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome","text","font","typography"]
+    "tags": ["$group:letter","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome"]
   },
   {
     "name": "letter-y",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","y-axis","axis","yes","confirm","year","time","chromosome","text","font","typography"]
+    "tags": ["$group:letter","uppercase","y-axis","axis","yes","confirm","year","time","chromosome"]
   },
   {
     "name": "letter-z",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry"]
   },
   {
     "name": "letters",
     "categories": ["letters-digits"],
-    "tags": ["abc","alphabet","alphabetical","text","characters","language","typography","literacy","spelling"]
+    "tags": ["$group:letter","abc","alphabetical","characters","language","literacy","spelling"]
   },
   {
     "name": "library-big",
-    "categories": ["text","photography","multimedia","navigation","development"],
-    "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package"]
+    "categories": ["$extends:library"],
+    "tags": ["$extends:library"]
   },
   {
     "name": "library",
-    "categories": ["text","photography","multimedia","navigation","development"],
+    "categories": ["text","multimedia"],
     "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package"]
   },
   {
@@ -5205,17 +5200,17 @@ export const iconsData: Array<{
   },
   {
     "name": "ligature",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","font","typography","alternates","alternatives"]
+    "categories": ["text"],
+    "tags": ["$group:letter","alternates","alternatives"]
   },
   {
     "name": "lightbulb-off",
-    "categories": ["photography"],
-    "tags": ["lights"]
+    "categories": ["$extends:lightbulb"],
+    "tags": ["$extends:lightbulb","$group:off"]
   },
   {
     "name": "lightbulb",
-    "categories": ["photography"],
+    "categories": ["photography","home"],
     "tags": ["idea","bright","lights"]
   },
   {
@@ -5231,12 +5226,12 @@ export const iconsData: Array<{
   {
     "name": "line-dot-left-horizontal",
     "categories": ["development","navigation"],
-    "tags": ["line","dot","left","horizontal","shape","symbol","navigation","arrow","pointer","code","version control","waypoint","stop","start","first","station"]
+    "tags": ["$group:direction-left","line","left","shape","symbol","navigation","arrow","pointer","code","version control","waypoint","stop","start","first","station"]
   },
   {
     "name": "line-dot-right-horizontal",
     "categories": ["development","navigation"],
-    "tags": ["code","version control","waypoint","stop","station","last","end"]
+    "tags": ["$group:direction-right","code","version control","waypoint","stop","station","last","end"]
   },
   {
     "name": "line-dot-top-vertical",
@@ -5245,8 +5240,8 @@ export const iconsData: Array<{
   },
   {
     "name": "line-height",
-    "categories": ["letters-digits","text"],
-    "tags": ["leading","text","letters","characters","font","typography","spacing","paragraph","formatting","editor","readability","typesetting"]
+    "categories": ["text"],
+    "tags": ["$group:letter","leading","letters","characters","spacing","paragraph","formatting","editor","readability","typesetting"]
   },
   {
     "name": "line-squiggle",
@@ -5255,83 +5250,83 @@ export const iconsData: Array<{
   },
   {
     "name": "line-style",
-    "categories": ["design","tools"],
+    "categories": ["design"],
     "tags": ["line","stroke","style","dashed","border"]
   },
   {
     "name": "link-2-off",
-    "categories": ["text"],
-    "tags": ["unchain","chain"]
+    "categories": ["$extends:link-2"],
+    "tags": ["$extends:link-2","$group:off","unchain"]
   },
   {
     "name": "link-2",
-    "categories": ["text","account"],
-    "tags": ["chain","url"]
+    "categories": ["$extends:link"],
+    "tags": ["$extends:link"]
   },
   {
     "name": "link",
-    "categories": ["text","account"],
+    "categories": ["text"],
     "tags": ["chain","url"]
   },
   {
     "name": "list-check",
-    "categories": ["text"],
-    "tags": ["done","check","tick","complete","list","to-do","bom"]
+    "categories": ["$extends:list"],
+    "tags": ["$group:check","list","bom"]
   },
   {
     "name": "list-checks",
-    "categories": ["text"],
-    "tags": ["todo","done","check","tick","complete","tasks","items","pending"]
+    "categories": ["$extends:list"],
+    "tags": ["$group:check","items","pending"]
   },
   {
     "name": "list-chevrons-down-up",
-    "categories": ["text","arrows"],
-    "tags": ["options","items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold","vertical"]
+    "categories": ["$extends:list"],
+    "tags": ["$extends:list","$group:direction-down","$group:direction-up","items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold"]
   },
   {
     "name": "list-chevrons-up-down",
-    "categories": ["text","arrows"],
-    "tags": ["options","items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold","vertical"]
+    "categories": ["$extends:list"],
+    "tags": ["$extends:list","$group:direction-up","$group:direction-down","items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold"]
   },
   {
     "name": "list-clock",
-    "categories": ["text","time","notifications"],
-    "tags": ["history","log","clock","time","recent","updated","revision","activity","timestamp","audit","list"]
+    "categories": ["$extends:list","time"],
+    "tags": ["$group:clock","log","recent","updated","revision","activity","audit","list"]
   },
   {
     "name": "list-collapse",
-    "categories": ["text"],
+    "categories": ["$extends:list"],
     "tags": ["items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold"]
   },
   {
     "name": "list-end",
-    "categories": ["multimedia","text"],
+    "categories": ["$extends:list","multimedia"],
     "tags": ["queue","bottom","end","playlist"]
   },
   {
     "name": "list-filter-plus",
-    "categories": ["text","layout"],
-    "tags": ["filter","plus","options","add"]
+    "categories": ["$extends:list-filter"],
+    "tags": ["$extends:list-filter","$group:plus","filter"]
   },
   {
     "name": "list-filter",
-    "categories": ["text"],
-    "tags": ["options"]
+    "categories": ["$extends:list","layout"],
+    "tags": ["$extends:list"]
   },
   {
     "name": "list-indent-decrease",
-    "categories": ["text","development"],
+    "categories": ["$extends:list","development"],
     "tags": ["text","tab"]
   },
   {
     "name": "list-indent-increase",
-    "categories": ["text","development"],
+    "categories": ["$extends:list","development"],
     "tags": ["text","tab"]
   },
   {
     "name": "list-minus",
-    "categories": ["multimedia","text"],
-    "tags": ["playlist","remove","song","subtract","delete","unqueue"]
+    "categories": ["$extends:list","multimedia"],
+    "tags": ["$group:minus","playlist","song","unqueue"]
   },
   {
     "name": "list-music",
@@ -5340,42 +5335,42 @@ export const iconsData: Array<{
   },
   {
     "name": "list-ordered",
-    "categories": ["letters-digits","text"],
-    "tags": ["number","order","queue"]
+    "categories": ["$extends:list"],
+    "tags": ["$group:digit","order","queue"]
   },
   {
     "name": "list-plus",
-    "categories": ["multimedia","text"],
-    "tags": ["playlist","add","song","track","new"]
+    "categories": ["$extends:list","multimedia"],
+    "tags": ["$group:plus","playlist","song","track"]
   },
   {
     "name": "list-restart",
-    "categories": ["multimedia","text"],
+    "categories": ["$extends:list","multimedia"],
     "tags": ["reset","refresh","reload","playlist","replay"]
   },
   {
     "name": "list-sort-ascending",
-    "categories": ["text","layout"],
-    "tags": ["list","order","arrangement","organization","sequence","ranking","categories","presentation","filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:list","layout"],
+    "tags": ["$group:sort","list","organization","categories","presentation"]
   },
   {
     "name": "list-sort-descending",
-    "categories": ["text","layout"],
-    "tags": ["list","order","arrangement","organization","sequence","ranking","categories","presentation","filter","sort","ascending","descending","increasing","decreasing","rising","falling"]
+    "categories": ["$extends:list","layout"],
+    "tags": ["$group:sort","list","organization","categories","presentation"]
   },
   {
     "name": "list-start",
-    "categories": ["multimedia","text"],
+    "categories": ["$extends:list","multimedia"],
     "tags": ["queue","top","start","next","playlist"]
   },
   {
     "name": "list-todo",
-    "categories": ["text"],
+    "categories": ["$extends:list"],
     "tags": ["todo","done","check","tick","complete","tasks","items","pending"]
   },
   {
     "name": "list-tree",
-    "categories": ["files","text","layout"],
+    "categories": ["$extends:list","files","layout"],
     "tags": ["tree","browser"]
   },
   {
@@ -5385,8 +5380,8 @@ export const iconsData: Array<{
   },
   {
     "name": "list-x",
-    "categories": ["multimedia","text"],
-    "tags": ["playlist","subtract","remove","delete","unqueue"]
+    "categories": ["$extends:list","multimedia"],
+    "tags": ["$group:x","playlist","subtract","unqueue"]
   },
   {
     "name": "list",
@@ -5395,28 +5390,28 @@ export const iconsData: Array<{
   },
   {
     "name": "loader-circle",
-    "categories": ["cursors","multimedia","layout"],
-    "tags": ["loading","wait","busy","progress","spinner","spinning","throbber","circle"]
+    "categories": ["cursors"],
+    "tags": ["$extends:loader","circle"]
   },
   {
     "name": "loader-pinwheel",
-    "categories": ["cursors","design"],
-    "tags": ["loading","wait","busy","progress","throbber","spinner","spinning","beach ball","frozen","freeze"]
+    "categories": ["cursors"],
+    "tags": ["$extends:loader","beach ball","frozen","freeze"]
   },
   {
     "name": "loader",
-    "categories": ["cursors","multimedia","layout","design"],
+    "categories": ["cursors"],
     "tags": ["loading","wait","busy","progress","spinner","spinning","throbber"]
   },
   {
     "name": "locate-fixed",
-    "categories": ["navigation"],
-    "tags": ["map","gps","location","cross"]
+    "categories": ["$extends:locate"],
+    "tags": ["$extends:locate"]
   },
   {
     "name": "locate-off",
-    "categories": ["navigation"],
-    "tags": ["map","gps","location","cross"]
+    "categories": ["$extends:locate"],
+    "tags": ["$extends:locate","$group:off"]
   },
   {
     "name": "locate",
@@ -5425,23 +5420,23 @@ export const iconsData: Array<{
   },
   {
     "name": "lock-keyhole-open",
-    "categories": ["security"],
-    "tags": ["security"]
+    "categories": ["$extends:lock-keyhole"],
+    "tags": ["$extends:lock-keyhole"]
   },
   {
     "name": "lock-keyhole",
-    "categories": ["security"],
-    "tags": ["security","password","secure","admin"]
+    "categories": ["$extends:lock"],
+    "tags": ["$extends:lock"]
   },
   {
     "name": "lock-open",
-    "categories": ["security"],
-    "tags": ["security"]
+    "categories": ["$extends:lock"],
+    "tags": ["$extends:lock"]
   },
   {
     "name": "lock",
     "categories": ["security"],
-    "tags": ["security","password","secure","admin"]
+    "tags": ["$group:lock","admin"]
   },
   {
     "name": "log-in",
@@ -5455,7 +5450,7 @@ export const iconsData: Array<{
   },
   {
     "name": "logs",
-    "categories": ["text"],
+    "categories": ["text","development"],
     "tags": ["options","list","menu","order","queue","tasks","logs"]
   },
   {
@@ -5470,72 +5465,72 @@ export const iconsData: Array<{
   },
   {
     "name": "magnet",
-    "categories": ["design"],
+    "categories": ["design","science"],
     "tags": ["horseshoe","lock","science","snap"]
   },
   {
     "name": "mail-badge",
     "categories": ["mail","communication","security"],
-    "tags": ["email","message","letter","certified","registered","seal","stamp","verified","envelope","rosette","signed","official","delivery"]
+    "tags": ["$extends:mail","certified","registered","seal","stamp","verified","envelope","rosette","signed","official","delivery"]
   },
   {
     "name": "mail-check",
     "categories": ["mail"],
-    "tags": ["email","message","letter","subscribe","delivered","success","read","done","todo","tick","complete","task"]
+    "tags": ["$extends:mail","$group:check","subscribe","delivered","read"]
   },
   {
     "name": "mail-clock",
-    "categories": ["text","account","mail","time","notifications","communication"],
-    "tags": ["email","message","letter","unread","scheduled","delayed","send later","delivery","reminder","pending","outgoing","timer"]
+    "categories": ["$extends:mail","time","notifications","communication"],
+    "tags": ["$extends:mail","$group:clock","scheduled","send later","delivery","reminder","outgoing"]
   },
   {
     "name": "mail-dot",
-    "categories": ["text","account","mail"],
-    "tags": ["mail","envelope","communication","post","send","address","notification","email","message","letter","unread","dot"]
+    "categories": ["$extends:mail","notifications"],
+    "tags": ["$extends:mail","$group:dot","mail","envelope","communication","post","send","address"]
   },
   {
     "name": "mail-minus",
     "categories": ["mail"],
-    "tags": ["email","message","letter","remove","delete"]
+    "tags": ["$extends:mail","$group:minus"]
   },
   {
     "name": "mail-open",
     "categories": ["mail"],
-    "tags": ["email","message","letter","read"]
+    "tags": ["$extends:mail","read"]
   },
   {
     "name": "mail-pen",
     "categories": ["mail"],
-    "tags": ["email","message","letter","pen","edit","compose","draft","write","writing","create","reply"]
+    "tags": ["$extends:mail","$group:pen","reply"]
   },
   {
     "name": "mail-plus",
     "categories": ["mail"],
-    "tags": ["email","message","letter","add","create","new","compose"]
+    "tags": ["$extends:mail","$group:plus","compose"]
   },
   {
     "name": "mail-question-mark",
     "categories": ["mail"],
-    "tags": ["email","message","letter","delivery","undelivered"]
+    "tags": ["$extends:mail","$group:question-mark","delivery","undelivered"]
   },
   {
     "name": "mail-search",
     "categories": ["mail"],
-    "tags": ["email","message","letter","search","lens"]
+    "tags": ["$extends:mail","$group:search"]
   },
   {
     "name": "mail-warning",
-    "categories": ["mail"],
-    "tags": ["email","message","letter","delivery error","exclamation mark"]
+    "categories": ["mail","notifications"],
+    "tags": ["$extends:mail","$group:exclamation-mark","delivery error"]
   },
   {
     "name": "mail-x",
     "categories": ["mail"],
-    "tags": ["email","message","letter","remove","delete"]
+    "tags": ["$extends:mail","$group:x"]
   },
   {
     "name": "mail",
-    "categories": ["text","account","mail"],
+    "categories": ["mail"],
     "tags": ["email","message","letter","unread"]
   },
   {
@@ -5551,96 +5546,96 @@ export const iconsData: Array<{
   {
     "name": "map-minus",
     "categories": ["navigation","travel"],
-    "tags": ["location","navigation","travel","drop","delete","remove","erase"]
+    "tags": ["$extends:map","$group:minus","drop"]
   },
   {
     "name": "map-pin-check-inside",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","done","tick","complete","task","added"]
+    "categories": ["$extends:map-pin-check"],
+    "tags": ["$extends:map-pin-check"]
   },
   {
     "name": "map-pin-check",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","done","tick","complete","task","added"]
+    "categories": ["$extends:map-pin"],
+    "tags": ["$extends:map-pin","$group:check","added"]
   },
   {
     "name": "map-pin-house",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","home","living","building","residence","architecture","address","poi","real estate","property","navigation","destination","geolocation","place","landmark"]
+    "categories": ["$extends:map-pin"],
+    "tags": ["$extends:map-pin","home","living","building","residence","architecture","address","poi","real estate","property","navigation","destination","geolocation","place","landmark"]
   },
   {
     "name": "map-pin-minus-inside",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","delete","remove","erase"]
+    "categories": ["$extends:map-pin-minus"],
+    "tags": ["$extends:map-pin-minus"]
   },
   {
     "name": "map-pin-minus",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","delete","remove","erase"]
+    "categories": ["$extends:map-pin"],
+    "tags": ["$extends:map-pin","$group:minus"]
   },
   {
     "name": "map-pin-off",
     "categories": ["navigation","travel"],
-    "tags": ["location","waypoint","marker","remove"]
+    "tags": ["$extends:map-pin","$group:off","remove"]
   },
   {
     "name": "map-pin-pen",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","edit"]
+    "categories": ["$extends:map-pin"],
+    "tags": ["$extends:map-pin","$group:pen"]
   },
   {
     "name": "map-pin-plus-inside",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","add","create","new"]
+    "categories": ["$extends:map-pin-plus"],
+    "tags": ["$extends:map-pin-plus"]
   },
   {
     "name": "map-pin-plus",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","add","create","new"]
+    "categories": ["$extends:map-pin"],
+    "tags": ["$extends:map-pin","$group:plus"]
   },
   {
     "name": "map-pin-search",
-    "categories": ["text","navigation","travel","account"],
-    "tags": ["location","navigation","travel","waypoint","marker","drop"]
+    "categories": ["$extends:map-pin"],
+    "tags": ["$extends:map-pin","$group:search","navigation","travel"]
   },
   {
     "name": "map-pin-x-inside",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","delete","remove","erase"]
+    "categories": ["$extends:map-pin-x"],
+    "tags": ["$extends:map-pin-x"]
   },
   {
     "name": "map-pin-x",
-    "categories": ["navigation","travel","account"],
-    "tags": ["location","waypoint","marker","drop","delete","remove","erase"]
+    "categories": ["$extends:map-pin"],
+    "tags": ["$extends:map-pin","$group:x"]
   },
   {
     "name": "map-pin",
-    "categories": ["navigation","travel","account"],
+    "categories": ["navigation","travel"],
     "tags": ["location","waypoint","marker","drop"]
   },
   {
     "name": "map-pinned",
-    "categories": ["navigation","travel","account"],
+    "categories": ["navigation","travel"],
     "tags": ["location","waypoint","marker","drop"]
   },
   {
     "name": "map-plus",
-    "categories": ["navigation"],
-    "tags": ["location","navigation","travel","new","add","create"]
+    "categories": ["navigation","travel"],
+    "tags": ["$extends:map","$group:plus"]
   },
   {
     "name": "map",
-    "categories": ["text","navigation"],
+    "categories": ["navigation","travel"],
     "tags": ["location","navigation","travel"]
   },
   {
     "name": "mars-stroke",
-    "categories": ["medical"],
+    "categories": ["$extends:mars"],
     "tags": ["gender","androgyne","transgender"]
   },
   {
     "name": "mars",
-    "categories": ["medical"],
+    "categories": ["medical","people"],
     "tags": ["gender","sex","male","masculine","man","boy"]
   },
   {
@@ -5650,8 +5645,8 @@ export const iconsData: Array<{
   },
   {
     "name": "maximize-2",
-    "categories": ["arrows","layout","design"],
-    "tags": ["fullscreen","arrows","expand"]
+    "categories": ["$extends:maximize","arrows"],
+    "tags": ["$extends:maximize","arrows"]
   },
   {
     "name": "maximize",
@@ -5665,22 +5660,22 @@ export const iconsData: Array<{
   },
   {
     "name": "megaphone-off",
-    "categories": ["multimedia","notifications"],
-    "tags": ["advertisement","announcement","attention","alert","loudspeaker","megaphone","notification","disable","silent"]
+    "categories": ["$extends:megaphone"],
+    "tags": ["$extends:megaphone","$group:off","silent"]
   },
   {
     "name": "megaphone",
-    "categories": ["multimedia","notifications"],
+    "categories": ["multimedia","notifications","communication"],
     "tags": ["advertisement","announcement","attention","alert","loudspeaker","megaphone","notification"]
   },
   {
     "name": "memory-stick",
-    "categories": ["devices","gaming"],
+    "categories": ["devices"],
     "tags": ["ram","random access","technology","computer","chip","circuit","specs","capacity","gigabytes","gb"]
   },
   {
     "name": "menu",
-    "categories": ["layout","account"],
+    "categories": ["layout"],
     "tags": ["bars","navigation","hamburger","options"]
   },
   {
@@ -5690,167 +5685,167 @@ export const iconsData: Array<{
   },
   {
     "name": "message-circle-check",
-    "categories": ["social","account"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","moderate","check","done","todo","complete"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","$group:check","moderate"]
   },
   {
     "name": "message-circle-code",
-    "categories": ["development","social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","code review","coding"]
+    "categories": ["$extends:message-circle","development"],
+    "tags": ["$extends:message-circle","$group:code","code review"]
   },
   {
     "name": "message-circle-dashed-check",
-    "categories": ["social","account"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","draft","pending","provisional","verification","confirmation","success","status","check","approval","moderate","resolved","done","complete"]
+    "categories": ["$extends:message-circle-dashed"],
+    "tags": ["$extends:message-circle-dashed","$group:check","pending","provisional","verification","confirmation","status","approval","moderate","resolved"]
   },
   {
     "name": "message-circle-dashed",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","draft"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","draft"]
   },
   {
     "name": "message-circle-heart",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","positive","like","love","interest","valentine","dating","date","speech bubble"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","$group:heart","positive","interest","valentine","dating","date"]
   },
   {
     "name": "message-circle-more",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","typing","writing","responding","ellipsis","etc","et cetera","...","…"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","typing","writing","responding","ellipsis","etc","et cetera","...","…"]
   },
   {
     "name": "message-circle-off",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","clear","close","delete","remove","cancel","silence","mute","moderate"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","$group:x","$group:off","silence","mute","moderate"]
   },
   {
     "name": "message-circle-plus",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","add"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","$group:plus"]
   },
   {
     "name": "message-circle-question-mark",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","help"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","$group:question-mark"]
   },
   {
     "name": "message-circle-reply",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","reply","response"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","reply","response"]
   },
   {
     "name": "message-circle-text",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech","bubble","sms","texting","messaging","dm","discussion","thread","transcript","written","writing","lines","support","chatbot"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","speech","bubble","sms","texting","messaging","dm","discussion","thread","transcript","written","writing","lines","support","chatbot"]
   },
   {
     "name": "message-circle-warning",
-    "categories": ["social","notifications"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","report","abuse","offense","alert","danger","caution","protected","exclamation mark"]
+    "categories": ["$extends:message-circle","notifications"],
+    "tags": ["$extends:message-circle","$group:exclamation-mark","report","abuse","offense","protected"]
   },
   {
     "name": "message-circle-x",
-    "categories": ["account","social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","clear","close","delete","remove","cancel","silence","mute","moderate"]
+    "categories": ["$extends:message-circle"],
+    "tags": ["$extends:message-circle","$group:x","silence","mute","moderate"]
   },
   {
     "name": "message-circle",
-    "categories": ["social"],
+    "categories": ["social","communication"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble"]
   },
   {
     "name": "message-square-check",
-    "categories": ["social","account"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","moderate","check","done","todo","complete"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","$group:check","moderate"]
   },
   {
     "name": "message-square-code",
-    "categories": ["development","social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","code review","coding"]
+    "categories": ["$extends:message-square","development"],
+    "tags": ["$extends:message-square","$group:code","code review"]
   },
   {
     "name": "message-square-dashed",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","draft"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","draft"]
   },
   {
     "name": "message-square-diff",
-    "categories": ["development","files","social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","add","patch","difference","plus","minus","plus-minus","math","code review","coding","version control","git"]
+    "categories": ["$extends:message-square","development","files"],
+    "tags": ["$extends:message-square","add","patch","difference","plus","minus","plus-minus","math","code review","coding","version control","git"]
   },
   {
     "name": "message-square-dot",
-    "categories": ["social","notifications"],
-    "tags": ["unread","unresolved","comment","chat","conversation","dialog","feedback","speech bubble"]
+    "categories": ["$extends:message-square","notifications"],
+    "tags": ["$extends:message-square","$group:dot","unresolved"]
   },
   {
     "name": "message-square-heart",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","positive","like","love","interest","valentine","dating","date","speech bubble"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","$group:heart","positive","interest","valentine","dating","date"]
   },
   {
     "name": "message-square-lock",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","secure","encrypted"]
+    "categories": ["$extends:message-square","security"],
+    "tags": ["$extends:message-square","$group:lock"]
   },
   {
     "name": "message-square-more",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","typing","writing","responding","ellipsis","etc","et cetera","...","…"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","typing","writing","responding","ellipsis","etc","et cetera","...","…"]
   },
   {
     "name": "message-square-off",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","clear","close","delete","remove","cancel","silence","mute","moderate"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","$group:x","$group:off","silence","mute","moderate"]
   },
   {
     "name": "message-square-plus",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","add"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","$group:plus"]
   },
   {
     "name": "message-square-quote",
-    "categories": ["social","text"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","blockquote","quotation","indent","reply","response"]
+    "categories": ["$extends:message-square","text"],
+    "tags": ["$extends:message-square","blockquote","quotation","indent","reply","response"]
   },
   {
     "name": "message-square-reply",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","reply","response"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","reply","response"]
   },
   {
     "name": "message-square-share",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","network","forward"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","network","forward"]
   },
   {
     "name": "message-square-text",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square"]
   },
   {
     "name": "message-square-warning",
-    "categories": ["social","notifications"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","report","abuse","offense","alert","danger","caution","protected","exclamation mark"]
+    "categories": ["$extends:message-square","notifications"],
+    "tags": ["$extends:message-square","$group:exclamation-mark","report","abuse","offense","protected"]
   },
   {
     "name": "message-square-x",
-    "categories": ["social"],
-    "tags": ["comment","chat","conversation","dialog","feedback","speech bubble","clear","close","delete","remove","cancel","silence","mute","moderate"]
+    "categories": ["$extends:message-square"],
+    "tags": ["$extends:message-square","$group:x","silence","mute","moderate"]
   },
   {
     "name": "message-square",
-    "categories": ["social"],
+    "categories": ["social","communication"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubble"]
   },
   {
     "name": "messages-circle",
-    "categories": ["social","communication","notifications"],
+    "categories": ["social","communication"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubbles","copy","multiple","discussion","interview","debate","group","group chat","threads","unread","bubble","messaging"]
   },
   {
     "name": "messages-square",
-    "categories": ["social"],
+    "categories": ["social","communication"],
     "tags": ["comment","chat","conversation","dialog","feedback","speech bubbles","copy","multiple","discussion","interview","debate"]
   },
   {
@@ -5861,26 +5856,26 @@ export const iconsData: Array<{
   {
     "name": "mic-audio-lines",
     "categories": ["devices","communication","multimedia"],
-    "tags": ["podcast","audio","waveform","sound waves","microphone","talk","voice","speech","stream","recording","transcription","dictation","voice assistant","noise cancellation","sound processing"]
+    "tags": ["$extends:mic","audio","waveform","sound waves","talk","voice","speech","stream","recording","transcription","dictation","voice assistant","noise cancellation","sound processing"]
   },
   {
     "name": "mic-off",
-    "categories": ["devices","communication","connectivity","multimedia"],
-    "tags": ["record","sound","mute","microphone"]
+    "categories": ["$extends:mic"],
+    "tags": ["$extends:mic","$group:off","mute"]
   },
   {
     "name": "mic-signal",
-    "categories": ["devices","communication","connectivity","multimedia"],
-    "tags": ["podcast","audio","broadcast","signal","wireless","radio","airwaves","microphone","talk","voice","speech","stream","live","voice chat","push to talk","transmission"]
+    "categories": ["$extends:mic","connectivity"],
+    "tags": ["$extends:mic","audio","broadcast","signal","wireless","airwaves","talk","voice","speech","stream","live","voice chat","push to talk","transmission"]
   },
   {
     "name": "mic-vocal",
     "categories": ["devices","multimedia"],
-    "tags": ["lyrics","voice","listen","sound","music","radio","podcast","karaoke","singing","microphone"]
+    "tags": ["$extends:mic","lyrics","voice","music","karaoke","singing"]
   },
   {
     "name": "mic",
-    "categories": ["devices","communication","connectivity","multimedia"],
+    "categories": ["devices","communication","multimedia"],
     "tags": ["record","sound","listen","radio","podcast","microphone"]
   },
   {
@@ -5905,13 +5900,13 @@ export const iconsData: Array<{
   },
   {
     "name": "milestone",
-    "categories": ["arrows","navigation","development","gaming"],
+    "categories": ["arrows","navigation","development"],
     "tags": ["signpost","direction","right","east","forward","version control","waypoint"]
   },
   {
     "name": "milk-off",
-    "categories": ["food-beverage"],
-    "tags": ["lactose free","bottle","beverage","drink","water","allergy","intolerance","diet"]
+    "categories": ["$extends:milk"],
+    "tags": ["$extends:milk","$group:off","lactose free","allergy","intolerance"]
   },
   {
     "name": "milk",
@@ -5920,8 +5915,8 @@ export const iconsData: Array<{
   },
   {
     "name": "minimize-2",
-    "categories": ["arrows","layout","design"],
-    "tags": ["exit fullscreen","arrows","close","shrink"]
+    "categories": ["$extends:minimize","arrows"],
+    "tags": ["$extends:minimize","arrows"]
   },
   {
     "name": "minimize",
@@ -5930,108 +5925,108 @@ export const iconsData: Array<{
   },
   {
     "name": "minus",
-    "categories": ["math","development","text","tools"],
-    "tags": ["subtract","remove","decrease","decrement","reduce","negative","calculate","line","divider","separator","horizontal rule","hr","html","markup","markdown","---","toolbar","operator","code","coding","minimum","downgrade"]
+    "categories": ["math","development","text"],
+    "tags": ["$group:minus","decrease","decrement","negative","calculate","line","divider","separator","horizontal rule","hr","html","markup","markdown","---","toolbar","operator","code","coding","minimum","downgrade"]
   },
   {
     "name": "mirror-rectangular",
-    "categories": ["science","home","tools"],
+    "categories": ["science","home"],
     "tags": ["reflection","optics","glass","surface","image","physics","science","bathroom","decor","cosmetic","shiny","periscope","vanity"]
   },
   {
     "name": "mirror-round",
-    "categories": ["science","home","tools"],
+    "categories": ["science","home"],
     "tags": ["reflection","optics","glass","surface","image","physics","science","bathroom","vanity","makeup","decor","cosmetic","shiny","periscope"]
   },
   {
     "name": "monitor-check",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","connected","success","verified","running","active","virtual machine","vm"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$group:check","connected","running","active"]
   },
   {
     "name": "monitor-cloud",
-    "categories": ["connectivity","devices","development"],
-    "tags": ["tv","computer","screen","display","desktop","external display","virtual machine","virtual desktop","vm","vdi","computing","remote work","monitoring","infrastructure","software as a service","saas","workstation","environment"]
+    "categories": ["$extends:monitor","development"],
+    "tags": ["$extends:monitor","virtual desktop","vdi","computing","remote work","monitoring","infrastructure","software as a service","saas","workstation","environment"]
   },
   {
     "name": "monitor-cog",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","virtual machine","vm","executable","settings","edit","gear","configuration","preferences","system","control panel","network","computing"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$group:cog","executable","system","network","computing"]
   },
   {
     "name": "monitor-dot",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","status","notification","indicator","running","active","virtual machine","vm"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$group:dot","running"]
   },
   {
     "name": "monitor-down",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","download","remote","cast"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$group:direction-down","download","remote","cast"]
   },
   {
     "name": "monitor-off",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","offline","disabled","disconnected","power"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$group:off","offline","disconnected","power"]
   },
   {
     "name": "monitor-pause",
-    "categories": ["connectivity","devices","multimedia"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","pause","suspend","hibernate","boot","virtual machine","vm"]
+    "categories": ["$extends:monitor","multimedia"],
+    "tags": ["$extends:monitor","$group:pause","video","movie","film","hibernate","boot"]
   },
   {
     "name": "monitor-pc",
     "categories": ["devices","development","gaming"],
-    "tags": ["personal computer","desktop","screen","display","workstation","tower","chassis","hardware","setup","gaming"]
+    "tags": ["$extends:monitor","$extends:pc-case"]
   },
   {
     "name": "monitor-play",
-    "categories": ["connectivity","devices","multimedia"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","play","running","start","boot","virtual machine","vm"]
+    "categories": ["$extends:monitor","multimedia"],
+    "tags": ["$extends:monitor","$group:play","video","movie","film","boot"]
   },
   {
     "name": "monitor-smartphone",
-    "categories": ["connectivity","devices"],
-    "tags": ["phone","cellphone","device","mobile","desktop","screen","display","external display","screen sharing","responsive","screens","sync","cast"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$extends:smartphone","screens","sync","cast"]
   },
   {
     "name": "monitor-speaker",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","connect","cast","audio","sound","volume","presentation"]
+    "categories": ["$extends:monitor","connectivity"],
+    "tags": ["$extends:monitor","connect","cast","audio","sound","volume","presentation"]
   },
   {
     "name": "monitor-stop",
-    "categories": ["connectivity","devices","multimedia"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","video","movie","film","stop","shutdown","virtual machine","vm"]
+    "categories": ["$extends:monitor","multimedia"],
+    "tags": ["$extends:monitor","$group:stop","video","movie","film","shutdown"]
   },
   {
     "name": "monitor-up",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","upload","connect","remote","screen sharing","cast"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$group:direction-up","upload","connect","remote","cast"]
   },
   {
     "name": "monitor-x",
-    "categories": ["connectivity","devices"],
-    "tags": ["tv","computer","screen","display","desktop","external display","screen sharing","virtual machine","vm","close","error","failed","disconnected","stop","suspend","remove","delete"]
+    "categories": ["$extends:monitor"],
+    "tags": ["$extends:monitor","$group:x","error","failed","disconnected","stop","suspend"]
   },
   {
     "name": "monitor",
-    "categories": ["connectivity","devices"],
+    "categories": ["devices"],
     "tags": ["tv","computer","desktop","screen","display","external display","screen sharing","virtual machine","vm"]
   },
   {
     "name": "moon-star",
-    "categories": ["accessibility","weather"],
-    "tags": ["dark","night","star"]
+    "categories": ["$extends:moon"],
+    "tags": ["$extends:moon","star"]
   },
   {
     "name": "moon",
-    "categories": ["accessibility"],
+    "categories": ["accessibility","weather"],
     "tags": ["dark","night"]
   },
   {
     "name": "mop-sparkles",
-    "categories": ["home","tools","design"],
-    "tags": ["cleaning","scrubbing","sweeping","ai","magic","sparkle","smart","automation","housekeeping","hygiene","sanitation","chores","swab","tidy","floor","spotless","pristine","polish","sanitize","disinfect"]
+    "categories": ["$extends:mop"],
+    "tags": ["$extends:mop","$group:sparkles"]
   },
   {
     "name": "mop",
@@ -6055,48 +6050,48 @@ export const iconsData: Array<{
   },
   {
     "name": "mountain",
-    "categories": ["nature","gaming"],
+    "categories": ["nature"],
     "tags": ["climb","hike","rock"]
   },
   {
     "name": "mouse-left",
-    "categories": ["devices"],
-    "tags": ["device","scroll","click"]
+    "categories": ["$extends:mouse"],
+    "tags": ["$extends:mouse","$group:position-left"]
   },
   {
     "name": "mouse-off",
-    "categories": ["devices"],
-    "tags": ["device","scroll","click","disabled"]
+    "categories": ["$extends:mouse"],
+    "tags": ["$extends:mouse","$group:off"]
   },
   {
     "name": "mouse-pointer-2-off",
-    "categories": ["arrows","cursors"],
-    "tags": ["pointer","mouse","cursor","off","disable","arrow","navigation","selection","select","click","no-click","interaction"]
+    "categories": ["$extends:mouse-pointer-2"],
+    "tags": ["$extends:mouse-pointer-2","$group:off","pointer","mouse","cursor","arrow","navigation","selection","no-click","interaction"]
   },
   {
     "name": "mouse-pointer-2",
-    "categories": ["arrows","cursors"],
-    "tags": ["click","select"]
+    "categories": ["$extends:mouse-pointer"],
+    "tags": ["$extends:mouse-pointer"]
   },
   {
     "name": "mouse-pointer-ban",
-    "categories": ["arrows","cursors"],
+    "categories": ["$extends:mouse-pointer"],
     "tags": ["wait","busy","loading","blocked","frozen","freeze"]
   },
   {
     "name": "mouse-pointer-click",
-    "categories": ["arrows","cursors"],
-    "tags": ["click","select"]
+    "categories": ["$extends:mouse-pointer"],
+    "tags": ["$extends:mouse-pointer"]
   },
   {
     "name": "mouse-pointer",
-    "categories": ["arrows","cursors"],
+    "categories": ["cursors"],
     "tags": ["click","select"]
   },
   {
     "name": "mouse-right",
-    "categories": ["devices"],
-    "tags": ["device","scroll","click"]
+    "categories": ["$extends:mouse"],
+    "tags": ["$extends:mouse","$group:position-right"]
   },
   {
     "name": "mouse",
@@ -6105,8 +6100,8 @@ export const iconsData: Array<{
   },
   {
     "name": "mouth-off",
-    "categories": ["medical","accessibility","communication"],
-    "tags": ["speech","voice","talk","mute","silence","speechless","taste loss","flavor loss","ageusia","tasteless","gustatory","oral","dental","communication","accessibility"]
+    "categories": ["$extends:mouth"],
+    "tags": ["$extends:mouth","$group:off","mute","silence","speechless","taste loss","flavor loss","ageusia","tasteless"]
   },
   {
     "name": "mouth",
@@ -6116,66 +6111,66 @@ export const iconsData: Array<{
   {
     "name": "move-3d",
     "categories": ["design"],
-    "tags": ["arrows","axis","gizmo","coordinates","transform","translate"]
+    "tags": ["$extends:move","axis","gizmo","coordinates","transform","translate"]
   },
   {
     "name": "move-diagonal-2",
-    "categories": ["arrows","cursors"],
-    "tags": ["double","arrow"]
+    "categories": ["$extends:move-diagonal"],
+    "tags": ["$extends:move-diagonal"]
   },
   {
     "name": "move-diagonal",
-    "categories": ["arrows","cursors"],
+    "categories": ["$extends:move"],
     "tags": ["double","arrow"]
   },
   {
     "name": "move-down-left",
-    "categories": ["arrows"],
-    "tags": ["arrow","direction"]
+    "categories": ["$extends:move"],
+    "tags": ["$extends:move","$group:direction-down-left"]
   },
   {
     "name": "move-down-right",
-    "categories": ["arrows"],
-    "tags": ["arrow","direction"]
+    "categories": ["$extends:move"],
+    "tags": ["$extends:move","$group:direction-down-right"]
   },
   {
     "name": "move-down",
     "categories": ["arrows"],
-    "tags": ["arrow","direction","downwards","south"]
+    "tags": ["$extends:move","$group:direction-down"]
   },
   {
     "name": "move-horizontal",
-    "categories": ["arrows","cursors"],
+    "categories": ["$extends:move"],
     "tags": ["double","arrow"]
   },
   {
     "name": "move-left",
     "categories": ["arrows"],
-    "tags": ["arrow","direction","back","west"]
+    "tags": ["$extends:move","$group:direction-left","back"]
   },
   {
     "name": "move-right",
     "categories": ["arrows"],
-    "tags": ["arrow","direction","trend flat","east"]
+    "tags": ["$extends:move","$group:direction-right","trend flat"]
   },
   {
     "name": "move-up-left",
-    "categories": ["arrows"],
-    "tags": ["arrow","direction"]
+    "categories": ["$extends:move"],
+    "tags": ["$extends:move","$group:direction-up-left"]
   },
   {
     "name": "move-up-right",
-    "categories": ["arrows"],
-    "tags": ["arrow","direction"]
+    "categories": ["$extends:move"],
+    "tags": ["$extends:move","$group:direction-up-right"]
   },
   {
     "name": "move-up",
     "categories": ["arrows"],
-    "tags": ["arrow","direction","upwards","north"]
+    "tags": ["$extends:move","$group:direction-up"]
   },
   {
     "name": "move-vertical",
-    "categories": ["arrows","cursors"],
+    "categories": ["$extends:move"],
     "tags": ["double","arrow"]
   },
   {
@@ -6185,18 +6180,18 @@ export const iconsData: Array<{
   },
   {
     "name": "navigation-2-off",
-    "categories": ["navigation"],
-    "tags": ["location","travel"]
+    "categories": ["$extends:navigation-2"],
+    "tags": ["$extends:navigation-2","$group:off"]
   },
   {
     "name": "navigation-2",
-    "categories": ["navigation"],
-    "tags": ["location","travel"]
+    "categories": ["$extends:navigation"],
+    "tags": ["$extends:navigation"]
   },
   {
     "name": "navigation-off",
-    "categories": ["navigation"],
-    "tags": ["location","travel"]
+    "categories": ["$extends:navigation"],
+    "tags": ["$extends:navigation","$group:off"]
   },
   {
     "name": "navigation",
@@ -6206,11 +6201,11 @@ export const iconsData: Array<{
   {
     "name": "nepali-rupee",
     "categories": ["finance"],
-    "tags": ["currency","money","nepal","rupee","npr"]
+    "tags": ["$group:currency","nepal","rupee","npr"]
   },
   {
     "name": "network",
-    "categories": ["development"],
+    "categories": ["development","connectivity"],
     "tags": ["tree"]
   },
   {
@@ -6220,58 +6215,58 @@ export const iconsData: Array<{
   },
   {
     "name": "nfc",
-    "categories": ["communication","finance","devices"],
+    "categories": ["finance","devices","connectivity"],
     "tags": ["contactless","payment","near-field communication"]
   },
   {
     "name": "non-binary",
-    "categories": ["medical"],
+    "categories": ["medical","people"],
     "tags": ["gender","nonbinary","enby"]
   },
   {
     "name": "notebook-dot",
-    "categories": ["communication"],
-    "tags": ["document","file","journal","page","paper","record","entry","notebook","notification","unread","note"]
+    "categories": ["text","notifications"],
+    "tags": ["$extends:notebook","$group:dot","document","file","page","paper","record","entry","notebook","note"]
   },
   {
     "name": "notebook-pen",
-    "categories": ["text","social"],
-    "tags": ["pencil","notepad","notes","noted","stationery","sketchbook","organizer","organiser","planner","diary","journal","writing","write","written","reading","high school","university","college","academy","student","study","research","homework","eraser","rubber"]
+    "categories": ["text"],
+    "tags": ["$extends:notebook","$group:pen","noted","eraser","rubber"]
   },
   {
     "name": "notebook-tabs",
     "categories": ["account","communication","social"],
-    "tags": ["notepad","notes","people","family","friends","acquaintances","contacts","details","addresses","phone numbers","directory","listing","networking","alphabetical","a-z","organizer","organiser","planner","diary","stationery"]
+    "tags": ["$extends:notebook","people","family","friends","acquaintances","contacts","details","addresses","phone numbers","directory","listing","networking","alphabetical","a-z"]
   },
   {
     "name": "notebook-text",
-    "categories": ["text","social"],
-    "tags": ["notepad","notes","pages","paper","stationery","sketchbook","organizer","organiser","planner","diary","journal","writing","write","written","reading","high school","university","college","academy","student","study","research","homework","lines","opened"]
+    "categories": ["text"],
+    "tags": ["$extends:notebook","pages","paper","write","lines","opened"]
   },
   {
     "name": "notebook",
-    "categories": ["text","communication","social","design"],
+    "categories": ["text","design"],
     "tags": ["notepad","notes","stationery","sketchbook","moleskine","closure","strap","band","elastic","organizer","organiser","planner","diary","journal","writing","written","writer","reading","high school","university","college","academy","student","study","homework","research"]
   },
   {
     "name": "notepad-text-dashed",
-    "categories": ["text","social"],
-    "tags": ["notebook","notes","pages","paper","stationery","diary","journal","writing","write","written","draft","template","lines"]
+    "categories": ["$extends:notepad-text"],
+    "tags": ["$extends:notepad-text","draft","template"]
   },
   {
     "name": "notepad-text",
-    "categories": ["text","social"],
+    "categories": ["text"],
     "tags": ["notebook","notes","pages","paper","stationery","sketchbook","organizer","organiser","planner","diary","journal","writing","write","written","reading","high school","university","college","academy","student","study","homework","research","lines","opened"]
   },
   {
     "name": "numbers",
     "categories": ["letters-digits","text","math"],
-    "tags": ["123","digits","numeric","numerical","counting","quantity","math","sequence","integer"]
+    "tags": ["$group:digit","123","digits","counting","quantity","math","sequence","integer"]
   },
   {
     "name": "nut-off",
-    "categories": ["food-beverage"],
-    "tags": ["hazelnut","acorn","food","allergy","intolerance","diet"]
+    "categories": ["$extends:nut"],
+    "tags": ["$extends:nut","$group:off","allergy","intolerance"]
   },
   {
     "name": "nut",
@@ -6280,23 +6275,23 @@ export const iconsData: Array<{
   },
   {
     "name": "octagon-alert",
-    "categories": ["notifications","shapes"],
-    "tags": ["warning","alert","danger","exclamation mark"]
+    "categories": ["$extends:octagon","notifications"],
+    "tags": ["$group:exclamation-mark"]
   },
   {
     "name": "octagon-minus",
     "categories": ["transportation"],
-    "tags": ["stop","forbidden","subtract","remove","decrease","reduce","-","traffic","halt","restricted"]
+    "tags": ["$group:minus","stop","forbidden","decrease","traffic","halt","restricted"]
   },
   {
     "name": "octagon-pause",
-    "categories": ["multimedia","shapes"],
-    "tags": ["music","audio","stop"]
+    "categories": ["$extends:octagon","multimedia"],
+    "tags": ["$group:pause","music","audio"]
   },
   {
     "name": "octagon-x",
-    "categories": ["math","notifications"],
-    "tags": ["delete","stop","alert","warning","times","clear","math"]
+    "categories": ["notifications"],
+    "tags": ["$group:x","stop","alert","warning","math"]
   },
   {
     "name": "octagon",
@@ -6305,8 +6300,8 @@ export const iconsData: Array<{
   },
   {
     "name": "omega",
-    "categories": ["letters-digits","math","development","text","science"],
-    "tags": ["greek","symbol","mathematics","education","physics","engineering","ohms","electrical resistance","angular frequency","dynamical systems","astronomy","constellations","philosophy"]
+    "categories": ["letters-digits","math","text","science"],
+    "tags": ["$group:letter","greek","symbol","mathematics","education","physics","engineering","ohms","electrical resistance","angular frequency","dynamical systems","astronomy","constellations","philosophy"]
   },
   {
     "name": "option",
@@ -6325,38 +6320,38 @@ export const iconsData: Array<{
   },
   {
     "name": "package-2",
-    "categories": ["files","development"],
-    "tags": ["box","container","storage","sealed","packed","unopened","undelivered","archive","zip"]
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package"]
   },
   {
     "name": "package-check",
-    "categories": ["development"],
-    "tags": ["confirm","verified","done","todo","tick","complete","task","delivered"]
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package","$group:check","delivered"]
   },
   {
     "name": "package-minus",
-    "categories": ["development"],
-    "tags": ["delete","remove"]
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package","$group:minus"]
   },
   {
     "name": "package-open",
-    "categories": ["files","development"],
+    "categories": ["$extends:package"],
     "tags": ["box","container","storage","unpack","unarchive","unzip","opened","delivered"]
   },
   {
     "name": "package-plus",
-    "categories": ["development"],
-    "tags": ["new","add","create"]
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package","$group:plus"]
   },
   {
     "name": "package-search",
-    "categories": ["files","development"],
-    "tags": ["find","product process","lens"]
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package","$group:search","product process"]
   },
   {
     "name": "package-x",
-    "categories": ["development"],
-    "tags": ["delete","remove"]
+    "categories": ["development","files"],
+    "tags": ["$extends:package","$group:x"]
   },
   {
     "name": "package",
@@ -6370,13 +6365,13 @@ export const iconsData: Array<{
   },
   {
     "name": "paint-roller",
-    "categories": ["text","design","home","tools"],
+    "categories": ["design","home","tools"],
     "tags": ["brush","color","colour","decoration","diy"]
   },
   {
     "name": "paintbrush-vertical",
-    "categories": ["text","design","photography","home","tools"],
-    "tags": ["brush","paintbrush","design","color","colour","decoration","diy"]
+    "categories": ["$extends:paintbrush"],
+    "tags": ["$extends:paintbrush"]
   },
   {
     "name": "paintbrush",
@@ -6385,7 +6380,7 @@ export const iconsData: Array<{
   },
   {
     "name": "palette",
-    "categories": ["text","design","photography"],
+    "categories": ["design","photography"],
     "tags": ["colors","colours","theme","scheme","paint","watercolor","watercolour","artist"]
   },
   {
@@ -6395,108 +6390,108 @@ export const iconsData: Array<{
   },
   {
     "name": "panel-bottom-close",
-    "categories": ["layout","arrows"],
-    "tags": ["drawer","dock","hide","chevron","down"]
+    "categories": ["$extends:panel-bottom"],
+    "tags": ["$extends:panel-bottom","$group:direction-down","hide","chevron","down"]
   },
   {
     "name": "panel-bottom-dashed",
-    "categories": ["layout"],
-    "tags": ["drawer","dock","show","reveal","padding","margin","guide","layout","bleed"]
+    "categories": ["$extends:panel-bottom"],
+    "tags": ["$extends:panel-bottom","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-bottom-open",
-    "categories": ["layout","arrows"],
-    "tags": ["drawer","dock","show","reveal","chevron","up"]
+    "categories": ["$extends:panel-bottom"],
+    "tags": ["$extends:panel-bottom","$group:direction-up","show","reveal","chevron","up"]
   },
   {
     "name": "panel-bottom",
     "categories": ["layout"],
-    "tags": ["drawer","dock"]
+    "tags": ["$group:position-bottom","drawer","dock"]
   },
   {
     "name": "panel-left-close",
-    "categories": ["layout","arrows"],
-    "tags": ["primary","drawer","hide","chevron","<"]
+    "categories": ["$extends:panel-left"],
+    "tags": ["$extends:panel-left","$group:direction-left","hide","chevron","<"]
   },
   {
     "name": "panel-left-dashed",
-    "categories": ["layout"],
-    "tags": ["sidebar","primary","drawer","show","reveal","padding","margin","guide","layout","bleed"]
+    "categories": ["$extends:panel-left"],
+    "tags": ["$extends:panel-left","sidebar","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-left-open",
-    "categories": ["layout","arrows"],
-    "tags": ["primary","drawer","show","reveal","chevron","right",">"]
+    "categories": ["$extends:panel-left"],
+    "tags": ["$extends:panel-left","$group:direction-right","show","reveal","chevron","right",">"]
   },
   {
     "name": "panel-left-right-dashed",
-    "categories": ["layout"],
-    "tags": ["sidebar","primary","drawer","show","reveal","padding","margin","guide","layout","vertical","bleed"]
+    "categories": ["$extends:panel-left"],
+    "tags": ["$extends:panel-left","$group:position-right","sidebar","show","reveal","padding","margin","guide","layout","vertical","bleed"]
   },
   {
     "name": "panel-left",
     "categories": ["layout"],
-    "tags": ["primary","drawer"]
+    "tags": ["$group:position-left","primary","drawer"]
   },
   {
     "name": "panel-right-close",
-    "categories": ["layout","arrows"],
-    "tags": ["sidebar","secondary","drawer","hide","chevron",">"]
+    "categories": ["$extends:panel-right"],
+    "tags": ["$extends:panel-right","$group:direction-right","hide","chevron",">"]
   },
   {
     "name": "panel-right-dashed",
-    "categories": ["layout"],
-    "tags": ["sidebar","secondary","drawer","show","reveal","padding","margin","guide","layout","bleed"]
+    "categories": ["$extends:panel-right"],
+    "tags": ["$extends:panel-right","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-right-open",
-    "categories": ["layout","arrows"],
-    "tags": ["sidebar","secondary","drawer","show","reveal","chevron","left","<"]
+    "categories": ["$extends:panel-right"],
+    "tags": ["$extends:panel-right","$group:direction-left","show","reveal","chevron","left","<"]
   },
   {
     "name": "panel-right",
     "categories": ["layout"],
-    "tags": ["sidebar","secondary","drawer"]
+    "tags": ["$group:position-right","sidebar","secondary","drawer"]
   },
   {
     "name": "panel-top-bottom-dashed",
     "categories": ["layout"],
-    "tags": ["sidebar","primary","drawer","show","reveal","padding","margin","guide","layout","horizontal","bleed"]
+    "tags": ["$extends:panel-top","$group:position-bottom","sidebar","primary","show","reveal","padding","margin","guide","layout","horizontal","bleed"]
   },
   {
     "name": "panel-top-close",
-    "categories": ["layout","arrows"],
-    "tags": ["menu bar","drawer","hide","chevron","up"]
+    "categories": ["layout"],
+    "tags": ["$extends:panel-top","$group:direction-up","menu bar","hide","chevron","up"]
   },
   {
     "name": "panel-top-dashed",
     "categories": ["layout"],
-    "tags": ["menu bar","drawer","show","reveal","padding","margin","guide","layout","bleed"]
+    "tags": ["$extends:panel-top","menu bar","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-top-open",
-    "categories": ["layout","arrows"],
-    "tags": ["menu bar","drawer","show","reveal","chevron","down"]
+    "categories": ["layout"],
+    "tags": ["$extends:panel-top","$group:direction-down","menu bar","show","reveal","chevron","down"]
   },
   {
     "name": "panel-top",
-    "categories": ["layout","design","development"],
-    "tags": ["drawer","browser","webpage"]
+    "categories": ["layout"],
+    "tags": ["$group:position-top","drawer","browser","webpage"]
   },
   {
     "name": "panels-left-bottom",
     "categories": ["layout"],
-    "tags": ["drawers","sidebar","primary"]
+    "tags": ["$group:position-bottom","$group:position-left","drawers","sidebar","primary"]
   },
   {
     "name": "panels-right-bottom",
     "categories": ["layout"],
-    "tags": ["drawers","sidebar","secondary"]
+    "tags": ["$group:position-bottom","$group:position-right","drawers","sidebar","secondary"]
   },
   {
     "name": "panels-top-left",
     "categories": ["layout","design","development"],
-    "tags": ["menu bar","sidebar","primary","drawers","window","webpage","projects","overview"]
+    "tags": ["$group:position-top","$group:position-left","menu bar","sidebar","primary","drawers","window","webpage","projects","overview"]
   },
   {
     "name": "paper-bag",
@@ -6505,7 +6500,7 @@ export const iconsData: Array<{
   },
   {
     "name": "paperclip",
-    "categories": ["text","design","files","mail"],
+    "categories": ["files","mail"],
     "tags": ["attachment","file"]
   },
   {
@@ -6515,7 +6510,7 @@ export const iconsData: Array<{
   },
   {
     "name": "parentheses",
-    "categories": ["development","files","math"],
+    "categories": ["development","math"],
     "tags": ["code","token","parenthesis","parens","brackets","parameters","arguments","args","input","call","math","formula","function","(",")"]
   },
   {
@@ -6536,7 +6531,7 @@ export const iconsData: Array<{
   {
     "name": "pause",
     "categories": ["multimedia"],
-    "tags": ["music","stop"]
+    "tags": ["$group:pause","music"]
   },
   {
     "name": "paw-print",
@@ -6546,52 +6541,52 @@ export const iconsData: Array<{
   {
     "name": "pc-case",
     "categories": ["devices","gaming"],
-    "tags": ["computer","chassis"]
+    "tags": ["personal computer","computer","chassis","workstation","tower","hardware","setup","gaming"]
   },
   {
     "name": "pen-line",
-    "categories": ["text","design","tools"],
-    "tags": ["pencil","change","create","draw","writer","writing","biro","ink","marker","felt tip","stationery","artist"]
+    "categories": ["$extends:pen"],
+    "tags": ["$extends:pen"]
   },
   {
     "name": "pen-off",
-    "categories": ["text","design","tools"],
-    "tags": ["disabled","inactive","non-editable","locked","read-only","unmodifiable","frozen","restricted","pencil","change","create","draw","writer","writing","biro","ink","marker","felt tip","stationery","artist"]
+    "categories": ["$extends:pen"],
+    "tags": ["$extends:pen","$group:off","non-editable","locked","read-only","unmodifiable","frozen"]
   },
   {
     "name": "pen-tool",
-    "categories": ["text","design","cursors"],
+    "categories": ["design","cursors"],
     "tags": ["vector","drawing","path"]
   },
   {
     "name": "pen",
     "categories": ["text","design","tools"],
-    "tags": ["pencil","change","create","draw","writer","writing","biro","ink","marker","felt tip","stationery","artist"]
+    "tags": ["$group:pen","biro","ink","marker","felt tip","stationery","artist"]
   },
   {
     "name": "pencil-line",
     "categories": ["text","design","tools"],
-    "tags": ["pencil","change","create","draw","sketch","draft","writer","writing","biro","ink","marker","felt tip","stationery","artist"]
+    "tags": ["$extends:pencil","biro","ink","marker","felt tip"]
   },
   {
     "name": "pencil-off",
-    "categories": ["design","cursors","tools","text"],
-    "tags": ["disabled","inactive","non-editable","locked","read-only","unmodifiable","frozen","restricted","rubber","edit","create","draw","sketch","draft","writer","writing","stationery","artist"]
+    "categories": ["$extends:pencil"],
+    "tags": ["$extends:pencil","$group:off","non-editable","locked","read-only","unmodifiable","frozen"]
   },
   {
     "name": "pencil-ruler",
-    "categories": ["tools","design","layout","text"],
-    "tags": ["edit","create","draw","sketch","draft","writer","writing","stationery","artist","measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent"]
+    "categories": ["tools","design","layout"],
+    "tags": ["$extends:pencil","measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent"]
   },
   {
     "name": "pencil-sparkles",
-    "categories": ["design","cursors","tools","text","photography"],
-    "tags": ["edit","ai","tools","smart","create","draw","sketch","draft","writer","writing","stationery","artist","magic","wizard","magician"]
+    "categories": ["$extends:pencil"],
+    "tags": ["$extends:pencil","$group:sparkles","tools","wizard","magician"]
   },
   {
     "name": "pencil",
     "categories": ["design","cursors","tools","text"],
-    "tags": ["rubber","edit","create","draw","sketch","draft","writer","writing","stationery","artist"]
+    "tags": ["$group:pen","rubber","stationery","artist"]
   },
   {
     "name": "pentagon",
@@ -6601,11 +6596,11 @@ export const iconsData: Array<{
   {
     "name": "percent",
     "categories": ["math","development","finance","shopping"],
-    "tags": ["percentage","modulo","modulus","remainder","%","sale","discount","offer","marketing"]
+    "tags": ["$group:percent","modulo","modulus","remainder"]
   },
   {
     "name": "perfume-bottle",
-    "categories": ["shopping","travel"],
+    "categories": ["shopping"],
     "tags": ["eau de parfum","eau de toilette","essence","aftershave","cologne","aroma","fragrance","smell","scent","bouquet","gift","duty free","spray","puff","atomizer","mist","beauty","skincare","cosmetics"]
   },
   {
@@ -6616,12 +6611,12 @@ export const iconsData: Array<{
   {
     "name": "phi",
     "categories": ["letters-digits","math","science"],
-    "tags": ["math","golden-ratio","symbol","greek","letter","typography","constant","flux","magnetic-flux"]
+    "tags": ["$group:letter","math","golden-ratio","symbol","greek","letter","constant","flux","magnetic-flux"]
   },
   {
     "name": "philippine-peso",
     "categories": ["finance"],
-    "tags": ["currency","peso","money","php"]
+    "tags": ["$group:currency","peso","php"]
   },
   {
     "name": "phone-call",
@@ -6630,43 +6625,43 @@ export const iconsData: Array<{
   },
   {
     "name": "phone-forwarded",
-    "categories": ["arrows","connectivity","devices","communication"],
-    "tags": ["call"]
+    "categories": ["connectivity","devices","communication"],
+    "tags": ["$extends:phone"]
   },
   {
     "name": "phone-incoming",
-    "categories": ["arrows","connectivity","devices","communication"],
-    "tags": ["call"]
+    "categories": ["connectivity","devices","communication"],
+    "tags": ["$extends:phone"]
   },
   {
     "name": "phone-log",
-    "categories": ["communication"],
-    "tags": ["telephone","communication","mobile","device","contact","history","data","information","call"]
+    "categories": ["$extends:phone"],
+    "tags": ["$extends:phone","telephone","communication","mobile","device","contact","history","data","information"]
   },
   {
     "name": "phone-missed",
     "categories": ["connectivity","devices","communication"],
-    "tags": ["call"]
+    "tags": ["$extends:phone"]
   },
   {
     "name": "phone-off",
     "categories": ["connectivity","devices","communication"],
-    "tags": ["call","mute"]
+    "tags": ["$extends:phone","$group:off","mute"]
   },
   {
     "name": "phone-outgoing",
-    "categories": ["arrows","connectivity","devices","communication"],
-    "tags": ["call"]
+    "categories": ["connectivity","devices","communication"],
+    "tags": ["$extends:phone"]
   },
   {
     "name": "phone",
-    "categories": ["text","connectivity","devices","communication"],
+    "categories": ["connectivity","devices","communication"],
     "tags": ["call"]
   },
   {
     "name": "pi",
     "categories": ["letters-digits","development","math"],
-    "tags": ["constant","code","coding","programming","symbol","trigonometry","geometry","formula"]
+    "tags": ["$group:letter","constant","code","coding","programming","symbol","trigonometry","geometry","formula"]
   },
   {
     "name": "piano",
@@ -6680,8 +6675,8 @@ export const iconsData: Array<{
   },
   {
     "name": "picture-in-picture-2",
-    "categories": ["multimedia"],
-    "tags": ["display","play","video","pop out","always on top","window","inset","multitask"]
+    "categories": ["$extends:picture-in-picture"],
+    "tags": ["$extends:picture-in-picture"]
   },
   {
     "name": "picture-in-picture",
@@ -6695,13 +6690,13 @@ export const iconsData: Array<{
   },
   {
     "name": "pilcrow-left",
-    "categories": ["text"],
-    "tags": ["direction","paragraph","mark","paraph","blind","typography","type","text","prose","symbol"]
+    "categories": ["$extends:pilcrow"],
+    "tags": ["$extends:pilcrow","$group:direction-left"]
   },
   {
     "name": "pilcrow-right",
-    "categories": ["text"],
-    "tags": ["direction","paragraph","mark","paraph","blind","typography","type","text","prose","symbol"]
+    "categories": ["$extends:pilcrow"],
+    "tags": ["$extends:pilcrow","$group:direction-right"]
   },
   {
     "name": "pilcrow",
@@ -6710,8 +6705,8 @@ export const iconsData: Array<{
   },
   {
     "name": "pill-bottle",
-    "categories": ["medical"],
-    "tags": ["medicine","medication","prescription","drug","supplement","vitamin","capsule","jar","container","healthcare","pharmaceutical","tablet"]
+    "categories": ["$extends:pill"],
+    "tags": ["$extends:pill","supplement","vitamin","capsule","jar","container","healthcare","pharmaceutical"]
   },
   {
     "name": "pill",
@@ -6721,16 +6716,16 @@ export const iconsData: Array<{
   {
     "name": "pin-off",
     "categories": ["navigation"],
-    "tags": ["unpin","map","unlock","unfix","unsave","remove"]
+    "tags": ["$extends:pin","$group:off","unpin","unlock","unfix","unsave","remove"]
   },
   {
     "name": "pin",
-    "categories": ["navigation","account"],
+    "categories": ["navigation"],
     "tags": ["save","map","lock","fix"]
   },
   {
     "name": "pipette",
-    "categories": ["text","design","science"],
+    "categories": ["design","science"],
     "tags": ["eye dropper","color picker","lab","chemistry"]
   },
   {
@@ -6741,12 +6736,12 @@ export const iconsData: Array<{
   {
     "name": "plane-landing",
     "categories": ["transportation","travel"],
-    "tags": ["arrival","plane","trip","airplane","landing"]
+    "tags": ["$extends:plane","arrival","landing"]
   },
   {
     "name": "plane-takeoff",
     "categories": ["transportation","travel"],
-    "tags": ["departure","plane","trip","airplane","takeoff"]
+    "tags": ["$extends:plane","departure","takeoff"]
   },
   {
     "name": "plane",
@@ -6761,47 +6756,47 @@ export const iconsData: Array<{
   {
     "name": "play-off",
     "categories": ["multimedia"],
-    "tags": ["audio","video","music","start","run","off","disabled","blocked","forbidden"]
+    "tags": ["$extends:play","$group:off"]
   },
   {
     "name": "play",
-    "categories": ["arrows","multimedia"],
-    "tags": ["music","audio","video","start","run"]
+    "categories": ["multimedia"],
+    "tags": ["$group:play","music","audio","video"]
   },
   {
     "name": "playing-card",
-    "categories": ["gaming","development"],
+    "categories": ["gaming"],
     "tags": ["deck","draw","deal","shuffle","chance","random","selection","tabletop","flashcard","study","learning","prompt","icebreaker","conversation","collectible","trading","poker","casino","game","gambling","suit"]
   },
   {
     "name": "playing-cards-fan",
-    "categories": ["gaming","development","social"],
-    "tags": ["deck","fan","spread","hand","deal","dealt","draw","shuffle","tabletop","planning poker","scrum","agile","estimation","estimate","prompt","icebreaker","conversation","collectible","collection","trading","poker","casino","game","gambling","suit"]
+    "categories": ["$extends:playing-cards","social"],
+    "tags": ["$extends:playing-cards","fan","spread","dealt","prompt","icebreaker","conversation"]
   },
   {
     "name": "playing-cards",
-    "categories": ["gaming","development"],
+    "categories": ["gaming"],
     "tags": ["deck","stack","shuffle","deal","draw","hand","tabletop","planning poker","scrum","agile","estimation","estimate","flashcards","study","learning","collectible","collection","trading","poker","casino","game","gambling","suit"]
   },
   {
     "name": "plug-2",
-    "categories": ["devices","development"],
-    "tags": ["electricity","energy","socket","outlet"]
+    "categories": ["$extends:plug"],
+    "tags": ["$extends:plug"]
   },
   {
     "name": "plug-zap",
     "categories": ["devices"],
-    "tags": ["electricity","energy","electronics","charge","charging","battery","connect"]
+    "tags": ["$extends:plug","$extends:zap","charge","charging","battery","connect"]
   },
   {
     "name": "plug",
-    "categories": ["devices","development"],
+    "categories": ["devices","connectivity"],
     "tags": ["electricity","energy","electronics","socket","outlet","power","voltage","current","charger"]
   },
   {
     "name": "plus",
-    "categories": ["math","tools","development","text","cursors","gaming"],
-    "tags": ["add","new","increase","increment","positive","calculate","toolbar","crosshair","aim","target","scope","sight","reticule","maximum","upgrade","extra","+"]
+    "categories": ["math","development","cursors"],
+    "tags": ["$group:plus","positive","calculate","toolbar","crosshair","aim","target","scope","sight","reticule","maximum","upgrade"]
   },
   {
     "name": "pocket-knife",
@@ -6810,13 +6805,13 @@ export const iconsData: Array<{
   },
   {
     "name": "podium",
-    "categories": ["letters-digits","sports","gaming"],
-    "tags": ["award","stage","winner","celebration","performance","medal","success","achievement","highlight","ranking","winning","place","placing","leaderboard","first","second","third","gold","silver","bronze"]
+    "categories": ["sports","gaming"],
+    "tags": ["$group:digit","award","stage","winner","celebration","performance","medal","success","achievement","highlight","ranking","winning","place","placing","leaderboard","first","second","third","gold","silver","bronze"]
   },
   {
     "name": "pointer-off",
-    "categories": ["cursors"],
-    "tags": ["mouse"]
+    "categories": ["$extends:pointer"],
+    "tags": ["$extends:pointer","$group:off"]
   },
   {
     "name": "pointer",
@@ -6836,37 +6831,37 @@ export const iconsData: Array<{
   {
     "name": "pound-sterling",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "power-off",
-    "categories": ["connectivity"],
-    "tags": ["on","off","device","switch"]
+    "categories": ["$extends:power"],
+    "tags": ["$extends:power","$group:off"]
   },
   {
     "name": "power",
-    "categories": ["connectivity"],
+    "categories": ["devices"],
     "tags": ["on","off","device","switch","toggle","binary","boolean","reboot","restart","button","keyboard","troubleshoot"]
   },
   {
     "name": "presentation",
-    "categories": ["multimedia","photography","devices","communication","design"],
+    "categories": ["multimedia","communication","design"],
     "tags": ["screen","whiteboard","marker pens","markers","blackboard","chalk","easel","school","learning","lesson","office","meeting","project","planning"]
   },
   {
     "name": "printer-3d",
-    "categories": ["devices","tools"],
+    "categories": ["$extends:printer","tools"],
     "tags": ["model","hardware","technology","device","factory","manufacturing","art","extruder","stl","obj","step","additive","fabrication","rapid prototype","layer","filament","nozzle","maker","machine"]
   },
   {
     "name": "printer-check",
-    "categories": ["devices"],
-    "tags": ["fax","office","device","success","printed"]
+    "categories": ["$extends:printer"],
+    "tags": ["$extends:printer","$group:check","printed"]
   },
   {
     "name": "printer-x",
-    "categories": ["devices"],
-    "tags": ["fax","office","device","cross","cancel","remove","error"]
+    "categories": ["$extends:printer"],
+    "tags": ["$extends:printer","$group:x","error"]
   },
   {
     "name": "printer",
@@ -6875,7 +6870,7 @@ export const iconsData: Array<{
   },
   {
     "name": "projector",
-    "categories": ["multimedia","photography","devices","communication"],
+    "categories": ["multimedia","devices","communication"],
     "tags": ["cinema","film","movie","home video","presentation","slideshow","office","meeting","project","planning"]
   },
   {
@@ -6925,22 +6920,22 @@ export const iconsData: Array<{
   },
   {
     "name": "radio-off",
-    "categories": ["devices","multimedia","social"],
-    "tags": ["signal","broadcast","connectivity","live","frequency"]
+    "categories": ["$extends:radio"],
+    "tags": ["$extends:radio","$group:off"]
   },
   {
     "name": "radio-receiver",
-    "categories": ["devices"],
+    "categories": ["devices","multimedia"],
     "tags": ["device","music","connect"]
   },
   {
     "name": "radio-tower",
-    "categories": ["devices","multimedia","social"],
-    "tags": ["signal","broadcast","connectivity","live","frequency"]
+    "categories": ["$extends:radio"],
+    "tags": ["$extends:radio"]
   },
   {
     "name": "radio",
-    "categories": ["devices","multimedia","social"],
+    "categories": ["devices","multimedia","connectivity"],
     "tags": ["signal","broadcast","connectivity","live","frequency"]
   },
   {
@@ -6965,52 +6960,52 @@ export const iconsData: Array<{
   },
   {
     "name": "receipt-cent",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","cents","dollar","usd","$","¢"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","cents","¢"]
   },
   {
     "name": "receipt-euro",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","€"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","€"]
   },
   {
     "name": "receipt-indian-rupee",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","inr","₹"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","inr","₹"]
   },
   {
     "name": "receipt-japanese-yen",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","jpy","¥"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","jpy","¥"]
   },
   {
     "name": "receipt-pound-sterling",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","british","currency","gbp","£"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","$group:currency","british","gbp","£"]
   },
   {
     "name": "receipt-russian-ruble",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","rub","₽"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","rub","₽"]
   },
   {
     "name": "receipt-swiss-franc",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","chf","₣"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","chf","₣"]
   },
   {
     "name": "receipt-text",
-    "categories": ["finance","travel"],
-    "tags": ["bill","voucher","slip","check","counterfoil","details","small print","terms","conditions","contract"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","details","small print","terms","conditions","contract"]
   },
   {
     "name": "receipt-turkish-lira",
-    "categories": ["finance"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","try","₺"]
+    "categories": ["$extends:receipt"],
+    "tags": ["$extends:receipt","try","₺"]
   },
   {
     "name": "receipt",
-    "categories": ["finance","travel"],
+    "categories": ["finance","shopping"],
     "tags": ["bill","voucher","slip","check","counterfoil","currency","dollar","usd","$"]
   },
   {
@@ -7025,7 +7020,7 @@ export const iconsData: Array<{
   },
   {
     "name": "rectangle-goggles",
-    "categories": ["devices","gaming","multimedia","connectivity"],
+    "categories": ["devices","gaming","multimedia"],
     "tags": ["vr","virtual","augmented","reality","headset","goggles"]
   },
   {
@@ -7045,13 +7040,13 @@ export const iconsData: Array<{
   },
   {
     "name": "redo-2",
-    "categories": ["text","arrows"],
-    "tags": ["undo","rerun","history"]
+    "categories": ["$extends:redo"],
+    "tags": ["$extends:redo"]
   },
   {
     "name": "redo-dot",
-    "categories": ["text","arrows"],
-    "tags": ["redo","history","step","over","forward"]
+    "categories": ["$extends:redo"],
+    "tags": ["$extends:redo","redo","step","over","forward"]
   },
   {
     "name": "redo",
@@ -7060,23 +7055,23 @@ export const iconsData: Array<{
   },
   {
     "name": "refresh-ccw-dot",
-    "categories": ["arrows","development"],
-    "tags": ["arrows","rotate","reload","synchronise","synchronize","circular","cycle","issue","code","coding","version control"]
+    "categories": ["$extends:refresh-ccw","development"],
+    "tags": ["$extends:refresh-ccw","issue","code","coding","version control"]
   },
   {
     "name": "refresh-ccw",
     "categories": ["arrows"],
-    "tags": ["arrows","rotate","reload","rerun","synchronise","synchronize","circular","cycle"]
+    "tags": ["$group:sync","arrows","rotate","circular"]
   },
   {
     "name": "refresh-cw-off",
-    "categories": ["arrows"],
-    "tags": ["rotate","reload","rerun","synchronise","synchronize","arrows","circular","cycle","cancel","no","stop","error","disconnect","ignore"]
+    "categories": ["$extends:refresh-cw"],
+    "tags": ["$extends:refresh-cw","$group:off","no","stop","error","disconnect","ignore"]
   },
   {
     "name": "refresh-cw",
     "categories": ["arrows"],
-    "tags": ["rotate","reload","rerun","synchronise","synchronize","arrows","circular","cycle"]
+    "tags": ["$group:sync","rotate","arrows","circular"]
   },
   {
     "name": "refrigerator",
@@ -7090,23 +7085,23 @@ export const iconsData: Array<{
   },
   {
     "name": "remove-formatting",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","font","typography","format","x","remove","delete","times","clear"]
+    "categories": ["text"],
+    "tags": ["$group:letter","$group:minus","format","x","times"]
   },
   {
     "name": "repeat-1",
-    "categories": ["letters-digits","multimedia"],
-    "tags": ["replay"]
+    "categories": ["multimedia","arrows"],
+    "tags": ["$group:digit","replay"]
   },
   {
     "name": "repeat-2",
-    "categories": ["arrows","social","multimedia"],
-    "tags": ["arrows","retweet","repost","share","repeat","loop"]
+    "categories": ["$extends:repeat","social"],
+    "tags": ["$extends:repeat","retweet","repost","share","repeat"]
   },
   {
     "name": "repeat-off",
-    "categories": ["arrows","multimedia"],
-    "tags": ["loop","arrows","recurring","again"]
+    "categories": ["$extends:repeat"],
+    "tags": ["$extends:repeat","$group:off","recurring","again"]
   },
   {
     "name": "repeat",
@@ -7115,8 +7110,8 @@ export const iconsData: Array<{
   },
   {
     "name": "replace-all",
-    "categories": ["text"],
-    "tags": ["search","substitute","swap","change"]
+    "categories": ["$extends:replace"],
+    "tags": ["$extends:replace"]
   },
   {
     "name": "replace",
@@ -7125,8 +7120,8 @@ export const iconsData: Array<{
   },
   {
     "name": "reply-all",
-    "categories": ["mail"],
-    "tags": ["email"]
+    "categories": ["$extends:reply"],
+    "tags": ["$extends:reply"]
   },
   {
     "name": "reply",
@@ -7145,7 +7140,7 @@ export const iconsData: Array<{
   },
   {
     "name": "road",
-    "categories": ["transportation"],
+    "categories": ["transportation","navigation"],
     "tags": ["road","street","highway","route","path","transport","traffic","drive","map"]
   },
   {
@@ -7155,7 +7150,7 @@ export const iconsData: Array<{
   },
   {
     "name": "robot-vacuum",
-    "categories": ["devices","home","tools"],
+    "categories": ["devices","home"],
     "tags": ["appliance","cleaning","household","housekeeping","tool","maintenance","sweeping","hygiene","chores","automation","smart home","device","floor","dust","debris","navigation","sensor"]
   },
   {
@@ -7170,12 +7165,12 @@ export const iconsData: Array<{
   },
   {
     "name": "roller-coaster",
-    "categories": ["navigation"],
+    "categories": ["navigation","travel"],
     "tags": ["attraction","entertainment","amusement park","theme park","funfair"]
   },
   {
     "name": "rose",
-    "categories": ["nature","seasons","sustainability","home","social"],
+    "categories": ["nature","seasons","social"],
     "tags": ["roses","thorns","petals","plant","stem","leaves","spring","bloom","blossom","gardening","botanical","flora","florist","bouquet","bunch","gift","date","romance","romantic","valentines day","special occasion"]
   },
   {
@@ -7186,17 +7181,17 @@ export const iconsData: Array<{
   {
     "name": "rotate-ccw-clock",
     "categories": ["arrows","time"],
-    "tags": ["history","time","redo","undo","rewind","timeline","version","time machine","backup","ccw"]
+    "tags": ["$extends:rotate-ccw","$group:clock","timeline","version","time machine","ccw"]
   },
   {
     "name": "rotate-ccw-key",
     "categories": ["security","account"],
-    "tags": ["password","key","refresh","change"]
+    "tags": ["$extends:rotate-ccw","$group:key","change"]
   },
   {
     "name": "rotate-ccw-square",
-    "categories": ["layout","design","photography","tools","arrows"],
-    "tags": ["left","counter-clockwise","rotate","image","90","45","degrees","°"]
+    "categories": ["$extends:rotate-ccw"],
+    "tags": ["$extends:rotate-ccw","rotate","image","90","45","degrees","°"]
   },
   {
     "name": "rotate-ccw",
@@ -7206,17 +7201,17 @@ export const iconsData: Array<{
   {
     "name": "rotate-cw-clock",
     "categories": ["arrows","time"],
-    "tags": ["modify","edit","refresh","sync","renew","revision","settings","adjust","upgrade","time","timeline","version","time machine","backup","clockwise","arrow","reload","rerun","synchronize","circular","cycle","update"]
+    "tags": ["$extends:rotate-cw","$group:clock","modify","edit","sync","renew","revision","settings","adjust","upgrade","timeline","version","time machine","backup","synchronize","circular","cycle","update"]
   },
   {
     "name": "rotate-cw-fading-clock",
     "categories": ["time"],
-    "tags": ["clock","waiting","schedule","hourglass","loading","pause","pending","time","watch"]
+    "tags": ["$extends:rotate-cw","$group:clock","waiting","hourglass","loading","pause"]
   },
   {
     "name": "rotate-cw-square",
-    "categories": ["layout","design","photography","tools","arrows"],
-    "tags": ["right","clockwise","rotate","image","90","45","degrees","°"]
+    "categories": ["$extends:rotate-cw"],
+    "tags": ["$extends:rotate-cw","rotate","image","90","45","degrees","°"]
   },
   {
     "name": "rotate-cw",
@@ -7225,8 +7220,8 @@ export const iconsData: Array<{
   },
   {
     "name": "route-off",
-    "categories": ["navigation"],
-    "tags": ["path","journey","planner","points","stops","stations","reset","clear","cancelled","closed","blocked"]
+    "categories": ["$extends:route"],
+    "tags": ["$extends:route","$group:off","reset","clear","closed"]
   },
   {
     "name": "route",
@@ -7235,7 +7230,7 @@ export const iconsData: Array<{
   },
   {
     "name": "router",
-    "categories": ["development","devices","connectivity","home"],
+    "categories": ["devices","connectivity","home"],
     "tags": ["computer","server","cloud"]
   },
   {
@@ -7265,18 +7260,18 @@ export const iconsData: Array<{
   },
   {
     "name": "ruler-dimension-line",
-    "categories": ["tools","design","layout"],
-    "tags": ["measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent","stationery"]
+    "categories": ["$extends:ruler"],
+    "tags": ["$extends:ruler"]
   },
   {
     "name": "ruler",
-    "categories": ["tools","design","layout"],
+    "categories": ["tools","design","layout","math"],
     "tags": ["measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent","stationery"]
   },
   {
     "name": "russian-ruble",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "sailboat",
@@ -7285,7 +7280,7 @@ export const iconsData: Array<{
   },
   {
     "name": "salad",
-    "categories": ["food-beverage","emoji"],
+    "categories": ["food-beverage"],
     "tags": ["food","vegetarian","dish","restaurant","course","meal","side","vegetables","health"]
   },
   {
@@ -7306,36 +7301,36 @@ export const iconsData: Array<{
   {
     "name": "saudi-riyal",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "save-all",
-    "categories": ["text","files"],
-    "tags": ["floppy disks","copy"]
+    "categories": ["$extends:save"],
+    "tags": ["$extends:save","floppy disks","copy"]
   },
   {
     "name": "save-check",
-    "categories": ["text","files","development"],
-    "tags": ["save","save-check","floppy-disk","saved","check","save-success"]
+    "categories": ["$extends:save"],
+    "tags": ["$extends:save","$group:check","save","save-check","floppy-disk","saved","save-success"]
   },
   {
     "name": "save-off",
-    "categories": ["text","files"],
-    "tags": ["floppy disk","unsalvageable"]
+    "categories": ["$extends:save"],
+    "tags": ["$extends:save","$group:off","unsalvageable"]
   },
   {
     "name": "save-pen",
-    "categories": ["text","files"],
-    "tags": ["floppy disk","directory","rename"]
+    "categories": ["$extends:save"],
+    "tags": ["$extends:save","$group:pen","directory"]
   },
   {
     "name": "save-plus",
-    "categories": ["text","files"],
-    "tags": ["floppy disk","save","plus","add","update","create"]
+    "categories": ["$extends:save"],
+    "tags": ["$extends:save","$group:plus","save","update"]
   },
   {
     "name": "save",
-    "categories": ["text","files"],
+    "categories": ["files"],
     "tags": ["floppy disk"]
   },
   {
@@ -7345,7 +7340,7 @@ export const iconsData: Array<{
   },
   {
     "name": "scale",
-    "categories": ["navigation","science","finance"],
+    "categories": ["science","finance"],
     "tags": ["balance","legal","license","right","rule","law","justice","weight","measure","compare","judge","fair","ethics","decision"]
   },
   {
@@ -7356,56 +7351,56 @@ export const iconsData: Array<{
   {
     "name": "scan-barcode",
     "categories": ["shopping","devices"],
-    "tags": ["checkout","till","cart","transaction","purchase","buy","product","packaging","retail","consumer"]
+    "tags": ["$extends:scan","till","cart","transaction","purchase","buy","product","packaging","retail","consumer"]
   },
   {
     "name": "scan-box",
-    "categories": ["design","devices","shopping","gaming"],
-    "tags": ["ar","augmented reality","3d","object detection","object recognition","tracking","spatial computing","capture","cube","bounding box","camera","frame","shape","boundary","lidar","depth","scanning","mapping","placement"]
+    "categories": ["design","devices","shopping"],
+    "tags": ["$extends:scan","3d","object detection","object recognition","tracking","spatial computing","capture","cube","bounding box","shape","lidar","depth","scanning","mapping","placement"]
   },
   {
     "name": "scan-eye",
-    "categories": ["photography","multimedia","accessibility","security","devices","account"],
-    "tags": ["preview","zoom","expand","fullscreen","gallery","image","camera","watch","surveillance","retina","focus","lens","biometric","identification","authentication","access","login"]
+    "categories": ["photography","security","account"],
+    "tags": ["$extends:scan","preview","zoom","expand","fullscreen","gallery","image","watch","retina","biometric","identification","authentication","access","login"]
   },
   {
     "name": "scan-face",
-    "categories": ["account","security","devices","social"],
-    "tags": ["face","biometric","identification","authentication","2fa","access","login","dashed"]
+    "categories": ["account","security","devices"],
+    "tags": ["$extends:scan","face","biometric","identification","authentication","2fa","access","login"]
   },
   {
     "name": "scan-heart",
     "categories": ["medical"],
-    "tags": ["health","heart rate","pulse","monitoring","healthiness","screening","dashed"]
+    "tags": ["$extends:scan","$group:heart","heart rate","pulse","monitoring","healthiness","screening"]
   },
   {
     "name": "scan-line",
     "categories": ["devices","shopping"],
-    "tags": ["checkout","till","cart","transaction","purchase","buy","product","packaging","retail","consumer","qr-code","dashed"]
+    "tags": ["$extends:scan","till","cart","transaction","purchase","buy","product","packaging","retail","consumer"]
   },
   {
     "name": "scan-qr-code",
     "categories": ["account","shopping","devices","security"],
-    "tags": ["barcode","scan","qr code","url","information","digital","scanner"]
+    "tags": ["$extends:scan","scan","qr code","url","information","digital","scanner"]
   },
   {
     "name": "scan-search",
     "categories": ["photography","multimedia","accessibility"],
-    "tags": ["preview","zoom","expand","fullscreen","gallery","image","focus","lens"]
+    "tags": ["$extends:scan","$group:search","preview","expand","fullscreen","gallery","image"]
   },
   {
     "name": "scan-square",
-    "categories": ["photography","design","development"],
-    "tags": ["scan","square","detect","recognition","select","frame","object","viewfinder","capture","shape","boundary","camera","scanner","overlay","focus","crop","marker"]
+    "categories": ["photography","design"],
+    "tags": ["$extends:scan","scan","detect","recognition","object","viewfinder","capture","shape","scanner","overlay","crop","marker"]
   },
   {
     "name": "scan-text",
     "categories": ["text","devices"],
-    "tags": ["recognition","read","translate","copy","lines"]
+    "tags": ["$extends:scan","recognition","read","translate","copy","lines"]
   },
   {
     "name": "scan",
-    "categories": ["devices","shopping","security","social","gaming"],
+    "categories": ["devices","shopping","security","photography"],
     "tags": ["qr-code","barcode","checkout","augmented reality","ar","target","surveillance","camera","lens","focus","frame","select","box","boundary","bounds","area","square","dashed"]
   },
   {
@@ -7416,7 +7411,7 @@ export const iconsData: Array<{
   {
     "name": "scissors-line-dashed",
     "categories": ["design","tools"],
-    "tags": ["cut here","along","snip","chop","stationery","crafts","instructions","diagram"]
+    "tags": ["$extends:scissors","cut here","along","instructions","diagram"]
   },
   {
     "name": "scissors",
@@ -7435,8 +7430,8 @@ export const iconsData: Array<{
   },
   {
     "name": "screen-share-off",
-    "categories": ["connectivity","devices","communication"],
-    "tags": ["desktop","disconnect","monitor"]
+    "categories": ["$extends:screen-share"],
+    "tags": ["$extends:screen-share","$group:off","disconnect"]
   },
   {
     "name": "screen-share",
@@ -7450,8 +7445,8 @@ export const iconsData: Array<{
   },
   {
     "name": "scroll-text",
-    "categories": ["gaming","development","text"],
-    "tags": ["paper","log","scripture","document","notes","parchment","list","long","script","story","code","coding"]
+    "categories": ["$extends:scroll"],
+    "tags": ["$extends:scroll"]
   },
   {
     "name": "scroll",
@@ -7460,33 +7455,33 @@ export const iconsData: Array<{
   },
   {
     "name": "search-alert",
-    "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","stop","warning","alert","error","anomaly","lens","locate","explore","discover","enlarge","zoom"]
+    "categories": ["$extends:search"],
+    "tags": ["$extends:search","$group:exclamation-mark","stop","anomaly"]
   },
   {
     "name": "search-check",
-    "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","found","correct","complete","tick","lens","locate","explore","discover","enlarge","zoom"]
+    "categories": ["$extends:search"],
+    "tags": ["$extends:search","$group:check","found"]
   },
   {
     "name": "search-code",
-    "categories": ["text","social","development"],
-    "tags": ["find","scan","magnifier","magnifying glass","grep","chevrons","<>","lens","locate","explore","discover","enlarge","zoom"]
+    "categories": ["$extends:search","development"],
+    "tags": ["$extends:search","$group:code","grep","chevrons","<>"]
   },
   {
     "name": "search-slash",
-    "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","stop","clear","cancel","abort","/","lens","locate","explore","discover","enlarge","zoom"]
+    "categories": ["$extends:search"],
+    "tags": ["$extends:search","stop","clear","cancel","abort","/"]
   },
   {
     "name": "search-x",
-    "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","stop","clear","cancel","abort","lens","locate","explore","discover","enlarge","zoom"]
+    "categories": ["$extends:search"],
+    "tags": ["$extends:search","$group:x","stop"]
   },
   {
     "name": "search",
-    "categories": ["text","social"],
-    "tags": ["find","scan","magnifier","magnifying glass","lens","locate","explore","discover","enlarge","zoom"]
+    "categories": ["text"],
+    "tags": ["$group:search","enlarge"]
   },
   {
     "name": "section",
@@ -7495,8 +7490,8 @@ export const iconsData: Array<{
   },
   {
     "name": "send-horizontal",
-    "categories": ["mail","communication","connectivity"],
-    "tags": ["email","message","mail","paper airplane","paper aeroplane","submit"]
+    "categories": ["$extends:send"],
+    "tags": ["$extends:send"]
   },
   {
     "name": "send-to-back",
@@ -7505,7 +7500,7 @@ export const iconsData: Array<{
   },
   {
     "name": "send",
-    "categories": ["mail","communication","connectivity"],
+    "categories": ["mail","communication"],
     "tags": ["email","message","mail","paper airplane","paper aeroplane","submit"]
   },
   {
@@ -7520,28 +7515,28 @@ export const iconsData: Array<{
   },
   {
     "name": "server-cog",
-    "categories": ["development","devices"],
-    "tags": ["cloud","storage","computing","cog","gear"]
+    "categories": ["$extends:server"],
+    "tags": ["$extends:server","$group:cog","computing"]
   },
   {
     "name": "server-crash",
-    "categories": ["development","devices"],
-    "tags": ["cloud","storage","problem","error"]
+    "categories": ["$extends:server"],
+    "tags": ["$extends:server","problem","error"]
   },
   {
     "name": "server-nas",
-    "categories": ["devices","development"],
-    "tags": ["storage","network","server","backup","raid","files","sharing","disk","hardware","lan","cloud"]
+    "categories": ["$extends:server","files"],
+    "tags": ["$extends:server","network","server","backup","raid","files","sharing","disk","hardware","lan"]
   },
   {
     "name": "server-off",
-    "categories": ["development","devices"],
-    "tags": ["cloud","storage"]
+    "categories": ["$extends:server"],
+    "tags": ["$extends:server","$group:off"]
   },
   {
     "name": "server-plus",
-    "categories": ["development","devices"],
-    "tags": ["add","create","new","cloud","storage","computing"]
+    "categories": ["$extends:server"],
+    "tags": ["$extends:server","$group:plus","computing"]
   },
   {
     "name": "server",
@@ -7550,13 +7545,13 @@ export const iconsData: Array<{
   },
   {
     "name": "settings-2",
-    "categories": ["account"],
-    "tags": ["cog","edit","gear","preferences","slider"]
+    "categories": ["$extends:settings"],
+    "tags": ["$extends:settings","slider"]
   },
   {
     "name": "settings",
     "categories": ["account"],
-    "tags": ["cog","edit","gear","preferences"]
+    "tags": ["$group:cog"]
   },
   {
     "name": "shapes",
@@ -7565,12 +7560,12 @@ export const iconsData: Array<{
   },
   {
     "name": "share-2",
-    "categories": ["account","social"],
-    "tags": ["network","connections"]
+    "categories": ["$extends:share"],
+    "tags": ["$extends:share"]
   },
   {
     "name": "share",
-    "categories": ["account","social"],
+    "categories": ["social"],
     "tags": ["network","connections"]
   },
   {
@@ -7580,7 +7575,7 @@ export const iconsData: Array<{
   },
   {
     "name": "shell",
-    "categories": ["animals","development","nature","science","travel","food-beverage","home"],
+    "categories": ["animals","development","nature","travel"],
     "tags": ["beach","sand","holiday","sea life","fossil","ammonite","biology","ocean","terminal","command line","session","bash","zsh","roll","wrap","chewing gum","bubble gum","sweet","sugar","hosepipe","carpet","string","spiral","spinner","hypnotise","hypnosis"]
   },
   {
@@ -7591,97 +7586,97 @@ export const iconsData: Array<{
   {
     "name": "shield-alert",
     "categories": ["account","security","development","notifications","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","admin","verification","unverified","uncertified","warning","emergency","attention","urgent","alarm","crest","bravery","strength","tough","attacked","damaged","injured","hit","expired","disabled","inactive","error","exclamation mark","!"]
+    "tags": ["$extends:shield","$group:exclamation-mark","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","unprevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","uncertified","emergency","attention","urgent","alarm","attacked","damaged","injured","hit","expired","disabled","inactive"]
   },
   {
     "name": "shield-ban",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","admin","verification","unverified","uncertified","cancel","error","crest","bravery","attacked","damaged","injured","hit","expired","eliminated","disabled","inactive","/"]
+    "tags": ["$extends:shield","$group:off","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","stopped","intercepted","interception","saved","thwarted","unprevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","uncertified","error","attacked","damaged","injured","hit","expired","eliminated"]
   },
   {
     "name": "shield-check",
     "categories": ["account","security","development","gaming"],
-    "tags": ["cybersecurity","secured","safety","protection","protected","guardian","guarded","armored","armoured","defense","defence","defended","blocked","threat","prevention","prevented","antivirus","vigilance","vigilant","active","activated","enabled","detection","scanned","found","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audited","admin","verification","verified","certification","certified","tested","passed","qualified","cleared","cleaned","disinfected","uninfected","task","completed","todo","done","ticked","checked","crest","bravery"]
+    "tags": ["$extends:shield","$group:check","secured","guarded","defended","blocked","prevented","active","activated","enabled","scanned","found","audited","certification","certified","tested","passed","qualified","cleared","cleaned","disinfected","uninfected","checked"]
   },
   {
     "name": "shield-cog-corner",
-    "categories": ["account","security","development","gaming","shapes"],
-    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","shield cog","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
+    "categories": ["$extends:shield-cog"],
+    "tags": ["$extends:shield-cog","shield cog"]
   },
   {
     "name": "shield-cog",
-    "categories": ["account","security","development","gaming","shapes"],
-    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
+    "categories": ["$extends:shield"],
+    "tags": ["$extends:shield","$group:cog"]
   },
   {
     "name": "shield-ellipsis",
     "categories": ["account","security","development","gaming"],
-    "tags": ["cybersecurity","securing","protecting","guarding","armoring","armouring","defending","blocking","preventing","antivirus","detecting","scanning","finding","auditing","admin","verifying","crest","upgrading","loader","loading","throbber","progress","dots","more","etc","...","…"]
+    "tags": ["$extends:shield","securing","protecting","guarding","armoring","armouring","defending","blocking","preventing","detecting","scanning","finding","auditing","verifying","upgrading","loader","loading","throbber","progress","dots","more","etc","...","…"]
   },
   {
     "name": "shield-half",
     "categories": ["account","security","development","gaming"],
-    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","logo","sigil","flag","team","faction","fraternity","university","college","academy","school","education","uniform","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","ranking","army","cadet","scout"]
+    "tags": ["$extends:shield","logo","sigil","flag","team","faction","fraternity","university","college","academy","school","education","uniform","ranking"]
   },
   {
     "name": "shield-house",
-    "categories": ["account","security","development","home","connectivity"],
-    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","property","household","connectivity","building","residence"]
+    "categories": ["security","development","home","connectivity"],
+    "tags": ["$extends:shield","property","household","connectivity","building","residence"]
   },
   {
     "name": "shield-keyhole",
-    "categories": ["account","security","development","files"],
-    "tags": ["cybersecurity","secure","safety","protection","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","trooper","pawn"]
+    "categories": ["account","security","development"],
+    "tags": ["$extends:shield"]
   },
   {
     "name": "shield-lock",
-    "categories": ["security"],
-    "tags": ["antivirus","authentication","authorization","credentials","cybersecurity","data protection","defense","encryption","guard","login","password","privacy","safeguard","ssl","tls","two-factor authentication","verification","vpn"]
+    "categories": ["security","account"],
+    "tags": ["$extends:shield","$group:lock","authentication","credentials","data protection","encryption","login","ssl","tls","two-factor authentication","vpn"]
   },
   {
     "name": "shield-minus",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshield","cybersecurity","unsecure","unguard","unblock","antivirus","clean","clear","disinfect","patch","fix","stop","cancel","remove","relax","admin","crest","bravery","weakened","damaged","hit","unarm","disable","deactivate","decommission","downgraded","minimum","-"]
+    "tags": ["$extends:shield","$group:minus","unshield","unsecure","unguard","unblock","clean","disinfect","patch","fix","stop","relax","weakened","damaged","hit","unarm","disable","deactivate","decommission","downgraded","minimum"]
   },
   {
     "name": "shield-off",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","interception","threat","prevention","unprevented","antivirus","detection","undetected","exploit","vulnerability","vulnerable","weakness","infected","infection","compromised","data leak","unaudited","admin","verification","unverified","inactive","cancelled","error","crest","bravery","damaged","injured","hit","expired","eliminated"]
+    "tags": ["$extends:shield","$group:off","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","interception","unprevented","undetected","exploit","vulnerability","vulnerable","weakness","infected","infection","compromised","data leak","unaudited","unverified","error","damaged","injured","hit","expired","eliminated"]
   },
   {
     "name": "shield-plus",
     "categories": ["account","security","development","gaming","medical"],
-    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","extra","added","professional","enterprise","full","maximum","upgraded","ultra","activate","enable","audit","admin","verification","crest","medic","+"]
+    "tags": ["$extends:shield","$group:plus","professional","enterprise","full","maximum","upgraded","ultra","activate","enable","medic"]
   },
   {
     "name": "shield-question-mark",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","threat","prevention","unprevented","antivirus","vigilance","vigilant","detection","undetected","scan","find","exploit","vulnerability","vulnerable","weakness","infection","compromised","data leak","audit","admin","verification","unverified","uncertified","uncertain","unknown","inactive","crest","question mark","?"]
+    "tags": ["$extends:shield","$group:question-mark","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","unprevented","undetected","exploit","vulnerability","vulnerable","weakness","infection","compromised","data leak","unverified","uncertified","inactive"]
   },
   {
     "name": "shield-user",
     "categories": ["account","security","development"],
-    "tags": ["shield","user","admin","protection","protected","safety","guard"]
+    "tags": ["$extends:shield","$group:user"]
   },
   {
     "name": "shield-x",
     "categories": ["account","security","development","gaming"],
-    "tags": ["unshielded","cybersecurity","insecure","unsecured","safety","unsafe","protection","unprotected","guardian","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","defender","blocked","stopped","intercepted","interception","saved","thwarted","threat","prevention","prevented","antivirus","vigilance","vigilant","detection","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","admin","verification","unverified","inactive","cancel","error","wrong","false","crest","bravery","attacked","damaged","injured","hit","dead","deceased","expired","eliminated","exterminated"]
+    "tags": ["$extends:shield","$group:x","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","prevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","inactive","error","wrong","false","attacked","damaged","injured","hit","dead","deceased","expired","eliminated","exterminated"]
   },
   {
     "name": "shield",
-    "categories": ["account","security","development","gaming","shapes"],
-    "tags": ["cybersecurity","secure","safety","protection","guardian","armored","armoured","defense","defence","defender","block","threat","prevention","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
+    "categories": ["account","security","development","gaming"],
+    "tags": ["$group:shield","armored","armoured","block","threat","antivirus","vigilance","vigilant","detection","scan","find","strength","strong","tough","invincible","invincibility","invulnerable","undamaged","audit","admin","verification","crest","bravery","knight","foot soldier","infantry","trooper","pawn","battle","war","military","army","cadet","scout"]
   },
   {
     "name": "ship-cargo",
-    "categories": ["transportation","navigation","travel"],
-    "tags": ["boat","knots","nautical mile","maritime","sailing","cruise","ocean liner","tanker","vessel","navy","cargo","container","freighter","freight","shipping","port","harbor","dock","logistics","import","export"]
+    "categories": ["$extends:ship"],
+    "tags": ["$extends:ship","cargo","container","freighter","freight","shipping","port","harbor","dock","logistics","import","export"]
   },
   {
     "name": "ship-wheel",
-    "categories": ["transportation","navigation","travel"],
-    "tags": ["steering","rudder","boat","knots","nautical mile","maritime","sailing","yacht","cruise","ocean liner","tanker","vessel","navy","trip"]
+    "categories": ["$extends:ship"],
+    "tags": ["$extends:ship","steering","rudder"]
   },
   {
     "name": "ship",
@@ -7705,13 +7700,13 @@ export const iconsData: Array<{
   },
   {
     "name": "shopping-cart-minus",
-    "categories": ["shopping"],
-    "tags": ["trolley","cart","basket","e-commerce","ecommerce","store","purchase","products","items","checkout","order","retail","remove","decrease","quantity","subtract"]
+    "categories": ["$extends:shopping-cart"],
+    "tags": ["$extends:shopping-cart","$group:minus","ecommerce","checkout","order","retail","decrease","quantity"]
   },
   {
     "name": "shopping-cart-plus",
-    "categories": ["shopping"],
-    "tags": ["trolley","cart","basket","e-commerce","ecommerce","store","purchase","products","items","checkout","order","retail","add","increase","quantity","buy"]
+    "categories": ["$extends:shopping-cart"],
+    "tags": ["$extends:shopping-cart","$group:plus","ecommerce","checkout","order","retail","quantity","buy"]
   },
   {
     "name": "shopping-cart",
@@ -7730,13 +7725,13 @@ export const iconsData: Array<{
   },
   {
     "name": "shredder",
-    "categories": ["mail","files"],
-    "tags": ["file","paper","tear","cut","delete","destroy","remove","erase","document","destruction","secure","security","confidential","data","trash","dispose","disposal","information","waste","permanent"]
+    "categories": ["files","security"],
+    "tags": ["$group:minus","file","paper","tear","cut","destroy","document","destruction","secure","security","confidential","data","trash","dispose","disposal","information","waste","permanent"]
   },
   {
     "name": "shrimp-off",
-    "categories": ["animals","food-beverage"],
-    "tags": ["marine","creature","fisherman","ocean","fresh","cuisine","marine-life","seafood","shellfish","crustacean","prawn","scallop","whelk","arthropod","littleneck","quahog","allergy","intolerance","diet"]
+    "categories": ["$extends:shrimp"],
+    "tags": ["$extends:shrimp","$group:off","allergy","intolerance","diet"]
   },
   {
     "name": "shrimp",
@@ -7761,27 +7756,27 @@ export const iconsData: Array<{
   {
     "name": "sigma",
     "categories": ["letters-digits","text","math","science"],
-    "tags": ["sum","calculate","formula","math","enumeration","enumerate"]
+    "tags": ["$group:letter","sum","calculate","formula","math","enumeration","enumerate"]
   },
   {
     "name": "signal-high",
-    "categories": ["connectivity"],
-    "tags": ["connection","wireless","gsm","phone","2g","3g","4g","5g"]
+    "categories": ["$extends:signal"],
+    "tags": ["$extends:signal"]
   },
   {
     "name": "signal-low",
-    "categories": ["connectivity"],
-    "tags": ["connection","wireless","gsm","phone","2g","3g","4g","5g"]
+    "categories": ["$extends:signal"],
+    "tags": ["$extends:signal"]
   },
   {
     "name": "signal-medium",
-    "categories": ["connectivity"],
-    "tags": ["connection","wireless","gsm","phone","2g","3g","4g","5g"]
+    "categories": ["$extends:signal"],
+    "tags": ["$extends:signal"]
   },
   {
     "name": "signal-zero",
-    "categories": ["connectivity"],
-    "tags": ["connection","wireless","gsm","phone","2g","3g","4g","5g","lost"]
+    "categories": ["$extends:signal"],
+    "tags": ["$extends:signal","lost"]
   },
   {
     "name": "signal",
@@ -7795,27 +7790,27 @@ export const iconsData: Array<{
   },
   {
     "name": "signpost-big",
-    "categories": ["arrows","navigation","development","gaming"],
-    "tags": ["bidirectional","left","right","east","west"]
+    "categories": ["$extends:signpost"],
+    "tags": ["$extends:signpost"]
   },
   {
     "name": "signpost",
-    "categories": ["arrows","navigation","development","gaming"],
-    "tags": ["navigation","direction","arrow","wayfinding","guide","location","pointer","route","indicator","marker","bidirectional","left","right","east","west"]
+    "categories": ["arrows","navigation"],
+    "tags": ["navigation","direction","arrow","wayfinding","guide","location","pointer","route","indicator","marker","bidirectional","left","right","east","west","milestone","checkpoint"]
   },
   {
     "name": "siren-off",
-    "categories": ["medical"],
-    "tags": ["police","ambulance","emergency","security","alert","alarm","light","disabled","mute","silent","silence","inactive"]
+    "categories": ["$extends:siren"],
+    "tags": ["$extends:siren","$group:off","mute","silent","silence"]
   },
   {
     "name": "siren",
-    "categories": ["medical"],
+    "categories": ["medical","notifications"],
     "tags": ["police","ambulance","emergency","security","alert","alarm","light"]
   },
   {
     "name": "sixteenth-notes",
-    "categories": ["multimedia","files"],
+    "categories": ["multimedia"],
     "tags": ["audio","music","sound","notes","semiquavers"]
   },
   {
@@ -7855,22 +7850,22 @@ export const iconsData: Array<{
   },
   {
     "name": "smartphone-charging",
-    "categories": ["connectivity","devices"],
-    "tags": ["phone","cellphone","device","power","screen"]
+    "categories": ["$extends:smartphone"],
+    "tags": ["$extends:smartphone","power"]
   },
   {
     "name": "smartphone-nfc",
-    "categories": ["communication","finance","devices"],
-    "tags": ["contactless","payment","near-field communication","screen"]
+    "categories": ["finance","devices","connectivity"],
+    "tags": ["$extends:smartphone","contactless","payment","near-field communication"]
   },
   {
     "name": "smartphone-user-round",
     "categories": ["account","devices","people"],
-    "tags": ["phone","cellphone","device","mobile","person","profile","account","avatar","contact","identity","owner","authentication"]
+    "tags": ["$extends:smartphone","$group:user","avatar","owner","authentication"]
   },
   {
     "name": "smartphone",
-    "categories": ["connectivity","devices"],
+    "categories": ["devices"],
     "tags": ["phone","cellphone","device","mobile","screen","display","touchscreen","portable","responsive"]
   },
   {
@@ -7895,7 +7890,7 @@ export const iconsData: Array<{
   },
   {
     "name": "solar-panel",
-    "categories": ["home","science","sustainability","weather"],
+    "categories": ["home","science","sustainability"],
     "tags": ["solar panel","solar","panel","sun","energy","electricity","light"]
   },
   {
@@ -7916,12 +7911,12 @@ export const iconsData: Array<{
   {
     "name": "sparkle",
     "categories": ["shapes"],
-    "tags": ["star","effect","filter","night","magic","shiny","glitter","twinkle","celebration"]
+    "tags": ["$group:sparkles","effect","filter","night","celebration"]
   },
   {
     "name": "sparkles",
-    "categories": ["cursors","multimedia","gaming","weather"],
-    "tags": ["stars","effect","filter","night","magic"]
+    "categories": ["multimedia","gaming"],
+    "tags": ["$group:sparkles","effect","filter","night"]
   },
   {
     "name": "speaker",
@@ -7935,18 +7930,18 @@ export const iconsData: Array<{
   },
   {
     "name": "spell-check-2",
-    "categories": ["letters-digits","text","development"],
-    "tags": ["spelling","error","mistake","oversight","typo","correction","code","linter","a"]
+    "categories": ["$extends:spell-check"],
+    "tags": ["$extends:spell-check"]
   },
   {
     "name": "spell-check",
-    "categories": ["letters-digits","text","development"],
-    "tags": ["spelling","error","mistake","oversight","typo","correction","code","linter","a"]
+    "categories": ["text","development"],
+    "tags": ["$group:letter","$group:check","spelling","error","mistake","oversight","typo","correction","code","linter","a"]
   },
   {
     "name": "spline-pointer",
-    "categories": ["arrows","cursors","design","tools"],
-    "tags": ["path","tool","curve","node","click","pointer","target","vector"]
+    "categories": ["$extends:spline","cursors"],
+    "tags": ["$extends:spline","node","click","pointer","target","vector"]
   },
   {
     "name": "spline",
@@ -7960,7 +7955,7 @@ export const iconsData: Array<{
   },
   {
     "name": "spool",
-    "categories": ["communication","tools","social"],
+    "categories": ["tools"],
     "tags": ["bobbin","spindle","yarn","thread","string","sewing","needlework"]
   },
   {
@@ -7970,7 +7965,7 @@ export const iconsData: Array<{
   },
   {
     "name": "spotlight",
-    "categories": ["devices","photography","multimedia","communication"],
+    "categories": ["devices","photography","multimedia"],
     "tags": ["winner","soapbox","stage","entertainment","drama","podium","actor","actress","singer","light","beam","play","theatre","show","focus","concert","performance","lens","leaderboard","follow spot","best","highlight"]
   },
   {
@@ -7980,7 +7975,7 @@ export const iconsData: Array<{
   },
   {
     "name": "sprout",
-    "categories": ["nature","gaming","sustainability"],
+    "categories": ["nature","sustainability","seasons"],
     "tags": ["eco","green","growth","leaf","nature","plant","seed","spring","sustainability"]
   },
   {
@@ -7990,73 +7985,73 @@ export const iconsData: Array<{
   },
   {
     "name": "square-arrow-down-left",
-    "categories": ["arrows","gaming"],
-    "tags": ["direction","south-west","diagonal","sign","turn","keyboard","button"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down-left","sign","keyboard","button","turn"]
   },
   {
     "name": "square-arrow-down-right",
-    "categories": ["arrows","gaming"],
-    "tags": ["direction","south-east","diagonal","sign","turn","keyboard","button"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down-right","sign","keyboard","button","turn"]
   },
   {
     "name": "square-arrow-down",
-    "categories": ["arrows","gaming"],
-    "tags": ["backwards","reverse","direction","south","sign","keyboard","button"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse","sign","keyboard","button"]
   },
   {
     "name": "square-arrow-left",
     "categories": ["arrows"],
-    "tags": ["previous","back","direction","west","sign","keyboard","button","<-"]
+    "tags": ["$group:direction-left","$group:navigation-previous","previous","sign","keyboard","button","<-"]
   },
   {
     "name": "square-arrow-out-down-left",
     "categories": ["arrows"],
-    "tags": ["outwards","direction","south-west","diagonal"]
+    "tags": ["$group:direction-down-left","outwards"]
   },
   {
     "name": "square-arrow-out-down-right",
     "categories": ["arrows"],
-    "tags": ["outwards","direction","south-east","diagonal"]
+    "tags": ["$group:direction-down-right","outwards"]
   },
   {
     "name": "square-arrow-out-up-left",
     "categories": ["arrows"],
-    "tags": ["outwards","direction","north-west","diagonal"]
+    "tags": ["$group:direction-up-left","outwards"]
   },
   {
     "name": "square-arrow-out-up-right",
     "categories": ["arrows","social"],
-    "tags": ["outwards","direction","north-east","diagonal","share","open","external","link"]
+    "tags": ["$group:direction-up-right","outwards","share","open","external","link"]
   },
   {
     "name": "square-arrow-right-enter",
-    "categories": ["arrows","shapes","layout","multimedia"],
-    "tags": ["left","in","inside","input","insert","source","import","place","->"]
+    "categories": ["$extends:square-arrow-right","account"],
+    "tags": ["$group:direction-right","left","in","inside","input","insert","source","import","place","->"]
   },
   {
     "name": "square-arrow-right-exit",
-    "categories": ["arrows","shapes","layout","multimedia"],
-    "tags": ["out","outside","output","export","->"]
+    "categories": ["$extends:square-arrow-right","account"],
+    "tags": ["$group:direction-right","out","outside","output","export","->"]
   },
   {
     "name": "square-arrow-right",
     "categories": ["arrows"],
-    "tags": ["next","forward","direction","west","sign","keyboard","button","->"]
+    "tags": ["$group:direction-right","$group:navigation-next","next","west","sign","keyboard","button","->"]
   },
   {
     "name": "square-arrow-up-left",
     "categories": ["arrows"],
-    "tags": ["direction","north-west","diagonal","sign","keyboard","button"]
+    "tags": ["$group:direction-up-left","sign","keyboard","button"]
   },
   {
     "name": "square-arrow-up-right",
     "categories": ["arrows","social"],
-    "tags": ["direction","north-east","diagonal","sign","keyboard","button","share"]
+    "tags": ["$group:direction-up-right","sign","keyboard","button","share"]
   },
   {
     "name": "square-arrow-up",
     "categories": ["arrows"],
-    "tags": ["forward","direction","north","sign","keyboard","button"]
+    "tags": ["$group:direction-up","$group:navigation-previous","forward","sign","keyboard","button"]
   },
   {
     "name": "square-asterisk",
@@ -8085,38 +8080,38 @@ export const iconsData: Array<{
   },
   {
     "name": "square-chart-gantt",
-    "categories": ["charts","time","development","design"],
+    "categories": ["charts","time","development"],
     "tags": ["projects","manage","overview","roadmap","plan","intentions","timeline","deadline","date","event","range","period","productivity","work","agile","code","coding","toolbar","button"]
   },
   {
     "name": "square-check-big",
-    "categories": ["notifications"],
-    "tags": ["done","todo","tick","complete","task"]
+    "categories": ["$extends:square-check"],
+    "tags": ["$extends:square-check"]
   },
   {
     "name": "square-check",
     "categories": ["notifications"],
-    "tags": ["done","todo","tick","complete","task"]
+    "tags": ["$group:check"]
   },
   {
     "name": "square-chevron-down",
-    "categories": ["arrows","navigation"],
-    "tags": ["back","menu","panel"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down","$group:navigation-next","back","menu","panel"]
   },
   {
     "name": "square-chevron-left",
-    "categories": ["arrows","navigation"],
-    "tags": ["back","previous","less than","fewer","menu","panel","button","keyboard","<"]
+    "categories": ["arrows"],
+    "tags": ["$group:direction-left","$group:navigation-previous","previous","less than","fewer","menu","panel","button","keyboard","<"]
   },
   {
     "name": "square-chevron-right",
-    "categories": ["arrows","navigation","development"],
-    "tags": ["forward","next","more than","greater","menu","panel","code","coding","command line","terminal","prompt","shell","console",">"]
+    "categories": ["arrows","development"],
+    "tags": ["$group:direction-right","$group:navigation-next","next","more than","greater","menu","panel","code","coding","command line","terminal","prompt","shell","console",">"]
   },
   {
     "name": "square-chevron-up",
-    "categories": ["arrows","navigation","math"],
-    "tags": ["caret","keyboard","button","mac","control","ctrl","superscript","exponential","power","ahead","menu","panel","^"]
+    "categories": ["arrows","math"],
+    "tags": ["$group:direction-up","$group:navigation-previous","caret","keyboard","button","mac","control","ctrl","superscript","exponential","power","ahead","menu","panel","^"]
   },
   {
     "name": "square-chevrons-down",
@@ -8141,12 +8136,12 @@ export const iconsData: Array<{
   {
     "name": "square-code",
     "categories": ["text","development"],
-    "tags": ["gist","source","programming","html","xml","coding"]
+    "tags": ["$group:code","gist","source","html","xml"]
   },
   {
     "name": "square-dashed-bottom-code",
-    "categories": ["development","files"],
-    "tags": ["rectangle","aspect ratio","1:1","shape","snippet","code","coding"]
+    "categories": ["$extends:square-dashed-bottom"],
+    "tags": ["$extends:square-dashed-bottom","$group:code"]
   },
   {
     "name": "square-dashed-bottom",
@@ -8155,18 +8150,18 @@ export const iconsData: Array<{
   },
   {
     "name": "square-dashed-kanban",
-    "categories": ["charts","development","design"],
+    "categories": ["charts","development"],
     "tags": ["projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","draft","template","boilerplate","code","coding"]
   },
   {
     "name": "square-dashed-mouse-pointer",
-    "categories": ["arrows","cursors","development","tools"],
+    "categories": ["cursors","development"],
     "tags": ["inspector","element","mouse","click","pointer","box","browser","selector","target","dom","node"]
   },
   {
     "name": "square-dashed-plus",
-    "categories": ["design","layout","shapes"],
-    "tags": ["selection","select","add","new","placeholder","marquee","box","dashed","plus","insert","frame","empty"]
+    "categories": ["design","layout"],
+    "tags": ["$extends:square-dashed","$group:plus","select","placeholder","frame","empty"]
   },
   {
     "name": "square-dashed-text",
@@ -8176,21 +8171,21 @@ export const iconsData: Array<{
   {
     "name": "square-dashed-top-solid",
     "categories": ["design","development","layout"],
-    "tags": ["square","border","width","layout","style","design","rectangular","marquee","dashed","box","rectangle","aspect ratio","1:1"]
+    "tags": ["$extends:square-dashed","border","width","layout","style","design","rectangle","aspect ratio","1:1"]
   },
   {
     "name": "square-dashed-x-corner",
-    "categories": ["design","development","layout"],
-    "tags": ["deselect","unselect","delete","select","selection","border","width","layout","style","design","rectangular","marquee","box","rectangle","aspect ratio","1:1"]
+    "categories": ["$extends:square-dashed-x"],
+    "tags": ["$extends:square-dashed-x"]
   },
   {
     "name": "square-dashed-x",
     "categories": ["design","development","layout"],
-    "tags": ["deselect","unselect","delete","select","selection","border","width","layout","style","design","rectangular","marquee","box","rectangle","aspect ratio","1:1"]
+    "tags": ["$extends:square-dashed","$group:x","deselect","unselect","select","border","width","layout","style","design","rectangle","aspect ratio","1:1"]
   },
   {
     "name": "square-dashed",
-    "categories": ["text","design"],
+    "categories": ["design","cursors"],
     "tags": ["selection","square","rectangular","marquee","tool","dashed","box"]
   },
   {
@@ -8215,13 +8210,13 @@ export const iconsData: Array<{
   },
   {
     "name": "square-exclamation-point",
-    "categories": ["notifications","shapes"],
-    "tags": ["warning","alert","danger","exclamation mark","rectangle","square","notification","attention","important","caution"]
+    "categories": ["notifications"],
+    "tags": ["$group:exclamation-mark","rectangle","square","notification","attention","important"]
   },
   {
     "name": "square-function",
     "categories": ["letters-digits","development","math"],
-    "tags": ["programming","code","automation","math"]
+    "tags": ["$group:letter","programming","code","automation","math"]
   },
   {
     "name": "square-kanban-plus",
@@ -8230,147 +8225,147 @@ export const iconsData: Array<{
   },
   {
     "name": "square-kanban",
-    "categories": ["charts","development","design"],
+    "categories": ["charts","development"],
     "tags": ["projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","code","coding","toolbar","button"]
   },
   {
     "name": "square-letter-a",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance","text","font","typography"]
+    "tags": ["$group:letter","uppercase","grade","rating","accessibility","blood type","audio","ampere","electricity","appearance"]
   },
   {
     "name": "square-letter-b",
     "categories": ["letters-digits"],
-    "tags": ["strong","emphasis","format","alphabet","character","uppercase","bold","blood type","byte","computing","b-side","bus","transit","text","font","typography"]
+    "tags": ["strong","emphasis","format","$group:letter","uppercase","bold","blood type","byte","computing","b-side","bus","transit"]
   },
   {
     "name": "square-letter-c",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","celsius","temperature","carbon","chemistry","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","celsius","temperature","carbon","chemistry","grade","rating"]
   },
   {
     "name": "square-letter-d",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","drive","gear","diameter","measurement","vitamin","grade","rating"]
   },
   {
     "name": "square-letter-e",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","explicit","content rating","east","empty","energy","grade","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","explicit","content rating","east","empty","energy","grade","rating"]
   },
   {
     "name": "square-letter-f",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera","text","font","typography"]
+    "tags": ["$group:letter","uppercase","fahrenheit","temperature","female","fail","grade","rating","force","aperture","f-stop","camera"]
   },
   {
     "name": "square-letter-g",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","gravity","g-force","gram","measurement","text","font","typography"]
+    "tags": ["$group:letter","uppercase","gravity","g-force","gram","measurement"]
   },
   {
     "name": "square-letter-h",
     "categories": ["letters-digits"],
-    "tags": ["h1","html","markup","markdown","alphabet","character","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement","text","font","typography"]
+    "tags": ["h1","html","markup","markdown","$group:letter","uppercase","heading","hospital","hydrogen","chemistry","hour","time","height","measurement"]
   },
   {
     "name": "square-letter-i",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","information","help","input","current","electricity","text","font","typography"]
+    "tags": ["$group:letter","uppercase","information","help","input","current","electricity"]
   },
   {
     "name": "square-letter-j",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","joule","energy","java","javascript","code","text","font","typography"]
+    "tags": ["$group:letter","uppercase","joule","energy","java","javascript","code"]
   },
   {
     "name": "square-letter-k",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","thousand","kilo","kelvin","temperature","potassium","chemistry"]
   },
   {
     "name": "square-letter-l",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","learner","driver","litre","left","length","measurement","text","font","typography"]
+    "tags": ["$group:letter","uppercase","learner","driver","litre","left","length","measurement"]
   },
   {
     "name": "square-letter-m",
     "categories": ["letters-digits","transportation","navigation"],
-    "tags": ["metro","subway","underground","track","line","alphabet","character","uppercase","million","mega","metre","measurement","male","medium","size","text","font","typography"]
+    "tags": ["metro","subway","underground","track","line","$group:letter","uppercase","million","mega","metre","measurement","male","medium","size"]
   },
   {
     "name": "square-letter-n",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics","text","font","typography"]
+    "tags": ["$group:letter","uppercase","north","neutral","gear","new","nitrogen","chemistry","newton","force","sample size","statistics"]
   },
   {
     "name": "square-letter-o",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","oxygen","chemistry","blood type","off","zero","marker","text","font","typography"]
+    "tags": ["$group:letter","uppercase","oxygen","chemistry","blood type","off","zero","marker"]
   },
   {
     "name": "square-letter-p-off",
-    "categories": ["letters-digits","transportation","navigation"],
-    "tags": ["parking lot","car park","no parking"]
+    "categories": ["$extends:square-letter-p"],
+    "tags": ["$extends:square-letter-p","$group:off","no parking"]
   },
   {
     "name": "square-letter-p",
     "categories": ["letters-digits","transportation","navigation"],
-    "tags": ["parking lot","car park","alphabet","character","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math","text","font","typography"]
+    "tags": ["parking lot","car park","$group:letter","uppercase","parking","phosphorus","chemistry","p-value","statistics","piano","soft","music","page","probability","math"]
   },
   {
     "name": "square-letter-q",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","question","help","queue","charge","electricity","quality","rating","text","font","typography"]
+    "tags": ["$group:letter","uppercase","question","help","queue","charge","electricity","quality","rating"]
   },
   {
     "name": "square-letter-r",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review","text","font","typography"]
+    "tags": ["$group:letter","uppercase","registered trademark","trademark","right","reverse","gear","resistance","electricity","radius","geometry","rating","review"]
   },
   {
     "name": "square-letter-s",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity","text","font","typography"]
+    "tags": ["$group:letter","uppercase","south","small","size","second","time","sulfur","chemistry","save","siemens","electricity"]
   },
   {
     "name": "square-letter-t",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","tesla","magnetism","temperature","tonne","measurement","time","text","font","typography"]
+    "tags": ["$group:letter","uppercase","tesla","magnetism","temperature","tonne","measurement","time"]
   },
   {
     "name": "square-letter-u",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","rack unit","server","equipment","uranium","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","rack unit","server","equipment","uranium","chemistry"]
   },
   {
     "name": "square-letter-v",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video","text","font","typography"]
+    "tags": ["$group:letter","uppercase","voltage","volt","electricity","volume","victory","success","vegan","vegetarian","video"]
   },
   {
     "name": "square-letter-w",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win","text","font","typography"]
+    "tags": ["$group:letter","uppercase","watt","power","west","width","measurement","tungsten","chemistry","win"]
   },
   {
     "name": "square-letter-x",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome","text","font","typography"]
+    "tags": ["$group:letter","uppercase","close","dismiss","multiply","math","unknown","variable","x-axis","axis","intersection","cross","chromosome"]
   },
   {
     "name": "square-letter-y",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","y-axis","axis","yes","confirm","year","time","chromosome","text","font","typography"]
+    "tags": ["$group:letter","uppercase","y-axis","axis","yes","confirm","year","time","chromosome"]
   },
   {
     "name": "square-letter-z",
     "categories": ["letters-digits"],
-    "tags": ["alphabet","character","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry","text","font","typography"]
+    "tags": ["$group:letter","uppercase","z-axis","axis","sleep","rest","impedance","electricity","atomic number","chemistry"]
   },
   {
     "name": "square-library",
-    "categories": ["text","photography","multimedia","navigation","development"],
+    "categories": ["$extends:library"],
     "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package"]
   },
   {
@@ -8380,38 +8375,38 @@ export const iconsData: Array<{
   },
   {
     "name": "square-minus",
-    "categories": ["math","development","text","tools","devices"],
-    "tags": ["subtract","remove","decrease","reduce","calculator","button","keyboard","line","divider","separator","horizontal rule","hr","html","markup","markdown","---","toolbar","operator","code","coding","minimum","downgrade"]
+    "categories": ["math","development","text"],
+    "tags": ["$group:minus","decrease","calculator","button","keyboard","line","divider","separator","horizontal rule","hr","html","markup","markdown","---","toolbar","operator","code","coding","minimum","downgrade"]
   },
   {
     "name": "square-mouse-pointer",
-    "categories": ["arrows","cursors","development","tools"],
+    "categories": ["cursors","development"],
     "tags": ["inspector","element","mouse","click","pointer","box","browser","selector","target","dom","node"]
   },
   {
     "name": "square-off",
     "categories": ["shapes","design"],
-    "tags": ["/","not","slash","off","disabled","inactive","cancel","none","block","forbidden","unavailable","stopped","checkbox","unchecked","toggle","negation","form","ui"]
+    "tags": ["$group:off","not","none","stopped","checkbox","unchecked","toggle","negation","form","ui"]
   },
   {
     "name": "square-pause",
     "categories": ["multimedia"],
-    "tags": ["music","audio","stop"]
+    "tags": ["$group:pause","music","audio"]
   },
   {
     "name": "square-pen",
     "categories": ["text"],
-    "tags": ["pencil","edit","change","create","draw","sketch","draft","writer","writing","biro","ink","marker","felt tip","stationery","artist"]
+    "tags": ["$group:pen","biro","ink","marker","felt tip","stationery","artist"]
   },
   {
     "name": "square-percent",
     "categories": ["social","finance","shopping","math"],
-    "tags": ["verified","unverified","sale","discount","offer","marketing","sticker","price tag"]
+    "tags": ["$group:percent","verified","unverified","sticker"]
   },
   {
     "name": "square-pi",
     "categories": ["letters-digits","development","math"],
-    "tags": ["constant","code","coding","programming","symbol","trigonometry","geometry","formula"]
+    "tags": ["$group:letter","constant","code","coding","programming","symbol","trigonometry","geometry","formula"]
   },
   {
     "name": "square-pilcrow",
@@ -8420,17 +8415,17 @@ export const iconsData: Array<{
   },
   {
     "name": "square-play",
-    "categories": ["arrows","multimedia"],
-    "tags": ["music","audio","video","start","run"]
+    "categories": ["multimedia"],
+    "tags": ["$group:play","music","audio","video"]
   },
   {
     "name": "square-plus",
-    "categories": ["math","tools","development","text"],
-    "tags": ["add","new","increase","increment","positive","calculate","calculator","button","keyboard","toolbar","maximum","upgrade","extra","operator","join","concatenate","code","coding","+"]
+    "categories": ["math","development","text"],
+    "tags": ["$group:plus","positive","calculate","calculator","button","keyboard","toolbar","maximum","upgrade","operator","join","concatenate","code","coding"]
   },
   {
     "name": "square-power",
-    "categories": ["connectivity"],
+    "categories": ["devices"],
     "tags": ["on","off","device","switch","toggle","binary","boolean","reboot","restart","button","keyboard","troubleshoot"]
   },
   {
@@ -8451,7 +8446,7 @@ export const iconsData: Array<{
   {
     "name": "square-sigma",
     "categories": ["letters-digits","text","math"],
-    "tags": ["sum","calculate","formula","math","enumeration","enumerate"]
+    "tags": ["$group:letter","sum","calculate","formula","math","enumeration","enumerate"]
   },
   {
     "name": "square-slash",
@@ -8460,8 +8455,8 @@ export const iconsData: Array<{
   },
   {
     "name": "square-sparkles",
-    "categories": ["photography","text","multimedia","files"],
-    "tags": ["picture","photo","sparkles"]
+    "categories": ["photography","multimedia"],
+    "tags": ["$group:sparkles","picture","photo"]
   },
   {
     "name": "square-split-horizontal",
@@ -8486,12 +8481,12 @@ export const iconsData: Array<{
   {
     "name": "square-star",
     "categories": ["sports","gaming"],
-    "tags": ["badge","medal","honour","decoration","order","pin","laurel","trophy","medallion","insignia","bronze","silver","gold"]
+    "tags": ["$group:star","badge","medal","honour","decoration","order","pin","laurel","trophy","medallion","insignia","bronze","silver","gold"]
   },
   {
     "name": "square-stop",
     "categories": ["multimedia"],
-    "tags": ["media","music"]
+    "tags": ["$group:stop","media","music"]
   },
   {
     "name": "square-terminal",
@@ -8500,23 +8495,23 @@ export const iconsData: Array<{
   },
   {
     "name": "square-text",
-    "categories": ["text","shapes","development"],
+    "categories": ["text","layout"],
     "tags": ["text","paragraph","content","note","document","body","copy","article","square","container","block","card","placeholder","log","page","paper","sheet","list","script","code","editor"]
   },
   {
     "name": "square-user-round",
-    "categories": ["account"],
-    "tags": ["person","account","contact"]
+    "categories": ["$extends:square-user"],
+    "tags": ["$extends:square-user"]
   },
   {
     "name": "square-user",
     "categories": ["account"],
-    "tags": ["person","account","contact"]
+    "tags": ["$group:user"]
   },
   {
     "name": "square-x",
     "categories": ["math","notifications"],
-    "tags": ["cancel","close","delete","remove","times","clear","math","multiply","multiplication"]
+    "tags": ["$group:x","math","multiply","multiplication"]
   },
   {
     "name": "square",
@@ -8545,8 +8540,8 @@ export const iconsData: Array<{
   },
   {
     "name": "squircle-dashed",
-    "categories": ["development","shapes","design"],
-    "tags": ["shape","pending","progress","issue","draft","code","coding","version control"]
+    "categories": ["$extends:squircle","development","design"],
+    "tags": ["$extends:squircle","pending","progress","issue","draft","code","coding","version control"]
   },
   {
     "name": "squircle",
@@ -8560,43 +8555,43 @@ export const iconsData: Array<{
   },
   {
     "name": "stamp",
-    "categories": ["design","cursors","tools"],
+    "categories": ["design","tools"],
     "tags": ["mark","print","clone","loyalty","library"]
   },
   {
     "name": "star-check",
-    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
-    "tags": ["bookmark","favorite","like","review","rating","check","star"]
+    "categories": ["$extends:star"],
+    "tags": ["$extends:star","$group:check"]
   },
   {
     "name": "star-half",
-    "categories": ["social","multimedia"],
-    "tags": ["bookmark","favorite","like","review","rating"]
+    "categories": ["social"],
+    "tags": ["$extends:star"]
   },
   {
     "name": "star-minus",
-    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
-    "tags": ["bookmark","favorite","like","review","rating","minus","remove","deselect","star"]
+    "categories": ["$extends:star"],
+    "tags": ["$extends:star","$group:minus","deselect"]
   },
   {
     "name": "star-off",
-    "categories": ["multimedia","social"],
-    "tags": ["dislike","unlike","remove","unrate"]
+    "categories": ["social"],
+    "tags": ["$extends:star","$group:off","dislike","unlike","remove","unrate"]
   },
   {
     "name": "star-plus",
-    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
-    "tags": ["bookmark","favorite","like","review","rating","plus","add","join","star"]
+    "categories": ["$extends:star"],
+    "tags": ["$extends:star","$group:plus","join"]
   },
   {
     "name": "star-x",
-    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
-    "tags": ["mark","symbol","shape","vector","design","graphic","bookmark","favorite","like","review","rating","x","cancel","reject","star"]
+    "categories": ["$extends:star"],
+    "tags": ["$extends:star","$group:x","mark","symbol","shape","vector","design","graphic"]
   },
   {
     "name": "star",
-    "categories": ["account","social","shapes","multimedia","weather","emoji","gaming"],
-    "tags": ["bookmark","favorite","like","review","rating"]
+    "categories": ["social","shapes","emoji","gaming"],
+    "tags": ["$group:star"]
   },
   {
     "name": "step-back",
@@ -8615,33 +8610,33 @@ export const iconsData: Array<{
   },
   {
     "name": "sticker",
-    "categories": ["social"],
+    "categories": ["social","emoji"],
     "tags": ["reaction","emotion","smile","happy","feedback"]
   },
   {
     "name": "sticky-note-check",
-    "categories": ["text","social"],
-    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","done","complete","success","check","verified"]
+    "categories": ["$extends:sticky-note"],
+    "tags": ["$extends:sticky-note","$group:check"]
   },
   {
     "name": "sticky-note-minus",
-    "categories": ["text","social"],
-    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","remove","delete","minus"]
+    "categories": ["$extends:sticky-note"],
+    "tags": ["$extends:sticky-note","$group:minus"]
   },
   {
     "name": "sticky-note-off",
-    "categories": ["text","social"],
-    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","disabled","hidden","mute","inactive"]
+    "categories": ["$extends:sticky-note"],
+    "tags": ["$extends:sticky-note","$group:off","mute"]
   },
   {
     "name": "sticky-note-plus",
-    "categories": ["text","social"],
-    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","add","create","new","plus"]
+    "categories": ["$extends:sticky-note"],
+    "tags": ["$extends:sticky-note","$group:plus"]
   },
   {
     "name": "sticky-note-x",
-    "categories": ["text","social"],
-    "tags": ["post-it","comment","annotation","reaction","memo","reminder","todo","task","idea","brainstorm","document","page","paper","sheet","stationary","office","close","cancel","delete","remove"]
+    "categories": ["$extends:sticky-note"],
+    "tags": ["$extends:sticky-note","$group:x"]
   },
   {
     "name": "sticky-note",
@@ -8675,13 +8670,13 @@ export const iconsData: Array<{
   },
   {
     "name": "strikethrough",
-    "categories": ["letters-digits","text"],
-    "tags": ["cross out","delete","remove","format"]
+    "categories": ["text"],
+    "tags": ["$group:letter","$group:minus","cross out","format"]
   },
   {
     "name": "subscript",
-    "categories": ["letters-digits","text"],
-    "tags": ["text"]
+    "categories": ["text"],
+    "tags": ["$group:letter","$group:digit"]
   },
   {
     "name": "summary",
@@ -8701,11 +8696,11 @@ export const iconsData: Array<{
   {
     "name": "sun-moon",
     "categories": ["accessibility"],
-    "tags": ["dark","light","moon","sun","brightness","theme","auto theme","system theme","appearance"]
+    "tags": ["$extends:sun","dark","moon","sun","theme","auto theme","system theme","appearance"]
   },
   {
     "name": "sun-snow",
-    "categories": ["weather"],
+    "categories": ["weather","seasons"],
     "tags": ["weather","air conditioning","temperature","hot","cold","seasons"]
   },
   {
@@ -8715,42 +8710,42 @@ export const iconsData: Array<{
   },
   {
     "name": "sunrise",
-    "categories": ["arrows","weather","time"],
+    "categories": ["weather","time"],
     "tags": ["weather","time","morning","day"]
   },
   {
     "name": "sunset",
-    "categories": ["arrows","weather"],
+    "categories": ["weather","time"],
     "tags": ["weather","time","evening","night"]
   },
   {
     "name": "superscript",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","exponent"]
+    "categories": ["text"],
+    "tags": ["$group:letter","$group:digit","exponent"]
   },
   {
     "name": "swatch-book",
-    "categories": ["design","home","photography"],
+    "categories": ["design","photography"],
     "tags": ["colors","colours","swatches","pantone","shades","tint","hue","saturation","brightness","theme","scheme","palette","samples","textile","carpet"]
   },
   {
     "name": "swiss-franc",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "switch-camera",
-    "categories": ["communication","devices"],
+    "categories": ["communication","devices","photography"],
     "tags": ["photo","selfie","front","back"]
   },
   {
     "name": "sword",
-    "categories": ["gaming","tools"],
+    "categories": ["gaming"],
     "tags": ["battle","challenge","combat","duel","fantasy","game","knight","melee","medieval","offense","rpg","sharp","weapon","war","warrior"]
   },
   {
     "name": "swords",
-    "categories": ["gaming","tools"],
+    "categories": ["gaming"],
     "tags": ["battle","challenge","combat","conflict","crossed","duel","faction","fantasy","game","melee","medieval","opponent","rivalry","rpg","versus","weapon","war","warrior"]
   },
   {
@@ -8760,23 +8755,23 @@ export const iconsData: Array<{
   },
   {
     "name": "table-2",
-    "categories": ["text","files"],
-    "tags": ["spreadsheet","grid"]
+    "categories": ["$extends:table"],
+    "tags": ["$extends:table"]
   },
   {
     "name": "table-cells-merge",
-    "categories": ["text","files"],
-    "tags": ["spreadsheet","grid","row"]
+    "categories": ["$extends:table"],
+    "tags": ["$extends:table","row"]
   },
   {
     "name": "table-cells-split",
-    "categories": ["text","files"],
-    "tags": ["spreadsheet","grid","row"]
+    "categories": ["$extends:table"],
+    "tags": ["$extends:table","row"]
   },
   {
     "name": "table-columns-split",
-    "categories": ["text","files"],
-    "tags": ["spreadsheet","grid","cut","break","divide","separate","segment"]
+    "categories": ["$extends:table"],
+    "tags": ["$extends:table","cut","break","divide","separate","segment"]
   },
   {
     "name": "table-of-contents",
@@ -8785,13 +8780,13 @@ export const iconsData: Array<{
   },
   {
     "name": "table-properties",
-    "categories": ["text","development","files"],
-    "tags": ["property list","plist","spreadsheet","grid","dictionary","object","hash"]
+    "categories": ["$extends:table","development"],
+    "tags": ["$extends:table","property list","plist","dictionary","object","hash"]
   },
   {
     "name": "table-rows-split",
-    "categories": ["text","files"],
-    "tags": ["spreadsheet","grid","cut","break","divide","separate","segment"]
+    "categories": ["$extends:table"],
+    "tags": ["$extends:table","cut","break","divide","separate","segment"]
   },
   {
     "name": "table",
@@ -8800,8 +8795,8 @@ export const iconsData: Array<{
   },
   {
     "name": "tablet-smartphone",
-    "categories": ["devices","design","development","tools"],
-    "tags": ["phone","cellphone","device","mobile","screen","display","touchscreen","portable","responsive","screens","browser","testing"]
+    "categories": ["$extends:tablet","design","development"],
+    "tags": ["$extends:tablet","phone","cellphone","screens","browser","testing"]
   },
   {
     "name": "tablet",
@@ -8815,22 +8810,22 @@ export const iconsData: Array<{
   },
   {
     "name": "tag-plus",
-    "categories": ["account"],
-    "tags": ["label","badge","ticket","mark","new","add","create","+"]
+    "categories": ["$extends:tag"],
+    "tags": ["$extends:tag","$group:plus"]
   },
   {
     "name": "tag-x",
-    "categories": ["account"],
-    "tags": ["label","badge","ticket","mark","x","delete","remove"]
+    "categories": ["$extends:tag"],
+    "tags": ["$extends:tag","$group:x"]
   },
   {
     "name": "tag",
-    "categories": ["account"],
+    "categories": ["account","shopping"],
     "tags": ["label","badge","ticket","mark"]
   },
   {
     "name": "tags",
-    "categories": ["account"],
+    "categories": ["account","shopping"],
     "tags": ["labels","badges","tickets","marks","copy","multiple"]
   },
   {
@@ -8860,7 +8855,7 @@ export const iconsData: Array<{
   },
   {
     "name": "tangent",
-    "categories": ["shapes","math","design","tools"],
+    "categories": ["shapes","math","design"],
     "tags": ["tangential","shape","circle","geometry","trigonometry","bezier curve"]
   },
   {
@@ -8870,17 +8865,17 @@ export const iconsData: Array<{
   },
   {
     "name": "telescope",
-    "categories": ["science","development","tools"],
+    "categories": ["science","tools"],
     "tags": ["astronomy","space","discovery","exploration","explore","vision","perspective","focus","stargazing","observe","view"]
   },
   {
     "name": "tent-tree",
     "categories": ["travel","nature"],
-    "tags": ["camping","campsite","holiday","retreat","nomadic","wilderness","outdoors"]
+    "tags": ["$extends:tent"]
   },
   {
     "name": "tent",
-    "categories": ["travel","nature","sustainability"],
+    "categories": ["travel","nature"],
     "tags": ["tipi","teepee","wigwam","lodge","camping","campsite","holiday","retreat","nomadic","native american","indian","wilderness","outdoors"]
   },
   {
@@ -8890,8 +8885,8 @@ export const iconsData: Array<{
   },
   {
     "name": "test-tube-diagonal",
-    "categories": ["science"],
-    "tags": ["tube","vial","phial","flask","ampoule","ampule","lab","chemistry","experiment","test"]
+    "categories": ["$extends:test-tube"],
+    "tags": ["$extends:test-tube"]
   },
   {
     "name": "test-tube",
@@ -8911,22 +8906,22 @@ export const iconsData: Array<{
   {
     "name": "text-align-end",
     "categories": ["text"],
-    "tags": ["text","alignment","right"]
+    "tags": ["$group:position-right","text","alignment"]
   },
   {
     "name": "text-align-justify-center",
-    "categories": ["text"],
+    "categories": ["$extends:text-align-justify"],
     "tags": ["paragraph","alignment","justified","center","middle","typography","editor","document"]
   },
   {
     "name": "text-align-justify-end",
-    "categories": ["text"],
-    "tags": ["paragraph","alignment","justified","right","end","typography","editor","document"]
+    "categories": ["$extends:text-align-justify"],
+    "tags": ["$group:position-right","paragraph","alignment","justified","end","typography","editor","document"]
   },
   {
     "name": "text-align-justify-start",
-    "categories": ["text"],
-    "tags": ["paragraph","alignment","justified","left","start","typography","editor","document"]
+    "categories": ["$extends:text-align-justify"],
+    "tags": ["$group:position-left","paragraph","alignment","justified","start","typography","editor","document"]
   },
   {
     "name": "text-align-justify",
@@ -8936,7 +8931,7 @@ export const iconsData: Array<{
   {
     "name": "text-align-start",
     "categories": ["text"],
-    "tags": ["text","alignment","left","list"]
+    "tags": ["$group:position-left","text","alignment","list"]
   },
   {
     "name": "text-cursor-input",
@@ -8950,8 +8945,8 @@ export const iconsData: Array<{
   },
   {
     "name": "text-initial",
-    "categories": ["letters-digits","text"],
-    "tags": ["drop cap","text","format","typography","letter","font size"]
+    "categories": ["text"],
+    "tags": ["$group:letter","drop cap","format","letter","font size"]
   },
   {
     "name": "text-quote",
@@ -8961,11 +8956,11 @@ export const iconsData: Array<{
   {
     "name": "text-search",
     "categories": ["text"],
-    "tags": ["find","data","copy","txt","pdf","document","scan","magnifier","magnifying glass","lens"]
+    "tags": ["$group:search","data","copy","txt","pdf","document"]
   },
   {
     "name": "text-wrap",
-    "categories": ["text","arrows"],
+    "categories": ["text"],
     "tags": ["words","lines","break","paragraph"]
   },
   {
@@ -8975,13 +8970,13 @@ export const iconsData: Array<{
   },
   {
     "name": "thermometer-snowflake",
-    "categories": ["weather"],
-    "tags": ["temperature","celsius","fahrenheit","weather","cold","freeze","freezing"]
+    "categories": ["$extends:thermometer"],
+    "tags": ["$extends:thermometer","cold","freeze","freezing"]
   },
   {
     "name": "thermometer-sun",
-    "categories": ["weather"],
-    "tags": ["temperature","celsius","fahrenheit","weather","warm","hot"]
+    "categories": ["$extends:thermometer"],
+    "tags": ["$extends:thermometer","warm","hot"]
   },
   {
     "name": "thermometer",
@@ -8990,48 +8985,48 @@ export const iconsData: Array<{
   },
   {
     "name": "thumbs-down",
-    "categories": ["account","social","emoji"],
+    "categories": ["social","emoji"],
     "tags": ["dislike","bad","emotion"]
   },
   {
     "name": "thumbs-up",
-    "categories": ["account","social","emoji"],
+    "categories": ["social","emoji"],
     "tags": ["like","good","emotion"]
   },
   {
     "name": "tic-tac-toe",
     "categories": ["gaming"],
-    "tags": ["game","board","grid","strategy","noughts and crosses"]
+    "tags": ["$group:letter","game","board","grid","strategy","noughts and crosses"]
   },
   {
     "name": "ticket-check",
     "categories": ["transportation"],
-    "tags": ["entry","pass","voucher","event","concert","show","booked","purchased","receipt","redeemed","validated","verified","certified","checked","used"]
+    "tags": ["$extends:ticket","$group:check","booked","purchased","receipt","redeemed","certified","checked","used"]
   },
   {
     "name": "ticket-minus",
     "categories": ["transportation"],
-    "tags": ["entry","pass","voucher","event","concert","show","remove","cancel","unbook","subtract","decrease","-"]
+    "tags": ["$extends:ticket","$group:minus","unbook","decrease"]
   },
   {
     "name": "ticket-percent",
     "categories": ["transportation","shopping"],
-    "tags": ["discount","reduced","offer","voucher","entry","pass","event","concert","show","book","purchase","%"]
+    "tags": ["$extends:ticket","$group:percent","book","purchase"]
   },
   {
     "name": "ticket-plus",
     "categories": ["transportation"],
-    "tags": ["entry","pass","voucher","event","concert","show","book","purchase","add","+"]
+    "tags": ["$extends:ticket","$group:plus","book","purchase"]
   },
   {
     "name": "ticket-slash",
     "categories": ["transportation"],
-    "tags": ["entry","pass","voucher","event","concert","show","redeemed","used","marked","checked","verified","spoiled","invalidated","void","denied","refused","banned","barred","forbidden","prohibited","cancelled","cancellation","refunded","delete","remove","clear","error"]
+    "tags": ["$extends:ticket","$group:minus","$group:off","redeemed","used","marked","checked","verified","spoiled","invalidated","void","denied","refused","banned","barred","cancellation","refunded","error"]
   },
   {
     "name": "ticket-x",
     "categories": ["transportation"],
-    "tags": ["entry","pass","voucher","event","concert","show","cancelled","cancellation","refunded","used","void","invalidated","spoiled","denied","refused","banned","barred","forbidden","prohibited","delete","remove","clear","error","x"]
+    "tags": ["$extends:ticket","$group:x","refunded","used","void","invalidated","spoiled","denied","refused","banned","barred","forbidden","prohibited","error"]
   },
   {
     "name": "ticket",
@@ -9045,7 +9040,7 @@ export const iconsData: Array<{
   },
   {
     "name": "tickets",
-    "categories": ["travel","account","transportation"],
+    "categories": ["travel","transportation"],
     "tags": ["trip","travel","pass","entry","voucher","event","concert","show","perforated","dashed"]
   },
   {
@@ -9055,37 +9050,37 @@ export const iconsData: Array<{
   },
   {
     "name": "timer-off",
-    "categories": ["time"],
-    "tags": ["time","timer","stopwatch"]
+    "categories": ["$extends:timer"],
+    "tags": ["$extends:timer","$group:off"]
   },
   {
     "name": "timer-reset",
-    "categories": ["time"],
-    "tags": ["time","timer","stopwatch"]
+    "categories": ["$extends:timer"],
+    "tags": ["$extends:timer"]
   },
   {
     "name": "timer",
     "categories": ["time"],
-    "tags": ["time","timer","stopwatch"]
+    "tags": ["$group:clock","stopwatch"]
   },
   {
     "name": "toggle-left",
-    "categories": ["layout","account","development"],
-    "tags": ["on","off","switch","boolean"]
+    "categories": ["layout","development"],
+    "tags": ["$group:position-left","on","off","switch","boolean"]
   },
   {
     "name": "toggle-right",
-    "categories": ["layout","account","development"],
-    "tags": ["on","off","switch","boolean"]
+    "categories": ["layout","development"],
+    "tags": ["$group:position-right","on","off","switch","boolean"]
   },
   {
     "name": "toilet",
-    "categories": ["devices","home"],
+    "categories": ["home","travel"],
     "tags": ["toilet","potty","bathroom","washroom"]
   },
   {
     "name": "tombstone",
-    "categories": ["gaming","navigation","people","development"],
+    "categories": ["gaming","navigation","development"],
     "tags": ["grave","gravestone","headstone","cemetery","graveyard","death","memorial","funeral","halloween","rip","obituary","deceased","epitaph","mourning","bereavement","condolence","deprecated","retired","archived","decommissioned"]
   },
   {
@@ -9100,12 +9095,12 @@ export const iconsData: Array<{
   },
   {
     "name": "toothbrush-sparkles",
-    "categories": ["home","tools","medical","travel"],
-    "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","self care","grooming","fresh","clean"]
+    "categories": ["$extends:toothbrush"],
+    "tags": ["$extends:toothbrush","$group:sparkles","fresh","clean"]
   },
   {
     "name": "toothbrush",
-    "categories": ["home","travel","tools","medical"],
+    "categories": ["home","travel","medical"],
     "tags": ["dental care","oral hygiene","brushing","teeth","dentist","bathroom","toiletries","personal care","cleaning","bristles","handle","plaque","toothpaste","self care","grooming"]
   },
   {
@@ -9115,13 +9110,13 @@ export const iconsData: Array<{
   },
   {
     "name": "torus",
-    "categories": ["shapes","design","tools","food-beverage"],
+    "categories": ["shapes","design","math","food-beverage"],
     "tags": ["donut","doughnut","ring","hollow","3d","fast food","junk food","snack","treat","sweet","sugar","dessert"]
   },
   {
     "name": "touchpad-off",
-    "categories": ["devices"],
-    "tags": ["trackpad","cursor"]
+    "categories": ["$extends:touchpad"],
+    "tags": ["$extends:touchpad","$group:off"]
   },
   {
     "name": "touchpad",
@@ -9135,7 +9130,7 @@ export const iconsData: Array<{
   },
   {
     "name": "tower-control",
-    "categories": ["travel","transportation"],
+    "categories": ["travel","transportation","buildings"],
     "tags": ["airport","travel","tower","transportation","lighthouse"]
   },
   {
@@ -9160,8 +9155,8 @@ export const iconsData: Array<{
   },
   {
     "name": "train-front-tunnel",
-    "categories": ["transportation","navigation"],
-    "tags": ["railway","metro","subway","underground","speed","bullet","fast","track","line"]
+    "categories": ["$extends:train-front","navigation"],
+    "tags": ["$extends:train-front","speed"]
   },
   {
     "name": "train-front",
@@ -9180,18 +9175,18 @@ export const iconsData: Array<{
   },
   {
     "name": "transgender",
-    "categories": ["medical","accessibility"],
+    "categories": ["medical","people"],
     "tags": ["gender","inclusive"]
   },
   {
     "name": "trash-off",
-    "categories": ["files","mail"],
-    "tags": ["empty","deletion","cleanup","junk","clear","garbage","delete","remove","bin","trash","waste","recycle","discard","rubbish","disabled","off","prevent","locked","unavailable","protected"]
+    "categories": ["$extends:trash"],
+    "tags": ["$extends:trash","$group:minus","$group:off","trash","prevent","locked","protected"]
   },
   {
     "name": "trash",
     "categories": ["files","mail"],
-    "tags": ["empty","deletion","cleanup","junk","clear","garbage","delete","remove","bin","waste","recycle","discard","binoculars","rubbish"]
+    "tags": ["$group:minus","empty","deletion","cleanup","junk","garbage","bin","waste","recycle","discard","rubbish"]
   },
   {
     "name": "tree-deciduous",
@@ -9200,7 +9195,7 @@ export const iconsData: Array<{
   },
   {
     "name": "tree-palm",
-    "categories": ["nature","sustainability"],
+    "categories": ["nature","sustainability","travel"],
     "tags": ["vacation","leisure","island"]
   },
   {
@@ -9216,32 +9211,32 @@ export const iconsData: Array<{
   {
     "name": "trending-down",
     "categories": ["charts","arrows"],
-    "tags": ["statistics"]
+    "tags": ["$group:direction-down","statistics"]
   },
   {
     "name": "trending-up-down",
-    "categories": ["charts","arrows"],
-    "tags": ["arrows","estimated","indeterminate","data fluctuation","uncertain","forecast","variable","prediction","dynamic","volatile"]
+    "categories": ["$extends:trending-up"],
+    "tags": ["$group:direction-up","$group:direction-down","arrows","estimated","indeterminate","data fluctuation","uncertain","forecast","variable","prediction","dynamic","volatile"]
   },
   {
     "name": "trending-up",
     "categories": ["charts","arrows"],
-    "tags": ["statistics"]
+    "tags": ["$group:direction-up","statistics"]
   },
   {
     "name": "triangle-alert",
-    "categories": ["notifications","shapes","development"],
-    "tags": ["warning","alert","danger","exclamation mark","linter"]
+    "categories": ["$extends:triangle","notifications","development"],
+    "tags": ["$group:exclamation-mark","linter"]
   },
   {
     "name": "triangle-dashed",
-    "categories": ["shapes"],
-    "tags": ["equilateral","delta","shape","pyramid","hierarchy","dashed"]
+    "categories": ["$extends:triangle"],
+    "tags": ["$extends:triangle","dashed"]
   },
   {
     "name": "triangle-right",
-    "categories": ["shapes","math"],
-    "tags": ["volume","controls","controller","tv remote","geometry","delta","ramp","slope","incline","increase"]
+    "categories": ["$extends:triangle","math"],
+    "tags": ["$group:direction-right","volume","controls","controller","tv remote","geometry","delta","ramp","slope","incline","increase"]
   },
   {
     "name": "triangle",
@@ -9265,8 +9260,8 @@ export const iconsData: Array<{
   },
   {
     "name": "truck-electric",
-    "categories": ["transportation"],
-    "tags": ["delivery","van","shipping","haulage","lorry","electric"]
+    "categories": ["$extends:truck"],
+    "tags": ["$extends:truck","electric"]
   },
   {
     "name": "truck",
@@ -9275,13 +9270,13 @@ export const iconsData: Array<{
   },
   {
     "name": "tube-lotion",
-    "categories": ["medical","home","shopping","travel","seasons"],
+    "categories": ["medical","home","shopping","travel"],
     "tags": ["sunscreen","sunblock","spf","uv","cream","skincare","toothpaste","ointment","bottle","toiletries","bathroom","beach","summer"]
   },
   {
     "name": "turkish-lira",
     "categories": ["finance"],
-    "tags": ["currency","money","payment"]
+    "tags": ["$group:currency"]
   },
   {
     "name": "turntable",
@@ -9295,13 +9290,13 @@ export const iconsData: Array<{
   },
   {
     "name": "tv-minimal-play",
-    "categories": ["devices","multimedia"],
-    "tags": ["flat screen","television","stream","display","widescreen","high-definition","hd","1080p","4k","8k","smart","digital","video","movie","live","ott","running","start","film","home cinema","entertainment","showtime","channels","catchup"]
+    "categories": ["$extends:tv-minimal"],
+    "tags": ["$extends:tv-minimal","$group:play","movie","ott","film"]
   },
   {
     "name": "tv-minimal",
     "categories": ["devices","multimedia"],
-    "tags": ["flat screen","television","stream","display","widescreen","high-definition","hd","1080p","4k","8k","smart","digital","video","home cinema","entertainment","showtime","channels","catchup"]
+    "tags": ["$extends:tv","flat screen","home cinema","catchup"]
   },
   {
     "name": "tv",
@@ -9310,18 +9305,18 @@ export const iconsData: Array<{
   },
   {
     "name": "type-outline",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","font","typography","silhouette","profile","contour","stroke","line"]
+    "categories": ["$extends:type"],
+    "tags": ["$extends:type","silhouette","profile","contour","stroke","line"]
   },
   {
     "name": "type",
     "categories": ["letters-digits","text"],
-    "tags": ["text","font","typography"]
+    "tags": ["$group:letter"]
   },
   {
     "name": "umbrella-off",
-    "categories": ["weather"],
-    "tags": ["rain","weather","uncovered","uninsured","antivirus","unprotected","risky"]
+    "categories": ["$extends:umbrella"],
+    "tags": ["$extends:umbrella","$group:off","uncovered","uninsured","antivirus","unprotected","risky"]
   },
   {
     "name": "umbrella",
@@ -9330,18 +9325,18 @@ export const iconsData: Array<{
   },
   {
     "name": "underline",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","format"]
+    "categories": ["text"],
+    "tags": ["$group:letter","format"]
   },
   {
     "name": "undo-2",
-    "categories": ["text","arrows"],
-    "tags": ["redo","rerun","history","back","return","reverse","revert","direction","u-turn"]
+    "categories": ["$extends:undo"],
+    "tags": ["$extends:undo","back","return","reverse","revert","direction","u-turn"]
   },
   {
     "name": "undo-dot",
-    "categories": ["text","arrows"],
-    "tags": ["redo","history","step","back"]
+    "categories": ["$extends:undo"],
+    "tags": ["$extends:undo","step","back"]
   },
   {
     "name": "undo",
@@ -9360,7 +9355,7 @@ export const iconsData: Array<{
   },
   {
     "name": "ungroup",
-    "categories": ["shapes","files"],
+    "categories": ["files","layout"],
     "tags": ["cubes","packages","parts","units","collection","cluster","separate"]
   },
   {
@@ -9370,8 +9365,8 @@ export const iconsData: Array<{
   },
   {
     "name": "unlink-2",
-    "categories": ["text"],
-    "tags": ["url","unchain"]
+    "categories": ["$extends:unlink"],
+    "tags": ["$extends:unlink"]
   },
   {
     "name": "unlink",
@@ -9380,7 +9375,7 @@ export const iconsData: Array<{
   },
   {
     "name": "unplug",
-    "categories": ["devices","development"],
+    "categories": ["devices","development","connectivity"],
     "tags": ["electricity","energy","electronics","socket","outlet","disconnect"]
   },
   {
@@ -9390,98 +9385,98 @@ export const iconsData: Array<{
   },
   {
     "name": "usb-c-port",
-    "categories": ["devices","multimedia","home","gaming"],
-    "tags": ["universal","serial","bus","controller","connector","interface","socket","plug","slot","data","input","output"]
+    "categories": ["$extends:usb"],
+    "tags": ["$extends:usb","socket","plug","slot","data","input","output"]
   },
   {
     "name": "usb",
-    "categories": ["devices","multimedia","home"],
+    "categories": ["devices","connectivity"],
     "tags": ["universal","serial","bus","controller","connector","interface"]
   },
   {
     "name": "user-check",
-    "categories": ["account"],
-    "tags": ["followed","subscribed","done","todo","tick","complete","task"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:check","followed","subscribed"]
   },
   {
     "name": "user-cog",
-    "categories": ["account"],
-    "tags": ["settings","edit","cog","gear"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:cog"]
   },
   {
     "name": "user-group",
-    "categories": ["account","people","social"],
-    "tags": ["group","people","team","members","community","membership","collaboration","organization","contacts","directory","staff","family","ancestry","ancestors","lineage","parents"]
+    "categories": ["$extends:user","people","social"],
+    "tags": ["$extends:user","group","team","community","membership","collaboration","organization","directory","staff","family","ancestry","ancestors","lineage","parents"]
   },
   {
     "name": "user-key",
-    "categories": ["account"],
-    "tags": ["passkey","password","login","authentication","authorization","roles","permissions","private","public","security","person","account","contact"]
+    "categories": ["$extends:user","security"],
+    "tags": ["$extends:user","$group:key","login","roles","permissions"]
   },
   {
     "name": "user-lock",
-    "categories": ["account","security"],
-    "tags": ["person","lock","locked","account","secure"]
+    "categories": ["$extends:user","security"],
+    "tags": ["$extends:user","$group:lock"]
   },
   {
     "name": "user-minus",
-    "categories": ["account"],
-    "tags": ["delete","remove","unfollow","unsubscribe"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:minus","unfollow","unsubscribe"]
   },
   {
     "name": "user-pen",
-    "categories": ["account"],
-    "tags": ["person","account","contact","profile","edit","change"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:pen"]
   },
   {
     "name": "user-plus",
-    "categories": ["account"],
-    "tags": ["new","add","create","follow","subscribe"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:plus","follow","subscribe"]
   },
   {
     "name": "user-round-arrow-left",
-    "categories": ["account","people","arrows"],
-    "tags": ["person","assign","move","give","setup","self","me","myself","profile","avatar","incoming","recipient","assignee","inbound"]
+    "categories": ["$extends:user-round","people"],
+    "tags": ["$extends:user-round","$group:direction-left","assign","move","give","setup","self","me","myself","avatar","incoming","recipient","assignee","inbound"]
   },
   {
     "name": "user-round-check",
-    "categories": ["account"],
-    "tags": ["followed","subscribed","done","todo","tick","complete","task"]
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$group:check","followed","subscribed"]
   },
   {
     "name": "user-round-cog",
-    "categories": ["account"],
-    "tags": ["settings","edit","cog","gear"]
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$group:cog"]
   },
   {
     "name": "user-round-group",
-    "categories": ["account","people","social"],
-    "tags": ["group","people","team","members","community","membership","collaboration","organization","contacts","directory","staff","family","ancestry","ancestors","lineage","parents"]
+    "categories": ["$extends:user-round","people","social"],
+    "tags": ["$extends:user-round","group","team","community","membership","collaboration","organization","directory","staff","family","ancestry","ancestors","lineage","parents"]
   },
   {
     "name": "user-round-key",
-    "categories": ["account"],
-    "tags": ["passkey","password","login","authentication","authorization","roles","permissions","private","public","security","person","account","contact"]
+    "categories": ["$extends:user-round","security"],
+    "tags": ["$extends:user-round","$group:key","login","roles","permissions"]
   },
   {
     "name": "user-round-minus",
-    "categories": ["account"],
-    "tags": ["delete","remove","unfollow","unsubscribe"]
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$group:minus","unfollow","unsubscribe"]
   },
   {
     "name": "user-round-pen",
-    "categories": ["account"],
-    "tags": ["person","account","contact","profile","edit","change"]
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$group:pen"]
   },
   {
     "name": "user-round-plus",
-    "categories": ["account"],
-    "tags": ["new","add","create","follow","subscribe"]
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$group:plus","follow","subscribe"]
   },
   {
     "name": "user-round-search",
-    "categories": ["account","social"],
-    "tags": ["person","account","contact","find","scan","magnifier","magnifying glass","lens"]
+    "categories": ["$extends:user-round","social"],
+    "tags": ["$extends:user-round","$group:search"]
   },
   {
     "name": "user-round-shield",
@@ -9490,68 +9485,68 @@ export const iconsData: Array<{
   },
   {
     "name": "user-round-star",
-    "categories": ["account"],
-    "tags": ["person","account","favorite","contact","like","review","rating","admin","avatar","profile","featured","moderator","verified","badge","award","champion","starred"]
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$group:star","admin","avatar","moderator","verified","badge","champion"]
   },
   {
     "name": "user-round-x",
-    "categories": ["account"],
-    "tags": ["delete","remove","unfollow","unsubscribe","unavailable"]
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$group:x","unfollow","unsubscribe","unavailable"]
   },
   {
     "name": "user-round",
-    "categories": ["account"],
-    "tags": ["person","account","contact"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user"]
   },
   {
     "name": "user-search",
-    "categories": ["account","social"],
-    "tags": ["person","account","contact","find","scan","magnifier","magnifying glass","lens"]
+    "categories": ["$extends:user","social"],
+    "tags": ["$extends:user","$group:search"]
   },
   {
     "name": "user-shield",
-    "categories": ["account","security","development","people"],
-    "tags": ["user","shield","admin","protected","guard","profile","security","privacy","permissions","role"]
+    "categories": ["$extends:user","security","people"],
+    "tags": ["$extends:user","$group:shield","permissions","role"]
   },
   {
     "name": "user-star",
-    "categories": ["account"],
-    "tags": ["person","account","favorite","contact","like","review","rating","admin"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:star","admin"]
   },
   {
     "name": "user-x",
-    "categories": ["account"],
-    "tags": ["delete","remove","unfollow","unsubscribe","unavailable"]
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:x","unfollow","unsubscribe","unavailable"]
   },
   {
     "name": "user",
     "categories": ["account"],
-    "tags": ["person","account","contact"]
+    "tags": ["$group:user"]
   },
   {
     "name": "users-collaboration",
-    "categories": ["account","people","communication"],
-    "tags": ["group","people","collaboration","users","team","communication","cooperative","workspace","peer-to-peer","p2p","shared","delegation","handoff","coauthor","profiles"]
+    "categories": ["$extends:users","social"],
+    "tags": ["$extends:users","collaboration","team","communication","cooperative","workspace","peer-to-peer","p2p","shared","delegation","handoff","coauthor"]
   },
   {
     "name": "users-round-collaboration",
-    "categories": ["account","people","communication"],
-    "tags": ["group","people","collaboration","users","team","communication","cooperative","workspace","peer-to-peer","p2p","shared","delegation","handoff","coauthor","profiles"]
+    "categories": ["$extends:users-round","social"],
+    "tags": ["$extends:users-round","collaboration","team","communication","cooperative","workspace","peer-to-peer","p2p","shared","delegation","handoff","coauthor"]
   },
   {
     "name": "users-round",
-    "categories": ["account"],
-    "tags": ["group","people"]
+    "categories": ["$extends:users"],
+    "tags": ["$extends:users"]
   },
   {
     "name": "users",
-    "categories": ["account"],
-    "tags": ["group","people"]
+    "categories": ["account","people"],
+    "tags": ["$group:user","group"]
   },
   {
     "name": "utensils-crossed",
-    "categories": ["food-beverage","travel","navigation"],
-    "tags": ["fork","knife","cutlery","flatware","tableware","silverware","food","restaurant","meal","breakfast","dinner","supper"]
+    "categories": ["$extends:utensils"],
+    "tags": ["$extends:utensils"]
   },
   {
     "name": "utensils",
@@ -9570,12 +9565,12 @@ export const iconsData: Array<{
   },
   {
     "name": "variable",
-    "categories": ["letters-digits","development","math"],
-    "tags": ["code","coding","programming","symbol","calculate","algebra","x","parentheses","parenthesis","brackets","parameter","(",")"]
+    "categories": ["development","math"],
+    "tags": ["$group:letter","code","coding","programming","symbol","calculate","algebra","x","parentheses","parenthesis","brackets","parameter","(",")"]
   },
   {
     "name": "vault",
-    "categories": ["security","travel","home"],
+    "categories": ["security","home","finance"],
     "tags": ["safe","lockbox","deposit","locker","coffer","strongbox","safety","secure","storage","valuables","bank"]
   },
   {
@@ -9585,13 +9580,13 @@ export const iconsData: Array<{
   },
   {
     "name": "vector-square",
-    "categories": ["shapes","math","design","tools"],
+    "categories": ["shapes","math","design"],
     "tags": ["shape","geometry","art","width","height","size","calculate","measure","select","graphics","box"]
   },
   {
     "name": "vegan",
     "categories": ["food-beverage","sustainability"],
-    "tags": ["vegetarian","fruitarian","herbivorous","animal rights","diet"]
+    "tags": ["$group:letter","vegetarian","fruitarian","herbivorous","animal rights","diet"]
   },
   {
     "name": "venetian-mask",
@@ -9600,37 +9595,37 @@ export const iconsData: Array<{
   },
   {
     "name": "venus-and-mars",
-    "categories": ["medical"],
+    "categories": ["$extends:venus"],
     "tags": ["gender","sex","intersex","androgynous","hermaphrodite"]
   },
   {
     "name": "venus",
-    "categories": ["medical"],
+    "categories": ["medical","people"],
     "tags": ["gender","sex","female","feminine","woman","girl"]
   },
   {
     "name": "vibrate-off",
-    "categories": ["devices","connectivity","account"],
-    "tags": ["smartphone","notification","rumble","haptic feedback","notifications","screen"]
+    "categories": ["devices","notifications"],
+    "tags": ["$extends:vibrate","$group:off","notifications"]
   },
   {
     "name": "vibrate",
-    "categories": ["devices","connectivity","account","notifications"],
+    "categories": ["devices","notifications"],
     "tags": ["smartphone","notification","rumble","haptic feedback","screen"]
   },
   {
     "name": "video-off",
-    "categories": ["devices","communication","connectivity","photography"],
-    "tags": ["camera","movie","film"]
+    "categories": ["$extends:video"],
+    "tags": ["$extends:video","$group:off"]
   },
   {
     "name": "video",
-    "categories": ["devices","communication","connectivity","photography"],
+    "categories": ["devices","communication","photography","multimedia"],
     "tags": ["camera","movie","film","recording","motion picture","camcorder","reel"]
   },
   {
     "name": "videotape",
-    "categories": ["devices","communication","connectivity","photography","files"],
+    "categories": ["devices","photography","files","multimedia"],
     "tags": ["vhs","movie","film","recording","motion picture","showreel","cassette"]
   },
   {
@@ -9640,8 +9635,8 @@ export const iconsData: Array<{
   },
   {
     "name": "virus-off",
-    "categories": ["medical","science","security"],
-    "tags": ["pathogen","infection","disease","illness","contagion","outbreak","pandemic","epidemic","covid","coronavirus","germ","microbe","microorganism","biology","medical","healthcare","malware","cybersecurity","threat","antivirus","blocked","removed","clean","safe","prevention","quarantine"]
+    "categories": ["$extends:virus"],
+    "tags": ["$extends:virus","$group:off","antivirus","removed","clean","safe","prevention","quarantine"]
   },
   {
     "name": "virus",
@@ -9650,37 +9645,37 @@ export const iconsData: Array<{
   },
   {
     "name": "voicemail",
-    "categories": ["connectivity","devices","social"],
+    "categories": ["devices","communication"],
     "tags": ["phone","cassette","tape","reel","recording","audio"]
   },
   {
     "name": "volleyball",
-    "categories": ["sports","gaming","travel"],
+    "categories": ["sports","travel"],
     "tags": ["beach","sand","net","holiday","vacation","summer","soccer","football","futbol","kick","pitch","goal","score","bounce","leather","wool","yarn","knitting","sewing","thread","embroidery","textile"]
   },
   {
     "name": "volume-1",
-    "categories": ["connectivity","communication","multimedia"],
-    "tags": ["music","sound","speaker"]
+    "categories": ["$extends:volume"],
+    "tags": ["$extends:volume"]
   },
   {
     "name": "volume-2",
-    "categories": ["connectivity","communication","multimedia"],
-    "tags": ["music","sound","speaker"]
+    "categories": ["$extends:volume"],
+    "tags": ["$extends:volume"]
   },
   {
     "name": "volume-off",
-    "categories": ["connectivity","communication","multimedia"],
-    "tags": ["music","sound","mute","speaker"]
+    "categories": ["$extends:volume"],
+    "tags": ["$extends:volume","$group:off"]
   },
   {
     "name": "volume-x",
-    "categories": ["connectivity","communication","multimedia"],
-    "tags": ["music","sound","mute","speaker"]
+    "categories": ["$extends:volume"],
+    "tags": ["$extends:volume"]
   },
   {
     "name": "volume",
-    "categories": ["connectivity","communication","multimedia"],
+    "categories": ["communication","multimedia"],
     "tags": ["music","sound","mute","speaker"]
   },
   {
@@ -9690,13 +9685,13 @@ export const iconsData: Array<{
   },
   {
     "name": "wallet-cards",
-    "categories": ["account","finance"],
-    "tags": ["wallet","cards","banking","cash","debit","transport","money","finance","pocket","credit","purchase","payment","shopping","retail","consumer","cc"]
+    "categories": ["$extends:wallet"],
+    "tags": ["$extends:wallet","wallet","cards","banking","cash","debit","transport","credit","purchase","payment","shopping","retail","consumer","cc"]
   },
   {
     "name": "wallet-minimal",
-    "categories": ["account","finance"],
-    "tags": ["finance","pocket"]
+    "categories": ["$extends:wallet"],
+    "tags": ["$extends:wallet"]
   },
   {
     "name": "wallet",
@@ -9705,18 +9700,18 @@ export const iconsData: Array<{
   },
   {
     "name": "wallpaper",
-    "categories": ["account","devices"],
+    "categories": ["devices","photography"],
     "tags": ["background","texture","image","art","design","visual","decor","pattern","screen","cover","lock screen"]
   },
   {
     "name": "wand-sparkles",
-    "categories": ["design","gaming","cursors","photography"],
-    "tags": ["magic","wizard","magician"]
+    "categories": ["$extends:wand"],
+    "tags": ["$extends:wand"]
   },
   {
     "name": "wand",
     "categories": ["design","gaming","cursors","photography"],
-    "tags": ["magic","selection"]
+    "tags": ["$group:sparkles","wizard","magician","selection"]
   },
   {
     "name": "warehouse",
@@ -9731,17 +9726,17 @@ export const iconsData: Array<{
   {
     "name": "watch",
     "categories": ["time"],
-    "tags": ["clock","time"]
+    "tags": ["$group:clock"]
   },
   {
     "name": "waves-arrow-down",
     "categories": ["weather","sustainability"],
-    "tags": ["water","sea","level","sound","hertz","wavelength","vibrate","low","tide","ocean","rising","down","falling"]
+    "tags": ["$group:direction-down","water","sea","level","sound","hertz","wavelength","vibrate","low","tide","ocean","rising","down","falling"]
   },
   {
     "name": "waves-arrow-up",
     "categories": ["weather","sustainability"],
-    "tags": ["water","sea","level","sound","hertz","wavelength","vibrate","high","tide","ocean","rising"]
+    "tags": ["$group:direction-up","water","sea","level","sound","hertz","wavelength","vibrate","high","tide","ocean","rising"]
   },
   {
     "name": "waves-horizontal",
@@ -9755,37 +9750,37 @@ export const iconsData: Array<{
   },
   {
     "name": "waves-vertical",
-    "categories": ["weather","sustainability"],
+    "categories": ["weather"],
     "tags": ["steam","warmth","temperature","burn","hot","boiling","heat","smoke","vapor","smell","aroma","sauna"]
   },
   {
     "name": "waypoints",
-    "categories": ["security","account","navigation","development","social"],
+    "categories": ["security","navigation","development"],
     "tags": ["indirection","vpn","virtual private network","proxy","connections","bounce","reroute","path","journey","planner","stops","stations","shared","spread","viral"]
   },
   {
     "name": "webcam-off",
-    "categories": ["connectivity","devices","communication"],
-    "tags": ["camera","security"]
+    "categories": ["$extends:webcam"],
+    "tags": ["$extends:webcam","$group:off"]
   },
   {
     "name": "webcam",
-    "categories": ["connectivity","devices","communication"],
+    "categories": ["devices","communication"],
     "tags": ["camera","security"]
   },
   {
     "name": "webhook-off",
-    "categories": ["development","social","account"],
-    "tags": ["push api","interface","callback"]
+    "categories": ["$extends:webhook"],
+    "tags": ["$extends:webhook","$group:off"]
   },
   {
     "name": "webhook",
-    "categories": ["development","social","account"],
-    "tags": ["push api","interface","callback"]
+    "categories": ["development"],
+    "tags": ["push","api","interface","callback"]
   },
   {
     "name": "weight-tilde",
-    "categories": ["math"],
+    "categories": ["$extends:weight"],
     "tags": ["measure","scale","estimate","load","balance","size","measurement","quantity","mass"]
   },
   {
@@ -9795,8 +9790,8 @@ export const iconsData: Array<{
   },
   {
     "name": "wheat-off",
-    "categories": ["food-beverage"],
-    "tags": ["corn","cereal","grain","gluten free","allergy","intolerance","diet"]
+    "categories": ["$extends:wheat"],
+    "tags": ["$extends:wheat","$group:off","gluten free","allergy","intolerance","diet"]
   },
   {
     "name": "wheat",
@@ -9810,63 +9805,63 @@ export const iconsData: Array<{
   },
   {
     "name": "whole-word",
-    "categories": ["letters-digits","text"],
-    "tags": ["text","selection","letters","characters","font","typography"]
+    "categories": ["text"],
+    "tags": ["$group:letter","selection","letters","characters"]
   },
   {
     "name": "wifi-cog",
-    "categories": ["connectivity","devices","files"],
-    "tags": ["connection","signal","wireless","directory","settings","control","preferences","cog","edit","gear"]
+    "categories": ["$extends:wifi"],
+    "tags": ["$extends:wifi","$group:cog","directory","control"]
   },
   {
     "name": "wifi-high",
-    "categories": ["connectivity","devices"],
-    "tags": ["connection","signal","wireless"]
+    "categories": ["$extends:wifi"],
+    "tags": ["$extends:wifi"]
   },
   {
     "name": "wifi-lock",
-    "categories": ["connectivity","devices","security"],
-    "tags": ["admin","connection","secure","security","signal","network","password","wireless","hotspot","encrypted","locked","private","ssid","guest","router","access","authentication","protected"]
+    "categories": ["$extends:wifi","security"],
+    "tags": ["$extends:wifi","$group:lock","admin","hotspot","ssid","guest","router","access","authentication"]
   },
   {
     "name": "wifi-low",
-    "categories": ["connectivity","devices"],
-    "tags": ["connection","signal","wireless"]
+    "categories": ["$extends:wifi"],
+    "tags": ["$extends:wifi"]
   },
   {
     "name": "wifi-off",
-    "categories": ["connectivity","devices"],
-    "tags": ["disabled"]
+    "categories": ["$extends:wifi"],
+    "tags": ["$extends:wifi","$group:off","disconnected"]
   },
   {
     "name": "wifi-pen",
-    "categories": ["connectivity","devices"],
-    "tags": ["edit","wifi","pen","change","network"]
+    "categories": ["$extends:wifi"],
+    "tags": ["$extends:wifi","$group:pen"]
   },
   {
     "name": "wifi-sync",
-    "categories": ["connectivity","devices"],
-    "tags": ["connection","signal","wireless","synchronize","reconnect","reset","restart"]
+    "categories": ["$extends:wifi"],
+    "tags": ["$extends:wifi","$group:sync","reset","restart"]
   },
   {
     "name": "wifi-zero",
-    "categories": ["connectivity","devices"],
-    "tags": ["connection","signal","wireless"]
+    "categories": ["$extends:wifi"],
+    "tags": ["$extends:wifi"]
   },
   {
     "name": "wifi",
     "categories": ["connectivity","devices"],
-    "tags": ["connection","signal","wireless"]
+    "tags": ["connection","signal","wireless","network"]
   },
   {
     "name": "wind-arrow-down",
-    "categories": ["weather","sustainability"],
-    "tags": ["weather","air","pressure","blow"]
+    "categories": ["$extends:wind"],
+    "tags": ["$extends:wind","$group:direction-down","pressure"]
   },
   {
     "name": "wind-arrow-up",
-    "categories": ["weather","sustainability","arrows","navigation"],
-    "tags": ["weather","air","pressure","blow","gust","windy","sort","increase"]
+    "categories": ["$extends:wind"],
+    "tags": ["$extends:wind","$group:direction-up","pressure","gust","windy","sort","increase"]
   },
   {
     "name": "wind",
@@ -9875,8 +9870,8 @@ export const iconsData: Array<{
   },
   {
     "name": "wine-off",
-    "categories": ["food-beverage"],
-    "tags": ["alcohol","beverage","drink","glass","alcohol free","abstinence","abstaining","teetotalism","allergy","intolerance"]
+    "categories": ["$extends:wine"],
+    "tags": ["$extends:wine","$group:off","alcohol free","abstinence","abstaining","teetotalism","allergy","intolerance"]
   },
   {
     "name": "wine",
@@ -9895,8 +9890,8 @@ export const iconsData: Array<{
   },
   {
     "name": "wrench-off",
-    "categories": ["account","development","tools"],
-    "tags": ["account","settings","spanner","diy","toolbox","build","construction","off","service","maintenance","disabled"]
+    "categories": ["$extends:wrench"],
+    "tags": ["$extends:wrench","$group:off","service","maintenance"]
   },
   {
     "name": "wrench",
@@ -9905,22 +9900,22 @@ export const iconsData: Array<{
   },
   {
     "name": "x-line-top",
-    "categories": ["letters-digits","notifications","math"],
-    "tags": ["line","top","arrow","navigation","up","pointer","direction","vector","symbol","cancel","close","delete","remove","times","clear","math","multiply","multiplication","mean","median","average","x̄"]
+    "categories": ["$extends:x"],
+    "tags": ["$extends:x","$group:x","line","top","arrow","navigation","up","pointer","direction","vector","symbol","mean","median","average","x̄"]
   },
   {
     "name": "x",
-    "categories": ["notifications","math"],
-    "tags": ["cancel","close","cross","delete","ex","remove","times","clear","math","multiply","multiplication"]
+    "categories": ["notifications","math","letters-digits"],
+    "tags": ["$group:letter","$group:x","math","multiply","multiplication"]
   },
   {
     "name": "zap-off",
-    "categories": ["connectivity","devices","photography","weather"],
-    "tags": ["flash","camera","lightning","electricity","energy","power"]
+    "categories": ["photography","devices"],
+    "tags": ["$extends:zap","$group:off"]
   },
   {
     "name": "zap",
-    "categories": ["connectivity","devices","photography","weather"],
+    "categories": ["photography","weather","devices"],
     "tags": ["flash","camera","lightning","electricity","energy","power","quick"]
   },
   {
@@ -9990,12 +9985,12 @@ export const iconsData: Array<{
   },
   {
     "name": "zoom-in",
-    "categories": ["accessibility","layout","design","text","photography"],
-    "tags": ["magnifying glass","plus"]
+    "categories": ["accessibility","layout","design","photography"],
+    "tags": ["$group:plus","magnifying glass"]
   },
   {
     "name": "zoom-out",
-    "categories": ["accessibility","layout","design","text","photography"],
-    "tags": ["magnifying glass","plus"]
+    "categories": ["accessibility","layout","design","photography"],
+    "tags": ["$group:minus","magnifying glass"]
   }
     ];
