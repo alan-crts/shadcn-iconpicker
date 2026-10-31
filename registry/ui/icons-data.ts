@@ -881,12 +881,12 @@ export const iconsData: Array<{
   {
     "name": "between-vertical-end",
     "categories": ["layout","design"],
-    "tags": ["$group:position-bottom","insert","add","top","slot","squeeze","space","vertical","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
+    "tags": ["$group:position-bottom","insert","add","top","slot","squeeze","space","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
   },
   {
     "name": "between-vertical-start",
     "categories": ["layout","design"],
-    "tags": ["$group:position-top","insert","add","bottom","slot","squeeze","space","vertical","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
+    "tags": ["$group:position-top","insert","add","bottom","slot","squeeze","space","grid","table","columns","cells","data","enter","entry","entries","blocks","rectangles","chevron"]
   },
   {
     "name": "biceps-flexed",
@@ -1186,7 +1186,7 @@ export const iconsData: Array<{
   {
     "name": "boxes-linked",
     "categories": ["development"],
-    "tags": ["cubes","package","module","dependencies","link","chain","blockchain","network","nodes","supply chain","integration","component","logistics","distributed","interconnected","relationship","coupling","system architecture","distributed systems","inventory"]
+    "tags": ["$group:graph","cubes","package","module","dependencies","link","chain","blockchain","supply chain","integration","component","logistics","distributed","interconnected","relationship","coupling","system architecture","distributed systems","inventory"]
   },
   {
     "name": "boxes",
@@ -1651,7 +1651,7 @@ export const iconsData: Array<{
   {
     "name": "chart-area",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","area"]
+    "tags": ["$group:chart"]
   },
   {
     "name": "chart-bar-big",
@@ -1671,17 +1671,22 @@ export const iconsData: Array<{
   {
     "name": "chart-bar-stacked",
     "categories": ["$extends:chart-bar"],
-    "tags": ["$extends:chart-bar","multivariate","categorical","comparison"]
+    "tags": ["$extends:chart-bar","multivariate"]
   },
   {
     "name": "chart-bar",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph"]
+    "tags": ["$group:chart","categorical","comparison"]
+  },
+  {
+    "name": "chart-bell-curve",
+    "categories": ["charts","math"],
+    "tags": ["$group:chart","distribution","normal distribution","gaussian","probability","frequency","density","symmetric","standard deviation"]
   },
   {
     "name": "chart-candlestick",
     "categories": ["charts","finance"],
-    "tags": ["trading","trader","financial","markets","portfolio","assets","prices","value","valuation","commodities","currencies","currency","stocks","exchange","hedge fund","statistics","analytics","diagram","graph"]
+    "tags": ["$group:chart","trading","trader","financial","markets","portfolio","assets","prices","value","valuation","commodities","currencies","currency","stocks","exchange","hedge fund"]
   },
   {
     "name": "chart-column-big",
@@ -1701,27 +1706,27 @@ export const iconsData: Array<{
   {
     "name": "chart-column-stacked",
     "categories": ["$extends:chart-column"],
-    "tags": ["$extends:chart-column","multivariate","categorical","comparison"]
+    "tags": ["$extends:chart-column","multivariate"]
   },
   {
     "name": "chart-column",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph"]
+    "tags": ["$group:chart","categorical","comparison"]
   },
   {
     "name": "chart-gantt",
     "categories": ["charts","time"],
-    "tags": ["diagram","graph","timeline","planning"]
+    "tags": ["$group:chart","timeline","planning","projects","manage","overview","roadmap","plan","deadline","date","event","range","period","productivity","work","agile"]
   },
   {
     "name": "chart-line",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","presentation"]
+    "tags": ["$group:chart"]
   },
   {
     "name": "chart-network",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","topology","cluster","web","nodes","connections","edges"]
+    "tags": ["$group:chart","$group:graph","cluster","web"]
   },
   {
     "name": "chart-no-axes-column-decreasing",
@@ -1735,43 +1740,43 @@ export const iconsData: Array<{
   },
   {
     "name": "chart-no-axes-column",
-    "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph"]
+    "categories": ["$extends:chart-column"],
+    "tags": ["$extends:chart-column"]
   },
   {
     "name": "chart-no-axes-combined",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","trending up"]
+    "tags": ["$group:chart","trending up"]
   },
   {
     "name": "chart-no-axes-gantt",
-    "categories": ["charts","time","development"],
-    "tags": ["projects","manage","overview","roadmap","plan","intentions","timeline","deadline","date","event","range","period","productivity","work","agile","code","coding"]
+    "categories": ["$extends:chart-gantt","development"],
+    "tags": ["$extends:chart-gantt","intentions","code","coding"]
   },
   {
     "name": "chart-pie",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","presentation"]
+    "tags": ["$group:chart"]
   },
   {
     "name": "chart-quadrant",
     "categories": ["charts","science","math"],
-    "tags": ["quadrant","chart","diagram","statistics","analytics","graph","chart-scatter","scatter plot","2x2","matrix","segmentation","correlation","comparison","risk","swot","clustering"]
+    "tags": ["$group:chart","quadrant","chart","chart-scatter","scatter plot","2x2","matrix","segmentation","correlation","comparison","risk","swot","clustering"]
   },
   {
     "name": "chart-radar",
     "categories": ["charts","shapes","science"],
-    "tags": ["radar","chart","diagram","shape","gem","mineral","pentagon","multidimensional","metrics","performance","comparison","profile","analytics","visualization","attributes"]
+    "tags": ["$group:chart","radar","chart","shape","gem","mineral","pentagon","multidimensional","metrics","performance","comparison","profile","attributes"]
   },
   {
     "name": "chart-scatter",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph"]
+    "tags": ["$group:chart"]
   },
   {
     "name": "chart-spline",
     "categories": ["charts"],
-    "tags": ["statistics","analytics","diagram","graph","curve","continuous","smooth","polynomial","quadratic","function","interpolation"]
+    "tags": ["$group:chart","curve","continuous","smooth","polynomial","quadratic","function","interpolation"]
   },
   {
     "name": "check-check",
@@ -2916,22 +2921,22 @@ export const iconsData: Array<{
   {
     "name": "database-arrow-down",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","$group:direction-down","server","export","download","backup","pull","downsize"]
+    "tags": ["$extends:database","$group:direction-down","download","pull","downsize"]
   },
   {
     "name": "database-arrow-up",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","$group:direction-up","server","import","upload","backup","push","upscale"]
+    "tags": ["$extends:database","$group:direction-up","upload","push","upscale"]
   },
   {
     "name": "database-backup",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","backup","time machine","rotate","arrow","left"]
+    "tags": ["$extends:database","time machine","rotate","arrow","left"]
   },
   {
     "name": "database-check",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","$group:check","server"]
+    "tags": ["$extends:database","$group:check"]
   },
   {
     "name": "database-cog",
@@ -2941,12 +2946,12 @@ export const iconsData: Array<{
   {
     "name": "database-minus",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","$group:minus","server"]
+    "tags": ["$extends:database","$group:minus"]
   },
   {
     "name": "database-plus",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","$group:plus","server","expand"]
+    "tags": ["$extends:database","$group:plus","expand"]
   },
   {
     "name": "database-search",
@@ -2956,7 +2961,7 @@ export const iconsData: Array<{
   {
     "name": "database-x",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","$group:x","server","error","failed","invalid","rejected","denied","disconnect"]
+    "tags": ["$extends:database","$group:x","error","failed","invalid","rejected","denied","disconnect"]
   },
   {
     "name": "database-zap",
@@ -2966,7 +2971,7 @@ export const iconsData: Array<{
   {
     "name": "database",
     "categories": ["devices","development"],
-    "tags": ["storage","memory","container","tin","pot","bytes","servers"]
+    "tags": ["storage","memory","container","tin","pot","bytes","servers","sql","db","query","sqlite","mysql","backup","export","import","dump","restore","migration","schema","records","tables","snapshot","archive","server","attachment","artifact","log","relational","dataset","dbms","structured data","data source","data"]
   },
   {
     "name": "decimals-arrow-left",
@@ -3470,18 +3475,18 @@ export const iconsData: Array<{
   },
   {
     "name": "file-chart-column",
-    "categories": ["$extends:file","charts"],
-    "tags": ["$extends:file","statistics","analytics","diagram","graph","presentation"]
+    "categories": ["$extends:file","$extends:chart-column"],
+    "tags": ["$extends:file","$extends:chart-column"]
   },
   {
     "name": "file-chart-line",
-    "categories": ["$extends:file","charts"],
+    "categories": ["$extends:file","$extends:chart-line"],
     "tags": ["$extends:file","$extends:chart-line"]
   },
   {
     "name": "file-chart-pie",
-    "categories": ["$extends:file","charts"],
-    "tags": ["$extends:file","statistics","analytics","diagram","graph","presentation"]
+    "categories": ["$extends:file","$extends:chart-pie"],
+    "tags": ["$extends:file","$extends:chart-pie"]
   },
   {
     "name": "file-check-corner",
@@ -3512,6 +3517,11 @@ export const iconsData: Array<{
     "name": "file-cog",
     "categories": ["$extends:file"],
     "tags": ["$extends:file","$group:cog","executable"]
+  },
+  {
+    "name": "file-database",
+    "categories": ["$extends:file","development"],
+    "tags": ["$extends:file","$extends:database"]
   },
   {
     "name": "file-diff",
@@ -4191,7 +4201,7 @@ export const iconsData: Array<{
   {
     "name": "git-graph",
     "categories": ["development"],
-    "tags": ["code","version control","commit graph","commits","gitlens"]
+    "tags": ["$group:graph","code","version control","commit graph","commits","gitlens"]
   },
   {
     "name": "git-merge-conflict",
@@ -4296,12 +4306,12 @@ export const iconsData: Array<{
   {
     "name": "graph-hub",
     "categories": ["connectivity","development"],
-    "tags": ["load balancer","distribute","traffic","network","nodes","parallel","branch","hierarchy","routing","dispatcher","cluster","backend","fan-out","topology","orchestration"]
+    "tags": ["$group:graph","load balancer","distribute","traffic","parallel","branch","hierarchy","routing","dispatcher","cluster","backend","fan-out","orchestration"]
   },
   {
     "name": "graph-star",
     "categories": ["development","charts"],
-    "tags": ["mind map","network","hub","nodes","links","connections","relationships","dependencies","bonds","structure","topology","cluster","thoughts","ideas","concepts","molecule"]
+    "tags": ["$group:graph","mind map","hub","dependencies","bonds","cluster","thoughts","ideas","concepts","molecule"]
   },
   {
     "name": "grid-2x2-check",
@@ -5006,7 +5016,7 @@ export const iconsData: Array<{
   {
     "name": "layout-panel-top",
     "categories": ["layout"],
-    "tags": ["$group:position-top","window","webpage","block","section","grid","template","structure"]
+    "tags": ["$group:position-top","window","webpage","section","grid","template","structure"]
   },
   {
     "name": "layout-template",
@@ -5629,6 +5639,41 @@ export const iconsData: Array<{
     "tags": ["location","navigation","travel"]
   },
   {
+    "name": "margin-bottom",
+    "categories": ["$extends:margin"],
+    "tags": ["$extends:margin","$group:position-bottom"]
+  },
+  {
+    "name": "margin-horizontal",
+    "categories": ["$extends:margin"],
+    "tags": ["$extends:margin","$group:position-left","$group:position-right"]
+  },
+  {
+    "name": "margin-left",
+    "categories": ["$extends:margin"],
+    "tags": ["$extends:margin","$group:position-left","indent"]
+  },
+  {
+    "name": "margin-right",
+    "categories": ["$extends:margin"],
+    "tags": ["$extends:margin","$group:position-right"]
+  },
+  {
+    "name": "margin-top",
+    "categories": ["$extends:margin"],
+    "tags": ["$extends:margin","$group:position-top"]
+  },
+  {
+    "name": "margin-vertical",
+    "categories": ["$extends:margin"],
+    "tags": ["$extends:margin","$group:position-top","$group:position-bottom"]
+  },
+  {
+    "name": "margin",
+    "categories": ["layout","design"],
+    "tags": ["margin","design","style","padding","spacing","gap","outer spacing","box model","whitespace","space","offset","alignment","position","layout","css","ui"]
+  },
+  {
     "name": "mars-stroke",
     "categories": ["$extends:mars"],
     "tags": ["gender","androgyne","transgender"]
@@ -5939,6 +5984,11 @@ export const iconsData: Array<{
     "tags": ["reflection","optics","glass","surface","image","physics","science","bathroom","vanity","makeup","decor","cosmetic","shiny","periscope"]
   },
   {
+    "name": "monitor-activity",
+    "categories": ["connectivity","devices"],
+    "tags": ["$extends:monitor","$extends:activity","heartbeat","health","performance","diagnostics","metrics","telemetry","network","observability","uptime","server","infrastructure","resource usage","system status","real-time","monitoring","dashboard"]
+  },
+  {
     "name": "monitor-check",
     "categories": ["$extends:monitor"],
     "tags": ["$extends:monitor","$group:check","connected","running","active"]
@@ -6206,7 +6256,7 @@ export const iconsData: Array<{
   {
     "name": "network",
     "categories": ["development","connectivity"],
-    "tags": ["tree"]
+    "tags": ["$group:graph","tree"]
   },
   {
     "name": "newspaper",
@@ -8080,8 +8130,8 @@ export const iconsData: Array<{
   },
   {
     "name": "square-chart-gantt",
-    "categories": ["charts","time","development"],
-    "tags": ["projects","manage","overview","roadmap","plan","intentions","timeline","deadline","date","event","range","period","productivity","work","agile","code","coding","toolbar","button"]
+    "categories": ["$extends:chart-gantt","development"],
+    "tags": ["$extends:chart-gantt","intentions","code","coding","toolbar","button"]
   },
   {
     "name": "square-check-big",
@@ -8387,6 +8437,41 @@ export const iconsData: Array<{
     "name": "square-off",
     "categories": ["shapes","design"],
     "tags": ["$group:off","not","none","stopped","checkbox","unchecked","toggle","negation","form","ui"]
+  },
+  {
+    "name": "square-padding-bottom",
+    "categories": ["$extends:square-padding"],
+    "tags": ["$extends:square-padding","$group:position-bottom"]
+  },
+  {
+    "name": "square-padding-horizontal",
+    "categories": ["$extends:square-padding"],
+    "tags": ["$extends:square-padding","$group:position-left","$group:position-right"]
+  },
+  {
+    "name": "square-padding-left",
+    "categories": ["$extends:square-padding"],
+    "tags": ["$extends:square-padding","$group:position-left","indent"]
+  },
+  {
+    "name": "square-padding-right",
+    "categories": ["$extends:square-padding"],
+    "tags": ["$extends:square-padding","$group:position-right"]
+  },
+  {
+    "name": "square-padding-top",
+    "categories": ["$extends:square-padding"],
+    "tags": ["$extends:square-padding","$group:position-top"]
+  },
+  {
+    "name": "square-padding-vertical",
+    "categories": ["$extends:square-padding"],
+    "tags": ["$extends:square-padding","$group:position-top","$group:position-bottom"]
+  },
+  {
+    "name": "square-padding",
+    "categories": ["layout","design"],
+    "tags": ["padding","design","style","margin","spacing","gap","inner spacing","box model","whitespace","space","offset","alignment","position","layout","css","ui"]
   },
   {
     "name": "square-pause",
@@ -9211,17 +9296,17 @@ export const iconsData: Array<{
   {
     "name": "trending-down",
     "categories": ["charts","arrows"],
-    "tags": ["$group:direction-down","statistics"]
+    "tags": ["$group:chart","$group:direction-down"]
   },
   {
     "name": "trending-up-down",
     "categories": ["$extends:trending-up"],
-    "tags": ["$group:direction-up","$group:direction-down","arrows","estimated","indeterminate","data fluctuation","uncertain","forecast","variable","prediction","dynamic","volatile"]
+    "tags": ["$group:chart","$group:direction-up","$group:direction-down","arrows","estimated","indeterminate","data fluctuation","uncertain","forecast","variable","prediction","dynamic","volatile"]
   },
   {
     "name": "trending-up",
     "categories": ["charts","arrows"],
-    "tags": ["$group:direction-up","statistics"]
+    "tags": ["$group:chart","$group:direction-up"]
   },
   {
     "name": "triangle-alert",
@@ -9756,7 +9841,7 @@ export const iconsData: Array<{
   {
     "name": "waypoints",
     "categories": ["security","navigation","development"],
-    "tags": ["indirection","vpn","virtual private network","proxy","connections","bounce","reroute","path","journey","planner","stops","stations","shared","spread","viral"]
+    "tags": ["$group:graph","indirection","vpn","virtual private network","proxy","bounce","reroute","path","journey","planner","stops","stations","shared","spread","viral"]
   },
   {
     "name": "webcam-off",
@@ -9881,7 +9966,7 @@ export const iconsData: Array<{
   {
     "name": "workflow",
     "categories": ["development"],
-    "tags": ["action","continuous integration","ci","automation","devops","network","node","connection"]
+    "tags": ["$group:graph","action","continuous integration","ci","automation","devops","node","connection"]
   },
   {
     "name": "worm",
