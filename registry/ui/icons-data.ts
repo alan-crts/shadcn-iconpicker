@@ -1796,7 +1796,7 @@ export const iconsData: Array<{
   {
     "name": "chef-hat",
     "categories": ["food-beverage"],
-    "tags": ["cooking","food","kitchen","restaurant"]
+    "tags": ["toque blanche","culinary cap","cooking","baking","culinary","gastronomy","food","kitchen","restaurant","cuisine","catering","meal","dining","gourmet","apron","uniform","menu","toque","cook","baker","cookery","headwear","headgear","cap","kitchen staff","culinary professional","food service","hospitality"]
   },
   {
     "name": "cherry",
@@ -2992,6 +2992,16 @@ export const iconsData: Array<{
     "name": "dessert",
     "categories": ["food-beverage"],
     "tags": ["pudding","christmas","xmas","custard","iced bun","icing","fondant","cake","ice cream","gelato","sundae","scoop","dollop","sugar","food","sweet"]
+  },
+  {
+    "name": "diagram-flow-horizontal",
+    "categories": ["design","charts"],
+    "tags": ["$group:graph","mind map","visualization","brainstorm","brainstorming","ideas","concepts","planning","hierarchy","branches","organization","tree","workflow","flowchart","process","process mapping","sequence"]
+  },
+  {
+    "name": "diagram-flow-vertical",
+    "categories": ["design","charts","development"],
+    "tags": ["$group:graph","flowchart","workflow","hierarchy","branches","tree","parent","child","process","sequence","decision tree"]
   },
   {
     "name": "diameter",
@@ -4254,34 +4264,44 @@ export const iconsData: Array<{
     "tags": ["glasses","spectacles"]
   },
   {
+    "name": "globe-ban",
+    "categories": ["$extends:globe","security"],
+    "tags": ["$extends:globe","$group:off","web","website","banned","geo blocking","offline","parental controls","content filter","region lock","public access","access control","domain blocking","region restriction"]
+  },
+  {
     "name": "globe-check",
     "categories": ["$extends:globe"],
-    "tags": ["$extends:globe","$group:check","internet","web","available","online","status"]
+    "tags": ["$extends:globe","$group:check","web","available","online","status"]
   },
   {
     "name": "globe-code",
     "categories": ["$extends:globe","development"],
-    "tags": ["$extends:globe","$group:code","website","internet","globe","connection","network","digital","access","global","link"]
+    "tags": ["$extends:globe","$group:code","website","digital","access","link"]
   },
   {
     "name": "globe-lock",
     "categories": ["security","connectivity"],
-    "tags": ["$extends:globe","$group:lock","vpn","network","encryption","connection"]
+    "tags": ["$extends:globe","$group:lock","vpn","encryption"]
   },
   {
     "name": "globe-off",
     "categories": ["$extends:globe"],
-    "tags": ["$extends:globe","$group:off","globe","earth","planet","mute","avoid","internet","offline","disconnected","network","connection","no connection","network failure","signal off"]
+    "tags": ["$extends:globe","$group:off","mute","avoid","offline","disconnected","no connection","network failure","signal off"]
+  },
+  {
+    "name": "globe-plus",
+    "categories": ["$extends:globe"],
+    "tags": ["$extends:globe","$group:plus"]
   },
   {
     "name": "globe-x",
     "categories": ["$extends:globe"],
-    "tags": ["$extends:globe","$group:x","globe","internet","offline","disconnected","network","connection","no connection","network failure","signal off"]
+    "tags": ["$extends:globe","$group:x","offline","disconnected","no connection","network failure","signal off"]
   },
   {
     "name": "globe",
     "categories": ["navigation","connectivity"],
-    "tags": ["world","browser","language","translate"]
+    "tags": ["world","browser","language","translate","location","country","coverage","publish","connection","global","earth","globe","internet","planet","network"]
   },
   {
     "name": "goal",
