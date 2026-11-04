@@ -569,11 +569,6 @@ export const iconsData: Array<{
     "tags": ["rashers","smoked","streaky","crispy","meat","fast food","junk food","snack","dish","restaurant","brunch","lunch","meal","savory","savoury","cookery","cooking","grilled","barbecue","barbeque","bbq","pig","pork","breakfast","cured","butcher","sandwich","protein","grocery","kitchen"]
   },
   {
-    "name": "badge-alert",
-    "categories": ["account","social"],
-    "tags": ["$extends:badge","$group:exclamation-mark","security","safety","issue"]
-  },
-  {
     "name": "badge-cent",
     "categories": ["shopping","finance"],
     "tags": ["discount","offer","sale","voucher","tag","monetization","marketing","finance","financial","exchange","transaction","payment","cents","dollar","usd","$","¢"]
@@ -592,6 +587,11 @@ export const iconsData: Array<{
     "name": "badge-euro",
     "categories": ["shopping","finance"],
     "tags": ["$group:currency","discount","offer","sale","voucher","tag","marketing","€"]
+  },
+  {
+    "name": "badge-exclamation-point",
+    "categories": ["account","social"],
+    "tags": ["$extends:badge","$group:exclamation-mark","security","safety","issue"]
   },
   {
     "name": "badge-indian-rupee",
@@ -744,6 +744,11 @@ export const iconsData: Array<{
     "tags": ["$extends:battery"]
   },
   {
+    "name": "battery-exclamation-point",
+    "categories": ["$extends:battery"],
+    "tags": ["$extends:battery","$group:exclamation-mark"]
+  },
+  {
     "name": "battery-full",
     "categories": ["$extends:battery"],
     "tags": ["$extends:battery"]
@@ -762,11 +767,6 @@ export const iconsData: Array<{
     "name": "battery-plus",
     "categories": ["devices"],
     "tags": ["$extends:battery","$group:plus","economy","health","maximum","upgrade"]
-  },
-  {
-    "name": "battery-warning",
-    "categories": ["$extends:battery"],
-    "tags": ["$extends:battery","$group:exclamation-mark"]
   },
   {
     "name": "battery",
@@ -994,11 +994,6 @@ export const iconsData: Array<{
     "tags": ["$extends:book","$group:letter","dictionary","define","definition","thesaurus","encyclopedia","encyclopaedia","language","translate","alphabetical","a-z","ordered"]
   },
   {
-    "name": "book-alert",
-    "categories": ["$extends:book"],
-    "tags": ["$extends:book","$group:exclamation-mark"]
-  },
-  {
     "name": "book-audio",
     "categories": ["multimedia","text"],
     "tags": ["$extends:book","$extends:audio-lines","audiobook","listening"]
@@ -1027,6 +1022,11 @@ export const iconsData: Array<{
     "name": "book-down",
     "categories": ["development"],
     "tags": ["$extends:book","$group:direction-down","code","coding","version control","git","repository","pull"]
+  },
+  {
+    "name": "book-exclamation-point",
+    "categories": ["$extends:book"],
+    "tags": ["$extends:book","$group:exclamation-mark"]
   },
   {
     "name": "book-headphones",
@@ -1924,11 +1924,6 @@ export const iconsData: Array<{
     "tags": ["smoking"]
   },
   {
-    "name": "circle-alert",
-    "categories": ["notifications"],
-    "tags": ["$group:exclamation-mark"]
-  },
-  {
     "name": "circle-arrow-down",
     "categories": ["arrows"],
     "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse","sign","button"]
@@ -2062,6 +2057,11 @@ export const iconsData: Array<{
     "name": "circle-euro",
     "categories": ["finance"],
     "tags": ["$group:currency","symbol","europe","€","euro","coin"]
+  },
+  {
+    "name": "circle-exclamation-point",
+    "categories": ["notifications"],
+    "tags": ["$group:exclamation-mark"]
   },
   {
     "name": "circle-fading-arrow-up",
@@ -2464,11 +2464,6 @@ export const iconsData: Array<{
     "tags": ["$extends:clock"]
   },
   {
-    "name": "clock-alert",
-    "categories": ["$extends:clock"],
-    "tags": ["$extends:clock","$group:exclamation-mark","wrong"]
-  },
-  {
     "name": "clock-arrow-down",
     "categories": ["$extends:clock"],
     "tags": ["$extends:clock","$group:direction-down","$group:sort"]
@@ -2494,6 +2489,11 @@ export const iconsData: Array<{
     "tags": ["$extends:clock","$group:check"]
   },
   {
+    "name": "clock-exclamation-point",
+    "categories": ["$extends:clock"],
+    "tags": ["$extends:clock","$group:exclamation-mark","wrong"]
+  },
+  {
     "name": "clock-fading",
     "categories": ["$extends:clock"],
     "tags": ["$extends:clock"]
@@ -2512,11 +2512,6 @@ export const iconsData: Array<{
     "name": "closed-caption",
     "categories": ["accessibility","multimedia"],
     "tags": ["$group:letter","tv","movie","video","closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
-  },
-  {
-    "name": "cloud-alert",
-    "categories": ["development","notifications","weather"],
-    "tags": ["$extends:cloud","$group:exclamation-mark","sync","network"]
   },
   {
     "name": "cloud-backup",
@@ -2542,6 +2537,11 @@ export const iconsData: Array<{
     "name": "cloud-drizzle",
     "categories": ["$extends:cloud"],
     "tags": ["$extends:cloud","shower"]
+  },
+  {
+    "name": "cloud-exclamation-point",
+    "categories": ["development","notifications","weather"],
+    "tags": ["$extends:cloud","$group:exclamation-mark","sync","network"]
   },
   {
     "name": "cloud-fog",
@@ -5519,6 +5519,11 @@ export const iconsData: Array<{
     "tags": ["$extends:mail","$group:dot","mail","envelope","communication","post","send","address"]
   },
   {
+    "name": "mail-exclamation-point",
+    "categories": ["mail","notifications"],
+    "tags": ["$extends:mail","$group:exclamation-mark","delivery error"]
+  },
+  {
     "name": "mail-minus",
     "categories": ["mail"],
     "tags": ["$extends:mail","$group:minus"]
@@ -5549,11 +5554,6 @@ export const iconsData: Array<{
     "tags": ["$extends:mail","$group:search"]
   },
   {
-    "name": "mail-warning",
-    "categories": ["mail","notifications"],
-    "tags": ["$extends:mail","$group:exclamation-mark","delivery error"]
-  },
-  {
     "name": "mail-x",
     "categories": ["mail"],
     "tags": ["$extends:mail","$group:x"]
@@ -5572,6 +5572,11 @@ export const iconsData: Array<{
     "name": "mails",
     "categories": ["mail"],
     "tags": ["emails","messages","letters","multiple","mailing list","newsletter","copy"]
+  },
+  {
+    "name": "mango",
+    "categories": ["food-beverage"],
+    "tags": ["fruit","food","tropical","summer","exotic","healthy","ripe","yellow","juice","smoothie","snack","produce"]
   },
   {
     "name": "map-minus",
@@ -5769,6 +5774,11 @@ export const iconsData: Array<{
     "tags": ["$extends:message-circle","draft"]
   },
   {
+    "name": "message-circle-exclamation-point",
+    "categories": ["$extends:message-circle","notifications"],
+    "tags": ["$extends:message-circle","$group:exclamation-mark","report","abuse","offense","protected"]
+  },
+  {
     "name": "message-circle-heart",
     "categories": ["$extends:message-circle"],
     "tags": ["$extends:message-circle","$group:heart","positive","interest","valentine","dating","date"]
@@ -5804,11 +5814,6 @@ export const iconsData: Array<{
     "tags": ["$extends:message-circle","speech","bubble","sms","texting","messaging","dm","discussion","thread","transcript","written","writing","lines","support","chatbot"]
   },
   {
-    "name": "message-circle-warning",
-    "categories": ["$extends:message-circle","notifications"],
-    "tags": ["$extends:message-circle","$group:exclamation-mark","report","abuse","offense","protected"]
-  },
-  {
     "name": "message-circle-x",
     "categories": ["$extends:message-circle"],
     "tags": ["$extends:message-circle","$group:x","silence","mute","moderate"]
@@ -5842,6 +5847,11 @@ export const iconsData: Array<{
     "name": "message-square-dot",
     "categories": ["$extends:message-square","notifications"],
     "tags": ["$extends:message-square","$group:dot","unresolved"]
+  },
+  {
+    "name": "message-square-exclamation-point",
+    "categories": ["$extends:message-square","notifications"],
+    "tags": ["$extends:message-square","$group:exclamation-mark","report","abuse","offense","protected"]
   },
   {
     "name": "message-square-heart",
@@ -5887,11 +5897,6 @@ export const iconsData: Array<{
     "name": "message-square-text",
     "categories": ["$extends:message-square"],
     "tags": ["$extends:message-square"]
-  },
-  {
-    "name": "message-square-warning",
-    "categories": ["$extends:message-square","notifications"],
-    "tags": ["$extends:message-square","$group:exclamation-mark","report","abuse","offense","protected"]
   },
   {
     "name": "message-square-x",
@@ -6344,7 +6349,7 @@ export const iconsData: Array<{
     "tags": ["hazelnut","acorn","food","diet"]
   },
   {
-    "name": "octagon-alert",
+    "name": "octagon-exclamation-point",
     "categories": ["$extends:octagon","notifications"],
     "tags": ["$group:exclamation-mark"]
   },
@@ -7524,11 +7529,6 @@ export const iconsData: Array<{
     "tags": ["paper","log","scripture","document","notes","parchment","list","long","script","story","code","coding"]
   },
   {
-    "name": "search-alert",
-    "categories": ["$extends:search"],
-    "tags": ["$extends:search","$group:exclamation-mark","stop","anomaly"]
-  },
-  {
     "name": "search-check",
     "categories": ["$extends:search"],
     "tags": ["$extends:search","$group:check","found"]
@@ -7537,6 +7537,11 @@ export const iconsData: Array<{
     "name": "search-code",
     "categories": ["$extends:search","development"],
     "tags": ["$extends:search","$group:code","grep","chevrons","<>"]
+  },
+  {
+    "name": "search-exclamation-point",
+    "categories": ["$extends:search"],
+    "tags": ["$extends:search","$group:exclamation-mark","stop","anomaly"]
   },
   {
     "name": "search-slash",
@@ -7654,11 +7659,6 @@ export const iconsData: Array<{
     "tags": ["ledge","rack","storage","inventory","furniture","sill","shelves","shelf","organize","display","store","arrange","unit","cabinet","fixture","retail","warehouse"]
   },
   {
-    "name": "shield-alert",
-    "categories": ["account","security","development","notifications","gaming"],
-    "tags": ["$extends:shield","$group:exclamation-mark","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","unprevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","uncertified","emergency","attention","urgent","alarm","attacked","damaged","injured","hit","expired","disabled","inactive"]
-  },
-  {
     "name": "shield-ban",
     "categories": ["account","security","development","gaming"],
     "tags": ["$extends:shield","$group:off","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","stopped","intercepted","interception","saved","thwarted","unprevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","uncertified","error","attacked","damaged","injured","hit","expired","eliminated"]
@@ -7682,6 +7682,11 @@ export const iconsData: Array<{
     "name": "shield-ellipsis",
     "categories": ["account","security","development","gaming"],
     "tags": ["$extends:shield","securing","protecting","guarding","armoring","armouring","defending","blocking","preventing","detecting","scanning","finding","auditing","verifying","upgrading","loader","loading","throbber","progress","dots","more","etc","...","…"]
+  },
+  {
+    "name": "shield-exclamation-point",
+    "categories": ["account","security","development","notifications","gaming"],
+    "tags": ["$extends:shield","$group:exclamation-mark","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","unprevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","uncertified","emergency","attention","urgent","alarm","attacked","damaged","injured","hit","expired","disabled","inactive"]
   },
   {
     "name": "shield-half",
@@ -9329,14 +9334,14 @@ export const iconsData: Array<{
     "tags": ["$group:chart","$group:direction-up"]
   },
   {
-    "name": "triangle-alert",
-    "categories": ["$extends:triangle","notifications","development"],
-    "tags": ["$group:exclamation-mark","linter"]
-  },
-  {
     "name": "triangle-dashed",
     "categories": ["$extends:triangle"],
     "tags": ["$extends:triangle","dashed"]
+  },
+  {
+    "name": "triangle-exclamation-point",
+    "categories": ["$extends:triangle","notifications","development"],
+    "tags": ["$group:exclamation-mark","linter"]
   },
   {
     "name": "triangle-right",
