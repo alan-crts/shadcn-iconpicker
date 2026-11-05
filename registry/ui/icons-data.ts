@@ -2069,6 +2069,11 @@ export const iconsData: Array<{
     "tags": ["$group:direction-up","up","upgrade","improve","circle","button"]
   },
   {
+    "name": "circle-fading-check",
+    "categories": ["notifications"],
+    "tags": ["$group:check","pending","progress","processing","verifying","loading"]
+  },
+  {
     "name": "circle-fading-play",
     "categories": ["multimedia","social"],
     "tags": ["$group:play","short clips","shorts","reels","stories","video","highlights","social media","content","teaser","clip","short form","vertical video"]
@@ -6379,6 +6384,11 @@ export const iconsData: Array<{
     "tags": ["$group:letter","greek","symbol","mathematics","education","physics","engineering","ohms","electrical resistance","angular frequency","dynamical systems","astronomy","constellations","philosophy"]
   },
   {
+    "name": "opacity",
+    "categories": ["design","photography"],
+    "tags": ["opacity","opaque","transparency","visibility","fade","lens","glass","blur","filter","clear","mask","cover","gradient"]
+  },
+  {
     "name": "option",
     "categories": ["development"],
     "tags": ["keyboard","key","mac","alt","button"]
@@ -6414,9 +6424,19 @@ export const iconsData: Array<{
     "tags": ["box","container","storage","unpack","unarchive","unzip","opened","delivered"]
   },
   {
+    "name": "package-pen",
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package","$group:pen"]
+  },
+  {
     "name": "package-plus",
     "categories": ["$extends:package"],
     "tags": ["$extends:package","$group:plus"]
+  },
+  {
+    "name": "package-question-mark",
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package","$group:question-mark","unresolved","placeholder","pending","lost","dependency"]
   },
   {
     "name": "package-search",
@@ -6431,7 +6451,7 @@ export const iconsData: Array<{
   {
     "name": "package",
     "categories": ["files","development"],
-    "tags": ["box","container","storage","sealed","delivery","undelivered","unopened","packed","archive","zip","module"]
+    "tags": ["box","container","storage","sealed","delivery","undelivered","unopened","packed","archive","zip","module","shipping","recipient","inventory","logistics","tracking","order","product"]
   },
   {
     "name": "paint-bucket",
