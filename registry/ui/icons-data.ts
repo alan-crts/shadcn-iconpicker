@@ -4364,6 +4364,11 @@ export const iconsData: Array<{
     "tags": ["table","rows","columns","blocks","plot","land","geometry","measure","size","width","height","distance","surface area","square meter","acre","window"]
   },
   {
+    "name": "grid-3x3-off",
+    "categories": ["$extends:grid-3x3"],
+    "tags": ["$extends:grid-3x3","$group:off","guides","snap","canvas","spreadsheet","cells","data table","diagram","overlay"]
+  },
+  {
     "name": "grid-3x3",
     "categories": ["text","layout","design"],
     "tags": ["table","rows","columns"]
@@ -6112,6 +6117,11 @@ export const iconsData: Array<{
     "name": "mop",
     "categories": ["home","tools"],
     "tags": ["cleaning","sweeping","scrubbing","housekeeping","hygiene","sanitation","chores","swab","tidy","floor","janitor","maintenance","wash","wipe","spotless","pristine","disinfect"]
+  },
+  {
+    "name": "moped",
+    "categories": ["transportation"],
+    "tags": ["scooter","two-wheeler","commute","urban","city","courier","motorbike","moto","motorcycle","transport","vehicle","drive","ride","race","racing","trip","journey","delivery","off-road","dirt bike","trail","enduro"]
   },
   {
     "name": "mosque",
@@ -8259,6 +8269,11 @@ export const iconsData: Array<{
     "tags": ["$extends:square-dashed","$group:plus","select","placeholder","frame","empty"]
   },
   {
+    "name": "square-dashed-search",
+    "categories": ["$extends:square-dashed"],
+    "tags": ["$extends:square-dashed","$group:search"]
+  },
+  {
     "name": "square-dashed-text",
     "categories": ["text","cursors"],
     "tags": ["find","search","selection","dashed"]
@@ -8281,7 +8296,7 @@ export const iconsData: Array<{
   {
     "name": "square-dashed",
     "categories": ["design","cursors"],
-    "tags": ["selection","square","rectangular","marquee","tool","dashed","box"]
+    "tags": ["selection","square","rectangular","marquee","tool","dashed","box","region","area","region of interest"]
   },
   {
     "name": "square-dimensions",
@@ -9534,6 +9549,11 @@ export const iconsData: Array<{
     "tags": ["$extends:user","$group:cog"]
   },
   {
+    "name": "user-exclamation-point",
+    "categories": ["$extends:user"],
+    "tags": ["$extends:user","$group:exclamation-mark","flagged","suspicious","reported","violation","moderation","account issue","review"]
+  },
+  {
     "name": "user-group",
     "categories": ["$extends:user","people","social"],
     "tags": ["$extends:user","group","team","community","membership","collaboration","organization","directory","staff","family","ancestry","ancestors","lineage","parents"]
@@ -9577,6 +9597,11 @@ export const iconsData: Array<{
     "name": "user-round-cog",
     "categories": ["$extends:user-round"],
     "tags": ["$extends:user-round","$group:cog"]
+  },
+  {
+    "name": "user-round-exclamation-point",
+    "categories": ["$extends:user-round"],
+    "tags": ["$extends:user-round","$extends:user-exclamation-point"]
   },
   {
     "name": "user-round-group",
