@@ -1794,6 +1794,11 @@ export const iconsData: Array<{
     "tags": ["$group:check"]
   },
   {
+    "name": "cheese",
+    "categories": ["food-beverage"],
+    "tags": ["swiss","holes","fondue","emmental","gouda","edam","cheddar","brie","mozzarella","feta","halloumi","gorgonzola","roquefort","camembert","dairy","snack","dish","restaurant","lunch","meal","savory","savoury","cookery","cooking","grilled"]
+  },
+  {
     "name": "chef-hat",
     "categories": ["food-beverage"],
     "tags": ["toque blanche","culinary cap","cooking","baking","culinary","gastronomy","food","kitchen","restaurant","cuisine","catering","meal","dining","gourmet","apron","uniform","menu","toque","cook","baker","cookery","headwear","headgear","cap","kitchen staff","culinary professional","food service","hospitality"]
@@ -1924,6 +1929,16 @@ export const iconsData: Array<{
     "tags": ["smoking"]
   },
   {
+    "name": "circle-arrow-down-left-exit",
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down-left","outwards"]
+  },
+  {
+    "name": "circle-arrow-down-right-exit",
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down-right","outwards"]
+  },
+  {
     "name": "circle-arrow-down",
     "categories": ["arrows"],
     "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse","sign","button"]
@@ -1934,29 +1949,19 @@ export const iconsData: Array<{
     "tags": ["$group:direction-left","$group:navigation-previous","previous","sign","turn","button","<-"]
   },
   {
-    "name": "circle-arrow-out-down-left",
+    "name": "circle-arrow-right",
     "categories": ["arrows"],
-    "tags": ["$group:direction-down-left","outwards"]
+    "tags": ["$group:direction-right","$group:navigation-next","next","sign","turn","button","->"]
   },
   {
-    "name": "circle-arrow-out-down-right",
-    "categories": ["arrows"],
-    "tags": ["$group:direction-down-right","outwards"]
-  },
-  {
-    "name": "circle-arrow-out-up-left",
+    "name": "circle-arrow-up-left-exit",
     "categories": ["arrows"],
     "tags": ["$group:direction-up-left","outwards","keyboard","button","escape"]
   },
   {
-    "name": "circle-arrow-out-up-right",
+    "name": "circle-arrow-up-right-exit",
     "categories": ["arrows"],
     "tags": ["$group:direction-up-right","outwards"]
-  },
-  {
-    "name": "circle-arrow-right",
-    "categories": ["arrows"],
-    "tags": ["$group:direction-right","$group:navigation-next","next","sign","turn","button","->"]
   },
   {
     "name": "circle-arrow-up",
@@ -5286,12 +5291,12 @@ export const iconsData: Array<{
   {
     "name": "line-squiggle",
     "categories": ["shapes","math","design"],
-    "tags": ["line","snakes","annotate","curve","doodle","stroke","pen","tool","gesture","draw","wave","art","road"]
+    "tags": ["$group:line","snakes","annotate","doodle","pen","tool","gesture","draw","wave","art","road"]
   },
   {
     "name": "line-style",
     "categories": ["design"],
-    "tags": ["line","stroke","style","dashed","border"]
+    "tags": ["$group:line","style","dashed","border"]
   },
   {
     "name": "link-2-off",
@@ -6132,6 +6137,11 @@ export const iconsData: Array<{
     "name": "motorbike",
     "categories": ["transportation"],
     "tags": ["moto","motorcycle","transport","vehicle","drive","ride","trip","race","racing","journey","delivery"]
+  },
+  {
+    "name": "mound-shovel",
+    "categories": ["tools","nature"],
+    "tags": ["$extends:shovel","sand","pile","grain","desert","nature","dirt pile","sand pile","dirt","soil","earth","gravel","heap","stockpile","aggregate","excavation","earthworks","mine","mining","quarry","sand mine","frac sand","construction","construction site","landscaping","beach"]
   },
   {
     "name": "mountain-snow",
@@ -7324,6 +7334,11 @@ export const iconsData: Array<{
     "tags": ["arrow","right","clockwise","refresh","reload","rerun","redo"]
   },
   {
+    "name": "route-arrow-right",
+    "categories": ["$extends:route","arrows"],
+    "tags": ["$extends:route","$group:direction-right","one-way","arrow"]
+  },
+  {
     "name": "route-off",
     "categories": ["$extends:route"],
     "tags": ["$extends:route","$group:off","reset","clear","closed"]
@@ -7331,7 +7346,7 @@ export const iconsData: Array<{
   {
     "name": "route",
     "categories": ["navigation"],
-    "tags": ["path","journey","planner","points","stops","stations"]
+    "tags": ["path","journey","planner","points","stops","stations","direction","right","flow","reroute","detour","navigate","forward","auto","map","waypoint","gps","turn","location","directional"]
   },
   {
     "name": "router",
@@ -8046,12 +8061,12 @@ export const iconsData: Array<{
   {
     "name": "spline-pointer",
     "categories": ["$extends:spline","cursors"],
-    "tags": ["$extends:spline","node","click","pointer","target","vector"]
+    "tags": ["$extends:spline","node","click","pointer","target"]
   },
   {
     "name": "spline",
     "categories": ["design"],
-    "tags": ["path","pen","tool","shape","curve","draw"]
+    "tags": ["$group:line","pen","tool","draw"]
   },
   {
     "name": "split",
@@ -8089,9 +8104,39 @@ export const iconsData: Array<{
     "tags": ["pulse","action","motion","movement","exercise","fitness","healthcare","heart rate monitor","vital signs","vitals","emergency room","er","intensive care","hospital","defibrillator","earthquake","seismic","magnitude","richter scale","aftershock","tremor","shockwave","audio","waveform","synthesizer","synthesiser","music"]
   },
   {
+    "name": "square-arrow-down-enter",
+    "categories": ["$extends:square-arrow-down","files"],
+    "tags": ["$group:direction-down","$group:enter","$group:layout-resize","download","press","cell","split"]
+  },
+  {
+    "name": "square-arrow-down-exit",
+    "categories": ["$extends:square-arrow-down"],
+    "tags": ["$group:direction-down","$group:exit","$group:layout-resize","pour","empty","cell","expand"]
+  },
+  {
+    "name": "square-arrow-down-left-enter",
+    "categories": ["$extends:square-arrow-down-left-exit"],
+    "tags": ["$group:direction-down-left","$group:enter","$group:layout-resize","collapse","exit","close","return","dock"]
+  },
+  {
+    "name": "square-arrow-down-left-exit",
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down-left","outwards"]
+  },
+  {
     "name": "square-arrow-down-left",
     "categories": ["arrows"],
     "tags": ["$group:direction-down-left","sign","keyboard","button","turn"]
+  },
+  {
+    "name": "square-arrow-down-right-enter",
+    "categories": ["$extends:square-arrow-down-right-exit"],
+    "tags": ["$group:direction-down-right","$group:enter","$group:layout-resize"]
+  },
+  {
+    "name": "square-arrow-down-right-exit",
+    "categories": ["arrows"],
+    "tags": ["$group:direction-down-right","outwards"]
   },
   {
     "name": "square-arrow-down-right",
@@ -8104,39 +8149,29 @@ export const iconsData: Array<{
     "tags": ["$group:direction-down","$group:navigation-next","backwards","reverse","sign","keyboard","button"]
   },
   {
+    "name": "square-arrow-left-enter",
+    "categories": ["$extends:square-arrow-left"],
+    "tags": ["$group:direction-left","$group:enter","$group:layout-resize","reverse","back","<-","cell","expand","collapse","split"]
+  },
+  {
+    "name": "square-arrow-left-exit",
+    "categories": ["$extends:square-arrow-left"],
+    "tags": ["$group:direction-left","$group:exit","$group:layout-resize","back","reverse","<-","collapse"]
+  },
+  {
     "name": "square-arrow-left",
     "categories": ["arrows"],
     "tags": ["$group:direction-left","$group:navigation-previous","previous","sign","keyboard","button","<-"]
   },
   {
-    "name": "square-arrow-out-down-left",
-    "categories": ["arrows"],
-    "tags": ["$group:direction-down-left","outwards"]
-  },
-  {
-    "name": "square-arrow-out-down-right",
-    "categories": ["arrows"],
-    "tags": ["$group:direction-down-right","outwards"]
-  },
-  {
-    "name": "square-arrow-out-up-left",
-    "categories": ["arrows"],
-    "tags": ["$group:direction-up-left","outwards"]
-  },
-  {
-    "name": "square-arrow-out-up-right",
-    "categories": ["arrows","social"],
-    "tags": ["$group:direction-up-right","outwards","share","open","external","link"]
-  },
-  {
     "name": "square-arrow-right-enter",
-    "categories": ["$extends:square-arrow-right","account"],
-    "tags": ["$group:direction-right","left","in","inside","input","insert","source","import","place","->"]
+    "categories": ["$extends:square-arrow-right","account","development"],
+    "tags": ["$group:direction-right","$group:enter","$group:layout-resize","left","source","place","->","sign in","log in","login","join","auth","data flow","node editor","panel","expand"]
   },
   {
     "name": "square-arrow-right-exit",
-    "categories": ["$extends:square-arrow-right","account"],
-    "tags": ["$group:direction-right","out","outside","output","export","->"]
+    "categories": ["$extends:square-arrow-right","account","development"],
+    "tags": ["$group:direction-right","$group:exit","$group:layout-resize","->","sign out","log out","logout","auth","data flow","node editor","expand","panel","cell","outbound"]
   },
   {
     "name": "square-arrow-right",
@@ -8144,9 +8179,39 @@ export const iconsData: Array<{
     "tags": ["$group:direction-right","$group:navigation-next","next","west","sign","keyboard","button","->"]
   },
   {
+    "name": "square-arrow-up-enter",
+    "categories": ["$extends:square-arrow-up"],
+    "tags": ["$group:direction-up","$group:enter","$group:layout-resize","project","cast","screen","projection","presentation","expand","cell"]
+  },
+  {
+    "name": "square-arrow-up-exit",
+    "categories": ["$extends:square-arrow-up","files","social"],
+    "tags": ["$group:direction-up","$group:exit","upload","share","external link","pop out","open in new window"]
+  },
+  {
+    "name": "square-arrow-up-left-enter",
+    "categories": ["$extends:square-arrow-up-left-exit"],
+    "tags": ["$group:direction-up-left","$group:enter","$group:layout-resize","merging"]
+  },
+  {
+    "name": "square-arrow-up-left-exit",
+    "categories": ["arrows"],
+    "tags": ["$group:direction-up-left","outwards"]
+  },
+  {
     "name": "square-arrow-up-left",
     "categories": ["arrows"],
     "tags": ["$group:direction-up-left","sign","keyboard","button"]
+  },
+  {
+    "name": "square-arrow-up-right-enter",
+    "categories": ["arrows"],
+    "tags": ["$group:direction-up-right","$group:enter","$group:layout-resize","expand","contract"]
+  },
+  {
+    "name": "square-arrow-up-right-exit",
+    "categories": ["arrows","social"],
+    "tags": ["$group:direction-up-right","outwards","share","open","external","link"]
   },
   {
     "name": "square-arrow-up-right",
@@ -8819,6 +8884,36 @@ export const iconsData: Array<{
     "tags": ["$group:letter","$group:minus","cross out","format"]
   },
   {
+    "name": "stroke-line-cap-butt",
+    "categories": ["design","shapes"],
+    "tags": ["$group:line","endpoint","flat","flush"]
+  },
+  {
+    "name": "stroke-line-cap-round",
+    "categories": ["design","shapes"],
+    "tags": ["$group:line","endpoint","arc","circular","smooth"]
+  },
+  {
+    "name": "stroke-line-cap-square",
+    "categories": ["design","shapes"],
+    "tags": ["$group:line","endpoint","projecting","extended","flat"]
+  },
+  {
+    "name": "stroke-line-join-bevel",
+    "categories": ["design","shapes"],
+    "tags": ["$group:line","edge","intersection","angle","chamfer","trim","flat","diagonal"]
+  },
+  {
+    "name": "stroke-line-join-miter",
+    "categories": ["design","shapes"],
+    "tags": ["$group:line","edge","intersection","angle","sharp","rect"]
+  },
+  {
+    "name": "stroke-line-join-round",
+    "categories": ["design","shapes"],
+    "tags": ["$group:line","edge","intersection","angle","arc","circular","smooth"]
+  },
+  {
     "name": "subscript",
     "categories": ["text"],
     "tags": ["$group:letter","$group:digit"]
@@ -9092,6 +9187,11 @@ export const iconsData: Array<{
     "name": "text-initial",
     "categories": ["text"],
     "tags": ["$group:letter","drop cap","format","letter","font size"]
+  },
+  {
+    "name": "text-pen",
+    "categories": ["text","development"],
+    "tags": ["$group:pen","quick","autosave","prompt","scratch","authoring"]
   },
   {
     "name": "text-quote",
