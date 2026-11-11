@@ -491,7 +491,12 @@ export const iconsData: Array<{
   {
     "name": "asterisk",
     "categories": ["text","math","development"],
-    "tags": ["symbol","mark","pointer","pencil","sign","alert","notification","indicator","symbolic","reference","times","multiply","multiplication","operator","code","glob pattern","wildcard","*"]
+    "tags": ["symbol","mark","pointer","pencil","sign","alert","notification","indicator","symbolic","reference","times","multiply","multiplication","operator","code","glob pattern","wildcard","*","required","mandatory"]
+  },
+  {
+    "name": "asterism",
+    "categories": ["text"],
+    "tags": ["asterisk","fediverse","activitypub","symbol","typography","social","decentralized","federation","stars","three","ornament","punctuation","divider"]
   },
   {
     "name": "astroid",
@@ -536,7 +541,7 @@ export const iconsData: Array<{
   {
     "name": "award",
     "categories": ["account","sports","gaming"],
-    "tags": ["achievement","badge","rosette","prize","winner"]
+    "tags": ["achievement","badge","rosette","prize","winner","skill","skills","expertise"]
   },
   {
     "name": "axe",
@@ -576,7 +581,7 @@ export const iconsData: Array<{
   {
     "name": "badge-check",
     "categories": ["social"],
-    "tags": ["$extends:badge","$group:check"]
+    "tags": ["$extends:badge","$group:check","premium","vip","exclusive","pro","guarantee","warranty"]
   },
   {
     "name": "badge-dollar-sign",
@@ -616,7 +621,7 @@ export const iconsData: Array<{
   {
     "name": "badge-percent",
     "categories": ["finance","shopping","math"],
-    "tags": ["$extends:badge","$group:percent"]
+    "tags": ["$extends:badge","$group:percent","sell","selling","promotion","promo"]
   },
   {
     "name": "badge-plus",
@@ -686,7 +691,7 @@ export const iconsData: Array<{
   {
     "name": "bandage",
     "categories": ["medical"],
-    "tags": ["plaster","band-aid","first aid","medical","health","wound","injury","care","treatment","healing","protection","emergency","aid","safety","patch"]
+    "tags": ["plaster","band-aid","first aid","medical","health","wound","injury","care","treatment","healing","protection","emergency","aid","safety","patch","patient"]
   },
   {
     "name": "bangladeshi-taka",
@@ -716,7 +721,7 @@ export const iconsData: Array<{
   {
     "name": "banknote",
     "categories": ["finance"],
-    "tags": ["currency","money","payment","bill","cash","funds","transaction","finance"]
+    "tags": ["currency","money","payment","bill","cash","funds","transaction","finance","salary"]
   },
   {
     "name": "barcode",
@@ -1016,7 +1021,7 @@ export const iconsData: Array<{
   {
     "name": "book-dashed",
     "categories": ["development","text"],
-    "tags": ["$extends:book","code","coding","version control","git","repository","template","draft","screenplay","unwritten","unpublished","untold"]
+    "tags": ["$extends:book","$group:dashed","code","coding","version control","git","repository","template","draft","screenplay","unwritten","unpublished","untold"]
   },
   {
     "name": "book-down",
@@ -1066,7 +1071,7 @@ export const iconsData: Array<{
   {
     "name": "book-open-text",
     "categories": ["text","development"],
-    "tags": ["$extends:book-open"]
+    "tags": ["$extends:book-open","docs","wiki","knowledge base"]
   },
   {
     "name": "book-open",
@@ -1086,7 +1091,7 @@ export const iconsData: Array<{
   {
     "name": "book-text",
     "categories": ["text","gaming"],
-    "tags": ["$extends:book"]
+    "tags": ["$extends:book","docs","wiki","knowledge base"]
   },
   {
     "name": "book-type",
@@ -1221,7 +1226,7 @@ export const iconsData: Array<{
   {
     "name": "brain",
     "categories": ["medical","science"],
-    "tags": ["medical","mind","mental","intellect","cerebral","consciousness","genius","artificial intelligence","ai","think","thought","insight","intelligent","smart","deep learning","machine learning","computing"]
+    "tags": ["medical","mind","mental","intellect","cerebral","consciousness","genius","artificial intelligence","ai","think","thought","insight","intelligent","smart","deep learning","machine learning","computing","skill","skills","expertise"]
   },
   {
     "name": "brick-wall-fire",
@@ -1261,12 +1266,12 @@ export const iconsData: Array<{
   {
     "name": "briefcase-plus",
     "categories": ["$extends:briefcase","files","account"],
-    "tags": ["$extends:briefcase","$group:plus","briefcase","portfolio","business","career","employment","professional"]
+    "tags": ["$extends:briefcase","$group:plus","briefcase","portfolio","business","professional"]
   },
   {
     "name": "briefcase",
     "categories": ["travel"],
-    "tags": ["work","bag","baggage","folder"]
+    "tags": ["work","bag","baggage","folder","job","career","employment","hiring","experience"]
   },
   {
     "name": "bring-to-front",
@@ -1366,12 +1371,12 @@ export const iconsData: Array<{
   {
     "name": "calculator",
     "categories": ["math","devices"],
-    "tags": ["count","calculating machine"]
+    "tags": ["count","calculating machine","budget"]
   },
   {
     "name": "calendar-1",
     "categories": ["$extends:calendar"],
-    "tags": ["$extends:calendar","$group:digit","single","singular","once","1","first"]
+    "tags": ["$extends:calendar","$group:digit","single","singular","once","1","first","today"]
   },
   {
     "name": "calendar-arrow-down",
@@ -1401,7 +1406,7 @@ export const iconsData: Array<{
   {
     "name": "calendar-check",
     "categories": ["$extends:calendar"],
-    "tags": ["$extends:calendar","$group:check","subscribe","schedule"]
+    "tags": ["$extends:calendar","$group:check","subscribe","schedule","today"]
   },
   {
     "name": "calendar-chevrons-left",
@@ -1426,7 +1431,7 @@ export const iconsData: Array<{
   {
     "name": "calendar-days",
     "categories": ["$extends:calendar"],
-    "tags": ["$extends:calendar"]
+    "tags": ["$extends:calendar","week","weekly"]
   },
   {
     "name": "calendar-fold",
@@ -1466,7 +1471,7 @@ export const iconsData: Array<{
   {
     "name": "calendar-range",
     "categories": ["$extends:calendar"],
-    "tags": ["$extends:calendar","range","period"]
+    "tags": ["$extends:calendar","range","period","week","weekly"]
   },
   {
     "name": "calendar-search",
@@ -1766,7 +1771,7 @@ export const iconsData: Array<{
   {
     "name": "chart-radar",
     "categories": ["charts","shapes","science"],
-    "tags": ["$group:chart","radar","chart","shape","gem","mineral","pentagon","multidimensional","metrics","performance","comparison","profile","attributes"]
+    "tags": ["$group:chart","radar","chart","shape","gem","mineral","pentagon","multidimensional","performance","comparison","profile","attributes"]
   },
   {
     "name": "chart-scatter",
@@ -1931,12 +1936,12 @@ export const iconsData: Array<{
   {
     "name": "circle-arrow-down-left-exit",
     "categories": ["arrows"],
-    "tags": ["$group:direction-down-left","outwards"]
+    "tags": ["$group:direction-down-left","$group:exit"]
   },
   {
     "name": "circle-arrow-down-right-exit",
     "categories": ["arrows"],
-    "tags": ["$group:direction-down-right","outwards"]
+    "tags": ["$group:direction-down-right","$group:exit"]
   },
   {
     "name": "circle-arrow-down",
@@ -1956,12 +1961,12 @@ export const iconsData: Array<{
   {
     "name": "circle-arrow-up-left-exit",
     "categories": ["arrows"],
-    "tags": ["$group:direction-up-left","outwards","keyboard","button","escape"]
+    "tags": ["$group:direction-up-left","$group:exit","keyboard","button","escape"]
   },
   {
     "name": "circle-arrow-up-right-exit",
     "categories": ["arrows"],
-    "tags": ["$group:direction-up-right","outwards"]
+    "tags": ["$group:direction-up-right","$group:exit"]
   },
   {
     "name": "circle-arrow-up",
@@ -2026,7 +2031,7 @@ export const iconsData: Array<{
   {
     "name": "circle-dashed",
     "categories": ["$extends:circle","development"],
-    "tags": ["pending","dot","progress","issue","draft","code","coding","version control"]
+    "tags": ["$group:dashed","pending","dot","progress","issue","draft","code","coding","version control"]
   },
   {
     "name": "circle-divide",
@@ -2041,7 +2046,7 @@ export const iconsData: Array<{
   {
     "name": "circle-dot-dashed",
     "categories": ["$extends:circle-dot"],
-    "tags": ["pending","progress","issue","draft","code","coding","version control"]
+    "tags": ["$group:dashed","pending","progress","issue","draft","code","coding","version control"]
   },
   {
     "name": "circle-dot",
@@ -2356,7 +2361,7 @@ export const iconsData: Array<{
   {
     "name": "clipboard-check",
     "categories": ["$extends:clipboard"],
-    "tags": ["$extends:clipboard","$group:check","copied","pasted"]
+    "tags": ["$extends:clipboard","$group:check","copied","pasted","result","checklist"]
   },
   {
     "name": "clipboard-clock",
@@ -2371,7 +2376,7 @@ export const iconsData: Array<{
   {
     "name": "clipboard-list",
     "categories": ["$extends:clipboard"],
-    "tags": ["$extends:clipboard","tasks"]
+    "tags": ["$extends:clipboard","tasks","checklist"]
   },
   {
     "name": "clipboard-minus",
@@ -2541,7 +2546,7 @@ export const iconsData: Array<{
   {
     "name": "cloud-download",
     "categories": ["arrows","files"],
-    "tags": ["import"]
+    "tags": ["import","install","installation"]
   },
   {
     "name": "cloud-drizzle",
@@ -2566,7 +2571,7 @@ export const iconsData: Array<{
   {
     "name": "cloud-lightning",
     "categories": ["$extends:cloud"],
-    "tags": ["$extends:cloud","bolt"]
+    "tags": ["$extends:cloud","bolt","thunder","thunderstorm","thunderbolt"]
   },
   {
     "name": "cloud-moon-rain",
@@ -2616,7 +2621,7 @@ export const iconsData: Array<{
   {
     "name": "cloud-upload",
     "categories": ["arrows","files"],
-    "tags": ["file"]
+    "tags": ["file","deploy","deployment"]
   },
   {
     "name": "cloud",
@@ -2871,7 +2876,7 @@ export const iconsData: Array<{
   {
     "name": "credit-card",
     "categories": ["account","finance"],
-    "tags": ["bank","purchase","payment","cc"]
+    "tags": ["bank","purchase","payment","cc","cashier","merchant"]
   },
   {
     "name": "croissant",
@@ -2896,7 +2901,7 @@ export const iconsData: Array<{
   {
     "name": "crown",
     "categories": ["gaming"],
-    "tags": ["diadem","tiara","circlet","corona","king","ruler","winner","favorite","favourite"]
+    "tags": ["diadem","tiara","circlet","corona","king","ruler","winner","favorite","favourite","premium","vip","exclusive","pro"]
   },
   {
     "name": "cuboid",
@@ -3161,7 +3166,7 @@ export const iconsData: Array<{
   {
     "name": "door-open",
     "categories": ["home","travel","security"],
-    "tags": ["entrance","entry","exit","ingress","egress","gate","gateway","emergency exit"]
+    "tags": ["entrance","entry","exit","ingress","egress","gate","gateway","emergency exit","quit"]
   },
   {
     "name": "door-stairwell",
@@ -3176,7 +3181,7 @@ export const iconsData: Array<{
   {
     "name": "download",
     "categories": ["arrows","files"],
-    "tags": ["import","export","save","pull"]
+    "tags": ["import","export","save","pull","install","installation"]
   },
   {
     "name": "drafting-compass",
@@ -3256,7 +3261,7 @@ export const iconsData: Array<{
   {
     "name": "earth",
     "categories": ["navigation"],
-    "tags": ["world","browser","language","translate","globe"]
+    "tags": ["world","browser","language","translate","globe","www","http","https","website"]
   },
   {
     "name": "eclipse",
@@ -3301,12 +3306,12 @@ export const iconsData: Array<{
   {
     "name": "ellipsis-vertical",
     "categories": ["layout"],
-    "tags": ["menu","options","spread","more","further","extra","overflow","dots","…","..."]
+    "tags": ["menu","options","spread","more","further","extra","overflow","dots","…","...","kebab","kebab menu","three dots","3 dots"]
   },
   {
     "name": "ellipsis",
     "categories": ["layout","development"],
-    "tags": ["et cetera","etc","loader","loading","progress","pending","throbber","menu","options","operator","code","coding","spread","rest","more","further","extra","overflow","dots","…","..."]
+    "tags": ["et cetera","etc","loader","loading","progress","pending","throbber","menu","options","operator","code","coding","spread","rest","more","further","extra","overflow","dots","…","...","meatball menu","three dots","3 dots"]
   },
   {
     "name": "emirati-dirham",
@@ -3359,6 +3364,11 @@ export const iconsData: Array<{
     "tags": ["electric","charger","station","vehicle","fast","plug","ev","power","electricity","energy","accumulator","charge"]
   },
   {
+    "name": "exclamation-mark",
+    "categories": ["letters-digits","text","notifications"],
+    "tags": ["$group:exclamation-mark","bang","surprise","emphasis","interjection","factorial","negation"]
+  },
+  {
     "name": "expand",
     "categories": ["arrows","layout"],
     "tags": ["scale","fullscreen","maximize","minimize","contract"]
@@ -3366,7 +3376,7 @@ export const iconsData: Array<{
   {
     "name": "external-link",
     "categories": ["arrows","text","social"],
-    "tags": ["outbound","open","share"]
+    "tags": ["outbound","open","share","redirect"]
   },
   {
     "name": "eye-closed",
@@ -3376,7 +3386,7 @@ export const iconsData: Array<{
   {
     "name": "eye-dashed",
     "categories": ["$extends:eye"],
-    "tags": ["$extends:eye","hide","conceal","mask","hidden","invisible"]
+    "tags": ["$extends:eye","$group:dashed","hide","conceal","mask","hidden","invisible"]
   },
   {
     "name": "eye-off",
@@ -3386,42 +3396,42 @@ export const iconsData: Array<{
   {
     "name": "eye",
     "categories": ["accessibility","photography","design","security"],
-    "tags": ["view","watch","see","show","expose","reveal","display","visible","visibility","vision","preview","read"]
+    "tags": ["view","watch","see","show","expose","reveal","display","visible","visibility","vision","preview","read","eyes"]
   },
   {
     "name": "face-angry",
     "categories": ["emoji"],
-    "tags": ["anger","rage","fury","resentment","irritation","disgust","emoji","emotion"]
+    "tags": ["$group:emoticon","anger","rage","fury","resentment","irritation","disgust"]
   },
   {
     "name": "face-expressionless",
     "categories": ["emoji"],
-    "tags": ["nuisance","annoyed","annoyance","frustration","emoji","emotion"]
+    "tags": ["$group:emoticon","nuisance","annoyed","annoyance","frustration"]
   },
   {
     "name": "face-grinning",
     "categories": ["emoji"],
-    "tags": ["happy","happiness","good","laugh","broad smile","pleasure","good cheer","humour","funny","emoji","emotion"]
+    "tags": ["$group:emoticon","happy","happiness","good","laugh","broad smile","pleasure","good cheer","humour","funny"]
   },
   {
     "name": "face-neutral",
     "categories": ["emoji"],
-    "tags": ["emoji","neutral","emotion","meh","blank stare","social masking","irritation","concern","deadpan"]
+    "tags": ["$group:emoticon","neutral","meh","blank stare","social masking","irritation","concern","deadpan"]
   },
   {
     "name": "face-slightly-frowning",
     "categories": ["emoji"],
-    "tags": ["emoji","bad","sadness","emotion","concern","disappointment"]
+    "tags": ["$group:emoticon","bad","sadness","concern","disappointment"]
   },
   {
     "name": "face-slightly-smiling-plus",
     "categories": ["emoji","social","communication"],
-    "tags": ["$extends:face-slightly-smiling","$extends:group","$group:plus","react","reaction"]
+    "tags": ["$extends:face-slightly-smiling","$extends:group","$group:plus","react"]
   },
   {
     "name": "face-slightly-smiling",
     "categories": ["emoji"],
-    "tags": ["smile","happy","happiness","good","positive","friendly","patronizing","passive aggressive","ironic","emoji","emotion"]
+    "tags": ["$group:emoticon","smile","happy","happiness","good","positive","friendly","patronizing","passive aggressive","ironic"]
   },
   {
     "name": "factory",
@@ -3641,7 +3651,7 @@ export const iconsData: Array<{
   {
     "name": "file-question-mark",
     "categories": ["$extends:file"],
-    "tags": ["$extends:file","$group:question-mark","readme"]
+    "tags": ["$extends:file","$group:question-mark","readme","404","not found","page not found"]
   },
   {
     "name": "file-scan",
@@ -3671,7 +3681,7 @@ export const iconsData: Array<{
   {
     "name": "file-spreadsheet",
     "categories": ["$extends:file"],
-    "tags": ["$extends:file","spreadsheet","sheet","table"]
+    "tags": ["$extends:file","spreadsheet","sheet","table","csv","xls","xlsx","excel"]
   },
   {
     "name": "file-stack",
@@ -3691,7 +3701,7 @@ export const iconsData: Array<{
   {
     "name": "file-text",
     "categories": ["$extends:file","text"],
-    "tags": ["$extends:file","data","txt","pdf"]
+    "tags": ["$extends:file","data","txt","pdf","doc","docx","word","docs"]
   },
   {
     "name": "file-type-corner",
@@ -3731,7 +3741,7 @@ export const iconsData: Array<{
   {
     "name": "file-x",
     "categories": ["$extends:file"],
-    "tags": ["$extends:file","$group:x","lost"]
+    "tags": ["$extends:file","$group:x","lost","404","not found","page not found"]
   },
   {
     "name": "file",
@@ -4051,7 +4061,7 @@ export const iconsData: Array<{
   {
     "name": "forward",
     "categories": ["mail"],
-    "tags": ["send","share","email"]
+    "tags": ["send","share","email","redirect"]
   },
   {
     "name": "frame",
@@ -4151,7 +4161,7 @@ export const iconsData: Array<{
   {
     "name": "gem",
     "categories": ["gaming","finance"],
-    "tags": ["diamond","crystal","ruby","jewellery","price","special","present","gift","ring","wedding","proposal","marriage","rubygems"]
+    "tags": ["diamond","crystal","ruby","jewellery","price","special","present","gift","ring","wedding","proposal","marriage","rubygems","premium","vip","exclusive","pro"]
   },
   {
     "name": "georgian-lari",
@@ -4231,7 +4241,7 @@ export const iconsData: Array<{
   {
     "name": "git-merge",
     "categories": ["development"],
-    "tags": ["code","version control"]
+    "tags": ["code","version control","ci/cd","cicd"]
   },
   {
     "name": "git-pull-request-arrow",
@@ -4276,7 +4286,7 @@ export const iconsData: Array<{
   {
     "name": "globe-ban",
     "categories": ["$extends:globe","security"],
-    "tags": ["$extends:globe","$group:off","web","website","banned","geo blocking","offline","parental controls","content filter","region lock","public access","access control","domain blocking","region restriction"]
+    "tags": ["$extends:globe","$group:off","web","banned","geo blocking","offline","parental controls","content filter","region lock","public access","access control","domain blocking","region restriction"]
   },
   {
     "name": "globe-check",
@@ -4286,7 +4296,7 @@ export const iconsData: Array<{
   {
     "name": "globe-code",
     "categories": ["$extends:globe","development"],
-    "tags": ["$extends:globe","$group:code","website","digital","access","link"]
+    "tags": ["$extends:globe","$group:code","digital","access","link"]
   },
   {
     "name": "globe-lock",
@@ -4311,12 +4321,12 @@ export const iconsData: Array<{
   {
     "name": "globe",
     "categories": ["navigation","connectivity"],
-    "tags": ["world","browser","language","translate","location","country","coverage","publish","connection","global","earth","globe","internet","planet","network"]
+    "tags": ["world","browser","language","translate","location","country","coverage","publish","connection","global","earth","globe","internet","planet","network","www","http","https","website"]
   },
   {
     "name": "goal",
     "categories": ["gaming"],
-    "tags": ["flag","bullseye"]
+    "tags": ["flag","bullseye","result","outcome","objective","okr"]
   },
   {
     "name": "gpu",
@@ -4326,7 +4336,7 @@ export const iconsData: Array<{
   {
     "name": "graduation-cap",
     "categories": ["buildings"],
-    "tags": ["school","university","learn","study","mortarboard","education","ceremony","academic","hat","diploma","bachelor's","master's","doctorate"]
+    "tags": ["school","university","learn","study","mortarboard","education","ceremony","academic","hat","diploma","bachelor's","master's","doctorate","skill","skills","expertise"]
   },
   {
     "name": "grape",
@@ -4436,7 +4446,7 @@ export const iconsData: Array<{
   {
     "name": "hand-coins",
     "categories": ["finance"],
-    "tags": ["savings","banking","money","finance","offers","mortgage","payment","received","wage","payroll","allowance","pocket money","handout","pennies"]
+    "tags": ["savings","banking","money","finance","offers","mortgage","payment","received","wage","payroll","allowance","pocket money","handout","pennies","loan","lending","borrow","debt","salary"]
   },
   {
     "name": "hand-fist",
@@ -4471,7 +4481,7 @@ export const iconsData: Array<{
   {
     "name": "hand",
     "categories": ["cursors","accessibility"],
-    "tags": ["wave","move","mouse","grab"]
+    "tags": ["wave","move","mouse","grab","welcome","hello","hi","greeting","goodbye","bye"]
   },
   {
     "name": "handbag",
@@ -4576,7 +4586,7 @@ export const iconsData: Array<{
   {
     "name": "headset",
     "categories": ["multimedia","devices","gaming","communication"],
-    "tags": ["music","audio","sound","gaming","headphones","headset","call","center","phone","telephone","voip","video"]
+    "tags": ["music","audio","sound","gaming","headphones","headset","call","center","phone","telephone","voip","video","customer service","customer support","helpdesk"]
   },
   {
     "name": "heart-crack",
@@ -4586,7 +4596,7 @@ export const iconsData: Array<{
   {
     "name": "heart-handshake",
     "categories": ["emoji","social"],
-    "tags": ["agreement","charity","help","deal","terms","emotion","together","handshake"]
+    "tags": ["agreement","charity","help","deal","terms","emotion","together","handshake","insurance"]
   },
   {
     "name": "heart-minus",
@@ -4661,7 +4671,7 @@ export const iconsData: Array<{
   {
     "name": "hospital",
     "categories": ["medical","buildings","navigation"],
-    "tags": ["infirmary","sanatorium","healthcare","doctor","hospice","clinic","emergency room","ward","building","medical","vet"]
+    "tags": ["infirmary","sanatorium","healthcare","doctor","hospice","clinic","emergency room","ward","building","medical","vet","sick","patient"]
   },
   {
     "name": "hot-air-balloon",
@@ -4711,7 +4721,7 @@ export const iconsData: Array<{
   {
     "name": "house",
     "categories": ["buildings","home","navigation"],
-    "tags": ["home","living","building","residence","architecture"]
+    "tags": ["home","living","building","residence","architecture","homepage"]
   },
   {
     "name": "houses",
@@ -4731,7 +4741,7 @@ export const iconsData: Array<{
   {
     "name": "id-card-lanyard",
     "categories": ["$extends:id-card"],
-    "tags": ["$extends:id-card","id-card","id-card-lanyard","employee","gate-pass"]
+    "tags": ["$extends:id-card","id-card","id-card-lanyard","employee","gate-pass","job","career","employment","hiring","experience"]
   },
   {
     "name": "id-card",
@@ -4801,7 +4811,7 @@ export const iconsData: Array<{
   {
     "name": "infinity",
     "categories": ["multimedia","math"],
-    "tags": ["unlimited","forever","loop","math"]
+    "tags": ["unlimited","forever","loop","math","ci/cd","cicd","devops","pipeline"]
   },
   {
     "name": "info",
@@ -4931,7 +4941,7 @@ export const iconsData: Array<{
   {
     "name": "landmark",
     "categories": ["finance","navigation","buildings"],
-    "tags": ["bank","building","capitol","finance","money","museum","art gallery","hall","institute","pediment","portico","doric","columns","pillars","classical","architecture","government","institution","monument","site","history","historic","library","temple","ancient","structure"]
+    "tags": ["bank","building","capitol","finance","money","museum","art gallery","hall","institute","pediment","portico","doric","columns","pillars","classical","architecture","government","institution","monument","site","history","historic","library","temple","ancient","structure","loan","lending"]
   },
   {
     "name": "languages",
@@ -5236,12 +5246,12 @@ export const iconsData: Array<{
   {
     "name": "library",
     "categories": ["text","multimedia"],
-    "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package"]
+    "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package","wiki","knowledge base"]
   },
   {
     "name": "life-buoy",
     "categories": ["accessibility","medical"],
-    "tags": ["preserver","life belt","lifesaver","help","rescue","ship","ring","raft","inflatable","wheel","donut"]
+    "tags": ["preserver","life belt","lifesaver","help","rescue","ship","ring","raft","inflatable","wheel","donut","customer service","customer support","helpdesk"]
   },
   {
     "name": "ligature",
@@ -5256,7 +5266,7 @@ export const iconsData: Array<{
   {
     "name": "lightbulb",
     "categories": ["photography","home"],
-    "tags": ["idea","bright","lights"]
+    "tags": ["idea","bright","lights","suggest","suggestion"]
   },
   {
     "name": "lighthouse",
@@ -5311,17 +5321,17 @@ export const iconsData: Array<{
   {
     "name": "link",
     "categories": ["text"],
-    "tags": ["chain","url"]
+    "tags": ["chain","url","www","http","https","website"]
   },
   {
     "name": "list-check",
     "categories": ["$extends:list"],
-    "tags": ["$group:check","list","bom"]
+    "tags": ["$group:check","list","bom","checklist"]
   },
   {
     "name": "list-checks",
     "categories": ["$extends:list"],
-    "tags": ["$group:check","items","pending"]
+    "tags": ["$group:check","items","pending","checklist"]
   },
   {
     "name": "list-chevrons-down-up",
@@ -5411,7 +5421,7 @@ export const iconsData: Array<{
   {
     "name": "list-todo",
     "categories": ["$extends:list"],
-    "tags": ["todo","done","check","tick","complete","tasks","items","pending"]
+    "tags": ["todo","done","check","tick","complete","tasks","items","pending","checklist"]
   },
   {
     "name": "list-tree",
@@ -5491,7 +5501,7 @@ export const iconsData: Array<{
   {
     "name": "log-out",
     "categories": ["arrows","account"],
-    "tags": ["sign out","arrow","exit","auth"]
+    "tags": ["sign out","arrow","exit","auth","quit"]
   },
   {
     "name": "logs",
@@ -5556,7 +5566,7 @@ export const iconsData: Array<{
   {
     "name": "mail-plus",
     "categories": ["mail"],
-    "tags": ["$extends:mail","$group:plus","compose"]
+    "tags": ["$extends:mail","$group:plus","compose","invite","invitation"]
   },
   {
     "name": "mail-question-mark",
@@ -5786,7 +5796,7 @@ export const iconsData: Array<{
   {
     "name": "message-circle-dashed",
     "categories": ["$extends:message-circle"],
-    "tags": ["$extends:message-circle","draft"]
+    "tags": ["$extends:message-circle","$group:dashed","draft"]
   },
   {
     "name": "message-circle-exclamation-point",
@@ -5851,7 +5861,7 @@ export const iconsData: Array<{
   {
     "name": "message-square-dashed",
     "categories": ["$extends:message-square"],
-    "tags": ["$extends:message-square","draft"]
+    "tags": ["$extends:message-square","$group:dashed","draft"]
   },
   {
     "name": "message-square-diff",
@@ -5891,7 +5901,7 @@ export const iconsData: Array<{
   {
     "name": "message-square-plus",
     "categories": ["$extends:message-square"],
-    "tags": ["$extends:message-square","$group:plus"]
+    "tags": ["$extends:message-square","$group:plus","suggest","suggestion"]
   },
   {
     "name": "message-square-quote",
@@ -6341,7 +6351,7 @@ export const iconsData: Array<{
   {
     "name": "notebook-text",
     "categories": ["text"],
-    "tags": ["$extends:notebook","pages","paper","write","lines","opened"]
+    "tags": ["$extends:notebook","pages","paper","write","lines","opened","docs","wiki","knowledge base"]
   },
   {
     "name": "notebook",
@@ -6351,7 +6361,7 @@ export const iconsData: Array<{
   {
     "name": "notepad-text-dashed",
     "categories": ["$extends:notepad-text"],
-    "tags": ["$extends:notepad-text","draft","template"]
+    "tags": ["$extends:notepad-text","$group:dashed","draft","template"]
   },
   {
     "name": "notepad-text",
@@ -6451,7 +6461,7 @@ export const iconsData: Array<{
   {
     "name": "package-plus",
     "categories": ["$extends:package"],
-    "tags": ["$extends:package","$group:plus"]
+    "tags": ["$extends:package","$group:plus","install","installation"]
   },
   {
     "name": "package-question-mark",
@@ -6511,7 +6521,7 @@ export const iconsData: Array<{
   {
     "name": "panel-bottom-dashed",
     "categories": ["$extends:panel-bottom"],
-    "tags": ["$extends:panel-bottom","show","reveal","padding","margin","guide","layout","bleed"]
+    "tags": ["$extends:panel-bottom","$group:dashed","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-bottom-open",
@@ -6531,7 +6541,7 @@ export const iconsData: Array<{
   {
     "name": "panel-left-dashed",
     "categories": ["$extends:panel-left"],
-    "tags": ["$extends:panel-left","sidebar","show","reveal","padding","margin","guide","layout","bleed"]
+    "tags": ["$extends:panel-left","$group:dashed","sidebar","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-left-open",
@@ -6541,7 +6551,7 @@ export const iconsData: Array<{
   {
     "name": "panel-left-right-dashed",
     "categories": ["$extends:panel-left"],
-    "tags": ["$extends:panel-left","$group:position-right","sidebar","show","reveal","padding","margin","guide","layout","vertical","bleed"]
+    "tags": ["$extends:panel-left","$group:position-right","$group:dashed","sidebar","show","reveal","padding","margin","guide","layout","vertical","bleed"]
   },
   {
     "name": "panel-left",
@@ -6556,7 +6566,7 @@ export const iconsData: Array<{
   {
     "name": "panel-right-dashed",
     "categories": ["$extends:panel-right"],
-    "tags": ["$extends:panel-right","show","reveal","padding","margin","guide","layout","bleed"]
+    "tags": ["$extends:panel-right","$group:dashed","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-right-open",
@@ -6571,7 +6581,7 @@ export const iconsData: Array<{
   {
     "name": "panel-top-bottom-dashed",
     "categories": ["layout"],
-    "tags": ["$extends:panel-top","$group:position-bottom","sidebar","primary","show","reveal","padding","margin","guide","layout","horizontal","bleed"]
+    "tags": ["$extends:panel-top","$group:position-bottom","$group:dashed","sidebar","primary","show","reveal","padding","margin","guide","layout","horizontal","bleed"]
   },
   {
     "name": "panel-top-close",
@@ -6581,7 +6591,7 @@ export const iconsData: Array<{
   {
     "name": "panel-top-dashed",
     "categories": ["layout"],
-    "tags": ["$extends:panel-top","menu bar","show","reveal","padding","margin","guide","layout","bleed"]
+    "tags": ["$extends:panel-top","$group:dashed","menu bar","show","reveal","padding","margin","guide","layout","bleed"]
   },
   {
     "name": "panel-top-open",
@@ -6641,7 +6651,7 @@ export const iconsData: Array<{
   {
     "name": "party-popper",
     "categories": ["emoji"],
-    "tags": ["emoji","congratulations","celebration","party","tada","🎉","🎊","excitement","exciting","excites","confetti"]
+    "tags": ["emoji","congratulations","celebration","party","tada","🎉","🎊","excitement","exciting","excites","confetti","welcome"]
   },
   {
     "name": "pause",
@@ -6801,7 +6811,7 @@ export const iconsData: Array<{
   {
     "name": "piggy-bank",
     "categories": ["finance"],
-    "tags": ["money","savings"]
+    "tags": ["money","savings","budget"]
   },
   {
     "name": "pilcrow-left",
@@ -6826,7 +6836,7 @@ export const iconsData: Array<{
   {
     "name": "pill",
     "categories": ["medical"],
-    "tags": ["medicine","medication","drug","prescription","tablet","pharmacy"]
+    "tags": ["medicine","medication","drug","prescription","tablet","pharmacy","sick","illness"]
   },
   {
     "name": "pin-off",
@@ -6956,12 +6966,12 @@ export const iconsData: Array<{
   {
     "name": "power",
     "categories": ["devices"],
-    "tags": ["on","off","device","switch","toggle","binary","boolean","reboot","restart","button","keyboard","troubleshoot"]
+    "tags": ["on","off","device","switch","toggle","binary","boolean","reboot","restart","button","keyboard","troubleshoot","quit"]
   },
   {
     "name": "presentation",
     "categories": ["multimedia","communication","design"],
-    "tags": ["screen","whiteboard","marker pens","markers","blackboard","chalk","easel","school","learning","lesson","office","meeting","project","planning"]
+    "tags": ["screen","whiteboard","marker pens","markers","blackboard","chalk","easel","school","learning","lesson","office","meeting","project","planning","ppt","pptx","powerpoint","slides"]
   },
   {
     "name": "printer-3d",
@@ -7007,6 +7017,11 @@ export const iconsData: Array<{
     "name": "qr-code",
     "categories": ["development","social"],
     "tags": ["barcode","scan","link","url","information","digital"]
+  },
+  {
+    "name": "question-mark",
+    "categories": ["text","notifications"],
+    "tags": ["$group:question-mark"]
   },
   {
     "name": "quote",
@@ -7121,7 +7136,7 @@ export const iconsData: Array<{
   {
     "name": "receipt",
     "categories": ["finance","shopping"],
-    "tags": ["bill","voucher","slip","check","counterfoil","currency","dollar","usd","$"]
+    "tags": ["bill","voucher","slip","check","counterfoil","currency","dollar","usd","$","cashier"]
   },
   {
     "name": "rectangle-circle",
@@ -7271,7 +7286,7 @@ export const iconsData: Array<{
   {
     "name": "rocket",
     "categories": ["gaming","development"],
-    "tags": ["release","boost","launch","space","version"]
+    "tags": ["release","boost","launch","space","version","deploy","deployment"]
   },
   {
     "name": "rocking-chair",
@@ -7296,7 +7311,7 @@ export const iconsData: Array<{
   {
     "name": "rotate-ccw-clock",
     "categories": ["arrows","time"],
-    "tags": ["$extends:rotate-ccw","$group:clock","timeline","version","time machine","ccw"]
+    "tags": ["$extends:rotate-ccw","$group:clock","timeline","version","time machine","ccw","changelog","release notes"]
   },
   {
     "name": "rotate-ccw-key",
@@ -7531,7 +7546,7 @@ export const iconsData: Array<{
   {
     "name": "scissors-line-dashed",
     "categories": ["design","tools"],
-    "tags": ["$extends:scissors","cut here","along","instructions","diagram"]
+    "tags": ["$extends:scissors","$group:dashed","cut here","along","instructions","diagram"]
   },
   {
     "name": "scissors",
@@ -7566,7 +7581,7 @@ export const iconsData: Array<{
   {
     "name": "scroll-text",
     "categories": ["$extends:scroll"],
-    "tags": ["$extends:scroll"]
+    "tags": ["$extends:scroll","changelog","release notes"]
   },
   {
     "name": "scroll",
@@ -7596,7 +7611,7 @@ export const iconsData: Array<{
   {
     "name": "search-x",
     "categories": ["$extends:search"],
-    "tags": ["$extends:search","$group:x","stop"]
+    "tags": ["$extends:search","$group:x","stop","404","not found","page not found"]
   },
   {
     "name": "search",
@@ -7621,7 +7636,7 @@ export const iconsData: Array<{
   {
     "name": "send",
     "categories": ["mail","communication"],
-    "tags": ["email","message","mail","paper airplane","paper aeroplane","submit"]
+    "tags": ["email","message","mail","paper airplane","paper aeroplane","submit","invite","invitation"]
   },
   {
     "name": "separator-horizontal",
@@ -7691,7 +7706,7 @@ export const iconsData: Array<{
   {
     "name": "sheet",
     "categories": ["text","files"],
-    "tags": ["spreadsheets","table","excel"]
+    "tags": ["spreadsheets","table","excel","csv","xls","xlsx"]
   },
   {
     "name": "shell",
@@ -7711,7 +7726,7 @@ export const iconsData: Array<{
   {
     "name": "shield-check",
     "categories": ["account","security","development","gaming"],
-    "tags": ["$extends:shield","$group:check","secured","guarded","defended","blocked","prevented","active","activated","enabled","scanned","found","audited","certification","certified","tested","passed","qualified","cleared","cleaned","disinfected","uninfected","checked"]
+    "tags": ["$extends:shield","$group:check","secured","guarded","defended","blocked","prevented","active","activated","enabled","scanned","found","audited","certification","certified","tested","passed","qualified","cleared","cleaned","disinfected","uninfected","checked","insurance","guarantee","warranty"]
   },
   {
     "name": "shield-cog-corner",
@@ -7731,7 +7746,7 @@ export const iconsData: Array<{
   {
     "name": "shield-exclamation-point",
     "categories": ["account","security","development","notifications","gaming"],
-    "tags": ["$extends:shield","$group:exclamation-mark","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","unprevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","uncertified","emergency","attention","urgent","alarm","attacked","damaged","injured","hit","expired","disabled","inactive"]
+    "tags": ["$extends:shield","$group:exclamation-mark","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","unprevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","uncertified","emergency","attention","alarm","attacked","damaged","injured","hit","expired","disabled","inactive"]
   },
   {
     "name": "shield-half",
@@ -8121,7 +8136,7 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-down-left-exit",
     "categories": ["arrows"],
-    "tags": ["$group:direction-down-left","outwards"]
+    "tags": ["$group:direction-down-left","$group:exit"]
   },
   {
     "name": "square-arrow-down-left",
@@ -8136,7 +8151,7 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-down-right-exit",
     "categories": ["arrows"],
-    "tags": ["$group:direction-down-right","outwards"]
+    "tags": ["$group:direction-down-right","$group:exit"]
   },
   {
     "name": "square-arrow-down-right",
@@ -8196,7 +8211,7 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-up-left-exit",
     "categories": ["arrows"],
-    "tags": ["$group:direction-up-left","outwards"]
+    "tags": ["$group:direction-up-left","$group:exit"]
   },
   {
     "name": "square-arrow-up-left",
@@ -8211,7 +8226,7 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-up-right-exit",
     "categories": ["arrows","social"],
-    "tags": ["$group:direction-up-right","outwards","share","open","external","link"]
+    "tags": ["$group:direction-up-right","$group:exit","share","open","external","link","redirect"]
   },
   {
     "name": "square-arrow-up-right",
@@ -8226,7 +8241,7 @@ export const iconsData: Array<{
   {
     "name": "square-asterisk",
     "categories": ["text","security","math","development"],
-    "tags": ["password","secret","access","key","multiply","multiplication","glob pattern","wildcard","*"]
+    "tags": ["password","secret","access","key","multiply","multiplication","glob pattern","wildcard","*","required","mandatory"]
   },
   {
     "name": "square-bookmark",
@@ -8236,17 +8251,17 @@ export const iconsData: Array<{
   {
     "name": "square-bottom-dashed-scissors",
     "categories": ["text","design","tools","files","development"],
-    "tags": ["cut","snippet","chop","stationery","crafts"]
+    "tags": ["$group:dashed","cut","snippet","chop","stationery","crafts"]
   },
   {
     "name": "square-centerline-dashed-horizontal",
     "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
+    "tags": ["$group:dashed","reflect","mirror","alignment"]
   },
   {
     "name": "square-centerline-dashed-vertical",
     "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
+    "tags": ["$group:dashed","reflect","mirror","alignment"]
   },
   {
     "name": "square-chart-gantt",
@@ -8316,17 +8331,17 @@ export const iconsData: Array<{
   {
     "name": "square-dashed-bottom",
     "categories": ["development","files"],
-    "tags": ["rectangle","aspect ratio","1:1","shape","snippet","code","coding"]
+    "tags": ["$group:dashed","rectangle","aspect ratio","1:1","shape","snippet","code","coding"]
   },
   {
     "name": "square-dashed-kanban",
     "categories": ["charts","development"],
-    "tags": ["projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","draft","template","boilerplate","code","coding"]
+    "tags": ["$group:dashed","projects","manage","overview","board","tickets","issues","roadmap","plan","intentions","productivity","work","agile","draft","template","boilerplate","code","coding"]
   },
   {
     "name": "square-dashed-mouse-pointer",
     "categories": ["cursors","development"],
-    "tags": ["inspector","element","mouse","click","pointer","box","browser","selector","target","dom","node"]
+    "tags": ["$group:dashed","inspector","element","mouse","click","pointer","box","browser","selector","target","dom","node"]
   },
   {
     "name": "square-dashed-plus",
@@ -8341,7 +8356,7 @@ export const iconsData: Array<{
   {
     "name": "square-dashed-text",
     "categories": ["text","cursors"],
-    "tags": ["find","search","selection","dashed"]
+    "tags": ["$group:dashed","find","search","selection"]
   },
   {
     "name": "square-dashed-top-solid",
@@ -8361,7 +8376,7 @@ export const iconsData: Array<{
   {
     "name": "square-dashed",
     "categories": ["design","cursors"],
-    "tags": ["selection","square","rectangular","marquee","tool","dashed","box","region","area","region of interest"]
+    "tags": ["$group:dashed","selection","square","rectangular","marquee","tool","box","region","area","region of interest"]
   },
   {
     "name": "square-dimensions",
@@ -8701,7 +8716,7 @@ export const iconsData: Array<{
   {
     "name": "square-terminal",
     "categories": ["development"],
-    "tags": ["code","command line","prompt","shell"]
+    "tags": ["$group:code","code","command line","prompt","shell"]
   },
   {
     "name": "square-text",
@@ -8751,7 +8766,7 @@ export const iconsData: Array<{
   {
     "name": "squircle-dashed",
     "categories": ["$extends:squircle","development","design"],
-    "tags": ["$extends:squircle","pending","progress","issue","draft","code","coding","version control"]
+    "tags": ["$extends:squircle","$group:dashed","pending","progress","issue","draft","code","coding","version control"]
   },
   {
     "name": "squircle",
@@ -8816,7 +8831,7 @@ export const iconsData: Array<{
   {
     "name": "stethoscope",
     "categories": ["science","medical"],
-    "tags": ["phonendoscope","medical","heart","lungs","sound"]
+    "tags": ["phonendoscope","medical","heart","lungs","sound","patient"]
   },
   {
     "name": "sticker",
@@ -8866,7 +8881,7 @@ export const iconsData: Array<{
   {
     "name": "store",
     "categories": ["buildings","navigation","shopping"],
-    "tags": ["shop","supermarket","stand","boutique","building"]
+    "tags": ["shop","supermarket","stand","boutique","building","sell","selling","merchant"]
   },
   {
     "name": "stretch-horizontal",
@@ -9031,7 +9046,7 @@ export const iconsData: Array<{
   {
     "name": "table",
     "categories": ["text","files"],
-    "tags": ["spreadsheet","grid"]
+    "tags": ["spreadsheet","grid","csv","xls","xlsx","excel"]
   },
   {
     "name": "tablet-smartphone",
@@ -9061,7 +9076,7 @@ export const iconsData: Array<{
   {
     "name": "tag",
     "categories": ["account","shopping"],
-    "tags": ["label","badge","ticket","mark"]
+    "tags": ["label","badge","ticket","mark","sell","selling","promotion","promo"]
   },
   {
     "name": "tags",
@@ -9101,7 +9116,7 @@ export const iconsData: Array<{
   {
     "name": "target",
     "categories": ["gaming"],
-    "tags": ["logo","bullseye","deadline","projects","overview","work","productivity"]
+    "tags": ["logo","bullseye","deadline","projects","overview","work","productivity","result","outcome","objective","okr"]
   },
   {
     "name": "telescope",
@@ -9121,7 +9136,7 @@ export const iconsData: Array<{
   {
     "name": "terminal",
     "categories": ["development"],
-    "tags": ["code","command line","prompt","shell"]
+    "tags": ["$group:code","code","command line","prompt","shell"]
   },
   {
     "name": "test-tube-diagonal",
@@ -9236,7 +9251,7 @@ export const iconsData: Array<{
   {
     "name": "thumbs-up",
     "categories": ["social","emoji"],
-    "tags": ["like","good","emotion"]
+    "tags": ["like","good","emotion","recommend","recommendation"]
   },
   {
     "name": "tic-tac-toe",
@@ -9276,7 +9291,7 @@ export const iconsData: Array<{
   {
     "name": "ticket",
     "categories": ["account","transportation"],
-    "tags": ["entry","pass","voucher","event","concert","show","perforated","dashed"]
+    "tags": ["entry","pass","voucher","event","concert","show","perforated","dashed","invite","invitation"]
   },
   {
     "name": "tickets-plane",
@@ -9471,7 +9486,7 @@ export const iconsData: Array<{
   {
     "name": "triangle-dashed",
     "categories": ["$extends:triangle"],
-    "tags": ["$extends:triangle","dashed"]
+    "tags": ["$extends:triangle","$group:dashed"]
   },
   {
     "name": "triangle-exclamation-point",
@@ -9491,17 +9506,17 @@ export const iconsData: Array<{
   {
     "name": "triangles-centerline-dashed-horizontal",
     "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
+    "tags": ["$group:dashed","reflect","mirror","alignment"]
   },
   {
     "name": "triangles-centerline-dashed-vertical",
     "categories": ["design","photography"],
-    "tags": ["reflect","mirror","alignment","dashed"]
+    "tags": ["$group:dashed","reflect","mirror","alignment"]
   },
   {
     "name": "trophy",
     "categories": ["sports","gaming"],
-    "tags": ["prize","sports","winner","achievement","award","champion","celebration","victory","competition","tournament","leaderboard","ranking","success","reward","cup","first","gold"]
+    "tags": ["prize","sports","winner","achievement","award","champion","celebration","victory","competition","tournament","leaderboard","ranking","success","reward","cup","first","gold","result"]
   },
   {
     "name": "truck-electric",
@@ -9566,7 +9581,7 @@ export const iconsData: Array<{
   {
     "name": "umbrella",
     "categories": ["weather"],
-    "tags": ["rain","weather"]
+    "tags": ["rain","weather","insurance","coverage"]
   },
   {
     "name": "underline",
@@ -9681,7 +9696,7 @@ export const iconsData: Array<{
   {
     "name": "user-plus",
     "categories": ["$extends:user"],
-    "tags": ["$extends:user","$group:plus","follow","subscribe"]
+    "tags": ["$extends:user","$group:plus","follow","subscribe","invite","invitation"]
   },
   {
     "name": "user-round-arrow-left",
@@ -9726,7 +9741,7 @@ export const iconsData: Array<{
   {
     "name": "user-round-plus",
     "categories": ["$extends:user-round"],
-    "tags": ["$extends:user-round","$group:plus","follow","subscribe"]
+    "tags": ["$extends:user-round","$group:plus","follow","subscribe","invite","invitation"]
   },
   {
     "name": "user-round-search",
@@ -9951,7 +9966,7 @@ export const iconsData: Array<{
   {
     "name": "wallet",
     "categories": ["account","finance"],
-    "tags": ["money","finance","pocket"]
+    "tags": ["money","finance","pocket","budget"]
   },
   {
     "name": "wallpaper",
@@ -10136,7 +10151,7 @@ export const iconsData: Array<{
   {
     "name": "workflow",
     "categories": ["development"],
-    "tags": ["$group:graph","action","continuous integration","ci","automation","devops","node","connection"]
+    "tags": ["$group:graph","action","continuous integration","ci","automation","devops","node","connection","ci/cd","cicd","pipeline","deploy"]
   },
   {
     "name": "worm",
@@ -10171,7 +10186,7 @@ export const iconsData: Array<{
   {
     "name": "zap",
     "categories": ["photography","weather","devices"],
-    "tags": ["flash","camera","lightning","electricity","energy","power","quick"]
+    "tags": ["flash","camera","lightning","electricity","energy","power","quick","thunder","thunderbolt"]
   },
   {
     "name": "zodiac-aquarius",
