@@ -1549,6 +1549,11 @@ export const iconsData: Array<{
     "tags": ["cannabis","weed","leaf"]
   },
   {
+    "name": "cap",
+    "categories": ["shopping","sports"],
+    "tags": ["hat","baseball","baseball cap","snapback","trucker hat","visor","peak","brim","headwear","headgear","sports","merchandise","apparel","fashion","accessory","casual","shopping","store","clothing","clothes"]
+  },
+  {
     "name": "captions-off",
     "categories": ["$extends:captions"],
     "tags": ["$extends:captions","$group:off"]
@@ -4349,6 +4354,11 @@ export const iconsData: Array<{
     "tags": ["$group:graph","load balancer","distribute","traffic","parallel","branch","hierarchy","routing","dispatcher","cluster","backend","fan-out","orchestration"]
   },
   {
+    "name": "graph-ring",
+    "categories": ["charts"],
+    "tags": ["$group:graph","cycle","loop","replication","consensus","cluster","peer-to-peer","p2p","mesh","distributed","decentralized","decentralization","ring topology","circular network"]
+  },
+  {
     "name": "graph-star",
     "categories": ["development","charts"],
     "tags": ["$group:graph","mind map","hub","dependencies","bonds","cluster","thoughts","ideas","concepts","molecule"]
@@ -5041,12 +5051,17 @@ export const iconsData: Array<{
   {
     "name": "layout-grid-circles",
     "categories": ["$extends:layout-grid"],
-    "tags": ["$extends:layout-grid","dot matrix","dots","menu","dashboard","collection","overview","tiles","grid","matrix","launcher","apps","widgets","ui","circles","shortcuts"]
+    "tags": ["$extends:layout-grid","dot matrix","dots"]
+  },
+  {
+    "name": "layout-grid-plus",
+    "categories": ["$extends:layout-grid"],
+    "tags": ["$extends:layout-grid","$group:plus","structure","rows","columns","expand","interface","design","section","widget","tile"]
   },
   {
     "name": "layout-grid",
     "categories": ["design","layout"],
-    "tags": ["app","home","start"]
+    "tags": ["app","home","start","apps","menu","block","applications","collection","dashboard","overview","tiles","grid","matrix","launcher","widgets","ui","circles","shortcuts"]
   },
   {
     "name": "layout-list",
