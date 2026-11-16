@@ -76,12 +76,12 @@ export const iconsData: Array<{
   {
     "name": "align-center-horizontal",
     "categories": ["layout"],
-    "tags": ["items","flex","justify"]
+    "tags": ["$group:position-center","items","flex","justify"]
   },
   {
     "name": "align-center-vertical",
     "categories": ["layout"],
-    "tags": ["items","flex","justify"]
+    "tags": ["$group:position-center","items","flex","justify"]
   },
   {
     "name": "align-end-horizontal",
@@ -96,7 +96,7 @@ export const iconsData: Array<{
   {
     "name": "align-horizontal-distribute-center",
     "categories": ["layout"],
-    "tags": ["items","flex","justify","space","evenly","around"]
+    "tags": ["$group:position-center","items","flex","justify","space","evenly","around"]
   },
   {
     "name": "align-horizontal-distribute-end",
@@ -111,7 +111,7 @@ export const iconsData: Array<{
   {
     "name": "align-horizontal-justify-center",
     "categories": ["layout"],
-    "tags": ["center","items","flex","justify"]
+    "tags": ["$group:position-center","items","flex","justify"]
   },
   {
     "name": "align-horizontal-justify-end",
@@ -146,7 +146,7 @@ export const iconsData: Array<{
   {
     "name": "align-vertical-distribute-center",
     "categories": ["layout"],
-    "tags": ["items","flex","justify","space","evenly","around"]
+    "tags": ["$group:position-center","items","flex","justify","space","evenly","around"]
   },
   {
     "name": "align-vertical-distribute-end",
@@ -161,7 +161,7 @@ export const iconsData: Array<{
   {
     "name": "align-vertical-justify-center",
     "categories": ["layout"],
-    "tags": ["center","items","flex","justify","distribute","between"]
+    "tags": ["$group:position-center","items","flex","justify","distribute","between"]
   },
   {
     "name": "align-vertical-justify-end",
@@ -331,7 +331,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-down-from-line",
     "categories": ["$extends:arrow-down","files"],
-    "tags": ["$extends:arrow-down","$group:direction-down","download","expand","fold"]
+    "tags": ["$extends:arrow-down","$group:direction-down","download","$group:expand"]
   },
   {
     "name": "arrow-down-left",
@@ -356,7 +356,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-down-to-line",
     "categories": ["$extends:arrow-down","files","development"],
-    "tags": ["$extends:arrow-down","$extends:download","$group:direction-down","$group:navigation-last","behind","download","git","version control","collapse","fold"]
+    "tags": ["$extends:arrow-down","$extends:download","$group:direction-down","$group:navigation-last","behind","download","git","version control","$group:collapse"]
   },
   {
     "name": "arrow-down-up",
@@ -381,7 +381,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-left-from-line",
     "categories": ["$extends:arrow-left"],
-    "tags": ["$extends:arrow-left","$group:direction-left","expand","fold","<-|"]
+    "tags": ["$extends:arrow-left","$group:direction-left","$group:expand","<-|"]
   },
   {
     "name": "arrow-left-right",
@@ -391,7 +391,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-left-to-line",
     "categories": ["$extends:arrow-left"],
-    "tags": ["$extends:arrow-left","$group:direction-left","$group:navigation-first","collapse","fold","|<-"]
+    "tags": ["$extends:arrow-left","$group:direction-left","$group:navigation-first","$group:collapse","|<-"]
   },
   {
     "name": "arrow-left",
@@ -401,7 +401,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-right-from-line",
     "categories": ["$extends:arrow-right"],
-    "tags": ["$extends:arrow-right","$group:direction-right","export","expand","fold","|->"]
+    "tags": ["$extends:arrow-right","$group:direction-right","export","$group:expand","|->"]
   },
   {
     "name": "arrow-right-left",
@@ -411,7 +411,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-right-to-line",
     "categories": ["$extends:arrow-right","development"],
-    "tags": ["$extends:arrow-right","$group:direction-right","$group:navigation-last","tab","keyboard","mac","indent","collapse","fold","->|"]
+    "tags": ["$extends:arrow-right","$group:direction-right","$group:navigation-last","tab","keyboard","mac","indent","$group:collapse","->|"]
   },
   {
     "name": "arrow-right",
@@ -446,7 +446,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-up-from-line",
     "categories": ["$extends:arrow-up","files","development"],
-    "tags": ["$extends:arrow-up","$group:direction-up","upload","git","version control","push","expand","fold"]
+    "tags": ["$extends:arrow-up","$group:direction-up","upload","git","version control","push","$group:expand"]
   },
   {
     "name": "arrow-up-left",
@@ -466,7 +466,7 @@ export const iconsData: Array<{
   {
     "name": "arrow-up-to-line",
     "categories": ["$extends:arrow-up","files"],
-    "tags": ["$extends:arrow-up","$group:direction-up","$group:navigation-first","upload","collapse","fold"]
+    "tags": ["$extends:arrow-up","$group:direction-up","$group:navigation-first","upload","$group:collapse"]
   },
   {
     "name": "arrow-up-wide-narrow",
@@ -482,6 +482,46 @@ export const iconsData: Array<{
     "name": "arrow-up",
     "categories": ["arrows"],
     "tags": ["$group:direction-up","$group:navigation-previous","forward"]
+  },
+  {
+    "name": "arrows-from-axis-dashed-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:expand"]
+  },
+  {
+    "name": "arrows-from-axis-dashed-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:expand"]
+  },
+  {
+    "name": "arrows-from-axis-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:expand"]
+  },
+  {
+    "name": "arrows-from-axis-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:expand"]
+  },
+  {
+    "name": "arrows-to-axis-dashed-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:collapse"]
+  },
+  {
+    "name": "arrows-to-axis-dashed-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:collapse"]
+  },
+  {
+    "name": "arrows-to-axis-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:collapse"]
+  },
+  {
+    "name": "arrows-to-axis-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:collapse"]
   },
   {
     "name": "arrows-up-from-line",
@@ -1594,6 +1634,46 @@ export const iconsData: Array<{
     "tags": ["cellphone","smartphone","mobile","network","cellular","service","provider","signal","coverage","disk","data","format","storage","flash","digital","contacts","phone book","contractual","circuit board","chip"]
   },
   {
+    "name": "carets-from-axis-dashed-horizontal",
+    "categories": ["arrows","design","photography"],
+    "tags": ["$group:dashed","triangle","$group:expand","$group:reflect","alignment"]
+  },
+  {
+    "name": "carets-from-axis-dashed-vertical",
+    "categories": ["arrows","design","photography"],
+    "tags": ["$group:dashed","triangle","$group:expand","$group:reflect","alignment"]
+  },
+  {
+    "name": "carets-from-axis-horizontal",
+    "categories": ["arrows","design","photography"],
+    "tags": ["triangle","$group:expand","$group:reflect","alignment"]
+  },
+  {
+    "name": "carets-from-axis-vertical",
+    "categories": ["arrows","design","photography"],
+    "tags": ["triangle","$group:expand","$group:reflect","alignment"]
+  },
+  {
+    "name": "carets-to-axis-dashed-horizontal",
+    "categories": ["design","photography"],
+    "tags": ["$group:dashed","$group:collapse","$group:reflect","alignment"]
+  },
+  {
+    "name": "carets-to-axis-dashed-vertical",
+    "categories": ["design","photography"],
+    "tags": ["$group:dashed","$group:collapse","$group:reflect","alignment"]
+  },
+  {
+    "name": "carets-to-axis-horizontal",
+    "categories": ["arrows","design","photography"],
+    "tags": ["triangle","$group:collapse","$group:reflect","alignment"]
+  },
+  {
+    "name": "carets-to-axis-vertical",
+    "categories": ["arrows","design","photography"],
+    "tags": ["triangle","$group:collapse","$group:reflect","alignment"]
+  },
+  {
     "name": "carrot",
     "categories": ["food-beverage"],
     "tags": ["orange","healthy","nature","fresh","root","produce","organic","nutrition","vegetable","food","eat"]
@@ -1881,12 +1961,32 @@ export const iconsData: Array<{
   {
     "name": "chevrons-down-up",
     "categories": ["arrows"],
-    "tags": ["$group:direction-down","$group:direction-up","collapse","fold"]
+    "tags": ["$group:direction-down","$group:direction-up","$group:collapse"]
   },
   {
     "name": "chevrons-down",
     "categories": ["arrows"],
     "tags": ["$group:direction-down","$group:navigation-last","backwards","reverse","slower"]
+  },
+  {
+    "name": "chevrons-from-axis-dashed-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:expand"]
+  },
+  {
+    "name": "chevrons-from-axis-dashed-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:expand"]
+  },
+  {
+    "name": "chevrons-from-axis-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:expand"]
+  },
+  {
+    "name": "chevrons-from-axis-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:expand"]
   },
   {
     "name": "chevrons-left-right-ellipsis",
@@ -1896,7 +1996,7 @@ export const iconsData: Array<{
   {
     "name": "chevrons-left-right",
     "categories": ["arrows"],
-    "tags": ["$group:direction-left","$group:direction-right","expand","unfold"]
+    "tags": ["$group:direction-left","$group:direction-right","$group:expand"]
   },
   {
     "name": "chevrons-left",
@@ -1906,7 +2006,7 @@ export const iconsData: Array<{
   {
     "name": "chevrons-right-left",
     "categories": ["arrows"],
-    "tags": ["$group:direction-right","$group:direction-left","collapse","fold"]
+    "tags": ["$group:direction-right","$group:direction-left","$group:collapse"]
   },
   {
     "name": "chevrons-right",
@@ -1914,9 +2014,29 @@ export const iconsData: Array<{
     "tags": ["$group:direction-right","$group:navigation-last","turn","corner"]
   },
   {
+    "name": "chevrons-to-axis-dashed-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:collapse"]
+  },
+  {
+    "name": "chevrons-to-axis-dashed-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:dashed","$group:collapse"]
+  },
+  {
+    "name": "chevrons-to-axis-horizontal",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:collapse"]
+  },
+  {
+    "name": "chevrons-to-axis-vertical",
+    "categories": ["arrows","layout"],
+    "tags": ["$group:collapse"]
+  },
+  {
     "name": "chevrons-up-down",
     "categories": ["arrows"],
-    "tags": ["$group:direction-up","$group:direction-down","expand","unfold"]
+    "tags": ["$group:direction-up","$group:direction-down","$group:expand"]
   },
   {
     "name": "chevrons-up",
@@ -3376,7 +3496,7 @@ export const iconsData: Array<{
   {
     "name": "expand",
     "categories": ["arrows","layout"],
-    "tags": ["scale","fullscreen","maximize","minimize","contract"]
+    "tags": ["$group:expand","scale","fullscreen","maximize","minimize","contract"]
   },
   {
     "name": "external-link",
@@ -3869,16 +3989,6 @@ export const iconsData: Array<{
     "tags": ["camera","lens","photo","dashed"]
   },
   {
-    "name": "fold-horizontal",
-    "categories": ["arrows","layout"],
-    "tags": ["arrow","collapse","fold","vertical","dashed"]
-  },
-  {
-    "name": "fold-vertical",
-    "categories": ["arrows","layout"],
-    "tags": ["arrow","collapse","fold","vertical","dashed"]
-  },
-  {
     "name": "folder-archive",
     "categories": ["$extends:folder"],
     "tags": ["$extends:folder","archive","zip","package"]
@@ -4081,7 +4191,7 @@ export const iconsData: Array<{
   {
     "name": "fullscreen",
     "categories": ["layout","multimedia","photography"],
-    "tags": ["expand","zoom","preview","focus","camera","lens","image"]
+    "tags": ["$group:expand","zoom","preview","focus","camera","lens","image"]
   },
   {
     "name": "funnel-plus",
@@ -5351,12 +5461,12 @@ export const iconsData: Array<{
   {
     "name": "list-chevrons-down-up",
     "categories": ["$extends:list"],
-    "tags": ["$extends:list","$group:direction-down","$group:direction-up","items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold"]
+    "tags": ["$extends:list","$group:direction-down","$group:direction-up","items","$group:collapse","$group:expand","details","disclosure","show","hide","toggle","accordion","more","less"]
   },
   {
     "name": "list-chevrons-up-down",
     "categories": ["$extends:list"],
-    "tags": ["$extends:list","$group:direction-up","$group:direction-down","items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold"]
+    "tags": ["$extends:list","$group:direction-up","$group:direction-down","items","$group:collapse","$group:expand","details","disclosure","show","hide","toggle","accordion","more","less"]
   },
   {
     "name": "list-clock",
@@ -5366,7 +5476,7 @@ export const iconsData: Array<{
   {
     "name": "list-collapse",
     "categories": ["$extends:list"],
-    "tags": ["items","collapse","expand","details","disclosure","show","hide","toggle","accordion","more","less","fold","unfold"]
+    "tags": ["items","$group:collapse","$group:expand","details","disclosure","show","hide","toggle","accordion","more","less"]
   },
   {
     "name": "list-end",
@@ -5761,7 +5871,7 @@ export const iconsData: Array<{
   {
     "name": "maximize",
     "categories": ["layout","design"],
-    "tags": ["fullscreen","expand","dashed"]
+    "tags": ["fullscreen","$group:expand","dashed"]
   },
   {
     "name": "medal",
@@ -6031,7 +6141,7 @@ export const iconsData: Array<{
   {
     "name": "minimize",
     "categories": ["layout","design"],
-    "tags": ["exit fullscreen","close","shrink"]
+    "tags": ["$group:collapse","exit fullscreen","close","shrink"]
   },
   {
     "name": "minus",
@@ -7891,7 +8001,7 @@ export const iconsData: Array<{
   {
     "name": "shrink",
     "categories": ["layout","arrows"],
-    "tags": ["scale","fullscreen"]
+    "tags": ["$group:collapse","scale","fullscreen"]
   },
   {
     "name": "shrub",
@@ -8141,12 +8251,12 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-down-exit",
     "categories": ["$extends:square-arrow-down"],
-    "tags": ["$group:direction-down","$group:exit","$group:layout-resize","pour","empty","cell","expand"]
+    "tags": ["$group:direction-down","$group:exit","$group:layout-resize","pour","empty","cell","$group:expand"]
   },
   {
     "name": "square-arrow-down-left-enter",
     "categories": ["$extends:square-arrow-down-left-exit"],
-    "tags": ["$group:direction-down-left","$group:enter","$group:layout-resize","collapse","exit","close","return","dock"]
+    "tags": ["$group:direction-down-left","$group:enter","$group:layout-resize","$group:collapse","exit","close","return","dock"]
   },
   {
     "name": "square-arrow-down-left-exit",
@@ -8181,12 +8291,12 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-left-enter",
     "categories": ["$extends:square-arrow-left"],
-    "tags": ["$group:direction-left","$group:enter","$group:layout-resize","reverse","back","<-","cell","expand","collapse","split"]
+    "tags": ["$group:direction-left","$group:enter","$group:layout-resize","reverse","back","<-","cell","$group:expand","$group:collapse","split"]
   },
   {
     "name": "square-arrow-left-exit",
     "categories": ["$extends:square-arrow-left"],
-    "tags": ["$group:direction-left","$group:exit","$group:layout-resize","back","reverse","<-","collapse"]
+    "tags": ["$group:direction-left","$group:exit","$group:layout-resize","back","reverse","<-","$group:collapse"]
   },
   {
     "name": "square-arrow-left",
@@ -8196,12 +8306,12 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-right-enter",
     "categories": ["$extends:square-arrow-right","account","development"],
-    "tags": ["$group:direction-right","$group:enter","$group:layout-resize","left","source","place","->","sign in","log in","login","join","auth","data flow","node editor","panel","expand"]
+    "tags": ["$group:direction-right","$group:enter","$group:layout-resize","left","source","place","->","sign in","log in","login","join","auth","data flow","node editor","panel","$group:expand"]
   },
   {
     "name": "square-arrow-right-exit",
     "categories": ["$extends:square-arrow-right","account","development"],
-    "tags": ["$group:direction-right","$group:exit","$group:layout-resize","->","sign out","log out","logout","auth","data flow","node editor","expand","panel","cell","outbound"]
+    "tags": ["$group:direction-right","$group:exit","$group:layout-resize","->","sign out","log out","logout","auth","data flow","node editor","$group:expand","panel","cell","outbound"]
   },
   {
     "name": "square-arrow-right",
@@ -8211,7 +8321,7 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-up-enter",
     "categories": ["$extends:square-arrow-up"],
-    "tags": ["$group:direction-up","$group:enter","$group:layout-resize","project","cast","screen","projection","presentation","expand","cell"]
+    "tags": ["$group:direction-up","$group:enter","$group:layout-resize","project","cast","screen","projection","presentation","$group:expand","cell"]
   },
   {
     "name": "square-arrow-up-exit",
@@ -8236,7 +8346,7 @@ export const iconsData: Array<{
   {
     "name": "square-arrow-up-right-enter",
     "categories": ["arrows"],
-    "tags": ["$group:direction-up-right","$group:enter","$group:layout-resize","expand","contract"]
+    "tags": ["$group:direction-up-right","$group:enter","$group:layout-resize","$group:expand","$group:collapse","contract"]
   },
   {
     "name": "square-arrow-up-right-exit",
@@ -8259,6 +8369,26 @@ export const iconsData: Array<{
     "tags": ["password","secret","access","key","multiply","multiplication","glob pattern","wildcard","*","required","mandatory"]
   },
   {
+    "name": "square-axis-dashed-horizontal",
+    "categories": ["design","photography"],
+    "tags": ["$group:dashed","$group:reflect","alignment","centerline"]
+  },
+  {
+    "name": "square-axis-dashed-vertical",
+    "categories": ["design","photography"],
+    "tags": ["$group:dashed","$group:reflect","alignment","centerline"]
+  },
+  {
+    "name": "square-axis-horizontal",
+    "categories": ["design","photography"],
+    "tags": ["$group:reflect","alignment","centerline"]
+  },
+  {
+    "name": "square-axis-vertical",
+    "categories": ["design","photography"],
+    "tags": ["$group:reflect","alignment","centerline"]
+  },
+  {
     "name": "square-bookmark",
     "categories": ["photography","multimedia"],
     "tags": ["photo","book"]
@@ -8267,16 +8397,6 @@ export const iconsData: Array<{
     "name": "square-bottom-dashed-scissors",
     "categories": ["text","design","tools","files","development"],
     "tags": ["$group:dashed","cut","snippet","chop","stationery","crafts"]
-  },
-  {
-    "name": "square-centerline-dashed-horizontal",
-    "categories": ["design","photography"],
-    "tags": ["$group:dashed","reflect","mirror","alignment"]
-  },
-  {
-    "name": "square-centerline-dashed-vertical",
-    "categories": ["design","photography"],
-    "tags": ["$group:dashed","reflect","mirror","alignment"]
   },
   {
     "name": "square-chart-gantt",
@@ -8711,7 +8831,7 @@ export const iconsData: Array<{
   {
     "name": "square-square",
     "categories": ["layout"],
-    "tags": ["float","center","rectangle"]
+    "tags": ["float","$group:position-center","rectangle"]
   },
   {
     "name": "square-stack",
@@ -9171,7 +9291,7 @@ export const iconsData: Array<{
   {
     "name": "text-align-center",
     "categories": ["text"],
-    "tags": ["text","alignment","center"]
+    "tags": ["text","alignment","$group:position-center"]
   },
   {
     "name": "text-align-end",
@@ -9181,7 +9301,7 @@ export const iconsData: Array<{
   {
     "name": "text-align-justify-center",
     "categories": ["$extends:text-align-justify"],
-    "tags": ["paragraph","alignment","justified","center","middle","typography","editor","document"]
+    "tags": ["paragraph","alignment","justified","$group:position-center","typography","editor","document"]
   },
   {
     "name": "text-align-justify-end",
@@ -9519,16 +9639,6 @@ export const iconsData: Array<{
     "tags": ["equilateral","delta","shape","pyramid","hierarchy"]
   },
   {
-    "name": "triangles-centerline-dashed-horizontal",
-    "categories": ["design","photography"],
-    "tags": ["$group:dashed","reflect","mirror","alignment"]
-  },
-  {
-    "name": "triangles-centerline-dashed-vertical",
-    "categories": ["design","photography"],
-    "tags": ["$group:dashed","reflect","mirror","alignment"]
-  },
-  {
     "name": "trophy",
     "categories": ["sports","gaming"],
     "tags": ["prize","sports","winner","achievement","award","champion","celebration","victory","competition","tournament","leaderboard","ranking","success","reward","cup","first","gold","result"]
@@ -9617,16 +9727,6 @@ export const iconsData: Array<{
     "name": "undo",
     "categories": ["text","arrows"],
     "tags": ["redo","rerun","history"]
-  },
-  {
-    "name": "unfold-horizontal",
-    "categories": ["arrows","layout"],
-    "tags": ["arrow","collapse","fold","vertical","dashed"]
-  },
-  {
-    "name": "unfold-vertical",
-    "categories": ["arrows","layout"],
-    "tags": ["arrow","expand","vertical","dashed"]
   },
   {
     "name": "ungroup",
