@@ -561,7 +561,7 @@ export const iconsData: Array<{
   {
     "name": "audio-lines-x",
     "categories": ["$extends:audio-lines"],
-    "tags": ["$extends:audio-lines","$group:x","mute","silence","disabled","unavailable","equalizer","equaliser","waveform"]
+    "tags": ["$extends:audio-lines","$group:x","mute","silence","equalizer","equaliser","waveform"]
   },
   {
     "name": "audio-lines",
@@ -605,7 +605,7 @@ export const iconsData: Array<{
   },
   {
     "name": "backpack",
-    "categories": ["gaming","travel"],
+    "categories": ["gaming","travel","education"],
     "tags": ["bag","hiking","travel","camping","school","childhood"]
   },
   {
@@ -756,7 +756,7 @@ export const iconsData: Array<{
   {
     "name": "banknote-x",
     "categories": ["$extends:banknote"],
-    "tags": ["$extends:banknote","$group:x","error","failed","rejected","declined","lost"]
+    "tags": ["$extends:banknote","$group:x","rejected","declined","lost"]
   },
   {
     "name": "banknote",
@@ -765,7 +765,7 @@ export const iconsData: Array<{
   },
   {
     "name": "barcode",
-    "categories": ["shopping"],
+    "categories": ["shopping","logistics"],
     "tags": ["scan","checkout","till","cart","transaction","purchase","buy","product","packaging","retail","consumer"]
   },
   {
@@ -1110,7 +1110,7 @@ export const iconsData: Array<{
   },
   {
     "name": "book-open-text",
-    "categories": ["text","development"],
+    "categories": ["text","development","education"],
     "tags": ["$extends:book-open","docs","wiki","knowledge base"]
   },
   {
@@ -1160,7 +1160,7 @@ export const iconsData: Array<{
   },
   {
     "name": "book",
-    "categories": ["text","development","gaming"],
+    "categories": ["text","development","gaming","education"],
     "tags": ["reading","paperback","booklet","magazine","leaflet","pamphlet","tome","library","writing","written","writer","author","story","script","fiction","novel","information","knowledge","education","high school","university","college","academy","student","study","learning","homework","research","documentation"]
   },
   {
@@ -1199,9 +1199,19 @@ export const iconsData: Array<{
     "tags": ["radio","speakers","audio","music","sound","broadcast","live","frequency"]
   },
   {
+    "name": "bot-check",
+    "categories": ["$extends:bot"],
+    "tags": ["$extends:bot","$group:check","connected"]
+  },
+  {
     "name": "bot-message-square",
     "categories": ["$extends:bot"],
     "tags": ["$extends:bot"]
+  },
+  {
+    "name": "bot-minus",
+    "categories": ["$extends:bot"],
+    "tags": ["$extends:bot","$group:minus","integration","deactivate"]
   },
   {
     "name": "bot-off",
@@ -1209,9 +1219,19 @@ export const iconsData: Array<{
     "tags": ["$extends:bot","$group:off"]
   },
   {
+    "name": "bot-plus",
+    "categories": ["$extends:bot"],
+    "tags": ["$extends:bot","$group:plus"]
+  },
+  {
+    "name": "bot-x",
+    "categories": ["$extends:bot"],
+    "tags": ["$extends:bot","$group:x","disconnected","offline","integration"]
+  },
+  {
     "name": "bot",
-    "categories": ["development","social"],
-    "tags": ["robot","ai","chat","assistant"]
+    "categories": ["development","social","ai"],
+    "tags": ["robot","ai","chat","assistant","chatbot","automation","machine-learning","ai-assistant","intelligent-assistant","agent"]
   },
   {
     "name": "bottle-wine",
@@ -1230,12 +1250,12 @@ export const iconsData: Array<{
   },
   {
     "name": "boxes-linked",
-    "categories": ["development"],
+    "categories": ["development","logistics"],
     "tags": ["$group:graph","cubes","package","module","dependencies","link","chain","blockchain","supply chain","integration","component","logistics","distributed","interconnected","relationship","coupling","system architecture","distributed systems","inventory"]
   },
   {
     "name": "boxes",
-    "categories": ["shapes","gaming","development"],
+    "categories": ["shapes","gaming","development","logistics"],
     "tags": ["cubes","packages","parts","group","units","collection","cluster","geometry"]
   },
   {
@@ -1250,12 +1270,12 @@ export const iconsData: Array<{
   },
   {
     "name": "brain-circuit",
-    "categories": ["science","development"],
+    "categories": ["science","development","ai"],
     "tags": ["$extends:brain"]
   },
   {
     "name": "brain-cog",
-    "categories": ["science","development"],
+    "categories": ["science","development","ai"],
     "tags": ["$extends:brain","$group:cog"]
   },
   {
@@ -1265,7 +1285,7 @@ export const iconsData: Array<{
   },
   {
     "name": "brain",
-    "categories": ["medical","science"],
+    "categories": ["medical","science","ai"],
     "tags": ["medical","mind","mental","intellect","cerebral","consciousness","genius","artificial intelligence","ai","think","thought","insight","intelligent","smart","deep learning","machine learning","computing","skill","skills","expertise"]
   },
   {
@@ -1295,7 +1315,7 @@ export const iconsData: Array<{
   },
   {
     "name": "briefcase-conveyor-belt",
-    "categories": ["$extends:briefcase"],
+    "categories": ["$extends:briefcase","logistics"],
     "tags": ["baggage","luggage","travel","suitcase","conveyor","carousel"]
   },
   {
@@ -1410,7 +1430,7 @@ export const iconsData: Array<{
   },
   {
     "name": "calculator",
-    "categories": ["math","devices"],
+    "categories": ["math","devices","education"],
     "tags": ["count","calculating machine","budget"]
   },
   {
@@ -2059,6 +2079,11 @@ export const iconsData: Array<{
     "tags": ["smoking"]
   },
   {
+    "name": "cinema",
+    "categories": ["multimedia"],
+    "tags": ["movie","theater","theatre","screen","projector","seats","film","watching","streaming","entertainment","auditorium","show times","tickets","venue"]
+  },
+  {
     "name": "circle-arrow-down-left-exit",
     "categories": ["arrows"],
     "tags": ["$group:direction-down-left","$group:exit"]
@@ -2097,6 +2122,11 @@ export const iconsData: Array<{
     "name": "circle-arrow-up",
     "categories": ["arrows"],
     "tags": ["$group:direction-up","$group:navigation-previous","forward","sign","button"]
+  },
+  {
+    "name": "circle-bounce",
+    "categories": ["science","design"],
+    "tags": ["ball","trajectory","rebound","motion","physics","animation","easing","analytics","collision","impact","curve","arc","kinematics"]
   },
   {
     "name": "circle-check-big",
@@ -2379,6 +2409,11 @@ export const iconsData: Array<{
     "tags": ["$group:percent","verified","unverified","sticker"]
   },
   {
+    "name": "circle-person-arms-spread",
+    "categories": ["accessibility","people"],
+    "tags": ["universal access","accessibility","disability","disabled","dda","inclusive","universal","human","people"]
+  },
+  {
     "name": "circle-pile",
     "categories": ["$extends:circle"],
     "tags": ["$extends:circle","circle-pile","circle","pile","stack","layer","structure","form","group","collection","stock","inventory","materials","warehouse"]
@@ -2446,7 +2481,7 @@ export const iconsData: Array<{
   {
     "name": "circle-x",
     "categories": ["math","notifications"],
-    "tags": ["$group:x","error","incorrect","wrong","mistake","failure","linter","multiply","multiplication"]
+    "tags": ["$group:x","incorrect","wrong","mistake","failure","linter","multiply","multiplication"]
   },
   {
     "name": "circle",
@@ -2865,7 +2900,7 @@ export const iconsData: Array<{
   },
   {
     "name": "container",
-    "categories": ["development","transportation"],
+    "categories": ["development","transportation","logistics"],
     "tags": ["storage","shipping","freight","supply chain","environment","devops","code","coding"]
   },
   {
@@ -2960,7 +2995,7 @@ export const iconsData: Array<{
   },
   {
     "name": "cpu-ai",
-    "categories": ["$extends:cpu","development"],
+    "categories": ["$extends:cpu","development","ai"],
     "tags": ["$group:letter","ai","artificial intelligence","machine learning","neural network","automation","intelligence","generative","assistant","chatbot","llm","deep learning","inference","training","mlops","model","predictive","on-device","edge","api","service","cognitive","processor","chip"]
   },
   {
@@ -2996,7 +3031,7 @@ export const iconsData: Array<{
   {
     "name": "credit-card-x",
     "categories": ["$extends:credit-card","shopping"],
-    "tags": ["$extends:credit-card","$group:x","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","declined","rejected","failed","invalid","error"]
+    "tags": ["$extends:credit-card","$group:x","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","declined","rejected","invalid"]
   },
   {
     "name": "credit-card",
@@ -3101,7 +3136,7 @@ export const iconsData: Array<{
   {
     "name": "database-x",
     "categories": ["$extends:database"],
-    "tags": ["$extends:database","$group:x","error","failed","invalid","rejected","denied","disconnect"]
+    "tags": ["$extends:database","$group:x","invalid","rejected","denied","disconnect"]
   },
   {
     "name": "database-zap",
@@ -3254,6 +3289,11 @@ export const iconsData: Array<{
     "tags": ["animal","pet","puppy","hound","canine"]
   },
   {
+    "name": "doghouse",
+    "categories": ["animals","home","buildings"],
+    "tags": ["kennel","pet","shelter","canine","puppy","backyard"]
+  },
+  {
     "name": "dollar-sign",
     "categories": ["finance"],
     "tags": ["$group:currency"]
@@ -3280,7 +3320,7 @@ export const iconsData: Array<{
   },
   {
     "name": "door-closed-package",
-    "categories": ["home","transportation","shopping"],
+    "categories": ["home","transportation","shopping","logistics"],
     "tags": ["delivery","parcel","doorstep","shipping","drop-off","courier"]
   },
   {
@@ -3470,7 +3510,7 @@ export const iconsData: Array<{
   },
   {
     "name": "eraser",
-    "categories": ["text","design"],
+    "categories": ["text","design","education"],
     "tags": ["$group:minus","pencil","drawing","undo","trash"]
   },
   {
@@ -3975,12 +4015,12 @@ export const iconsData: Array<{
   },
   {
     "name": "flower-2",
-    "categories": ["nature","sustainability","seasons"],
+    "categories": ["nature","sustainability"],
     "tags": ["$extends:flower"]
   },
   {
     "name": "flower",
-    "categories": ["nature","sustainability","seasons"],
+    "categories": ["nature","sustainability"],
     "tags": ["sustainability","nature","plant","spring"]
   },
   {
@@ -4165,7 +4205,7 @@ export const iconsData: Array<{
   },
   {
     "name": "forklift",
-    "categories": ["transportation"],
+    "categories": ["transportation","logistics"],
     "tags": ["machinery","industrial","warehouse","lifting","storage","equipment","heavy-duty","moving","vehicle","transport","logistics"]
   },
   {
@@ -4450,7 +4490,7 @@ export const iconsData: Array<{
   },
   {
     "name": "graduation-cap",
-    "categories": ["buildings"],
+    "categories": ["buildings","education"],
     "tags": ["school","university","learn","study","mortarboard","education","ceremony","academic","hat","diploma","bachelor's","master's","doctorate","skill","skills","expertise"]
   },
   {
@@ -4597,6 +4637,11 @@ export const iconsData: Array<{
     "name": "hand-platter",
     "categories": ["food-beverage","people"],
     "tags": ["waiter","waitress","restaurant","table service","served","dinner","dining","meal","course","luxury"]
+  },
+  {
+    "name": "hand-truck",
+    "categories": ["transportation","shopping"],
+    "tags": ["dolly","trolley","cart","delivery","moving","warehouse","logistics","shipping","package","transport","box","storage","packed","inventory","tracking","order","product","barrow","cargo","freight","hauling","loading","unloading"]
   },
   {
     "name": "hand",
@@ -4765,7 +4810,7 @@ export const iconsData: Array<{
   },
   {
     "name": "highlighter",
-    "categories": ["text","design"],
+    "categories": ["text","design","education"],
     "tags": ["mark","text"]
   },
   {
@@ -4812,6 +4857,16 @@ export const iconsData: Array<{
     "name": "hourglass",
     "categories": ["time","gaming"],
     "tags": ["$group:clock","sandglass"]
+  },
+  {
+    "name": "house-arrow-left",
+    "categories": ["buildings","home","arrows","account"],
+    "tags": ["$extends:house","$group:direction-left","enter","entry","check-in","arrival","ingress","sign in","automation","check in","arriving","sign-in","signin","login","presence","presence detection","smart home","iot","geofencing","access","welcome"]
+  },
+  {
+    "name": "house-arrow-right",
+    "categories": ["buildings","home","arrows","account"],
+    "tags": ["$extends:house","$group:direction-right","exit","checkout","departure","egress","sign out","automation","rental","booking","vacating","move-out","guest","tenant","property management","presence detection","away mode","security","logout"]
   },
   {
     "name": "house-cog",
@@ -5195,7 +5250,7 @@ export const iconsData: Array<{
   },
   {
     "name": "leaf",
-    "categories": ["nature","sustainability","seasons"],
+    "categories": ["nature","sustainability"],
     "tags": ["sustainability","nature","energy","plant","autumn"]
   },
   {
@@ -5205,7 +5260,7 @@ export const iconsData: Array<{
   },
   {
     "name": "lectern",
-    "categories": ["communication"],
+    "categories": ["communication","education"],
     "tags": ["pulpit","podium","stand"]
   },
   {
@@ -5370,7 +5425,7 @@ export const iconsData: Array<{
   },
   {
     "name": "library",
-    "categories": ["text","multimedia"],
+    "categories": ["text","multimedia","education"],
     "tags": ["books","reading","written","authors","stories","fiction","novels","information","knowledge","education","high school","university","college","academy","learning","study","research","collection","vinyl","records","albums","music","package","wiki","knowledge base"]
   },
   {
@@ -6231,7 +6286,7 @@ export const iconsData: Array<{
   {
     "name": "monitor-x",
     "categories": ["$extends:monitor"],
-    "tags": ["$extends:monitor","$group:x","error","failed","disconnected","stop","suspend"]
+    "tags": ["$extends:monitor","$group:x","disconnected","stop","suspend"]
   },
   {
     "name": "monitor",
@@ -6454,6 +6509,11 @@ export const iconsData: Array<{
     "tags": ["contactless","payment","near-field communication"]
   },
   {
+    "name": "nigerian-naira",
+    "categories": ["finance"],
+    "tags": ["$group:currency","nigeria","nigerian","ngn"]
+  },
+  {
     "name": "non-binary",
     "categories": ["medical","people"],
     "tags": ["gender","nonbinary","enby"]
@@ -6465,7 +6525,7 @@ export const iconsData: Array<{
   },
   {
     "name": "notebook-pen",
-    "categories": ["text"],
+    "categories": ["text","education"],
     "tags": ["$extends:notebook","$group:pen","noted","eraser","rubber"]
   },
   {
@@ -6480,7 +6540,7 @@ export const iconsData: Array<{
   },
   {
     "name": "notebook",
-    "categories": ["text","design"],
+    "categories": ["text","design","education"],
     "tags": ["notepad","notes","stationery","sketchbook","moleskine","closure","strap","band","elastic","organizer","organiser","planner","diary","journal","writing","written","writer","reading","high school","university","college","academy","student","study","homework","research"]
   },
   {
@@ -6490,7 +6550,7 @@ export const iconsData: Array<{
   },
   {
     "name": "notepad-text",
-    "categories": ["text"],
+    "categories": ["text","education"],
     "tags": ["notebook","notes","pages","paper","stationery","sketchbook","organizer","organiser","planner","diary","journal","writing","write","written","reading","high school","university","college","academy","student","study","homework","research","lines","opened"]
   },
   {
@@ -6605,7 +6665,7 @@ export const iconsData: Array<{
   },
   {
     "name": "package",
-    "categories": ["files","development"],
+    "categories": ["files","development","logistics"],
     "tags": ["box","container","storage","sealed","delivery","undelivered","unopened","packed","archive","zip","module","shipping","recipient","inventory","logistics","tracking","order","product"]
   },
   {
@@ -6825,12 +6885,12 @@ export const iconsData: Array<{
   },
   {
     "name": "pencil-ruler",
-    "categories": ["tools","design","layout"],
+    "categories": ["tools","design","layout","education"],
     "tags": ["$extends:pencil","measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent"]
   },
   {
     "name": "pencil-sparkles",
-    "categories": ["$extends:pencil"],
+    "categories": ["$extends:pencil","ai"],
     "tags": ["$extends:pencil","$group:sparkles","tools","wizard","magician"]
   },
   {
@@ -7095,7 +7155,7 @@ export const iconsData: Array<{
   },
   {
     "name": "presentation",
-    "categories": ["multimedia","communication","design"],
+    "categories": ["multimedia","communication","design","education"],
     "tags": ["screen","whiteboard","marker pens","markers","blackboard","chalk","easel","school","learning","lesson","office","meeting","project","planning","ppt","pptx","powerpoint","slides"]
   },
   {
@@ -7111,7 +7171,7 @@ export const iconsData: Array<{
   {
     "name": "printer-x",
     "categories": ["$extends:printer"],
-    "tags": ["$extends:printer","$group:x","error"]
+    "tags": ["$extends:printer","$group:x"]
   },
   {
     "name": "printer",
@@ -7425,7 +7485,7 @@ export const iconsData: Array<{
   },
   {
     "name": "rose",
-    "categories": ["nature","seasons","social"],
+    "categories": ["nature","social"],
     "tags": ["roses","thorns","petals","plant","stem","leaves","spring","bloom","blossom","gardening","botanical","flora","florist","bouquet","bunch","gift","date","romance","romantic","valentines day","special occasion"]
   },
   {
@@ -7485,7 +7545,7 @@ export const iconsData: Array<{
   },
   {
     "name": "route",
-    "categories": ["navigation"],
+    "categories": ["navigation","logistics"],
     "tags": ["path","journey","planner","points","stops","stations","direction","right","flow","reroute","detour","navigate","forward","auto","map","waypoint","gps","turn","location","directional"]
   },
   {
@@ -7525,7 +7585,7 @@ export const iconsData: Array<{
   },
   {
     "name": "ruler",
-    "categories": ["tools","design","layout","math"],
+    "categories": ["tools","design","layout","math","education"],
     "tags": ["measurements","centimeters","cm","millimeters","mm","metre","foot","feet","inches","units","size","length","width","height","dimensions","depth","breadth","extent","stationery"]
   },
   {
@@ -7610,7 +7670,7 @@ export const iconsData: Array<{
   },
   {
     "name": "scan-barcode",
-    "categories": ["shopping","devices"],
+    "categories": ["shopping","devices","logistics"],
     "tags": ["$extends:scan","till","cart","transaction","purchase","buy","product","packaging","retail","consumer"]
   },
   {
@@ -7665,7 +7725,7 @@ export const iconsData: Array<{
   },
   {
     "name": "school",
-    "categories": ["buildings","navigation"],
+    "categories": ["buildings","navigation","education"],
     "tags": ["building","education","childhood","university","learning","campus","scholar","student","lecture","degree","course","academia","study","knowledge","classroom","research","diploma","graduation","professor","tutorial","homework","assignment","exam"]
   },
   {
@@ -7685,7 +7745,7 @@ export const iconsData: Array<{
   },
   {
     "name": "scratch-blocks",
-    "categories": ["development"],
+    "categories": ["development","education"],
     "tags": ["code","blocks","scratch","turbowarp","mistwarp","visual programming","block-based","drag-and-drop","editor","education","learning","programming","kids","integration"]
   },
   {
@@ -7851,7 +7911,7 @@ export const iconsData: Array<{
   {
     "name": "shield-check",
     "categories": ["account","security","development","gaming"],
-    "tags": ["$extends:shield","$group:check","secured","guarded","defended","blocked","prevented","active","activated","enabled","scanned","found","audited","certification","certified","tested","passed","qualified","cleared","cleaned","disinfected","uninfected","checked","insurance","guarantee","warranty"]
+    "tags": ["$extends:shield","$group:check","secured","guarded","defended","blocked","prevented","active","activated","scanned","found","audited","certification","certified","tested","passed","qualified","cleared","cleaned","disinfected","uninfected","checked","insurance","guarantee","warranty"]
   },
   {
     "name": "shield-cog-corner",
@@ -7921,7 +7981,7 @@ export const iconsData: Array<{
   {
     "name": "shield-x",
     "categories": ["account","security","development","gaming"],
-    "tags": ["$extends:shield","$group:x","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","prevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","inactive","error","wrong","false","attacked","damaged","injured","hit","dead","deceased","expired","eliminated","exterminated"]
+    "tags": ["$extends:shield","$group:x","unshielded","insecure","unsecured","unsafe","unprotected","unguarded","unarmored","unarmoured","defenseless","defenceless","undefended","blocked","stopped","intercepted","interception","saved","thwarted","prevented","detected","scanned","found","exploit","vulnerability","vulnerable","weakness","infection","infected","compromised","data leak","audited","unverified","inactive","wrong","false","attacked","damaged","injured","hit","dead","deceased","expired","eliminated","exterminated"]
   },
   {
     "name": "shield",
@@ -7930,7 +7990,7 @@ export const iconsData: Array<{
   },
   {
     "name": "ship-cargo",
-    "categories": ["$extends:ship"],
+    "categories": ["$extends:ship","logistics"],
     "tags": ["$extends:ship","cargo","container","freighter","freight","shipping","port","harbor","dock","logistics","import","export"]
   },
   {
@@ -8135,7 +8195,7 @@ export const iconsData: Array<{
   },
   {
     "name": "snowflake",
-    "categories": ["weather","seasons"],
+    "categories": ["weather"],
     "tags": ["cold","weather","freeze","snow","winter"]
   },
   {
@@ -8170,12 +8230,12 @@ export const iconsData: Array<{
   },
   {
     "name": "sparkle",
-    "categories": ["shapes"],
+    "categories": ["shapes","ai"],
     "tags": ["$group:sparkles","effect","filter","night","celebration"]
   },
   {
     "name": "sparkles",
-    "categories": ["multimedia","gaming"],
+    "categories": ["multimedia","gaming","ai"],
     "tags": ["$group:sparkles","effect","filter","night"]
   },
   {
@@ -8235,7 +8295,7 @@ export const iconsData: Array<{
   },
   {
     "name": "sprout",
-    "categories": ["nature","sustainability","seasons"],
+    "categories": ["nature","sustainability"],
     "tags": ["eco","green","growth","leaf","nature","plant","seed","spring","sustainability"]
   },
   {
@@ -8815,7 +8875,7 @@ export const iconsData: Array<{
   },
   {
     "name": "square-sparkles",
-    "categories": ["photography","multimedia"],
+    "categories": ["photography","multimedia","ai"],
     "tags": ["$group:sparkles","picture","photo"]
   },
   {
@@ -9064,13 +9124,18 @@ export const iconsData: Array<{
     "tags": ["$group:line","edge","intersection","angle","arc","circular","smooth"]
   },
   {
+    "name": "stroke-width",
+    "categories": ["design"],
+    "tags": ["$group:line","line","thickness","weight","outline","brush size","pen size","drawing","editor","vector graphics"]
+  },
+  {
     "name": "subscript",
     "categories": ["text"],
     "tags": ["$group:letter","$group:digit"]
   },
   {
     "name": "summary",
-    "categories": ["text"],
+    "categories": ["text","ai"],
     "tags": ["brief","abstract","synopsis","report","digest","outline","recap","condensation","summary","ai","text","overview"]
   },
   {
@@ -9090,12 +9155,12 @@ export const iconsData: Array<{
   },
   {
     "name": "sun-snow",
-    "categories": ["weather","seasons"],
+    "categories": ["weather"],
     "tags": ["weather","air conditioning","temperature","hot","cold","seasons"]
   },
   {
     "name": "sun",
-    "categories": ["accessibility","weather","seasons","sustainability"],
+    "categories": ["accessibility","weather","sustainability"],
     "tags": ["brightness","weather","light","summer"]
   },
   {
@@ -9421,7 +9486,7 @@ export const iconsData: Array<{
   {
     "name": "ticket-x",
     "categories": ["transportation"],
-    "tags": ["$extends:ticket","$group:x","refunded","used","void","invalidated","spoiled","denied","refused","banned","barred","forbidden","prohibited","error"]
+    "tags": ["$extends:ticket","$group:x","refunded","used","void","invalidated","spoiled","denied","refused","banned","barred","forbidden","prohibited"]
   },
   {
     "name": "ticket",
@@ -9545,7 +9610,7 @@ export const iconsData: Array<{
   },
   {
     "name": "trailer",
-    "categories": ["transportation"],
+    "categories": ["transportation","logistics"],
     "tags": ["tow","shipping","delivery","haulage","vehicle","equipment","freight"]
   },
   {
@@ -9650,7 +9715,7 @@ export const iconsData: Array<{
   },
   {
     "name": "truck",
-    "categories": ["transportation"],
+    "categories": ["transportation","logistics"],
     "tags": ["delivery","van","shipping","haulage","lorry"]
   },
   {
@@ -9735,7 +9800,7 @@ export const iconsData: Array<{
   },
   {
     "name": "university",
-    "categories": ["buildings","navigation"],
+    "categories": ["buildings","navigation","education"],
     "tags": ["building","education","childhood","school","college","academy","institute"]
   },
   {
@@ -9876,7 +9941,7 @@ export const iconsData: Array<{
   {
     "name": "user-round-x",
     "categories": ["$extends:user-round"],
-    "tags": ["$extends:user-round","$group:x","unfollow","unsubscribe","unavailable"]
+    "tags": ["$extends:user-round","$group:x","unfollow","unsubscribe"]
   },
   {
     "name": "user-round",
@@ -9901,7 +9966,7 @@ export const iconsData: Array<{
   {
     "name": "user-x",
     "categories": ["$extends:user"],
-    "tags": ["$extends:user","$group:x","unfollow","unsubscribe","unavailable"]
+    "tags": ["$extends:user","$group:x","unfollow","unsubscribe"]
   },
   {
     "name": "user",
@@ -9945,7 +10010,7 @@ export const iconsData: Array<{
   },
   {
     "name": "van",
-    "categories": ["transportation"],
+    "categories": ["transportation","logistics"],
     "tags": ["minivan","cart","wagon","truck","lorry","trailer","camper","vehicle","drive","trip","journey","van","transport","carriage","delivery","travel"]
   },
   {
@@ -10090,7 +10155,7 @@ export const iconsData: Array<{
   },
   {
     "name": "wand-sparkles",
-    "categories": ["$extends:wand"],
+    "categories": ["$extends:wand","ai"],
     "tags": ["$extends:wand"]
   },
   {
@@ -10099,8 +10164,13 @@ export const iconsData: Array<{
     "tags": ["$group:sparkles","wizard","magician","selection"]
   },
   {
+    "name": "warehouse-waves",
+    "categories": ["development","buildings"],
+    "tags": ["$extends:warehouse","lakehouse","lake warehouse","data lake","data warehouse","data platform","analytics","big data","water","lake"]
+  },
+  {
     "name": "warehouse",
-    "categories": ["buildings","navigation"],
+    "categories": ["buildings","navigation","logistics"],
     "tags": ["storage","storehouse","depot","depository","repository","stockroom","logistics","building"]
   },
   {
