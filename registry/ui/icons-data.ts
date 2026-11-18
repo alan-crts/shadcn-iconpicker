@@ -5019,6 +5019,11 @@ export const iconsData: Array<{
     "tags": ["intravenous","therapy","infusion","medicine","medication","treatment","healthcare","hydration","vitamin","supplement","blood","donation","chemotherapy","clinic","feeding tube","administration","health","regeneration"]
   },
   {
+    "name": "jacket",
+    "categories": ["shopping","sports"],
+    "tags": ["outerwear","fashion","apparel","styled","warm","outfit","wear","coat","blazer","tuxedo","tailor","uniform","attire","clothing","clothes","shopping","cold","warmth","winter","outdoors"]
+  },
+  {
     "name": "japanese-yen",
     "categories": ["finance"],
     "tags": ["$group:currency"]
@@ -6672,6 +6677,11 @@ export const iconsData: Array<{
     "name": "paint-bucket",
     "categories": ["design","tools"],
     "tags": ["fill","paint","bucket","color","colour"]
+  },
+  {
+    "name": "paint-gun",
+    "categories": ["tools"],
+    "tags": ["spray","airbrush","aerosol","painter","tool","diy","automotive","finishing","coating","color","colour","painting","sprayer","spraying","varnish","lacquer","enamel","pneumatic"]
   },
   {
     "name": "paint-roller",
