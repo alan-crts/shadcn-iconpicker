@@ -1244,6 +1244,11 @@ export const iconsData: Array<{
     "tags": ["archer","archery","game","war","weapon"]
   },
   {
+    "name": "box-dashed",
+    "categories": ["$extends:box","design"],
+    "tags": ["$extends:box","$group:dashed","augmented reality","ar","bounding box","bounds","spatial boundary","selection volume","placeholder","volume","wireframe","mesh","unrendered","3d scanning","spatial mapping","collision","hitbox","bounding volume","collision detection","selection boundary"]
+  },
+  {
     "name": "box",
     "categories": ["shapes","gaming","development","math"],
     "tags": ["cube","package","container","storage","geometry","3d","isometric"]
@@ -2062,6 +2067,11 @@ export const iconsData: Array<{
     "name": "chevrons-up",
     "categories": ["arrows"],
     "tags": ["$group:direction-up","$group:navigation-first","forward","ahead","faster","speed","boost"]
+  },
+  {
+    "name": "chocolate-bar",
+    "categories": ["food-beverage"],
+    "tags": ["candy","dessert","snack","sweet","confectionery","cocoa","treat","sugar","nibble","munch"]
   },
   {
     "name": "church",
@@ -3177,6 +3187,11 @@ export const iconsData: Array<{
     "name": "diagram-flow-vertical",
     "categories": ["design","charts","development"],
     "tags": ["$group:graph","flowchart","workflow","hierarchy","branches","tree","parent","child","process","sequence","decision tree"]
+  },
+  {
+    "name": "diagram-sankey",
+    "categories": ["charts","science","finance"],
+    "tags": ["sankey","chart","diagram","flow","change","movement","intersection","road","dataflow","streams","links","transfer","allocation","distribution","energy","resources","budget","conversion","throughput"]
   },
   {
     "name": "diameter",
@@ -9897,6 +9912,11 @@ export const iconsData: Array<{
     "name": "user-round-check",
     "categories": ["$extends:user-round"],
     "tags": ["$extends:user-round","$group:check","followed","subscribed"]
+  },
+  {
+    "name": "user-round-clock",
+    "categories": ["$extends:user-round","time","people"],
+    "tags": ["$extends:user-round","$group:clock","log","recent","activity","session","avatar","badge","reminder","audit"]
   },
   {
     "name": "user-round-cog",
