@@ -4129,6 +4129,11 @@ export const iconsData: Array<{
     "tags": ["$extends:folder","$group:minus"]
   },
   {
+    "name": "folder-network",
+    "categories": ["$extends:folder","connectivity","development"],
+    "tags": ["$extends:folder","network","ftp","sftp","file transfer","file transfer protocol","shared folder","file sharing","network drive","network storage","remote","server","nas","smb","nfs"]
+  },
+  {
     "name": "folder-open-dot",
     "categories": ["$extends:folder-open","development"],
     "tags": ["$extends:folder-open","$group:dot","root","project","pinned"]
@@ -4147,6 +4152,11 @@ export const iconsData: Array<{
     "name": "folder-pen",
     "categories": ["$extends:folder"],
     "tags": ["$extends:folder","$group:pen"]
+  },
+  {
+    "name": "folder-plus-corner",
+    "categories": ["$extends:folder"],
+    "tags": ["$extends:folder","$group:plus"]
   },
   {
     "name": "folder-plus",
@@ -7367,6 +7377,11 @@ export const iconsData: Array<{
     "name": "rectangle-horizontal",
     "categories": ["shapes","design"],
     "tags": ["rectangle","aspect ratio","16:9","horizontal","shape"]
+  },
+  {
+    "name": "rectangle-landscape-play",
+    "categories": ["arrows","multimedia"],
+    "tags": ["music","video","start","movie"]
   },
   {
     "name": "rectangle-vertical",
