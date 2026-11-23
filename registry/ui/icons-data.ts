@@ -234,9 +234,14 @@ export const iconsData: Array<{
     "tags": ["$extends:app-window","preferences","macos","osx","desktop","title bar","traffic lights","close button","minimize","maximize","native app"]
   },
   {
+    "name": "app-window-plus",
+    "categories": ["layout","design","development","files"],
+    "tags": ["$extends:app-window","$group:plus","open","install","tab","expand"]
+  },
+  {
     "name": "app-window",
     "categories": ["layout","development"],
-    "tags": ["application","menu bar","pane","executable"]
+    "tags": ["application","app","window","gui","interface","modal","popup","menu bar","pane","executable","instance","integration","software"]
   },
   {
     "name": "apple",
@@ -2469,6 +2474,11 @@ export const iconsData: Array<{
     "tags": ["shape","bullet","gender","genderless"]
   },
   {
+    "name": "circle-speed-lines",
+    "categories": ["design"],
+    "tags": ["fast","quick","motion","movement","moving","velocity","animation","express","acceleration","rapid","swift","racing","momentum","motion blur"]
+  },
+  {
     "name": "circle-star",
     "categories": ["sports","gaming"],
     "tags": ["$group:star","badge","medal","honour","decoration","order","pin","laurel","trophy","medallion","insignia","bronze","silver","gold"]
@@ -4529,6 +4539,11 @@ export const iconsData: Array<{
     "tags": ["$group:graph","load balancer","distribute","traffic","parallel","branch","hierarchy","routing","dispatcher","cluster","backend","fan-out","orchestration"]
   },
   {
+    "name": "graph-path",
+    "categories": ["charts","finance","travel"],
+    "tags": ["$group:graph","line","dot","analysis","branch","branching","merging","converging","trail","route","analytics","timeline","waypoint","milestone","tracking","trend","sequence"]
+  },
+  {
     "name": "graph-ring",
     "categories": ["charts"],
     "tags": ["$group:graph","cycle","loop","replication","consensus","cluster","peer-to-peer","p2p","mesh","distributed","decentralized","decentralization","ring topology","circular network"]
@@ -4847,6 +4862,11 @@ export const iconsData: Array<{
     "name": "hockey-stick",
     "categories": ["sports"],
     "tags": ["sport","campus","puck","athlete","ice","player","goal","cricket","bat","sports","game","equipment","stick","ball","match","play"]
+  },
+  {
+    "name": "hole",
+    "categories": ["shapes","tools"],
+    "tags": ["opening","cavity","pit","void","tunnel","portal","bore","aperture","cutout","pothole","drilling","3d","cad","terrain","hazard"]
   },
   {
     "name": "hop-off",
@@ -6652,6 +6672,11 @@ export const iconsData: Array<{
     "name": "package-2",
     "categories": ["$extends:package"],
     "tags": ["$extends:package"]
+  },
+  {
+    "name": "package-arrow-bend-up-left",
+    "categories": ["$extends:package"],
+    "tags": ["$extends:package","$group:direction-left","$group:direction-up-left","shipment","move","framed","returned","back","send back","refund","exchange","reverse","revert","undo","return","parcel","return shipping","reverse logistics","restocking","return merchandise authorization","rma"]
   },
   {
     "name": "package-check",
@@ -8877,6 +8902,11 @@ export const iconsData: Array<{
     "name": "square-play",
     "categories": ["multimedia"],
     "tags": ["$group:play","music","audio","video"]
+  },
+  {
+    "name": "square-plus-corner",
+    "categories": ["$extends:square-plus"],
+    "tags": ["$extends:square-plus"]
   },
   {
     "name": "square-plus",
