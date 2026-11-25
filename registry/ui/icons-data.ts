@@ -229,9 +229,24 @@ export const iconsData: Array<{
     "tags": ["camera","photo","pictures","shutter","exposure"]
   },
   {
+    "name": "app-window-mac-minus",
+    "categories": ["$extends:app-window-mac"],
+    "tags": ["$extends:app-window-mac","$group:minus","close","uninstall","collapse"]
+  },
+  {
+    "name": "app-window-mac-plus",
+    "categories": ["$extends:app-window-mac"],
+    "tags": ["$extends:app-window-mac","$group:plus","open","install","tab","expand"]
+  },
+  {
     "name": "app-window-mac",
     "categories": ["$extends:app-window"],
     "tags": ["$extends:app-window","preferences","macos","osx","desktop","title bar","traffic lights","close button","minimize","maximize","native app"]
+  },
+  {
+    "name": "app-window-minus",
+    "categories": ["layout","design","development","files"],
+    "tags": ["$extends:app-window","$group:minus","close","uninstall","collapse"]
   },
   {
     "name": "app-window-plus",
@@ -2849,6 +2864,16 @@ export const iconsData: Array<{
     "tags": ["$group:digit","money","cash","finance","gamble"]
   },
   {
+    "name": "columns-2-plus-left",
+    "categories": ["$extends:columns-2"],
+    "tags": ["$extends:columns-2","$group:plus","$group:position-left","settings","customize","table","grid","adjust","configuration","layout"]
+  },
+  {
+    "name": "columns-2-plus-right",
+    "categories": ["$extends:columns-2"],
+    "tags": ["$extends:columns-2","$group:plus","$group:position-right","settings","customize","table","grid","adjust","configuration","layout"]
+  },
+  {
     "name": "columns-2",
     "categories": ["layout","design","text"],
     "tags": ["lines","list","queue","preview","panel","parallel","series","split","vertical","horizontal","half","center","middle","even","sidebar","drawer","gutter","fold","reflow","typography","pagination","pages"]
@@ -3489,6 +3514,11 @@ export const iconsData: Array<{
     "tags": ["disc","drive","dvd","blu-ray","cd","media","optical","optical drive","removable media","storage","tray","unmount","usb"]
   },
   {
+    "name": "elevator",
+    "categories": ["accessibility","buildings","home","navigation","transportation"],
+    "tags": ["$group:direction-up","$group:direction-down","building","doors","floor","lift","lobby","shaft","transportation"]
+  },
+  {
     "name": "ellipse",
     "categories": ["shapes"],
     "tags": ["shape","geometry","rounded","smooth","outline","form","boundary","curve","shapes","ellipse","oval"]
@@ -3887,6 +3917,11 @@ export const iconsData: Array<{
     "name": "file-terminal",
     "categories": ["$extends:file","development"],
     "tags": ["$extends:file","terminal","bash","script","executable"]
+  },
+  {
+    "name": "file-text-sparkles",
+    "categories": ["$extends:file-text","ai"],
+    "tags": ["$extends:file-text","$group:sparkles","summarize","writing","enhance"]
   },
   {
     "name": "file-text",
@@ -4994,6 +5029,11 @@ export const iconsData: Array<{
     "tags": ["$extends:image","$group:plus"]
   },
   {
+    "name": "image-sparkles",
+    "categories": ["photography","multimedia","ai"],
+    "tags": ["$extends:image","$group:sparkles","enhance"]
+  },
+  {
     "name": "image-up",
     "categories": ["$extends:image"],
     "tags": ["$extends:image","$group:direction-up","upload","import"]
@@ -5662,6 +5702,11 @@ export const iconsData: Array<{
     "name": "list-video",
     "categories": ["multimedia"],
     "tags": ["playlist","video","playback"]
+  },
+  {
+    "name": "list-x-corner",
+    "categories": ["text","multimedia"],
+    "tags": ["$extends:list-x","$group:x","mark","sharp","options","bottom","to-do","checklist","item","task","entry","queue"]
   },
   {
     "name": "list-x",
@@ -7109,6 +7154,11 @@ export const iconsData: Array<{
     "tags": ["$extends:plane","arrival","landing"]
   },
   {
+    "name": "plane-off",
+    "categories": ["transportation","travel","navigation"],
+    "tags": ["$extends:plane"]
+  },
+  {
     "name": "plane-takeoff",
     "categories": ["transportation","travel"],
     "tags": ["$extends:plane","departure","takeoff"]
@@ -7399,14 +7449,19 @@ export const iconsData: Array<{
     "tags": ["vr","virtual","augmented","reality","headset","goggles"]
   },
   {
-    "name": "rectangle-horizontal",
-    "categories": ["shapes","design"],
-    "tags": ["rectangle","aspect ratio","16:9","horizontal","shape"]
-  },
-  {
-    "name": "rectangle-landscape-play",
+    "name": "rectangle-horizontal-play",
     "categories": ["arrows","multimedia"],
     "tags": ["music","video","start","movie"]
+  },
+  {
+    "name": "rectangle-horizontal-plus",
+    "categories": ["math","tools","development","text"],
+    "tags": ["$extends:rectangle-horizontal","$group:plus","positive","button"]
+  },
+  {
+    "name": "rectangle-horizontal",
+    "categories": ["shapes","design"],
+    "tags": ["rectangle","aspect ratio","16:9","horizontal","shape","widget","card","panel","banner","block","frame","artboard","slide","landscape"]
   },
   {
     "name": "rectangle-vertical",
@@ -7619,6 +7674,16 @@ export const iconsData: Array<{
     "tags": ["computer","server","cloud"]
   },
   {
+    "name": "rows-2-plus-bottom",
+    "categories": ["$extends:rows-2"],
+    "tags": ["$extends:rows-2","$group:plus","$group:position-bottom"]
+  },
+  {
+    "name": "rows-2-plus-top",
+    "categories": ["$extends:rows-2"],
+    "tags": ["$extends:rows-2","$group:plus","$group:position-top"]
+  },
+  {
     "name": "rows-2",
     "categories": ["layout","design","text"],
     "tags": ["lines","list","queue","preview","panel","paragraphs","parallel","series","split","vertical","horizontal","half","center","middle","even","drawer"]
@@ -7827,6 +7892,11 @@ export const iconsData: Array<{
     "name": "screw",
     "categories": ["tools"],
     "tags": ["fastener","hardware","bolt","screwdriver","repair","assembly","diy","flathead"]
+  },
+  {
+    "name": "screwdriver",
+    "categories": ["tools"],
+    "tags": ["tool","hardware","repair","screw","flathead","phillips","diy","fix","maintenance","construction","fastener","fastening","assembly","workshop","mechanic","furniture"]
   },
   {
     "name": "scroll-text",
@@ -9691,7 +9761,12 @@ export const iconsData: Array<{
   {
     "name": "train-front",
     "categories": ["transportation"],
-    "tags": ["railway","metro","subway","underground","high-speed","bullet","fast","track","line"]
+    "tags": ["railway","metro","subway","underground","high-speed","bullet","fast","track","line","station","transportation","vehicle","commute","travel","rail","liner","passenger"]
+  },
+  {
+    "name": "train-high-speed",
+    "categories": ["$extends:train-front","travel"],
+    "tags": ["$extends:train-front"]
   },
   {
     "name": "train-track",
@@ -9707,6 +9782,11 @@ export const iconsData: Array<{
     "name": "transgender",
     "categories": ["medical","people"],
     "tags": ["gender","inclusive"]
+  },
+  {
+    "name": "trash-leaf",
+    "categories": ["$extends:trash","sustainability"],
+    "tags": ["$extends:trash","compost","organic","biodegradable","eco","green","environment","sustainability","composting","food waste","garden waste","yard waste"]
   },
   {
     "name": "trash-off",
