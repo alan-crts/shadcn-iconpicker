@@ -1264,6 +1264,11 @@ export const iconsData: Array<{
     "tags": ["archer","archery","game","war","weapon"]
   },
   {
+    "name": "bowl-chopsticks",
+    "categories": ["food-beverage"],
+    "tags": ["$extends:soup","ramen","noodles","soup","cuisine","japanese","asian food","broth","udon","soba","pho","miso","noodle soup","noodle bowl","dining"]
+  },
+  {
     "name": "box-dashed",
     "categories": ["$extends:box","design"],
     "tags": ["$extends:box","$group:dashed","augmented reality","ar","bounding box","bounds","spatial boundary","selection volume","placeholder","volume","wireframe","mesh","unrendered","3d scanning","spatial mapping","collision","hitbox","bounding volume","collision detection","selection boundary"]
@@ -4517,6 +4522,11 @@ export const iconsData: Array<{
     "name": "globe-check",
     "categories": ["$extends:globe"],
     "tags": ["$extends:globe","$group:check","web","available","online","status"]
+  },
+  {
+    "name": "globe-clock",
+    "categories": ["$extends:globe","time"],
+    "tags": ["$extends:globe","$group:clock","world clock","timezone","international time","time conversion","time difference","local time"]
   },
   {
     "name": "globe-code",
@@ -9152,6 +9162,11 @@ export const iconsData: Array<{
     "name": "star",
     "categories": ["social","shapes","emoji","gaming"],
     "tags": ["$group:star"]
+  },
+  {
+    "name": "steering-wheel",
+    "categories": ["transportation","sports","gaming"],
+    "tags": ["driving","driver","steering","wheel","helm","racing","racer","motor sport","formula one","formula 1","f1","car","vehicle","direction","cockpit","automotive"]
   },
   {
     "name": "step-back",
