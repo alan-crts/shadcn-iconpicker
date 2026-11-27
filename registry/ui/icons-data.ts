@@ -1131,7 +1131,7 @@ export const iconsData: Array<{
   {
     "name": "book-open-text",
     "categories": ["text","development","education"],
-    "tags": ["$extends:book-open","docs","wiki","knowledge base"]
+    "tags": ["$extends:book-open","$group:text","docs","wiki","knowledge base"]
   },
   {
     "name": "book-open",
@@ -1151,7 +1151,7 @@ export const iconsData: Array<{
   {
     "name": "book-text",
     "categories": ["text","gaming"],
-    "tags": ["$extends:book","docs","wiki","knowledge base"]
+    "tags": ["$extends:book","$group:text","docs","wiki","knowledge base"]
   },
   {
     "name": "book-type",
@@ -1266,7 +1266,7 @@ export const iconsData: Array<{
   {
     "name": "bowl-chopsticks",
     "categories": ["food-beverage"],
-    "tags": ["$extends:soup","ramen","noodles","soup","cuisine","japanese","asian food","broth","udon","soba","pho","miso","noodle soup","noodle bowl","dining"]
+    "tags": ["$extends:soup","ramen","noodles","soup","cuisine","japanese","asian food","broth","udon","soba","pho","miso","noodle soup","noodle bowl","dining","poke","culinary","asian","chinese","oriental","eastern","brunch","lunch","dinner"]
   },
   {
     "name": "box-dashed",
@@ -1287,6 +1287,11 @@ export const iconsData: Array<{
     "name": "boxes",
     "categories": ["shapes","gaming","development","logistics"],
     "tags": ["cubes","packages","parts","group","units","collection","cluster","geometry"]
+  },
+  {
+    "name": "braces-sigma",
+    "categories": ["math","development","text","science"],
+    "tags": ["$group:letter","latex","math","formula","sum","expression","structure","curly braces","parse tree","syntax tree","summation notation","equation editor"]
   },
   {
     "name": "braces",
@@ -1651,7 +1656,7 @@ export const iconsData: Array<{
   {
     "name": "captions",
     "categories": ["multimedia","accessibility"],
-    "tags": ["closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
+    "tags": ["$group:text","closed captions","subtitles","subhead","transcription","transcribe","dialogue","accessibility"]
   },
   {
     "name": "car-battery",
@@ -2009,6 +2014,11 @@ export const iconsData: Array<{
     "tags": ["$group:direction-up","$group:navigation-previous","caret","keyboard","mac","control","ctrl","superscript","exponential","power","ahead","fast","^","dropdown"]
   },
   {
+    "name": "chevrons-down-up-offset",
+    "categories": ["arrows","development"],
+    "tags": ["$group:direction-down","$group:direction-up","bidirectional","two-way","2-way","swap","switch","offset","stream","streaming","remote","io","input","output","transfer","balance","ups and downs","fluctuations"]
+  },
+  {
     "name": "chevrons-down-up",
     "categories": ["arrows"],
     "tags": ["$group:direction-down","$group:direction-up","$group:collapse"]
@@ -2052,6 +2062,11 @@ export const iconsData: Array<{
     "name": "chevrons-left",
     "categories": ["arrows"],
     "tags": ["$group:direction-left","$group:navigation-first","turn","corner"]
+  },
+  {
+    "name": "chevrons-right-left-offset",
+    "categories": ["arrows","development","connectivity"],
+    "tags": ["$group:direction-right","$group:direction-left","bidirectional","two-way","2-way","swap","switch","offset","remote","connection","session","ssh","terminal","code editor","programming"]
   },
   {
     "name": "chevrons-right-left",
@@ -2576,7 +2591,7 @@ export const iconsData: Array<{
   {
     "name": "clipboard-list",
     "categories": ["$extends:clipboard"],
-    "tags": ["$extends:clipboard","tasks","checklist"]
+    "tags": ["$extends:clipboard","$group:text","tasks","checklist"]
   },
   {
     "name": "clipboard-minus",
@@ -3926,12 +3941,12 @@ export const iconsData: Array<{
   {
     "name": "file-text-sparkles",
     "categories": ["$extends:file-text","ai"],
-    "tags": ["$extends:file-text","$group:sparkles","summarize","writing","enhance"]
+    "tags": ["$extends:file-text","$group:sparkles","summarize","enhance"]
   },
   {
     "name": "file-text",
     "categories": ["$extends:file","text"],
-    "tags": ["$extends:file","data","txt","pdf","doc","docx","word","docs"]
+    "tags": ["$extends:file","$group:text","data","txt","pdf","doc","docx","word","docs"]
   },
   {
     "name": "file-type-corner",
@@ -5331,7 +5346,7 @@ export const iconsData: Array<{
   {
     "name": "layout-list",
     "categories": ["design","layout","text"],
-    "tags": ["todo","tasks","items","pending","image","photo"]
+    "tags": ["$group:text","todo","tasks","items","pending","image","photo"]
   },
   {
     "name": "layout-panel-left",
@@ -5606,12 +5621,12 @@ export const iconsData: Array<{
   {
     "name": "list-check",
     "categories": ["$extends:list"],
-    "tags": ["$group:check","list","bom","checklist"]
+    "tags": ["$group:text","$group:check","list","bom","checklist"]
   },
   {
     "name": "list-checks",
     "categories": ["$extends:list"],
-    "tags": ["$group:check","items","pending","checklist"]
+    "tags": ["$group:text","$group:check","items","pending","checklist"]
   },
   {
     "name": "list-chevrons-down-up",
@@ -5626,17 +5641,17 @@ export const iconsData: Array<{
   {
     "name": "list-clock",
     "categories": ["$extends:list","time"],
-    "tags": ["$group:clock","log","recent","updated","revision","activity","audit","list"]
+    "tags": ["$group:text","$group:clock","log","recent","updated","revision","activity","audit","list"]
   },
   {
     "name": "list-collapse",
     "categories": ["$extends:list"],
-    "tags": ["items","$group:collapse","$group:expand","details","disclosure","show","hide","toggle","accordion","more","less"]
+    "tags": ["$group:text","items","$group:collapse","$group:expand","details","disclosure","show","hide","toggle","accordion","more","less"]
   },
   {
     "name": "list-end",
     "categories": ["$extends:list","multimedia"],
-    "tags": ["queue","bottom","end","playlist"]
+    "tags": ["$group:text","queue","bottom","end","playlist"]
   },
   {
     "name": "list-filter-plus",
@@ -5651,67 +5666,67 @@ export const iconsData: Array<{
   {
     "name": "list-indent-decrease",
     "categories": ["$extends:list","development"],
-    "tags": ["text","tab"]
+    "tags": ["$group:text","tab"]
   },
   {
     "name": "list-indent-increase",
     "categories": ["$extends:list","development"],
-    "tags": ["text","tab"]
+    "tags": ["$group:text","tab"]
   },
   {
     "name": "list-minus",
     "categories": ["$extends:list","multimedia"],
-    "tags": ["$group:minus","playlist","song","unqueue"]
+    "tags": ["$group:text","$group:minus","playlist","song","unqueue"]
   },
   {
     "name": "list-music",
     "categories": ["multimedia"],
-    "tags": ["playlist","queue","music","audio","playback"]
+    "tags": ["$group:text","playlist","queue","music","audio","playback"]
   },
   {
     "name": "list-ordered",
     "categories": ["$extends:list"],
-    "tags": ["$group:digit","order","queue"]
+    "tags": ["$group:text","$group:digit","order","queue"]
   },
   {
     "name": "list-plus",
     "categories": ["$extends:list","multimedia"],
-    "tags": ["$group:plus","playlist","song","track"]
+    "tags": ["$group:text","$group:plus","playlist","song","track"]
   },
   {
     "name": "list-restart",
     "categories": ["$extends:list","multimedia"],
-    "tags": ["reset","refresh","reload","playlist","replay"]
+    "tags": ["$group:text","reset","refresh","reload","playlist","replay"]
   },
   {
     "name": "list-sort-ascending",
     "categories": ["$extends:list","layout"],
-    "tags": ["$group:sort","list","organization","categories","presentation"]
+    "tags": ["$group:text","$group:sort","list","organization","categories","presentation"]
   },
   {
     "name": "list-sort-descending",
     "categories": ["$extends:list","layout"],
-    "tags": ["$group:sort","list","organization","categories","presentation"]
+    "tags": ["$group:text","$group:sort","list","organization","categories","presentation"]
   },
   {
     "name": "list-start",
     "categories": ["$extends:list","multimedia"],
-    "tags": ["queue","top","start","next","playlist"]
+    "tags": ["$group:text","queue","top","start","next","playlist"]
   },
   {
     "name": "list-todo",
     "categories": ["$extends:list"],
-    "tags": ["todo","done","check","tick","complete","tasks","items","pending","checklist"]
+    "tags": ["$group:text","todo","done","check","tick","complete","tasks","items","pending","checklist"]
   },
   {
     "name": "list-tree",
     "categories": ["$extends:list","files","layout"],
-    "tags": ["tree","browser"]
+    "tags": ["$group:text","tree","browser"]
   },
   {
     "name": "list-video",
     "categories": ["multimedia"],
-    "tags": ["playlist","video","playback"]
+    "tags": ["$group:text","playlist","video","playback"]
   },
   {
     "name": "list-x-corner",
@@ -5721,12 +5736,12 @@ export const iconsData: Array<{
   {
     "name": "list-x",
     "categories": ["$extends:list","multimedia"],
-    "tags": ["$group:x","playlist","subtract","unqueue"]
+    "tags": ["$group:text","$group:x","playlist","subtract","unqueue"]
   },
   {
     "name": "list",
     "categories": ["text"],
-    "tags": ["options"]
+    "tags": ["$group:text","options"]
   },
   {
     "name": "loader-circle",
@@ -5791,7 +5806,7 @@ export const iconsData: Array<{
   {
     "name": "logs",
     "categories": ["text","development"],
-    "tags": ["options","list","menu","order","queue","tasks","logs"]
+    "tags": ["$group:text","options","list","menu","order","queue","tasks","logs"]
   },
   {
     "name": "lollipop",
@@ -5862,6 +5877,11 @@ export const iconsData: Array<{
     "name": "mail-search",
     "categories": ["mail"],
     "tags": ["$extends:mail","$group:search"]
+  },
+  {
+    "name": "mail-send",
+    "categories": ["mail","communication"],
+    "tags": ["$extends:mail","send","resend","retry","invite","invitation","outgoing","outbox","submit","delivery","dispatch"]
   },
   {
     "name": "mail-x",
@@ -6121,7 +6141,7 @@ export const iconsData: Array<{
   {
     "name": "message-circle-text",
     "categories": ["$extends:message-circle"],
-    "tags": ["$extends:message-circle","speech","bubble","sms","texting","messaging","dm","discussion","thread","transcript","written","writing","lines","support","chatbot"]
+    "tags": ["$extends:message-circle","$group:text","speech","bubble","sms","texting","messaging","dm","discussion","thread","transcript","written","support","chatbot"]
   },
   {
     "name": "message-circle-x",
@@ -6206,7 +6226,7 @@ export const iconsData: Array<{
   {
     "name": "message-square-text",
     "categories": ["$extends:message-square"],
-    "tags": ["$extends:message-square"]
+    "tags": ["$extends:message-square","$group:text"]
   },
   {
     "name": "message-square-x",
@@ -6606,7 +6626,7 @@ export const iconsData: Array<{
   {
     "name": "newspaper",
     "categories": ["multimedia","communication"],
-    "tags": ["news","feed","home","magazine","article","headline"]
+    "tags": ["$group:text","news","feed","home","magazine","article","headline"]
   },
   {
     "name": "nfc",
@@ -6641,7 +6661,7 @@ export const iconsData: Array<{
   {
     "name": "notebook-text",
     "categories": ["text"],
-    "tags": ["$extends:notebook","pages","paper","write","lines","opened","docs","wiki","knowledge base"]
+    "tags": ["$extends:notebook","$group:text","pages","paper","write","opened","docs","wiki","knowledge base"]
   },
   {
     "name": "notebook",
@@ -6656,7 +6676,7 @@ export const iconsData: Array<{
   {
     "name": "notepad-text",
     "categories": ["text","education"],
-    "tags": ["notebook","notes","pages","paper","stationery","sketchbook","organizer","organiser","planner","diary","journal","writing","write","written","reading","high school","university","college","academy","student","study","homework","research","lines","opened"]
+    "tags": ["$group:text","notebook","notes","pages","paper","stationery","sketchbook","organizer","organiser","planner","diary","journal","write","written","reading","high school","university","college","academy","student","study","homework","research","opened"]
   },
   {
     "name": "numbers",
@@ -7431,7 +7451,7 @@ export const iconsData: Array<{
   {
     "name": "receipt-text",
     "categories": ["$extends:receipt"],
-    "tags": ["$extends:receipt","details","small print","terms","conditions","contract"]
+    "tags": ["$extends:receipt","$group:text","details","small print","terms","conditions","contract"]
   },
   {
     "name": "receipt-turkish-lira",
@@ -7856,7 +7876,7 @@ export const iconsData: Array<{
   {
     "name": "scan-text",
     "categories": ["text","devices"],
-    "tags": ["$extends:scan","recognition","read","translate","copy","lines"]
+    "tags": ["$extends:scan","$group:text","recognition","read","translate","copy"]
   },
   {
     "name": "scan",
@@ -7911,7 +7931,7 @@ export const iconsData: Array<{
   {
     "name": "scroll-text",
     "categories": ["$extends:scroll"],
-    "tags": ["$extends:scroll","changelog","release notes"]
+    "tags": ["$extends:scroll","$group:text","changelog","release notes"]
   },
   {
     "name": "scroll",
@@ -8696,7 +8716,7 @@ export const iconsData: Array<{
   {
     "name": "square-dashed-text",
     "categories": ["text","cursors"],
-    "tags": ["$group:dashed","find","search","selection"]
+    "tags": ["$group:dashed","$group:text","find","search","selection"]
   },
   {
     "name": "square-dashed-top-solid",
@@ -9064,9 +9084,54 @@ export const iconsData: Array<{
     "tags": ["$group:code","code","command line","prompt","shell"]
   },
   {
+    "name": "square-text-align-bottom-center",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-bottom","$group:position-center","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-bottom-left",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-bottom","$group:position-left","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-bottom-right",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-bottom","$group:position-right","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-middle-center",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-center","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-middle-left",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-center","$group:position-left","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-middle-right",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-center","$group:position-right","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-top-center",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-top","$group:position-center","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-top-left",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-top","$group:position-left","alignment","text box","table cell"]
+  },
+  {
+    "name": "square-text-align-top-right",
+    "categories": ["text","layout"],
+    "tags": ["$group:text","$group:position-top","$group:position-right","alignment","text box","table cell"]
+  },
+  {
     "name": "square-text",
     "categories": ["text","layout"],
-    "tags": ["text","paragraph","content","note","document","body","copy","article","square","container","block","card","placeholder","log","page","paper","sheet","list","script","code","editor"]
+    "tags": ["$group:text","content","note","document","body","copy","article","square","container","block","card","placeholder","log","page","paper","sheet","list","script","code","editor"]
   },
   {
     "name": "square-user-round",
@@ -9122,6 +9187,16 @@ export const iconsData: Array<{
     "name": "squirrel",
     "categories": ["animals"],
     "tags": ["animal","rodent","pet","pest","nuts","retrieve","updates","storage","stash"]
+  },
+  {
+    "name": "stairs-arrow-down-left",
+    "categories": ["buildings","navigation","arrows"],
+    "tags": ["steps","stairwell","staircase","descending","downstairs","floor","level","wayfinding","signage","direction","diagonal","descent","egress","emergency exit","route"]
+  },
+  {
+    "name": "stairs-arrow-up-right",
+    "categories": ["buildings","navigation","arrows"],
+    "tags": ["steps","stairwell","staircase","ascending","upstairs","floor","level","wayfinding","signage","direction","diagonal","access","transition","route","vertical"]
   },
   {
     "name": "stamp",
@@ -9291,7 +9366,7 @@ export const iconsData: Array<{
   {
     "name": "summary",
     "categories": ["text","ai"],
-    "tags": ["brief","abstract","synopsis","report","digest","outline","recap","condensation","summary","ai","text","overview"]
+    "tags": ["brief","abstract","synopsis","report","digest","outline","recap","condensation","summary","ai","$group:text","overview"]
   },
   {
     "name": "sun-dim",
@@ -9386,7 +9461,7 @@ export const iconsData: Array<{
   {
     "name": "table-of-contents",
     "categories": ["text"],
-    "tags": ["toc","outline","navigation","document structure","index","overview","sections","chapters","content","documentation","manual","knowledge base","faq"]
+    "tags": ["$group:text","toc","outline","navigation","document structure","index","overview","sections","chapters","content","documentation","manual","knowledge base","faq"]
   },
   {
     "name": "table-properties",
@@ -9511,37 +9586,37 @@ export const iconsData: Array<{
   {
     "name": "text-align-center",
     "categories": ["text"],
-    "tags": ["text","alignment","$group:position-center"]
+    "tags": ["$group:text","alignment","$group:position-center"]
   },
   {
     "name": "text-align-end",
     "categories": ["text"],
-    "tags": ["$group:position-right","text","alignment"]
+    "tags": ["$group:position-right","$group:text","alignment"]
   },
   {
     "name": "text-align-justify-center",
     "categories": ["$extends:text-align-justify"],
-    "tags": ["paragraph","alignment","justified","$group:position-center","typography","editor","document"]
+    "tags": ["$group:text","alignment","justified","$group:position-center","editor","document"]
   },
   {
     "name": "text-align-justify-end",
     "categories": ["$extends:text-align-justify"],
-    "tags": ["$group:position-right","paragraph","alignment","justified","end","typography","editor","document"]
+    "tags": ["$group:text","$group:position-right","alignment","justified","end","editor","document"]
   },
   {
     "name": "text-align-justify-start",
     "categories": ["$extends:text-align-justify"],
-    "tags": ["$group:position-left","paragraph","alignment","justified","start","typography","editor","document"]
+    "tags": ["$group:text","$group:position-left","alignment","justified","start","editor","document"]
   },
   {
     "name": "text-align-justify",
     "categories": ["text"],
-    "tags": ["text","alignment","justified","menu","list"]
+    "tags": ["$group:text","alignment","justified","menu","list"]
   },
   {
     "name": "text-align-start",
     "categories": ["text"],
-    "tags": ["$group:position-left","text","alignment","list"]
+    "tags": ["$group:position-left","$group:text","alignment","list"]
   },
   {
     "name": "text-cursor-input",
@@ -9556,17 +9631,17 @@ export const iconsData: Array<{
   {
     "name": "text-initial",
     "categories": ["text"],
-    "tags": ["$group:letter","drop cap","format","letter","font size"]
+    "tags": ["$group:letter","$group:text","drop cap","format","letter","font size"]
   },
   {
     "name": "text-pen",
     "categories": ["text","development"],
-    "tags": ["$group:pen","quick","autosave","prompt","scratch","authoring"]
+    "tags": ["$group:pen","$group:text","quick","autosave","prompt","scratch","authoring"]
   },
   {
     "name": "text-quote",
     "categories": ["text"],
-    "tags": ["blockquote","quotation","indent","reply","response"]
+    "tags": ["$group:text","blockquote","quotation","indent","reply","response"]
   },
   {
     "name": "text-search",
@@ -9576,7 +9651,7 @@ export const iconsData: Array<{
   {
     "name": "text-wrap",
     "categories": ["text"],
-    "tags": ["words","lines","break","paragraph"]
+    "tags": ["$group:text","words","break"]
   },
   {
     "name": "theater",
