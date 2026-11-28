@@ -729,6 +729,11 @@ export const iconsData: Array<{
     "tags": ["baggage","luggage","travel","cart","trolley","suitcase"]
   },
   {
+    "name": "balcony",
+    "categories": ["buildings","home","travel"],
+    "tags": ["accommodation","architecture","balustrade","booking","building","building management","home","home design","hotel","outdoor","patio","property","railing","real estate","terrace","veranda"]
+  },
+  {
     "name": "ball-wave",
     "categories": ["sports"],
     "tags": ["polo","watercraft","athlete","feature","sport","ball","aquatic","swimming","pool","team","game","competition","olympic","water","match","aquatic sports","water polo","aquatics","water sports","pool sport","team sport","tournament","league"]
@@ -794,9 +799,19 @@ export const iconsData: Array<{
     "tags": ["keg","drum","tank","wine","beer","oak","wood","firkin","hogshead","kilderkin","barrique","solera","aging","whiskey","brewery","distillery","winery","vineyard"]
   },
   {
+    "name": "baseball",
+    "categories": ["sports","gaming"],
+    "tags": ["home run","pitcher","bat","innings","rounders","softball","diamond","catcher"]
+  },
+  {
     "name": "baseline",
     "categories": ["text"],
     "tags": ["$group:letter","format","color"]
+  },
+  {
+    "name": "basketball",
+    "categories": ["sports","gaming"],
+    "tags": ["bounce","hoop","netball","court","dribble","slam dunk","alley-oop","team","score","nba"]
   },
   {
     "name": "bath",
@@ -837,6 +852,11 @@ export const iconsData: Array<{
     "name": "battery",
     "categories": ["devices"],
     "tags": ["power","electricity","energy","accumulator","charge"]
+  },
+  {
+    "name": "beach-ball",
+    "categories": ["travel","sports","gaming"],
+    "tags": ["inflatable","summer","holiday","vacation","seaside","toys","kids","children","play","pool"]
   },
   {
     "name": "beaker",
@@ -1269,6 +1289,11 @@ export const iconsData: Array<{
     "tags": ["$extends:soup","ramen","noodles","soup","cuisine","japanese","asian food","broth","udon","soba","pho","miso","noodle soup","noodle bowl","dining","poke","culinary","asian","chinese","oriental","eastern","brunch","lunch","dinner"]
   },
   {
+    "name": "bowling",
+    "categories": ["sports","gaming"],
+    "tags": ["ten-pin","10 pin","pins","ball","lane","alley","strike","spare","score","indoor"]
+  },
+  {
     "name": "box-dashed",
     "categories": ["$extends:box","design"],
     "tags": ["$extends:box","$group:dashed","augmented reality","ar","bounding box","bounds","spatial boundary","selection volume","placeholder","volume","wireframe","mesh","unrendered","3d scanning","spatial mapping","collision","hitbox","bounding volume","collision detection","selection boundary"]
@@ -1287,6 +1312,11 @@ export const iconsData: Array<{
     "name": "boxes",
     "categories": ["shapes","gaming","development","logistics"],
     "tags": ["cubes","packages","parts","group","units","collection","cluster","geometry"]
+  },
+  {
+    "name": "boxing-glove",
+    "categories": ["sports","gaming"],
+    "tags": ["sports","mma","fight","combat","martial arts","training","equipment","athlete","competition","ultimate","fighting","championship","punch","hand","fist","jab","protection","padding"]
   },
   {
     "name": "braces-sigma",
@@ -3076,32 +3106,32 @@ export const iconsData: Array<{
   {
     "name": "credit-card-check",
     "categories": ["$extends:credit-card","shopping"],
-    "tags": ["$extends:credit-card","$group:check","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","authorized"]
+    "tags": ["$extends:credit-card","$group:check","authorized"]
   },
   {
     "name": "credit-card-minus",
     "categories": ["$extends:credit-card","shopping"],
-    "tags": ["$extends:credit-card","$group:minus","debit","unlink","revoke","decline","canceled","banking","finance","wallet","transaction","billing","account","checkout"]
+    "tags": ["$extends:credit-card","$group:minus","unlink","revoke","decline","canceled"]
   },
   {
     "name": "credit-card-plus",
     "categories": ["$extends:credit-card","shopping"],
-    "tags": ["$extends:credit-card","$group:plus","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","link","save","method","plastic"]
+    "tags": ["$extends:credit-card","$group:plus","link","save","method","plastic"]
   },
   {
     "name": "credit-card-reader",
     "categories": ["finance","navigation","shopping"],
-    "tags": ["$extends:credit-card","atm","terminal","checkout","kiosk","pos","point of sale","transaction","contactless","chip","swipe","tap","banking","finance","retail"]
+    "tags": ["$extends:credit-card","terminal","kiosk","pos","point of sale"]
   },
   {
     "name": "credit-card-x",
     "categories": ["$extends:credit-card","shopping"],
-    "tags": ["$extends:credit-card","$group:x","debit","banking","finance","transaction","wallet","checkout","billing","account","cardholder","declined","rejected","invalid"]
+    "tags": ["$extends:credit-card","$group:x","declined","rejected","invalid"]
   },
   {
     "name": "credit-card",
     "categories": ["account","finance"],
-    "tags": ["bank","purchase","payment","cc","cashier","merchant"]
+    "tags": ["bank","purchase","payment","cc","cashier","merchant","banking","wallet","checkout","billing","account","cardholder","debit","atm","cash machine","cash point","withdrawal","finance","financial","transaction","spending","budget","shopping","retail","store","mall","consumer","loyalty","points","cashback","contactless","chip","swipe","tap"]
   },
   {
     "name": "croissant",
@@ -4289,6 +4319,16 @@ export const iconsData: Array<{
     "tags": ["multiple","copy","directories"]
   },
   {
+    "name": "football-helmet",
+    "categories": ["sports","gaming"],
+    "tags": ["american","gridiron","team","protective equipment","protection","padding","headgear","safety","concussion","nfl"]
+  },
+  {
+    "name": "football",
+    "categories": ["sports","gaming"],
+    "tags": ["soccer","futbol","kick","pitch","goal","score","bounce"]
+  },
+  {
     "name": "footprints",
     "categories": ["navigation"],
     "tags": ["steps","walking","foot","feet","trail","shoe"]
@@ -4426,7 +4466,7 @@ export const iconsData: Array<{
   {
     "name": "ghost",
     "categories": ["gaming"],
-    "tags": ["spirit","haunt","specter","apparition","wraith","shade","phantom","entity","shadow","silhouette","pac-man","spooky","halloween","haunted","invisible","hidden","empty","dead","obsolete","outdated"]
+    "tags": ["spirit","haunt","specter","apparition","wraith","shade","phantom","entity","shadow","silhouette","pac-man","spooky","halloween","haunted","invisible","hidden","empty","dead","obsolete","outdated","arcade","classic","retro","costume","sheet"]
   },
   {
     "name": "gift",
@@ -4577,6 +4617,11 @@ export const iconsData: Array<{
     "name": "goal",
     "categories": ["gaming"],
     "tags": ["flag","bullseye","result","outcome","objective","okr"]
+  },
+  {
+    "name": "golf-ball",
+    "categories": ["sports"],
+    "tags": ["score","club","course","tee","fairway","green","putting","putt","golfer","hole","tournament","recreation","leisure","outdoor"]
   },
   {
     "name": "gpu",
@@ -5017,6 +5062,11 @@ export const iconsData: Array<{
     "name": "ice-cream-cone",
     "categories": ["food-beverage"],
     "tags": ["gelato","food"]
+  },
+  {
+    "name": "ice-skate",
+    "categories": ["sports"],
+    "tags": ["skates","ice rink","figure skating","speed skating","boots","shoes","footwear","winter"]
   },
   {
     "name": "id-card-lanyard",
@@ -7735,8 +7785,8 @@ export const iconsData: Array<{
   },
   {
     "name": "rugby-ball",
-    "categories": ["sports"],
-    "tags": ["rugby","football","ball","goal","sport"]
+    "categories": ["sports","gaming"],
+    "tags": ["rugby","american football","goal","sport","american","gridiron","pigskin","quarterback","touchdown","kick","team","score","super bowl","nfl","pitch","bounce"]
   },
   {
     "name": "ruler-dimension-line",
@@ -8237,6 +8287,11 @@ export const iconsData: Array<{
     "name": "shuffle",
     "categories": ["multimedia","arrows"],
     "tags": ["music","random","reorder"]
+  },
+  {
+    "name": "shuttlecock",
+    "categories": ["sports","gaming"],
+    "tags": ["badminton","birdie","feather","racket","racquet","net","sports","equipment"]
   },
   {
     "name": "sigma",
@@ -9474,6 +9529,11 @@ export const iconsData: Array<{
     "tags": ["$extends:table","cut","break","divide","separate","segment"]
   },
   {
+    "name": "table-tennis",
+    "categories": ["sports","gaming"],
+    "tags": ["ping-pong","bat","paddle","racquet","racket","net","bounce","score"]
+  },
+  {
     "name": "table",
     "categories": ["text","files"],
     "tags": ["spreadsheet","grid","csv","xls","xlsx","excel"]
@@ -9552,6 +9612,11 @@ export const iconsData: Array<{
     "name": "telescope",
     "categories": ["science","tools"],
     "tags": ["astronomy","space","discovery","exploration","explore","vision","perspective","focus","stargazing","observe","view"]
+  },
+  {
+    "name": "tennis-ball",
+    "categories": ["sports","gaming"],
+    "tags": ["court","racquet","racket","net","deuce","love","bounce"]
   },
   {
     "name": "tent-tree",
